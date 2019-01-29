@@ -951,6 +951,163 @@
   </compound>
   <compound refid="time__functions_8hpp" kind="file"><name>time_functions.hpp</name>
   </compound>
+  <compound refid="rocsparse-auxiliary_8h" kind="file"><name>rocsparse-auxiliary.h</name>
+    <member refid="rocsparse-auxiliary_8h_1a5a15e972124bb7c46dc9aab7c47e3149" kind="define"><name>_ROCSPARSE_AUXILIARY_H_</name></member>
+    <member refid="rocsparse-auxiliary_8h_1a519a31b435f9718c15e7d043192395cc" kind="function"><name>rocsparse_create_handle</name></member>
+    <member refid="rocsparse-auxiliary_8h_1a726f9e6932c1cca4dbd492eaa0bd1dd4" kind="function"><name>rocsparse_destroy_handle</name></member>
+    <member refid="rocsparse-auxiliary_8h_1af01e6d6670ddcd89bbf1431b63b1a25c" kind="function"><name>rocsparse_set_stream</name></member>
+    <member refid="rocsparse-auxiliary_8h_1a2814f7e7b8feb2ac6408183437b70826" kind="function"><name>rocsparse_get_stream</name></member>
+    <member refid="rocsparse-auxiliary_8h_1ad489e6b789bcd0cbe3ad0ef9f65551fa" kind="function"><name>rocsparse_set_pointer_mode</name></member>
+    <member refid="rocsparse-auxiliary_8h_1a50ff27b0a6d06dc0034453cc880f17de" kind="function"><name>rocsparse_get_pointer_mode</name></member>
+    <member refid="rocsparse-auxiliary_8h_1a27ba44a3ecc5fb3410dadcb918e2a169" kind="function"><name>rocsparse_get_version</name></member>
+    <member refid="rocsparse-auxiliary_8h_1af35e4a674f191b45d36bd31d3856569b" kind="function"><name>rocsparse_get_git_rev</name></member>
+    <member refid="rocsparse-auxiliary_8h_1a434acc8990f265eab892b89e1daafc63" kind="function"><name>rocsparse_create_mat_descr</name></member>
+    <member refid="rocsparse-auxiliary_8h_1abebe515b58812adaffdcaa63bf72fb99" kind="function"><name>rocsparse_copy_mat_descr</name></member>
+    <member refid="rocsparse-auxiliary_8h_1a7e31b050746f2a5c95c0d5ec5ae2040d" kind="function"><name>rocsparse_destroy_mat_descr</name></member>
+    <member refid="rocsparse-auxiliary_8h_1af78ff691793a2e50752883a7fe12d0bd" kind="function"><name>rocsparse_set_mat_index_base</name></member>
+    <member refid="rocsparse-auxiliary_8h_1a72e7a8018a34974ea1617516b03200b8" kind="function"><name>rocsparse_get_mat_index_base</name></member>
+    <member refid="rocsparse-auxiliary_8h_1af245e1e5eedf20ceb123ed1dbf96d423" kind="function"><name>rocsparse_set_mat_type</name></member>
+    <member refid="rocsparse-auxiliary_8h_1a87c1a4a2bacafdc0b5ddee3f7cbe7a42" kind="function"><name>rocsparse_get_mat_type</name></member>
+    <member refid="rocsparse-auxiliary_8h_1a4c888ce95b80067ad135215299708378" kind="function"><name>rocsparse_set_mat_fill_mode</name></member>
+    <member refid="rocsparse-auxiliary_8h_1ab4f68f8662c0596a9904f4534b8dcbd1" kind="function"><name>rocsparse_get_mat_fill_mode</name></member>
+    <member refid="rocsparse-auxiliary_8h_1ab7058104a8b9f6505fa7cf2106c59fbd" kind="function"><name>rocsparse_set_mat_diag_type</name></member>
+    <member refid="rocsparse-auxiliary_8h_1ae32708359682932eb74060f4041f626e" kind="function"><name>rocsparse_get_mat_diag_type</name></member>
+    <member refid="rocsparse-auxiliary_8h_1a8a0ac14e10f94d75774ac7b7f7239861" kind="function"><name>rocsparse_create_hyb_mat</name></member>
+    <member refid="rocsparse-auxiliary_8h_1aa924d16260f9e7ecda64648e4ad5ab95" kind="function"><name>rocsparse_destroy_hyb_mat</name></member>
+    <member refid="rocsparse-auxiliary_8h_1a68fe39788c6d530535116b114134d88a" kind="function"><name>rocsparse_create_mat_info</name></member>
+    <member refid="rocsparse-auxiliary_8h_1a3817921c7536afe60994f570d4759c2a" kind="function"><name>rocsparse_destroy_mat_info</name></member>
+  </compound>
+  <compound refid="rocsparse-functions_8h" kind="file"><name>rocsparse-functions.h</name>
+    <member refid="rocsparse-functions_8h_1a11e413462e16aefb6afd5364019b7691" kind="function"><name>rocsparse_saxpyi</name></member>
+    <member refid="rocsparse-functions_8h_1a8e5afe7d20cae5704fcb170c0e9c004c" kind="function"><name>rocsparse_daxpyi</name></member>
+    <member refid="rocsparse-functions_8h_1afa6ce0cd0f414e707b984f294284f640" kind="function"><name>rocsparse_sdoti</name></member>
+    <member refid="rocsparse-functions_8h_1ae03de507d463d399a51820ab17f9628c" kind="function"><name>rocsparse_ddoti</name></member>
+    <member refid="rocsparse-functions_8h_1a2f343a82ceb953dfbc036ddef752a003" kind="function"><name>rocsparse_sgthr</name></member>
+    <member refid="rocsparse-functions_8h_1ac65e210468fdbbb6442771d5800650c0" kind="function"><name>rocsparse_dgthr</name></member>
+    <member refid="rocsparse-functions_8h_1a70828aa826759431ab6e42733692feb4" kind="function"><name>rocsparse_sgthrz</name></member>
+    <member refid="rocsparse-functions_8h_1acf87b01100d41ed1705ce87f7d599f54" kind="function"><name>rocsparse_dgthrz</name></member>
+    <member refid="rocsparse-functions_8h_1af3d31b12fc9ec573b60daad190f05c3d" kind="function"><name>rocsparse_sroti</name></member>
+    <member refid="rocsparse-functions_8h_1a9bf52b28dc369177da64222b00da54c3" kind="function"><name>rocsparse_droti</name></member>
+    <member refid="rocsparse-functions_8h_1a5fe695dfe646a4093636856facb94083" kind="function"><name>rocsparse_ssctr</name></member>
+    <member refid="rocsparse-functions_8h_1ae34c7c97a03bf3d0cc1f298c63f38200" kind="function"><name>rocsparse_dsctr</name></member>
+    <member refid="rocsparse-functions_8h_1af789ee8cb37ddb74e30db51796f41887" kind="function"><name>rocsparse_scoomv</name></member>
+    <member refid="rocsparse-functions_8h_1abd7f106b4c6301116bdfcba16c26c007" kind="function"><name>rocsparse_dcoomv</name></member>
+    <member refid="rocsparse-functions_8h_1ace117449345b389b97a3fd00d1ebf36b" kind="function"><name>rocsparse_scsrmv_analysis</name></member>
+    <member refid="rocsparse-functions_8h_1ac344b08214dcbad69ffb05e73eb59e98" kind="function"><name>rocsparse_dcsrmv_analysis</name></member>
+    <member refid="rocsparse-functions_8h_1ac9ae03c90cb065a53243c77deb3d70cb" kind="function"><name>rocsparse_scsrmv</name></member>
+    <member refid="rocsparse-functions_8h_1a217bbcbb6a8022a477ecb794bafe282d" kind="function"><name>rocsparse_dcsrmv</name></member>
+    <member refid="rocsparse-functions_8h_1ab6e3d75e34cb368769d37a9ee993d0bf" kind="function"><name>rocsparse_scsrsv_buffer_size</name></member>
+    <member refid="rocsparse-functions_8h_1a57dec19b57b8b61e8c61408d076f79d3" kind="function"><name>rocsparse_dcsrsv_buffer_size</name></member>
+    <member refid="rocsparse-functions_8h_1a5f8ea595dfbffc473c92a469c12a4d52" kind="function"><name>rocsparse_scsrsv_analysis</name></member>
+    <member refid="rocsparse-functions_8h_1a73720ccc47d6fc7d5ff70f54bc653024" kind="function"><name>rocsparse_dcsrsv_analysis</name></member>
+    <member refid="rocsparse-functions_8h_1afd9aec624e7d74929a693772612815a1" kind="function"><name>rocsparse_scsrsv_solve</name></member>
+    <member refid="rocsparse-functions_8h_1a3e3d38523afcdadcd13363a7faa7a31a" kind="function"><name>rocsparse_dcsrsv_solve</name></member>
+    <member refid="rocsparse-functions_8h_1a1c22e7d88a5090c18568bd33367108c3" kind="function"><name>rocsparse_sellmv</name></member>
+    <member refid="rocsparse-functions_8h_1abd22e1434077cfe2f4cb154bf77b9a0a" kind="function"><name>rocsparse_dellmv</name></member>
+    <member refid="rocsparse-functions_8h_1af3f2c08ad83bc681363ff63795b634f8" kind="function"><name>rocsparse_shybmv</name></member>
+    <member refid="rocsparse-functions_8h_1a076ca36cb79fb31a51abd63301e0b2ac" kind="function"><name>rocsparse_dhybmv</name></member>
+    <member refid="rocsparse-functions_8h_1a1169bfaff9e6544a073e16dac6acd3e1" kind="function"><name>rocsparse_scsrmm</name></member>
+    <member refid="rocsparse-functions_8h_1a1825cb3c2bc96dc282d05ef390cdf380" kind="function"><name>rocsparse_dcsrmm</name></member>
+    <member refid="rocsparse-functions_8h_1a8ce2e43e1210f970508030c4a3b5eb59" kind="function"><name>rocsparse_scsrilu0_buffer_size</name></member>
+    <member refid="rocsparse-functions_8h_1a4c490985bdd5c6b8997a1204ea251dde" kind="function"><name>rocsparse_dcsrilu0_buffer_size</name></member>
+    <member refid="rocsparse-functions_8h_1a26de68c6b8df8f26568e132dfdacc00b" kind="function"><name>rocsparse_scsrilu0_analysis</name></member>
+    <member refid="rocsparse-functions_8h_1acd08a8524449ddee530353fe3ff78511" kind="function"><name>rocsparse_dcsrilu0_analysis</name></member>
+    <member refid="rocsparse-functions_8h_1aa8b76d2ba6ed7b111ccafd173ea42f20" kind="function"><name>rocsparse_scsrilu0</name></member>
+    <member refid="rocsparse-functions_8h_1ad02beca6b96e5a1b1a97b423e20402c3" kind="function"><name>rocsparse_dcsrilu0</name></member>
+    <member refid="rocsparse-functions_8h_1a5d4d6e5866e333eb67f162536614b333" kind="function"><name>rocsparse_scsr2csc</name></member>
+    <member refid="rocsparse-functions_8h_1a9d34c3646dd96115b06271547de3d7f2" kind="function"><name>rocsparse_dcsr2csc</name></member>
+    <member refid="rocsparse-functions_8h_1ac9c4c866d91999d9133c711f5713ec11" kind="function"><name>rocsparse_scsr2ell</name></member>
+    <member refid="rocsparse-functions_8h_1acda941fa798ee37c700489f5242aef2c" kind="function"><name>rocsparse_dcsr2ell</name></member>
+    <member refid="rocsparse-functions_8h_1aeb9d5299844c96a4831b16b307bdf638" kind="function"><name>rocsparse_scsr2hyb</name></member>
+    <member refid="rocsparse-functions_8h_1aaa6ff4adef67259548f247ca59b3d3e6" kind="function"><name>rocsparse_dcsr2hyb</name></member>
+    <member refid="rocsparse-functions_8h_1a18ec04ca1ff802cebc585846c18fdb84" kind="function"><name>rocsparse_sell2csr</name></member>
+    <member refid="rocsparse-functions_8h_1a908f153320e5f61b4f3589b1dab64515" kind="function"><name>rocsparse_dell2csr</name></member>
+    <member refid="rocsparse-functions_8h_1ab7e19267e02ddcce09b36ca08c95f6af" kind="define"><name>_ROCSPARSE_FUNCTIONS_H_</name></member>
+    <member refid="rocsparse-functions_8h_1a6b85fa9d7fe571a134c145b5a1644525" kind="function"><name>rocsparse_csrmv_clear</name></member>
+    <member refid="rocsparse-functions_8h_1a48e5af9c5da7e44e11e705cf6955b58e" kind="function"><name>rocsparse_csrsv_zero_pivot</name></member>
+    <member refid="rocsparse-functions_8h_1ad955b37782c14de81bde19d7785f8082" kind="function"><name>rocsparse_csrsv_clear</name></member>
+    <member refid="rocsparse-functions_8h_1a7de8913abe62d6179917c65fdae9cb1b" kind="function"><name>rocsparse_csrilu0_zero_pivot</name></member>
+    <member refid="rocsparse-functions_8h_1a3a7255d4b1fc0e7677139f2118bd0800" kind="function"><name>rocsparse_csrilu0_clear</name></member>
+    <member refid="rocsparse-functions_8h_1a28feea92999d7c0b1722ac81648edb91" kind="function"><name>rocsparse_csr2coo</name></member>
+    <member refid="rocsparse-functions_8h_1a573f004c06e2634d574b5331ab8dc4df" kind="function"><name>rocsparse_csr2csc_buffer_size</name></member>
+    <member refid="rocsparse-functions_8h_1a9599d5ab824c07b12e39a9c277721d48" kind="function"><name>rocsparse_csr2ell_width</name></member>
+    <member refid="rocsparse-functions_8h_1a3b05d345dc51e935df2b3873ccb6cdc5" kind="function"><name>rocsparse_coo2csr</name></member>
+    <member refid="rocsparse-functions_8h_1a5fd09d9510c974792cdc7b00f39deca0" kind="function"><name>rocsparse_ell2csr_nnz</name></member>
+    <member refid="rocsparse-functions_8h_1a2c6d3d6af9adc0f3441508643e5a5d06" kind="function"><name>rocsparse_create_identity_permutation</name></member>
+    <member refid="rocsparse-functions_8h_1a3a4bff11e5cb5b0c292f08470454ebe8" kind="function"><name>rocsparse_csrsort_buffer_size</name></member>
+    <member refid="rocsparse-functions_8h_1ad99716a98f68e77377a7425d48e51d45" kind="function"><name>rocsparse_csrsort</name></member>
+    <member refid="rocsparse-functions_8h_1a0102a54f3ca567b9c524bfe5bb42bc8a" kind="function"><name>rocsparse_coosort_buffer_size</name></member>
+    <member refid="rocsparse-functions_8h_1aa1ab28c0978ebcd1826e563b0c53a443" kind="function"><name>rocsparse_coosort_by_row</name></member>
+    <member refid="rocsparse-functions_8h_1afe472930a423febc9f55c073b97b41f9" kind="function"><name>rocsparse_coosort_by_column</name></member>
+  </compound>
+  <compound refid="rocsparse-types_8h" kind="file"><name>rocsparse-types.h</name>
+    <member refid="rocsparse-types_8h_1a60d5e4c9d3a93d51469e853cc3eed1c8" kind="define"><name>_ROCSPARSE_TYPES_H_</name></member>
+    <member refid="rocsparse-types_8h_1aa2f0cb9d4dc12e4b3700063444bd117c" kind="enum"><name>rocsparse_operation_</name></member>
+    <member refid="rocsparse-types_8h_1aa2f0cb9d4dc12e4b3700063444bd117cad992ce988c65ce01fe87f0da2018f528" kind="enumvalue"><name>rocsparse_operation_none</name></member>
+    <member refid="rocsparse-types_8h_1aa2f0cb9d4dc12e4b3700063444bd117ca1ea3194d0c7bdb9e500d6faeead8ebf5" kind="enumvalue"><name>rocsparse_operation_transpose</name></member>
+    <member refid="rocsparse-types_8h_1aa2f0cb9d4dc12e4b3700063444bd117ca6920c1aa5f80005eee4b66ea6f25330f" kind="enumvalue"><name>rocsparse_operation_conjugate_transpose</name></member>
+    <member refid="rocsparse-types_8h_1abbe2a27a405938060d5c194e893c2325" kind="enum"><name>rocsparse_index_base_</name></member>
+    <member refid="rocsparse-types_8h_1abbe2a27a405938060d5c194e893c2325a71f5a4d652495d496d1b049fbfd4074d" kind="enumvalue"><name>rocsparse_index_base_zero</name></member>
+    <member refid="rocsparse-types_8h_1abbe2a27a405938060d5c194e893c2325a7ebbfb972c7bb96f4960a3c80d8b0625" kind="enumvalue"><name>rocsparse_index_base_one</name></member>
+    <member refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93c" kind="enum"><name>rocsparse_matrix_type_</name></member>
+    <member refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93ca8374056a76ce56d1392e6b35f8ddde03" kind="enumvalue"><name>rocsparse_matrix_type_general</name></member>
+    <member refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93ca8340a3909d43b5b6bedd8ecc928605a5" kind="enumvalue"><name>rocsparse_matrix_type_symmetric</name></member>
+    <member refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93caa30592e2cccfda6e1d66dc3a484fc7a8" kind="enumvalue"><name>rocsparse_matrix_type_hermitian</name></member>
+    <member refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93ca73d9ef5e5e18209f9f10a5885d3e15ba" kind="enumvalue"><name>rocsparse_matrix_type_triangular</name></member>
+    <member refid="rocsparse-types_8h_1afb42afadc8f6a36e00f03d703d662116" kind="enum"><name>rocsparse_diag_type_</name></member>
+    <member refid="rocsparse-types_8h_1afb42afadc8f6a36e00f03d703d662116a4f6d3d25237d1b2520659c9ec7635cf1" kind="enumvalue"><name>rocsparse_diag_type_non_unit</name></member>
+    <member refid="rocsparse-types_8h_1afb42afadc8f6a36e00f03d703d662116ac14545fb3bf8773d5f6b8e258c9576f4" kind="enumvalue"><name>rocsparse_diag_type_unit</name></member>
+    <member refid="rocsparse-types_8h_1ad241f6b4b0d17a745be1cc4f1bf4f15d" kind="enum"><name>rocsparse_fill_mode_</name></member>
+    <member refid="rocsparse-types_8h_1ad241f6b4b0d17a745be1cc4f1bf4f15da1eb644f6f2701329635e07d91919d37e" kind="enumvalue"><name>rocsparse_fill_mode_lower</name></member>
+    <member refid="rocsparse-types_8h_1ad241f6b4b0d17a745be1cc4f1bf4f15da905f490c7fc5a59e8a635938cec0d004" kind="enumvalue"><name>rocsparse_fill_mode_upper</name></member>
+    <member refid="rocsparse-types_8h_1abca90adafa9301fb9fa5c519e239aaf0" kind="enum"><name>rocsparse_action_</name></member>
+    <member refid="rocsparse-types_8h_1abca90adafa9301fb9fa5c519e239aaf0a8e396adaad286c3fd887ace34ac95333" kind="enumvalue"><name>rocsparse_action_symbolic</name></member>
+    <member refid="rocsparse-types_8h_1abca90adafa9301fb9fa5c519e239aaf0a87bdd4fa932567a61306494cc31759eb" kind="enumvalue"><name>rocsparse_action_numeric</name></member>
+    <member refid="rocsparse-types_8h_1a0d6cb5baf049ea59409a29074b0e9553" kind="enum"><name>rocsparse_hyb_partition_</name></member>
+    <member refid="rocsparse-types_8h_1a0d6cb5baf049ea59409a29074b0e9553a16c98963b39ca0f7c300531b418455b1" kind="enumvalue"><name>rocsparse_hyb_partition_auto</name></member>
+    <member refid="rocsparse-types_8h_1a0d6cb5baf049ea59409a29074b0e9553a1fab46e61eb120731fcce2f3a0ddc85e" kind="enumvalue"><name>rocsparse_hyb_partition_user</name></member>
+    <member refid="rocsparse-types_8h_1a0d6cb5baf049ea59409a29074b0e9553a35eb173683e0cc9ed5a0e4bf083e17a4" kind="enumvalue"><name>rocsparse_hyb_partition_max</name></member>
+    <member refid="rocsparse-types_8h_1a079d5d720ec9a82d12c31b880a1d40ff" kind="enum"><name>rocsparse_analysis_policy_</name></member>
+    <member refid="rocsparse-types_8h_1a079d5d720ec9a82d12c31b880a1d40ffa658466413f4005c0c103d20d5e352078" kind="enumvalue"><name>rocsparse_analysis_policy_reuse</name></member>
+    <member refid="rocsparse-types_8h_1a079d5d720ec9a82d12c31b880a1d40ffac66b70c4f519ddd03dcbe0f3a973401a" kind="enumvalue"><name>rocsparse_analysis_policy_force</name></member>
+    <member refid="rocsparse-types_8h_1a62d6e1f4e8ff7b75ab346223df84a026" kind="enum"><name>rocsparse_solve_policy_</name></member>
+    <member refid="rocsparse-types_8h_1a62d6e1f4e8ff7b75ab346223df84a026a9c6bdf97e192d429ca536d5ab98ea866" kind="enumvalue"><name>rocsparse_solve_policy_auto</name></member>
+    <member refid="rocsparse-types_8h_1a0e6f512018940f5d1cf6b3032fba468a" kind="enum"><name>rocsparse_pointer_mode_</name></member>
+    <member refid="rocsparse-types_8h_1a0e6f512018940f5d1cf6b3032fba468aab69d8b65b07ce81f2a28a03da361c698" kind="enumvalue"><name>rocsparse_pointer_mode_host</name></member>
+    <member refid="rocsparse-types_8h_1a0e6f512018940f5d1cf6b3032fba468aa8e76bc462cef4e84dc4c15f53006ac5e" kind="enumvalue"><name>rocsparse_pointer_mode_device</name></member>
+    <member refid="rocsparse-types_8h_1a062e1e182fefcda578bb4bd8925afb44" kind="enum"><name>rocsparse_layer_mode</name></member>
+    <member refid="rocsparse-types_8h_1a062e1e182fefcda578bb4bd8925afb44aa507b5d5dc9c0da5c70959cbbeb9fa92" kind="enumvalue"><name>rocsparse_layer_mode_none</name></member>
+    <member refid="rocsparse-types_8h_1a062e1e182fefcda578bb4bd8925afb44a306f654f6a22cb9d00c4ad1fcf6a2015" kind="enumvalue"><name>rocsparse_layer_mode_log_trace</name></member>
+    <member refid="rocsparse-types_8h_1a062e1e182fefcda578bb4bd8925afb44abf04b118d7b12949523c1a890dc99184" kind="enumvalue"><name>rocsparse_layer_mode_log_bench</name></member>
+    <member refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88" kind="enum"><name>rocsparse_status_</name></member>
+    <member refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a96462a9361cfceb6cf9354e10fdc671b" kind="enumvalue"><name>rocsparse_status_success</name></member>
+    <member refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a00db084ea5ca4334f2f9597ef77be306" kind="enumvalue"><name>rocsparse_status_invalid_handle</name></member>
+    <member refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a66f7d73b3128cc9e72a6450e87b67c84" kind="enumvalue"><name>rocsparse_status_not_implemented</name></member>
+    <member refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a6c8604554aec57949b76be10ceb11d14" kind="enumvalue"><name>rocsparse_status_invalid_pointer</name></member>
+    <member refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a4681af32d7cdd0106dddce4f24b5508b" kind="enumvalue"><name>rocsparse_status_invalid_size</name></member>
+    <member refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88adef07366416a3b0e2070b0c2b9baeba0" kind="enumvalue"><name>rocsparse_status_memory_error</name></member>
+    <member refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a37f0081a59e0f1be2f8242b05cd3c9c7" kind="enumvalue"><name>rocsparse_status_internal_error</name></member>
+    <member refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88ae6f9bdcedf444837aec53b8489f83223" kind="enumvalue"><name>rocsparse_status_invalid_value</name></member>
+    <member refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a974385cdf5e6e7bf3984a85379aed5b8" kind="enumvalue"><name>rocsparse_status_arch_mismatch</name></member>
+    <member refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a01fe264830c8ce6451ce6888bc8d3e80" kind="enumvalue"><name>rocsparse_status_zero_pivot</name></member>
+    <member refid="rocsparse-types_8h_1a32e0426e931aa6e44354b18563332934" kind="typedef"><name>rocsparse_int</name></member>
+    <member refid="rocsparse-types_8h_1a78c803f46b33ae1e212dac7922be823d" kind="typedef"><name>rocsparse_handle</name></member>
+    <member refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kind="typedef"><name>rocsparse_mat_descr</name></member>
+    <member refid="rocsparse-types_8h_1a919d9ad6075d1abf3cd007f13cbb4ddb" kind="typedef"><name>rocsparse_hyb_mat</name></member>
+    <member refid="rocsparse-types_8h_1a3347be72f6e4f3c55318c32b46dcaa92" kind="typedef"><name>rocsparse_mat_info</name></member>
+    <member refid="rocsparse-types_8h_1a808cc40956985590061ad3617edd6649" kind="typedef"><name>rocsparse_operation</name></member>
+    <member refid="rocsparse-types_8h_1a29595b0a8c3c3fe4cb26d1221e920b6d" kind="typedef"><name>rocsparse_index_base</name></member>
+    <member refid="rocsparse-types_8h_1a6cc840e437d4f5b3fe948c96658560dc" kind="typedef"><name>rocsparse_matrix_type</name></member>
+    <member refid="rocsparse-types_8h_1ae49afcee26c3a52d881ce899b74c695a" kind="typedef"><name>rocsparse_diag_type</name></member>
+    <member refid="rocsparse-types_8h_1af275676f23c77734dbf14aff9ef22c28" kind="typedef"><name>rocsparse_fill_mode</name></member>
+    <member refid="rocsparse-types_8h_1af5ab987cf9ae0fe8a036e0df213bfd15" kind="typedef"><name>rocsparse_action</name></member>
+    <member refid="rocsparse-types_8h_1afe3e3b66958620671f3e9f76036b4bae" kind="typedef"><name>rocsparse_hyb_partition</name></member>
+    <member refid="rocsparse-types_8h_1afd19542f0f7fe1c83d805b85438f3a7a" kind="typedef"><name>rocsparse_analysis_policy</name></member>
+    <member refid="rocsparse-types_8h_1abf95bc7109c800a7fed747e474b5c08b" kind="typedef"><name>rocsparse_solve_policy</name></member>
+    <member refid="rocsparse-types_8h_1a85acb14426ccaccdb76aab10546b3918" kind="typedef"><name>rocsparse_pointer_mode</name></member>
+    <member refid="rocsparse-types_8h_1a0986b6630912ca0766a38c07262b25cc" kind="typedef"><name>rocsparse_layer_mode</name></member>
+    <member refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kind="typedef"><name>rocsparse_status</name></member>
+  </compound>
   <compound refid="group___a_p_i" kind="group"><name>API</name>
     <member refid="group___a_p_i_1gafd8c80f7e3b6426a630fff768409be70" kind="function"><name>hipIpcGetMemHandle</name></member>
     <member refid="group___a_p_i_1ga2ada334c986e10805d58167e260cb0df" kind="function"><name>hipIpcOpenMemHandle</name></member>
@@ -1203,9 +1360,13 @@
   </compound>
   <compound refid="dir_fb722007d528e64ca6a97703c7787877" kind="dir"><name>ROCm_API_References/HIP/include/hip</name>
   </compound>
+  <compound refid="dir_fd70e2c219e05e676628d7fc304c039c" kind="dir"><name>ROCm_Libraries/rocSPARSE/library/include</name>
+  </compound>
   <compound refid="dir_b28f3b0ee61db4a71fad52144a163a7d" kind="dir"><name>ROCm_API_References/HIP/include</name>
   </compound>
   <compound refid="dir_61a982d355ccdf528c3b19a2527138e7" kind="dir"><name>ROCm_Libraries/rocALUTION/src/solvers/krylov</name>
+  </compound>
+  <compound refid="dir_3e7215216c0ac25a988b23d15d1f4ea2" kind="dir"><name>ROCm_Libraries/rocSPARSE/library</name>
   </compound>
   <compound refid="dir_a1ee1ab676b34c8c7f965a7636587e0a" kind="dir"><name>ROCm_Libraries/rocALUTION/src/solvers/multigrid</name>
   </compound>
@@ -1216,6 +1377,8 @@
   <compound refid="dir_e0b5a003ae0c9b7b27ac8d4146e57323" kind="dir"><name>ROCm_API_References</name>
   </compound>
   <compound refid="dir_96edc4a395950aafa2f54996a59552f7" kind="dir"><name>ROCm_Libraries</name>
+  </compound>
+  <compound refid="dir_7659a237a78f124bf483967c6100c45f" kind="dir"><name>ROCm_Libraries/rocSPARSE</name>
   </compound>
   <compound refid="dir_07b087b0a832c7dd14daad07f351f53e" kind="dir"><name>ROCm_Libraries/rocALUTION/src/solvers</name>
   </compound>

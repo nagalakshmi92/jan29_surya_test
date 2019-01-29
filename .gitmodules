@@ -1,3 +1,6 @@
 [submodule "ROCm_Libraries/rocALUTION"]
 	path = ROCm_Libraries/rocALUTION
 	url = https://github.com/ROCmSoftwarePlatform/rocALUTION.git
+[submodule "ROCm_Libraries/rocSPARSE"]
+	path = ROCm_Libraries/rocSPARSE
+	url = https://github.com/ROCmSoftwarePlatform/rocSPARSE.git
