@@ -2785,8 +2785,5 @@ preserved after the execution.
 Real FFTs
 ---------
 
-.. toctree::
-   :maxdepth: 2
 
-   real
 
