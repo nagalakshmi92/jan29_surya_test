@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="classrocalution_1_1_base_rocalution" kind="class" language="C++" prot="public" abstract="yes">
     <compoundname>rocalution::BaseRocalution</compoundname>
     <basecompoundref prot="public" virt="non-virtual">rocalution::RocalutionObj</basecompoundref>
@@ -382,11 +382,11 @@
         <definition>virtual void rocalution::BaseRocalution&lt; ValueType &gt;::Info</definition>
         <argsstring>(void) const =0</argsstring>
         <name>Info</name>
-        <reimplementedby refid="classrocalution_1_1_local_matrix_1a8f66294a7f7bf412dc44acdd6850e061">Info</reimplementedby>
-        <reimplementedby refid="classrocalution_1_1_global_vector_1adba19a166864f4edad7c2333d84782d0">Info</reimplementedby>
-        <reimplementedby refid="classrocalution_1_1_local_stencil_1aa3c7b580398079ca5fac493fff9a25ce">Info</reimplementedby>
-        <reimplementedby refid="classrocalution_1_1_local_vector_1a174999811741be695665554df732aa0b">Info</reimplementedby>
-        <reimplementedby refid="classrocalution_1_1_global_matrix_1a4e38a9f74b2bfbabfcfc3bba8a74008d">Info</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_local_matrix_1afe36dba5d24a8f6714738dad361fe6a3">Info</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_global_vector_1a28c0e4f040278169e360a9084196b533">Info</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_local_stencil_1ae2e923e0a1c3dd6d512fcf6e3b434214">Info</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_local_vector_1a2b55a9fb17108db0818a7f761ab7e3a1">Info</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_global_matrix_1a315a60ccd047e5dd93c9970e1e076588">Info</reimplementedby>
         <param>
           <type>void</type>
         </param>
@@ -488,11 +488,11 @@
         <definition>virtual bool rocalution::BaseRocalution&lt; ValueType &gt;::is_host_</definition>
         <argsstring>(void) const =0</argsstring>
         <name>is_host_</name>
-        <reimplementedby refid="classrocalution_1_1_local_stencil_1a21a31db491486b781603aae3edaf8424">is_host_</reimplementedby>
-        <reimplementedby refid="classrocalution_1_1_global_vector_1a89724f2b33c55e669fe4a058237d7e97">is_host_</reimplementedby>
-        <reimplementedby refid="classrocalution_1_1_global_matrix_1a4bd38b6e13c7a46e50cd18b53a96b96b">is_host_</reimplementedby>
-        <reimplementedby refid="classrocalution_1_1_local_vector_1afbdf8d167e9e7b2b0b9de28ddd79fca9">is_host_</reimplementedby>
-        <reimplementedby refid="classrocalution_1_1_local_matrix_1a160ff82fbc0a88b6a5f7fece80976fcf">is_host_</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_local_stencil_1aff2f7a04c1d4fcbddb34c351fee7fd19">is_host_</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_global_vector_1a7313ed947702ea39680632d439c24aac">is_host_</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_global_matrix_1ab6ba6018c94cc0301720f1c69c69848f">is_host_</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_local_vector_1a0db175ea833d9b44184e4ebe705ade84">is_host_</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_local_matrix_1a77b084b0e279ffc65f335b68d1eefa6b">is_host_</reimplementedby>
         <param>
           <type>void</type>
         </param>
@@ -509,11 +509,11 @@
         <definition>virtual bool rocalution::BaseRocalution&lt; ValueType &gt;::is_accel_</definition>
         <argsstring>(void) const =0</argsstring>
         <name>is_accel_</name>
-        <reimplementedby refid="classrocalution_1_1_local_stencil_1a2dee7dbdeca9713b9a580b490cabbd89">is_accel_</reimplementedby>
-        <reimplementedby refid="classrocalution_1_1_global_vector_1a3c381dab7f46657d59cf7a9858274a17">is_accel_</reimplementedby>
-        <reimplementedby refid="classrocalution_1_1_global_matrix_1aba4776a93e5b76ddad6d8f57ec2895a1">is_accel_</reimplementedby>
-        <reimplementedby refid="classrocalution_1_1_local_vector_1ace8f5b57d245fe498a5e4c97be7f5355">is_accel_</reimplementedby>
-        <reimplementedby refid="classrocalution_1_1_local_matrix_1adde0a240b27720e9df7e2706433ddb25">is_accel_</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_local_stencil_1a80aef63ec7c717a5ff4301b03d27c32c">is_accel_</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_global_vector_1aeaf84d601b67d62ffee7f021eb6cd8ed">is_accel_</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_global_matrix_1acb2d724a4db311ab3fa0acfae38845f7">is_accel_</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_local_vector_1aff1058570ec0ac28fbc5bf3800d6bb64">is_accel_</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_local_matrix_1a1941a1ddd454d81f4fd654af0a41ce56">is_accel_</reimplementedby>
         <param>
           <type>void</type>
         </param>

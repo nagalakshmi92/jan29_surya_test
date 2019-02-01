@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="chebyshev_8cpp" kind="file" language="C++">
     <compoundname>chebyshev.cpp</compoundname>
     <includes local="yes">../utils/def.hpp</includes>
     <includes local="yes">chebyshev.hpp</includes>
-    <includes local="yes">/home/tcs/Lakshmi/jan29_surya_test/ROCm_Libraries/rocALUTION/src/solvers/solver.hpp</includes>
-    <includes local="yes">/home/tcs/Lakshmi/jan29_surya_test/ROCm_Libraries/rocALUTION/src/solvers/iter_ctrl.hpp</includes>
+    <includes local="yes">/home/tcs/jan29_surya_test/ROCm_Libraries/rocALUTION/src/solvers/solver.hpp</includes>
+    <includes local="yes">/home/tcs/jan29_surya_test/ROCm_Libraries/rocALUTION/src/solvers/iter_ctrl.hpp</includes>
     <includes local="no">vector</includes>
     <includes local="no">string</includes>
-    <includes local="yes">/home/tcs/Lakshmi/jan29_surya_test/ROCm_Libraries/rocALUTION/src/base/base_rocalution.hpp</includes>
-    <includes local="yes">/home/tcs/Lakshmi/jan29_surya_test/ROCm_Libraries/rocALUTION/src/base/local_vector.hpp</includes>
+    <includes local="yes">/home/tcs/jan29_surya_test/ROCm_Libraries/rocALUTION/src/base/base_rocalution.hpp</includes>
+    <includes local="yes">/home/tcs/jan29_surya_test/ROCm_Libraries/rocALUTION/src/base/local_vector.hpp</includes>
     <includes local="yes">iter_ctrl.hpp</includes>
     <includes refid="local__matrix_8hpp" local="yes">../base/local_matrix.hpp</includes>
     <includes refid="local__stencil_8hpp" local="yes">../base/local_stencil.hpp</includes>
     <includes refid="global__matrix_8hpp" local="yes">../base/global_matrix.hpp</includes>
     <includes refid="global__vector_8hpp" local="yes">../base/global_vector.hpp</includes>
     <includes local="yes">../utils/log.hpp</includes>
-    <includes local="yes">/home/tcs/Lakshmi/jan29_surya_test/ROCm_Libraries/rocALUTION/src/utils/def.hpp</includes>
-    <includes local="yes">/home/tcs/Lakshmi/jan29_surya_test/ROCm_Libraries/rocALUTION/src/base/backend_manager.hpp</includes>
+    <includes local="yes">/home/tcs/jan29_surya_test/ROCm_Libraries/rocALUTION/src/utils/def.hpp</includes>
+    <includes local="yes">/home/tcs/jan29_surya_test/ROCm_Libraries/rocALUTION/src/base/backend_manager.hpp</includes>
     <includes local="no">iostream</includes>
     <includes local="no">stdlib.h</includes>
     <includes local="no">sstream</includes>
@@ -25,6 +25,12 @@
     <includes local="no">complex</includes>
     <includes local="no">math.h</includes>
     <incdepgraph>
+      <node id="192">
+        <label>limits</label>
+      </node>
+      <node id="191">
+        <label>assert.h</label>
+      </node>
       <node id="186">
         <label>../base/local_stencil.hpp</label>
         <link refid="local__stencil_8hpp_source"/>
@@ -40,75 +46,13 @@
         </childnode>
       </node>
       <node id="190">
-        <label>/home/tcs/Lakshmi/jan29_surya_test/ROCm_Libraries/rocALUTION/src/utils/def.hpp</label>
-      </node>
-      <node id="192">
-        <label>limits</label>
-      </node>
-      <node id="194">
-        <label>../base/global_vector.hpp</label>
-        <link refid="global__vector_8hpp_source"/>
-        <childnode refid="178" relation="include">
-        </childnode>
-        <childnode refid="195" relation="include">
-        </childnode>
-        <childnode refid="189" relation="include">
-        </childnode>
-      </node>
-      <node id="191">
-        <label>assert.h</label>
-      </node>
-      <node id="174">
-        <label>/home/tcs/Lakshmi/jan29_surya_test/ROCm_Libraries/rocALUTION/src/base/base_rocalution.hpp</label>
-      </node>
-      <node id="171">
-        <label>/home/tcs/Lakshmi/jan29_surya_test/ROCm_Libraries/rocALUTION/src/solvers/iter_ctrl.hpp</label>
+        <label>/home/tcs/jan29_surya_test/ROCm_Libraries/rocALUTION/src/utils/def.hpp</label>
       </node>
       <node id="197">
         <label>stdlib.h</label>
       </node>
-      <node id="175">
-        <label>/home/tcs/Lakshmi/jan29_surya_test/ROCm_Libraries/rocALUTION/src/base/local_vector.hpp</label>
-      </node>
-      <node id="170">
-        <label>/home/tcs/Lakshmi/jan29_surya_test/ROCm_Libraries/rocALUTION/src/solvers/solver.hpp</label>
-      </node>
-      <node id="182">
-        <label>backend_manager.hpp</label>
-        <link refid="backend__manager_8hpp_source"/>
-        <childnode refid="180" relation="include">
-        </childnode>
-        <childnode refid="183" relation="include">
-        </childnode>
-        <childnode refid="184" relation="include">
-        </childnode>
-        <childnode refid="172" relation="include">
-        </childnode>
-        <childnode refid="173" relation="include">
-        </childnode>
-      </node>
-      <node id="173">
-        <label>string</label>
-      </node>
-      <node id="168">
-        <label>../utils/def.hpp</label>
-      </node>
-      <node id="184">
-        <label>map</label>
-      </node>
-      <node id="179">
-        <label>operator.hpp</label>
-        <link refid="operator_8hpp_source"/>
-        <childnode refid="178" relation="include">
-        </childnode>
-        <childnode refid="174" relation="include">
-        </childnode>
-        <childnode refid="180" relation="include">
-        </childnode>
-        <childnode refid="173" relation="include">
-        </childnode>
-        <childnode refid="181" relation="include">
-        </childnode>
+      <node id="174">
+        <label>/home/tcs/jan29_surya_test/ROCm_Libraries/rocALUTION/src/base/base_rocalution.hpp</label>
       </node>
       <node id="188">
         <label>../base/global_matrix.hpp</label>
@@ -120,36 +64,27 @@
         <childnode refid="189" relation="include">
         </childnode>
       </node>
-      <node id="177">
-        <label>../base/local_matrix.hpp</label>
-        <link refid="local__matrix_8hpp_source"/>
+      <node id="173">
+        <label>string</label>
+      </node>
+      <node id="168">
+        <label>../utils/def.hpp</label>
+      </node>
+      <node id="184">
+        <label>map</label>
+      </node>
+      <node id="194">
+        <label>../base/global_vector.hpp</label>
+        <link refid="global__vector_8hpp_source"/>
         <childnode refid="178" relation="include">
         </childnode>
-        <childnode refid="179" relation="include">
+        <childnode refid="195" relation="include">
         </childnode>
-        <childnode refid="182" relation="include">
-        </childnode>
-        <childnode refid="185" relation="include">
-        </childnode>
-        <childnode refid="173" relation="include">
+        <childnode refid="189" relation="include">
         </childnode>
       </node>
       <node id="183">
         <label>fstream</label>
-      </node>
-      <node id="195">
-        <label>vector.hpp</label>
-        <link refid="vector_8hpp_source"/>
-        <childnode refid="178" relation="include">
-        </childnode>
-        <childnode refid="174" relation="include">
-        </childnode>
-        <childnode refid="180" relation="include">
-        </childnode>
-        <childnode refid="173" relation="include">
-        </childnode>
-        <childnode refid="181" relation="include">
-        </childnode>
       </node>
       <node id="189">
         <label>parallel_manager.hpp</label>
@@ -178,12 +113,36 @@
       <node id="178">
         <label>../utils/types.hpp</label>
       </node>
+      <node id="170">
+        <label>/home/tcs/jan29_surya_test/ROCm_Libraries/rocALUTION/src/solvers/solver.hpp</label>
+      </node>
       <node id="196">
         <label>../utils/log.hpp</label>
       </node>
+      <node id="171">
+        <label>/home/tcs/jan29_surya_test/ROCm_Libraries/rocALUTION/src/solvers/iter_ctrl.hpp</label>
+      </node>
+      <node id="172">
+        <label>vector</label>
+      </node>
+      <node id="198">
+        <label>sstream</label>
+      </node>
+      <node id="199">
+        <label>../utils/math_functions.hpp</label>
+      </node>
+      <node id="200">
+        <label>math.h</label>
+      </node>
+      <node id="181">
+        <label>cstdlib</label>
+      </node>
+      <node id="180">
+        <label>iostream</label>
+      </node>
       <node id="167">
         <label>ROCm_Libraries/rocALUTION/src/solvers/chebyshev.cpp</label>
-        <link refid="chebyshev_8cpp"/>
+        <link refid="chebyshev.cpp"/>
         <childnode refid="168" relation="include">
         </childnode>
         <childnode refid="169" relation="include">
@@ -229,26 +188,67 @@
         <childnode refid="200" relation="include">
         </childnode>
       </node>
-      <node id="172">
-        <label>vector</label>
+      <node id="179">
+        <label>operator.hpp</label>
+        <link refid="operator_8hpp_source"/>
+        <childnode refid="178" relation="include">
+        </childnode>
+        <childnode refid="174" relation="include">
+        </childnode>
+        <childnode refid="180" relation="include">
+        </childnode>
+        <childnode refid="173" relation="include">
+        </childnode>
+        <childnode refid="181" relation="include">
+        </childnode>
       </node>
-      <node id="198">
-        <label>sstream</label>
+      <node id="175">
+        <label>/home/tcs/jan29_surya_test/ROCm_Libraries/rocALUTION/src/base/local_vector.hpp</label>
       </node>
-      <node id="199">
-        <label>../utils/math_functions.hpp</label>
-      </node>
-      <node id="200">
-        <label>math.h</label>
-      </node>
-      <node id="181">
-        <label>cstdlib</label>
-      </node>
-      <node id="180">
-        <label>iostream</label>
+      <node id="195">
+        <label>vector.hpp</label>
+        <link refid="vector_8hpp_source"/>
+        <childnode refid="178" relation="include">
+        </childnode>
+        <childnode refid="174" relation="include">
+        </childnode>
+        <childnode refid="180" relation="include">
+        </childnode>
+        <childnode refid="173" relation="include">
+        </childnode>
+        <childnode refid="181" relation="include">
+        </childnode>
       </node>
       <node id="193">
         <label>complex</label>
+      </node>
+      <node id="177">
+        <label>../base/local_matrix.hpp</label>
+        <link refid="local__matrix_8hpp_source"/>
+        <childnode refid="178" relation="include">
+        </childnode>
+        <childnode refid="179" relation="include">
+        </childnode>
+        <childnode refid="182" relation="include">
+        </childnode>
+        <childnode refid="185" relation="include">
+        </childnode>
+        <childnode refid="173" relation="include">
+        </childnode>
+      </node>
+      <node id="182">
+        <label>backend_manager.hpp</label>
+        <link refid="backend__manager_8hpp_source"/>
+        <childnode refid="180" relation="include">
+        </childnode>
+        <childnode refid="183" relation="include">
+        </childnode>
+        <childnode refid="184" relation="include">
+        </childnode>
+        <childnode refid="172" relation="include">
+        </childnode>
+        <childnode refid="173" relation="include">
+        </childnode>
       </node>
       <node id="176">
         <label>iter_ctrl.hpp</label>

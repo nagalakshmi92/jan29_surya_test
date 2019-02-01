@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="classrocalution_1_1_local_matrix" kind="class" language="C++" prot="public">
     <compoundname>rocalution::LocalMatrix</compoundname>
     <basecompoundref refid="classrocalution_1_1_operator" prot="public" virt="non-virtual">rocalution::Operator&lt; ValueType &gt;</basecompoundref>
@@ -774,10 +774,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="61" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a8f66294a7f7bf412dc44acdd6850e061" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1afe36dba5d24a8f6714738dad361fe6a3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>virtual void rocalution::LocalMatrix&lt; ValueType &gt;::Info</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>Info</name>
         <reimplements refid="classrocalution_1_1_base_rocalution_1a62720e4ccdd3879dcf093abc2688076e">Info</reimplements>
         <param>
@@ -794,10 +794,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="63" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a0a077e9b521fc8af41c7f18de1cad1d5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1af7726dcf3f37962dd1b35ae112bb5469" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>unsigned int</type>
         <definition>unsigned int rocalution::LocalMatrix&lt; ValueType &gt;::GetFormat</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>GetFormat</name>
         <param>
           <type>void</type>
@@ -810,10 +810,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="66" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1aeb0c36e210a0bbbc835874b5bac6437f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1ae1e91b6ac4ac1c2233d6306b52523556" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>IndexType2</type>
         <definition>virtual IndexType2 rocalution::LocalMatrix&lt; ValueType &gt;::GetM</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>GetM</name>
         <reimplements refid="classrocalution_1_1_operator_1a6af0e81191e63d15e95b227cd9129c87">GetM</reimplements>
         <param>
@@ -827,10 +827,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="68" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1af87c058edc0aadb0b0c8b026f8d9b00a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a0dcea805d6d0a3434918f7efc4a91948" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>IndexType2</type>
         <definition>virtual IndexType2 rocalution::LocalMatrix&lt; ValueType &gt;::GetN</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>GetN</name>
         <reimplements refid="classrocalution_1_1_operator_1ac155a69301db3035abcd3beac9dbe7ce">GetN</reimplements>
         <param>
@@ -844,10 +844,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="69" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1afab6feb71269348bb0665338f167ac16" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1aa6744f499c4bb6ab9aca5a9d68f6311d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>IndexType2</type>
         <definition>virtual IndexType2 rocalution::LocalMatrix&lt; ValueType &gt;::GetNnz</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>GetNnz</name>
         <reimplements refid="classrocalution_1_1_operator_1af834a59b334d754e5e803bd6561b675d">GetNnz</reimplements>
         <param>
@@ -861,10 +861,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="70" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a69e093022f1ccd32d046422c4e6196f1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a7c9203659014dc0689907f8e03e712f2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
         <definition>bool rocalution::LocalMatrix&lt; ValueType &gt;::Check</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>Check</name>
         <param>
           <type>void</type>
@@ -1027,10 +1027,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="222" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1aedb177d0e93bae5b39de9658ba9c94a7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1aacf86649af150764a98044d345f74753" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::ExtractSubMatrix</definition>
-        <argsstring>(int row_offset, int col_offset, int row_size, int col_size, LocalMatrix&lt; ValueType &gt; *mat) const</argsstring>
+        <argsstring>(int row_offset, int col_offset, int row_size, int col_size, LocalMatrix&lt; ValueType &gt; *mat) const </argsstring>
         <name>ExtractSubMatrix</name>
         <param>
           <type>int</type>
@@ -1060,10 +1060,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="225" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a7811d26ca30b8ec442565efe312d2d3d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a8461ce4a258e7195b772534bcaf9b584" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::ExtractSubMatrices</definition>
-        <argsstring>(int row_num_blocks, int col_num_blocks, const int *row_offset, const int *col_offset, LocalMatrix&lt; ValueType &gt; ***mat) const</argsstring>
+        <argsstring>(int row_num_blocks, int col_num_blocks, const int *row_offset, const int *col_offset, LocalMatrix&lt; ValueType &gt; ***mat) const </argsstring>
         <name>ExtractSubMatrices</name>
         <param>
           <type>int</type>
@@ -1093,10 +1093,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="235" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1af8468d33ff07d255428536d6ddb5ac43" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a963d344fb20ea50a6050b2d224595617" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::ExtractDiagonal</definition>
-        <argsstring>(LocalVector&lt; ValueType &gt; *vec_diag) const</argsstring>
+        <argsstring>(LocalVector&lt; ValueType &gt; *vec_diag) const </argsstring>
         <name>ExtractDiagonal</name>
         <param>
           <type><ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector</ref>&lt; ValueType &gt; *</type>
@@ -1110,10 +1110,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="242" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1aaeec31daa2a51742f5c561cf22997c39" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a695ed56a95ec28175ac46fac03a0ccd8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::ExtractInverseDiagonal</definition>
-        <argsstring>(LocalVector&lt; ValueType &gt; *vec_inv_diag) const</argsstring>
+        <argsstring>(LocalVector&lt; ValueType &gt; *vec_inv_diag) const </argsstring>
         <name>ExtractInverseDiagonal</name>
         <param>
           <type><ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector</ref>&lt; ValueType &gt; *</type>
@@ -1127,10 +1127,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="247" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1aaa37a2beb38374a8b0dff4ba91080fd3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1abc22033b1bd55ae0c5ae3aac65b12dfe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::ExtractU</definition>
-        <argsstring>(LocalMatrix&lt; ValueType &gt; *U, bool diag) const</argsstring>
+        <argsstring>(LocalMatrix&lt; ValueType &gt; *U, bool diag) const </argsstring>
         <name>ExtractU</name>
         <param>
           <type><ref refid="classrocalution_1_1_local_matrix" kindref="compound">LocalMatrix</ref>&lt; ValueType &gt; *</type>
@@ -1148,10 +1148,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="250" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a00138976889bc73fa21db16a9c209daf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a4dda2a283e1c367a1fe1e6a5274f187a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::ExtractL</definition>
-        <argsstring>(LocalMatrix&lt; ValueType &gt; *L, bool diag) const</argsstring>
+        <argsstring>(LocalMatrix&lt; ValueType &gt; *L, bool diag) const </argsstring>
         <name>ExtractL</name>
         <param>
           <type><ref refid="classrocalution_1_1_local_matrix" kindref="compound">LocalMatrix</ref>&lt; ValueType &gt; *</type>
@@ -1203,10 +1203,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="258" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a14788d661ea22a00f7a74601e132bb50" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a891b56e1a1def0b6e6c673fdf35e139e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::CMK</definition>
-        <argsstring>(LocalVector&lt; int &gt; *permutation) const</argsstring>
+        <argsstring>(LocalVector&lt; int &gt; *permutation) const </argsstring>
         <name>CMK</name>
         <param>
           <type><ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector</ref>&lt; int &gt; *</type>
@@ -1233,10 +1233,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="275" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1aaed8576707da922ffa1107f1ce427052" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1aa59854cafa832b4d30afd72c1a897fa4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::RCMK</definition>
-        <argsstring>(LocalVector&lt; int &gt; *permutation) const</argsstring>
+        <argsstring>(LocalVector&lt; int &gt; *permutation) const </argsstring>
         <name>RCMK</name>
         <param>
           <type><ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector</ref>&lt; int &gt; *</type>
@@ -1263,10 +1263,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="293" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a433a6b2f5e09f3260b269776e8322a4f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a5f83d09c5abe91fc68ea43b32b16b36a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::ConnectivityOrder</definition>
-        <argsstring>(LocalVector&lt; int &gt; *permutation) const</argsstring>
+        <argsstring>(LocalVector&lt; int &gt; *permutation) const </argsstring>
         <name>ConnectivityOrder</name>
         <param>
           <type><ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector</ref>&lt; int &gt; *</type>
@@ -1293,10 +1293,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="311" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a55000bad263b499ab9638ec95b852a1e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a330760ce2eabfb32d74f9ddb79e2b9af" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::MultiColoring</definition>
-        <argsstring>(int &amp;num_colors, int **size_colors, LocalVector&lt; int &gt; *permutation) const</argsstring>
+        <argsstring>(int &amp;num_colors, int **size_colors, LocalVector&lt; int &gt; *permutation) const </argsstring>
         <name>MultiColoring</name>
         <param>
           <type>int &amp;</type>
@@ -1347,10 +1347,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="335" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1ac8448fee69b9c9be5335083878ae5aa9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a49d2fccc07f404491ad490e785ff17b5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::MaximalIndependentSet</definition>
-        <argsstring>(int &amp;size, LocalVector&lt; int &gt; *permutation) const</argsstring>
+        <argsstring>(int &amp;size, LocalVector&lt; int &gt; *permutation) const </argsstring>
         <name>MaximalIndependentSet</name>
         <param>
           <type>int &amp;</type>
@@ -1389,10 +1389,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="356" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a378871e3f6570a110c844d4b77fdb5c9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a4755cff29b49e4c2992d2d1ff6961f53" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::ZeroBlockPermutation</definition>
-        <argsstring>(int &amp;size, LocalVector&lt; int &gt; *permutation) const</argsstring>
+        <argsstring>(int &amp;size, LocalVector&lt; int &gt; *permutation) const </argsstring>
         <name>ZeroBlockPermutation</name>
         <param>
           <type>int &amp;</type>
@@ -1538,10 +1538,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="396" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a353e62f96359c56f26d3c22e642b019e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1aa8cd98141ec092cbd326b6ee81507838" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::LUSolve</definition>
-        <argsstring>(const LocalVector&lt; ValueType &gt; &amp;in, LocalVector&lt; ValueType &gt; *out) const</argsstring>
+        <argsstring>(const LocalVector&lt; ValueType &gt; &amp;in, LocalVector&lt; ValueType &gt; *out) const </argsstring>
         <name>LUSolve</name>
         <param>
           <type>const <ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector</ref>&lt; ValueType &gt; &amp;</type>
@@ -1608,10 +1608,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="408" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a58c25b8be2b7889b1a7e649e6432d967" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a8c97f8b8fa46dea24026e44b1ca37597" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::LLSolve</definition>
-        <argsstring>(const LocalVector&lt; ValueType &gt; &amp;in, LocalVector&lt; ValueType &gt; *out) const</argsstring>
+        <argsstring>(const LocalVector&lt; ValueType &gt; &amp;in, LocalVector&lt; ValueType &gt; *out) const </argsstring>
         <name>LLSolve</name>
         <param>
           <type>const <ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector</ref>&lt; ValueType &gt; &amp;</type>
@@ -1629,10 +1629,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="412" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a1cb66ea276d6420861757557092e5b43" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a8e1c707845545ec2d0411d21307dbcf5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::LLSolve</definition>
-        <argsstring>(const LocalVector&lt; ValueType &gt; &amp;in, const LocalVector&lt; ValueType &gt; &amp;inv_diag, LocalVector&lt; ValueType &gt; *out) const</argsstring>
+        <argsstring>(const LocalVector&lt; ValueType &gt; &amp;in, const LocalVector&lt; ValueType &gt; &amp;inv_diag, LocalVector&lt; ValueType &gt; *out) const </argsstring>
         <name>LLSolve</name>
         <param>
           <type>const <ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector</ref>&lt; ValueType &gt; &amp;</type>
@@ -1690,10 +1690,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="426" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a0ab35d3254b8406e1888951cfe0f2ca5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1af026016e63192acdd3c7c4e7189d75dd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::LSolve</definition>
-        <argsstring>(const LocalVector&lt; ValueType &gt; &amp;in, LocalVector&lt; ValueType &gt; *out) const</argsstring>
+        <argsstring>(const LocalVector&lt; ValueType &gt; &amp;in, LocalVector&lt; ValueType &gt; *out) const </argsstring>
         <name>LSolve</name>
         <param>
           <type>const <ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector</ref>&lt; ValueType &gt; &amp;</type>
@@ -1747,10 +1747,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="438" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1acf5119d230b9babddca4fc6211626b72" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a7a5c451dbf26eb91bd0dc1c1916ff790" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::USolve</definition>
-        <argsstring>(const LocalVector&lt; ValueType &gt; &amp;in, LocalVector&lt; ValueType &gt; *out) const</argsstring>
+        <argsstring>(const LocalVector&lt; ValueType &gt; &amp;in, LocalVector&lt; ValueType &gt; *out) const </argsstring>
         <name>USolve</name>
         <param>
           <type>const <ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector</ref>&lt; ValueType &gt; &amp;</type>
@@ -1768,10 +1768,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="442" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a74bf982628515f449051fd5a0d2f1a59" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1ad14f9592f242a0b22f517ce4ebbad3ee" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::Householder</definition>
-        <argsstring>(int idx, ValueType &amp;beta, LocalVector&lt; ValueType &gt; *vec) const</argsstring>
+        <argsstring>(int idx, ValueType &amp;beta, LocalVector&lt; ValueType &gt; *vec) const </argsstring>
         <name>Householder</name>
         <param>
           <type>int</type>
@@ -1809,10 +1809,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="447" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1ad8626c5597ca310ef3366c7c8a135baa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a1f935a65fccbe3735bf295815ebf845d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::QRSolve</definition>
-        <argsstring>(const LocalVector&lt; ValueType &gt; &amp;in, LocalVector&lt; ValueType &gt; *out) const</argsstring>
+        <argsstring>(const LocalVector&lt; ValueType &gt; &amp;in, LocalVector&lt; ValueType &gt; *out) const </argsstring>
         <name>QRSolve</name>
         <param>
           <type>const <ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector</ref>&lt; ValueType &gt; &amp;</type>
@@ -1874,10 +1874,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="467" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1ab10a7e473601a9a1d368b48781816185" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1aaef37537780b875aa8e9218af1ec1d33" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::WriteFileMTX</definition>
-        <argsstring>(const std::string filename) const</argsstring>
+        <argsstring>(const std::string filename) const </argsstring>
         <name>WriteFileMTX</name>
         <param>
           <type>const std::string</type>
@@ -1918,7 +1918,7 @@
         <briefdescription>
 <para>Read matrix from CSR (rocALUTION binary format) file. </para>        </briefdescription>
         <detaileddescription>
-<para>Read a CSR matrix from binary file. For details on the format, see <ref refid="classrocalution_1_1_local_matrix_1af955765ef46e0a31967b87755c6053f5" kindref="member">WriteFileCSR()</ref>.</para><para><parameterlist kind="param"><parameteritem>
+<para>Read a CSR matrix from binary file. For details on the format, see <ref refid="classrocalution_1_1_local_matrix_1a171858a5a6d1d7028d74660cd909d529" kindref="member">WriteFileCSR()</ref>.</para><para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">filename</parametername>
 </parameternamelist>
@@ -1934,10 +1934,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="502" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1af955765ef46e0a31967b87755c6053f5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a171858a5a6d1d7028d74660cd909d529" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::WriteFileCSR</definition>
-        <argsstring>(const std::string filename) const</argsstring>
+        <argsstring>(const std::string filename) const </argsstring>
         <name>WriteFileCSR</name>
         <param>
           <type>const std::string</type>
@@ -2201,10 +2201,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="616" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1ac7af52ae1a880b6141ff96339d8cad30" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a3de8922601d1b0d35f38165033293232" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::CopyToCSR</definition>
-        <argsstring>(int *row_offsets, int *col, ValueType *val) const</argsstring>
+        <argsstring>(int *row_offsets, int *col, ValueType *val) const </argsstring>
         <name>CopyToCSR</name>
         <param>
           <type>int *</type>
@@ -2251,10 +2251,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="626" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1ab04f137dbfb7c951641a40e823d2546c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a05ac9a6abeb24c25b89b5300187123e7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::CopyToCOO</definition>
-        <argsstring>(int *row, int *col, ValueType *val) const</argsstring>
+        <argsstring>(int *row, int *col, ValueType *val) const </argsstring>
         <name>CopyToCOO</name>
         <param>
           <type>int *</type>
@@ -2566,12 +2566,12 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="687" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a9a172b7d9b1ef03e16797fb2aaa89091" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a610e6e3411648f05d1b21f262dbff224" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>virtual void rocalution::LocalMatrix&lt; ValueType &gt;::Apply</definition>
-        <argsstring>(const LocalVector&lt; ValueType &gt; &amp;in, LocalVector&lt; ValueType &gt; *out) const</argsstring>
+        <argsstring>(const LocalVector&lt; ValueType &gt; &amp;in, LocalVector&lt; ValueType &gt; *out) const </argsstring>
         <name>Apply</name>
-        <reimplements refid="classrocalution_1_1_operator_1a8dc56052b7fc57029c7cfc4eb5a8a25b">Apply</reimplements>
+        <reimplements refid="classrocalution_1_1_operator_1a3f86a25c9390428212a7af3a70ed2ac9">Apply</reimplements>
         <param>
           <type>const <ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector</ref>&lt; ValueType &gt; &amp;</type>
           <declname>in</declname>
@@ -2588,12 +2588,12 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="689" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a892f08f618568dfbe1c55ef5895a5eb7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1aaafe0bbe20a0c153300f792691af028c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>virtual void rocalution::LocalMatrix&lt; ValueType &gt;::ApplyAdd</definition>
-        <argsstring>(const LocalVector&lt; ValueType &gt; &amp;in, ValueType scalar, LocalVector&lt; ValueType &gt; *out) const</argsstring>
+        <argsstring>(const LocalVector&lt; ValueType &gt; &amp;in, ValueType scalar, LocalVector&lt; ValueType &gt; *out) const </argsstring>
         <name>ApplyAdd</name>
-        <reimplements refid="classrocalution_1_1_operator_1a9607876a1dc71ab7f4c03ade2e6bc952">ApplyAdd</reimplements>
+        <reimplements refid="classrocalution_1_1_operator_1a4a80bbed8eee584f8b4971372c67d289">ApplyAdd</reimplements>
         <param>
           <type>const <ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector</ref>&lt; ValueType &gt; &amp;</type>
           <declname>in</declname>
@@ -2737,10 +2737,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="721" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1ac00dcabfacdb09128cd30f4870d6b946" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a51311cc70520abb7a21e9f505f3b5d05" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::Gershgorin</definition>
-        <argsstring>(ValueType &amp;lambda_min, ValueType &amp;lambda_max) const</argsstring>
+        <argsstring>(ValueType &amp;lambda_min, ValueType &amp;lambda_max) const </argsstring>
         <name>Gershgorin</name>
         <param>
           <type>ValueType &amp;</type>
@@ -2809,10 +2809,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="740" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a97e57c0b9a5637e2b067eab0636f0c31" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a75dbd371118b3ddd1cb1e1c1e65837cd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::Key</definition>
-        <argsstring>(long int &amp;row_key, long int &amp;col_key, long int &amp;val_key) const</argsstring>
+        <argsstring>(long int &amp;row_key, long int &amp;col_key, long int &amp;val_key) const </argsstring>
         <name>Key</name>
         <param>
           <type>long int &amp;</type>
@@ -2898,10 +2898,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="761" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1acb2b6de9c63df359ce9375efec15d688" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a9bcfa7d56fefe89f7d4bb91620fe3b6e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::ExtractColumnVector</definition>
-        <argsstring>(int idx, LocalVector&lt; ValueType &gt; *vec) const</argsstring>
+        <argsstring>(int idx, LocalVector&lt; ValueType &gt; *vec) const </argsstring>
         <name>ExtractColumnVector</name>
         <param>
           <type>int</type>
@@ -2919,10 +2919,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="764" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a129c620b4d02dc7290cdc3f2c2bf49f8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a3d9bb9a84defdf1df8900fcb6bca42c1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::ExtractRowVector</definition>
-        <argsstring>(int idx, LocalVector&lt; ValueType &gt; *vec) const</argsstring>
+        <argsstring>(int idx, LocalVector&lt; ValueType &gt; *vec) const </argsstring>
         <name>ExtractRowVector</name>
         <param>
           <type>int</type>
@@ -2940,10 +2940,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="767" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a96cbe9428a7723ebdf05c5df230ca053" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a59c27360862cc3fed95cb5122717ebee" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::AMGConnect</definition>
-        <argsstring>(ValueType eps, LocalVector&lt; int &gt; *connections) const</argsstring>
+        <argsstring>(ValueType eps, LocalVector&lt; int &gt; *connections) const </argsstring>
         <name>AMGConnect</name>
         <param>
           <type>ValueType</type>
@@ -2961,10 +2961,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="770" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1afbbe25c7f920d7bb1b2d4af3278e362c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a2f90f04c2abd0a885b7b595edcddae00" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::AMGAggregate</definition>
-        <argsstring>(const LocalVector&lt; int &gt; &amp;connections, LocalVector&lt; int &gt; *aggregates) const</argsstring>
+        <argsstring>(const LocalVector&lt; int &gt; &amp;connections, LocalVector&lt; int &gt; *aggregates) const </argsstring>
         <name>AMGAggregate</name>
         <param>
           <type>const <ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector</ref>&lt; int &gt; &amp;</type>
@@ -2982,10 +2982,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="774" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a55efe34f4c2e43fdb03e58de0b1e139a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a082fdbc0f2e73e558734314aa583465d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::AMGSmoothedAggregation</definition>
-        <argsstring>(ValueType relax, const LocalVector&lt; int &gt; &amp;aggregates, const LocalVector&lt; int &gt; &amp;connections, LocalMatrix&lt; ValueType &gt; *prolong, LocalMatrix&lt; ValueType &gt; *restrict) const</argsstring>
+        <argsstring>(ValueType relax, const LocalVector&lt; int &gt; &amp;aggregates, const LocalVector&lt; int &gt; &amp;connections, LocalMatrix&lt; ValueType &gt; *prolong, LocalMatrix&lt; ValueType &gt; *restrict) const </argsstring>
         <name>AMGSmoothedAggregation</name>
         <param>
           <type>ValueType</type>
@@ -3015,10 +3015,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="776" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a20f191b084461deb555bc23f91b50f3c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1ab7dd846c35608f976c88c279fbc26834" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::AMGAggregation</definition>
-        <argsstring>(const LocalVector&lt; int &gt; &amp;aggregates, LocalMatrix&lt; ValueType &gt; *prolong, LocalMatrix&lt; ValueType &gt; *restrict) const</argsstring>
+        <argsstring>(const LocalVector&lt; int &gt; &amp;aggregates, LocalMatrix&lt; ValueType &gt; *prolong, LocalMatrix&lt; ValueType &gt; *restrict) const </argsstring>
         <name>AMGAggregation</name>
         <param>
           <type>const <ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector</ref>&lt; int &gt; &amp;</type>
@@ -3040,10 +3040,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="782" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a4e808f6815264a27e7eb3ec8d80751ff" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a02b17f65d76f9d400ab9d8ea4bc0bdeb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::RugeStueben</definition>
-        <argsstring>(ValueType eps, LocalMatrix&lt; ValueType &gt; *prolong, LocalMatrix&lt; ValueType &gt; *restrict) const</argsstring>
+        <argsstring>(ValueType eps, LocalMatrix&lt; ValueType &gt; *prolong, LocalMatrix&lt; ValueType &gt; *restrict) const </argsstring>
         <name>RugeStueben</name>
         <param>
           <type>ValueType</type>
@@ -3102,10 +3102,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="797" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a697953de89ba60acfa0fbc4e3e609a95" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a3be515776a47a75396c536d9f0a5e153" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::InitialPairwiseAggregation</definition>
-        <argsstring>(ValueType beta, int &amp;nc, LocalVector&lt; int &gt; *G, int &amp;Gsize, int **rG, int &amp;rGsize, int ordering) const</argsstring>
+        <argsstring>(ValueType beta, int &amp;nc, LocalVector&lt; int &gt; *G, int &amp;Gsize, int **rG, int &amp;rGsize, int ordering) const </argsstring>
         <name>InitialPairwiseAggregation</name>
         <param>
           <type>ValueType</type>
@@ -3143,10 +3143,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="800" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a483d8c54d44527af2609df026bc4fced" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a4de9569198f144f5c47d447e8f26b35d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::InitialPairwiseAggregation</definition>
-        <argsstring>(const LocalMatrix&lt; ValueType &gt; &amp;mat, ValueType beta, int &amp;nc, LocalVector&lt; int &gt; *G, int &amp;Gsize, int **rG, int &amp;rGsize, int ordering) const</argsstring>
+        <argsstring>(const LocalMatrix&lt; ValueType &gt; &amp;mat, ValueType beta, int &amp;nc, LocalVector&lt; int &gt; *G, int &amp;Gsize, int **rG, int &amp;rGsize, int ordering) const </argsstring>
         <name>InitialPairwiseAggregation</name>
         <param>
           <type>const <ref refid="classrocalution_1_1_local_matrix" kindref="compound">LocalMatrix</ref>&lt; ValueType &gt; &amp;</type>
@@ -3188,10 +3188,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="808" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a422b401c53da06552cc4246c5c6d1c10" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a9df75907e078f5aa2199f6183e218ef1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::FurtherPairwiseAggregation</definition>
-        <argsstring>(ValueType beta, int &amp;nc, LocalVector&lt; int &gt; *G, int &amp;Gsize, int **rG, int &amp;rGsize, int ordering) const</argsstring>
+        <argsstring>(ValueType beta, int &amp;nc, LocalVector&lt; int &gt; *G, int &amp;Gsize, int **rG, int &amp;rGsize, int ordering) const </argsstring>
         <name>FurtherPairwiseAggregation</name>
         <param>
           <type>ValueType</type>
@@ -3229,10 +3229,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="817" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a12ec36f0be7f8a93619da8e1977c3b51" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a62314cdad5e47791dd64c8a25ad2e38d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::FurtherPairwiseAggregation</definition>
-        <argsstring>(const LocalMatrix&lt; ValueType &gt; &amp;mat, ValueType beta, int &amp;nc, LocalVector&lt; int &gt; *G, int &amp;Gsize, int **rG, int &amp;rGsize, int ordering) const</argsstring>
+        <argsstring>(const LocalMatrix&lt; ValueType &gt; &amp;mat, ValueType beta, int &amp;nc, LocalVector&lt; int &gt; *G, int &amp;Gsize, int **rG, int &amp;rGsize, int ordering) const </argsstring>
         <name>FurtherPairwiseAggregation</name>
         <param>
           <type>const <ref refid="classrocalution_1_1_local_matrix" kindref="compound">LocalMatrix</ref>&lt; ValueType &gt; &amp;</type>
@@ -3274,10 +3274,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="825" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1afe5bc9c61ab6f2aa95e334a13b4fbba3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1ac20466bdf2721bd9732e533fbf865a6b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalMatrix&lt; ValueType &gt;::CoarsenOperator</definition>
-        <argsstring>(LocalMatrix&lt; ValueType &gt; *Ac, int nrow, int ncol, const LocalVector&lt; int &gt; &amp;G, int Gsize, const int *rG, int rGsize) const</argsstring>
+        <argsstring>(LocalMatrix&lt; ValueType &gt; *Ac, int nrow, int ncol, const LocalVector&lt; int &gt; &amp;G, int Gsize, const int *rG, int rGsize) const </argsstring>
         <name>CoarsenOperator</name>
         <param>
           <type><ref refid="classrocalution_1_1_local_matrix" kindref="compound">LocalMatrix</ref>&lt; ValueType &gt; *</type>
@@ -3317,10 +3317,10 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a160ff82fbc0a88b6a5f7fece80976fcf" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a77b084b0e279ffc65f335b68d1eefa6b" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
         <definition>virtual bool rocalution::LocalMatrix&lt; ValueType &gt;::is_host_</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>is_host_</name>
         <reimplements refid="classrocalution_1_1_base_rocalution_1a4bf61bf87e25d66b63187e21d00e4f2d">is_host_</reimplements>
         <param>
@@ -3334,10 +3334,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp" line="843" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1adde0a240b27720e9df7e2706433ddb25" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_matrix_1a1941a1ddd454d81f4fd654af0a41ce56" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
         <definition>virtual bool rocalution::LocalMatrix&lt; ValueType &gt;::is_accel_</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>is_accel_</name>
         <reimplements refid="classrocalution_1_1_base_rocalution_1a3fd4724cb23b135d6b6528674c3aec14">is_accel_</reimplements>
         <param>
@@ -3423,23 +3423,23 @@
       <member refid="classrocalution_1_1_local_matrix_1acb5702157228a7cf509d518ed85023a3" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>AllocateELL</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a0f11424c97e09672c909d457d06cbccb" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>AllocateHYB</name></member>
       <member refid="classrocalution_1_1_local_matrix_1af3e1c51e650ffad760b7dbfc508bd80e" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>AllocateMCSR</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1afbbe25c7f920d7bb1b2d4af3278e362c" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>AMGAggregate</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a20f191b084461deb555bc23f91b50f3c" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>AMGAggregation</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a96cbe9428a7723ebdf05c5df230ca053" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>AMGConnect</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a55efe34f4c2e43fdb03e58de0b1e139a" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>AMGSmoothedAggregation</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a9a172b7d9b1ef03e16797fb2aaa89091" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>Apply</name></member>
-      <member refid="classrocalution_1_1_operator_1a4ad4397df83f1fc6af9aecf0cb9af17c" prot="public" virt="virtual" ambiguityscope="rocalution::Operator::"><scope>rocalution::LocalMatrix</scope><name>Apply</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a892f08f618568dfbe1c55ef5895a5eb7" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>ApplyAdd</name></member>
-      <member refid="classrocalution_1_1_operator_1a87f809dde4c8d7d98fe443c0fb9bc92b" prot="public" virt="virtual" ambiguityscope="rocalution::Operator::"><scope>rocalution::LocalMatrix</scope><name>ApplyAdd</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a2f90f04c2abd0a885b7b595edcddae00" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>AMGAggregate</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1ab7dd846c35608f976c88c279fbc26834" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>AMGAggregation</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a59c27360862cc3fed95cb5122717ebee" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>AMGConnect</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a082fdbc0f2e73e558734314aa583465d" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>AMGSmoothedAggregation</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a610e6e3411648f05d1b21f262dbff224" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>Apply</name></member>
+      <member refid="classrocalution_1_1_operator_1aeb7eed71cee575be8f32679ebefa51a7" prot="public" virt="virtual" ambiguityscope="rocalution::Operator::"><scope>rocalution::LocalMatrix</scope><name>Apply</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1aaafe0bbe20a0c153300f792691af028c" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>ApplyAdd</name></member>
+      <member refid="classrocalution_1_1_operator_1a5770aa3284c92ddcc874d12bc28e6d50" prot="public" virt="virtual" ambiguityscope="rocalution::Operator::"><scope>rocalution::LocalMatrix</scope><name>ApplyAdd</name></member>
       <member refid="classrocalution_1_1_base_rocalution_1ad248c147237baaf809978dba69edf342" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>BaseRocalution</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a69e093022f1ccd32d046422c4e6196f1" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>Check</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a7c9203659014dc0689907f8e03e712f2" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>Check</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a8df7184b26588a0d06d6c65a53fd7a73" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>Clear</name></member>
       <member refid="classrocalution_1_1_base_rocalution_1a85acdb9844b7c6a630f14ace59d99f5d" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>CloneBackend</name></member>
       <member refid="classrocalution_1_1_local_matrix_1acd9898aa33dc1f333a8eac885482e485" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>CloneFrom</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a14788d661ea22a00f7a74601e132bb50" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>CMK</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1afe5bc9c61ab6f2aa95e334a13b4fbba3" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>CoarsenOperator</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a891b56e1a1def0b6e6c673fdf35e139e" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>CMK</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1ac20466bdf2721bd9732e533fbf865a6b" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>CoarsenOperator</name></member>
       <member refid="classrocalution_1_1_local_matrix_1af55140e4df68bfc790fabd1d3599dc60" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>Compress</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a433a6b2f5e09f3260b269776e8322a4f" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ConnectivityOrder</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a5f83d09c5abe91fc68ea43b32b16b36a" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ConnectivityOrder</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a9b2b21d5afcb1000e1a3cbac7dacb9db" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ConvertTo</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a4002613db6485154f178c96ce4d44f1a" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ConvertToBCSR</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a77f6a603e33b25645942030aee1d2c5a" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ConvertToCOO</name></member>
@@ -3454,50 +3454,50 @@
       <member refid="classrocalution_1_1_local_matrix_1a07c7170a8d5baac3249e6aace1c6f36b" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>CopyFromCOO</name></member>
       <member refid="classrocalution_1_1_local_matrix_1aea46a0ce5f1a5879ac7c594ed7ec9afd" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>CopyFromCSR</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a4b22c7c6c5264370fa6c141b2ba7d5f1" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>CopyFromHostCSR</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1ab04f137dbfb7c951641a40e823d2546c" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>CopyToCOO</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1ac7af52ae1a880b6141ff96339d8cad30" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>CopyToCSR</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a05ac9a6abeb24c25b89b5300187123e7" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>CopyToCOO</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a3de8922601d1b0d35f38165033293232" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>CopyToCSR</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a909d0dc7a44dd03689f25122924b6a6f" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>CreateFromMap</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a201bc2b46526e26a1d0164902792c850" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>CreateFromMap</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a12f274f560e2dc874d49951a5b1e1dd3" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>DiagonalMatrixMult</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a542e55d43ee269119e0ef7b93d2f91a0" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>DiagonalMatrixMultL</name></member>
       <member refid="classrocalution_1_1_local_matrix_1ac02a9ef133bfac459ee3f2408d6b5cb1" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>DiagonalMatrixMultR</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1acb2b6de9c63df359ce9375efec15d688" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ExtractColumnVector</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1af8468d33ff07d255428536d6ddb5ac43" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ExtractDiagonal</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1aaeec31daa2a51742f5c561cf22997c39" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ExtractInverseDiagonal</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a00138976889bc73fa21db16a9c209daf" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ExtractL</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a129c620b4d02dc7290cdc3f2c2bf49f8" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ExtractRowVector</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a7811d26ca30b8ec442565efe312d2d3d" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ExtractSubMatrices</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1aedb177d0e93bae5b39de9658ba9c94a7" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ExtractSubMatrix</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1aaa37a2beb38374a8b0dff4ba91080fd3" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ExtractU</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a9bcfa7d56fefe89f7d4bb91620fe3b6e" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ExtractColumnVector</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a963d344fb20ea50a6050b2d224595617" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ExtractDiagonal</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a695ed56a95ec28175ac46fac03a0ccd8" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ExtractInverseDiagonal</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a4dda2a283e1c367a1fe1e6a5274f187a" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ExtractL</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a3d9bb9a84defdf1df8900fcb6bca42c1" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ExtractRowVector</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a8461ce4a258e7195b772534bcaf9b584" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ExtractSubMatrices</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1aacf86649af150764a98044d345f74753" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ExtractSubMatrix</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1abc22033b1bd55ae0c5ae3aac65b12dfe" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ExtractU</name></member>
       <member refid="classrocalution_1_1_local_matrix_1adf8e7af5f894ca6f71aa5bec3cb4f241" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>FSAI</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a422b401c53da06552cc4246c5c6d1c10" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>FurtherPairwiseAggregation</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a12ec36f0be7f8a93619da8e1977c3b51" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>FurtherPairwiseAggregation</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1ac00dcabfacdb09128cd30f4870d6b946" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>Gershgorin</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a0a077e9b521fc8af41c7f18de1cad1d5" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>GetFormat</name></member>
-      <member refid="classrocalution_1_1_operator_1a47f59b41b12bb76fdc5dbc1c7155e282" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>GetGhostM</name></member>
-      <member refid="classrocalution_1_1_operator_1a88c39d124082dd9254fe21c0074fea07" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>GetGhostN</name></member>
-      <member refid="classrocalution_1_1_operator_1ae4d7fedf59d0fb6a2507dde507f7efb7" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>GetGhostNnz</name></member>
-      <member refid="classrocalution_1_1_operator_1ab070535791b24e8c8a190bca82cb30a3" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>GetLocalM</name></member>
-      <member refid="classrocalution_1_1_operator_1a63a78d3258db4fdfe74e517484591246" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>GetLocalN</name></member>
-      <member refid="classrocalution_1_1_operator_1a7900eb19fb5ecb00adb18e4c8b498187" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>GetLocalNnz</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1aeb0c36e210a0bbbc835874b5bac6437f" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>GetM</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1af87c058edc0aadb0b0c8b026f8d9b00a" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>GetN</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1afab6feb71269348bb0665338f167ac16" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>GetNnz</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a9df75907e078f5aa2199f6183e218ef1" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>FurtherPairwiseAggregation</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a62314cdad5e47791dd64c8a25ad2e38d" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>FurtherPairwiseAggregation</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a51311cc70520abb7a21e9f505f3b5d05" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>Gershgorin</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1af7726dcf3f37962dd1b35ae112bb5469" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>GetFormat</name></member>
+      <member refid="classrocalution_1_1_operator_1a560aaa25f0979b6edbd09815f2d49399" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>GetGhostM</name></member>
+      <member refid="classrocalution_1_1_operator_1a18c75f9b1225f08fd4f6c0b7edecb4ab" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>GetGhostN</name></member>
+      <member refid="classrocalution_1_1_operator_1ac4e69080970e4cea756160693e503a02" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>GetGhostNnz</name></member>
+      <member refid="classrocalution_1_1_operator_1ad1841e2a7e753685139f067388cdc2c4" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>GetLocalM</name></member>
+      <member refid="classrocalution_1_1_operator_1ae3410f8b7a3b02b1e3fad239a0b96109" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>GetLocalN</name></member>
+      <member refid="classrocalution_1_1_operator_1a90052816483e63cd6dc5365323bfe59c" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>GetLocalNnz</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1ae1e91b6ac4ac1c2233d6306b52523556" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>GetM</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a0dcea805d6d0a3434918f7efc4a91948" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>GetN</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1aa6744f499c4bb6ab9aca5a9d68f6311d" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>GetNnz</name></member>
       <member refid="classrocalution_1_1_rocalution_obj_1a4bba5aeaf4fd705efc00402f1f6ed40b" prot="protected" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>global_obj_id_</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a350700fdc95d2918442f14af47bb3ff4" prot="private" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>GlobalMatrix&lt; ValueType &gt;</name></member>
       <member refid="classrocalution_1_1_local_matrix_1ad50ce751e5dafbeb3ca73c65cd542fce" prot="private" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>GlobalVector&lt; ValueType &gt;</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a74bf982628515f449051fd5a0d2f1a59" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>Householder</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1ad14f9592f242a0b22f517ce4ebbad3ee" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>Householder</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a4ca38ea117584b77253a9a116fb03440" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ICFactorize</name></member>
       <member refid="classrocalution_1_1_local_matrix_1ac94a0833f8c29fee3d4a9019f9b923bd" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ILU0Factorize</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a73e4e1d4f189884f9c428c3c2dad0da6" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ILUpFactorize</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a61ba9e4902f01289697ae7f8e26b57b2" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ILUTFactorize</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a8f66294a7f7bf412dc44acdd6850e061" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>Info</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a697953de89ba60acfa0fbc4e3e609a95" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>InitialPairwiseAggregation</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a483d8c54d44527af2609df026bc4fced" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>InitialPairwiseAggregation</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1afe36dba5d24a8f6714738dad361fe6a3" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>Info</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a3be515776a47a75396c536d9f0a5e153" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>InitialPairwiseAggregation</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a4de9569198f144f5c47d447e8f26b35d" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>InitialPairwiseAggregation</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a51514f7bd4213881a3a7d54cabfb4bcc" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>Invert</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1adde0a240b27720e9df7e2706433ddb25" prot="protected" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>is_accel_</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a160ff82fbc0a88b6a5f7fece80976fcf" prot="protected" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>is_host_</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a97e57c0b9a5637e2b067eab0636f0c31" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>Key</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a1941a1ddd454d81f4fd654af0a41ce56" prot="protected" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>is_accel_</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a77b084b0e279ffc65f335b68d1eefa6b" prot="protected" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>is_host_</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a75dbd371118b3ddd1cb1e1c1e65837cd" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>Key</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a8d45e8ee1a1982d8041bf826d245fef9" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>LAnalyse</name></member>
       <member refid="classrocalution_1_1_local_matrix_1ab3ed5fbb875f957c3bb25735c0630b54" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>LAnalyseClear</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a9763c9317b9e3cee8410f79f54c879d3" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>LeaveDataPtrCOO</name></member>
@@ -3508,39 +3508,39 @@
       <member refid="classrocalution_1_1_local_matrix_1a1ac5d3d11c02ed8f2bb288c39a29f108" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>LeaveDataPtrMCSR</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a3536ca2f5595ab309fcda32d07e011fe" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>LLAnalyse</name></member>
       <member refid="classrocalution_1_1_local_matrix_1aa707f4992b07d0775840a8346c680e46" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>LLAnalyseClear</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a58c25b8be2b7889b1a7e649e6432d967" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>LLSolve</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a1cb66ea276d6420861757557092e5b43" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>LLSolve</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a8c97f8b8fa46dea24026e44b1ca37597" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>LLSolve</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a8e1c707845545ec2d0411d21307dbcf5" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>LLSolve</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a24693e40cc06b807cec974b4fb7c0f22" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>LocalMatrix</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a4332e063cc6b7350ea0ba7b29dbec2c5" prot="private" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>LocalVector&lt; ValueType &gt;</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a0ab35d3254b8406e1888951cfe0f2ca5" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>LSolve</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1af026016e63192acdd3c7c4e7189d75dd" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>LSolve</name></member>
       <member refid="classrocalution_1_1_local_matrix_1ac731fe03bccfebcbd70feabdb144e0d9" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>LUAnalyse</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a5e9eaaca1b947c97cd9069fbc80b7f8c" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>LUAnalyseClear</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a2d32b530636d756b878c5ff3ba08df99" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>LUFactorize</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a353e62f96359c56f26d3c22e642b019e" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>LUSolve</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1aa8cd98141ec092cbd326b6ee81507838" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>LUSolve</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a7d4a43dd8c29abce9387e5be3f8dbc70" prot="private" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>matrix_</name></member>
       <member refid="classrocalution_1_1_local_matrix_1af98059809e70d04387b74f5ca2193ee5" prot="private" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>matrix_accel_</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a58a64cee344cbb36cc3e623e89b83da8" prot="private" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>matrix_host_</name></member>
       <member refid="classrocalution_1_1_local_matrix_1aff5cbf55130bbc230ef30cf7d288b9d5" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>MatrixAdd</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a5aaed16ec266a65af00a810d30485158" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>MatrixMult</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1ac8448fee69b9c9be5335083878ae5aa9" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>MaximalIndependentSet</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a49d2fccc07f404491ad490e785ff17b5" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>MaximalIndependentSet</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a3217ea740fbb231226dcf6a5def3c6e6" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>MoveToAccelerator</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a7df391e420a6a364e0a062792c1324d5" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>MoveToAcceleratorAsync</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a67f483ae6f80db8474a0af39a6e19e7b" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>MoveToHost</name></member>
       <member refid="classrocalution_1_1_local_matrix_1aced88c9ae65c7dba7f81a8d33ae4bb66" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>MoveToHostAsync</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a55000bad263b499ab9638ec95b852a1e" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>MultiColoring</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a330760ce2eabfb32d74f9ddb79e2b9af" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>MultiColoring</name></member>
       <member refid="classrocalution_1_1_base_rocalution_1a5d818c77bc906d543c44d441bb589b46" prot="protected" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>object_name_</name></member>
       <member refid="classrocalution_1_1_operator_1afcbc2abbfe58ce8c6a3d86a5a48b7fc7" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>Operator</name></member>
       <member refid="classrocalution_1_1_local_matrix_1afc9486fee8f49d50db5c6cf49593aace" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>Permute</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a0648ae8c06a0c0bcff3eda554eb168a8" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>PermuteBackward</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a2b1dfac5efdefe7193dc8f634685e6b9" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>QRDecompose</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1ad8626c5597ca310ef3366c7c8a135baa" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>QRSolve</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1aaed8576707da922ffa1107f1ce427052" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>RCMK</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a1f935a65fccbe3735bf295815ebf845d" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>QRSolve</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1aa59854cafa832b4d30afd72c1a897fa4" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>RCMK</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a0c211ccae3c7b1f1c8f631786c552aa9" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ReadFileCSR</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a22b9f4275cef954b889bf89a3b5889c9" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ReadFileMTX</name></member>
       <member refid="classrocalution_1_1_local_matrix_1af9dd9cda7b02e65b668f96d7c9d042e1" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ReplaceColumnVector</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a5e9996e79994a0d1c365578ffc95c848" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ReplaceRowVector</name></member>
       <member refid="classrocalution_1_1_rocalution_obj_1ad60a8b2047aad74e488c552264fa7737" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>RocalutionObj</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a4e808f6815264a27e7eb3ec8d80751ff" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>RugeStueben</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a02b17f65d76f9d400ab9d8ea4bc0bdeb" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>RugeStueben</name></member>
       <member refid="classrocalution_1_1_local_matrix_1aeabad9b79068c70637ef311af34af61a" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>Scale</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a8fb80b66e03ea77d2f74862e10fd90dc" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ScaleDiagonal</name></member>
       <member refid="classrocalution_1_1_local_matrix_1ae5e6d84270b2e8a878134507a086dbf1" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ScaleOffDiagonal</name></member>
@@ -3558,10 +3558,10 @@
       <member refid="classrocalution_1_1_local_matrix_1a6317edc804d8c58adac000b6d9cf85e3" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>UAnalyse</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a23c0d959e4bcbf2ab832f62c452f9338" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>UAnalyseClear</name></member>
       <member refid="classrocalution_1_1_local_matrix_1ab192c147b9440ca3889523ee6f6f7cf9" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>UpdateValuesCSR</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1acf5119d230b9babddca4fc6211626b72" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>USolve</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1af955765ef46e0a31967b87755c6053f5" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>WriteFileCSR</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1ab10a7e473601a9a1d368b48781816185" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>WriteFileMTX</name></member>
-      <member refid="classrocalution_1_1_local_matrix_1a378871e3f6570a110c844d4b77fdb5c9" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ZeroBlockPermutation</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a7a5c451dbf26eb91bd0dc1c1916ff790" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>USolve</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a171858a5a6d1d7028d74660cd909d529" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>WriteFileCSR</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1aaef37537780b875aa8e9218af1ec1d33" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>WriteFileMTX</name></member>
+      <member refid="classrocalution_1_1_local_matrix_1a4755cff29b49e4c2992d2d1ff6961f53" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>ZeroBlockPermutation</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a7218681c7054a12aae6057d96d3a4e54" prot="public" virt="non-virtual"><scope>rocalution::LocalMatrix</scope><name>Zeros</name></member>
       <member refid="classrocalution_1_1_base_rocalution_1aad8ac3188091c4683181bfe6d739b7fd" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>~BaseRocalution</name></member>
       <member refid="classrocalution_1_1_local_matrix_1a30380ef77093ef355c8d666401833c60" prot="public" virt="virtual"><scope>rocalution::LocalMatrix</scope><name>~LocalMatrix</name></member>

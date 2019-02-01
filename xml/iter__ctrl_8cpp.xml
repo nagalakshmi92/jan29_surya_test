@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="iter__ctrl_8cpp" kind="file" language="C++">
     <compoundname>iter_ctrl.cpp</compoundname>
     <includes local="yes">../utils/def.hpp</includes>
@@ -18,9 +18,24 @@
       <node id="269">
         <label>../utils/def.hpp</label>
       </node>
+      <node id="275">
+        <label>fstream</label>
+      </node>
+      <node id="271">
+        <label>../utils/log.hpp</label>
+      </node>
+      <node id="272">
+        <label>../utils/math_functions.hpp</label>
+      </node>
+      <node id="273">
+        <label>math.h</label>
+      </node>
+      <node id="274">
+        <label>cstdlib</label>
+      </node>
       <node id="268">
         <label>ROCm_Libraries/rocALUTION/src/solvers/iter_ctrl.cpp</label>
-        <link refid="iter__ctrl_8cpp"/>
+        <link refid="iter_ctrl.cpp"/>
         <childnode refid="269" relation="include">
         </childnode>
         <childnode refid="270" relation="include">
@@ -39,21 +54,6 @@
         </childnode>
         <childnode refid="277" relation="include">
         </childnode>
-      </node>
-      <node id="275">
-        <label>fstream</label>
-      </node>
-      <node id="271">
-        <label>../utils/log.hpp</label>
-      </node>
-      <node id="272">
-        <label>../utils/math_functions.hpp</label>
-      </node>
-      <node id="273">
-        <label>math.h</label>
-      </node>
-      <node id="274">
-        <label>cstdlib</label>
       </node>
       <node id="277">
         <label>complex</label>

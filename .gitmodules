@@ -4,3 +4,6 @@
 [submodule "ROCm_Libraries/rocSPARSE"]
 	path = ROCm_Libraries/rocSPARSE
 	url = https://github.com/ROCmSoftwarePlatform/rocSPARSE.git
+[submodule "ROCm_Libraries/rocFFT"]
+	path = ROCm_Libraries/rocFFT
+	url = https://github.com/ROCmSoftwarePlatform/rocFFT.git

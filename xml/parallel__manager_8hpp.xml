@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="parallel__manager_8hpp" kind="file" language="C++">
     <compoundname>parallel_manager.hpp</compoundname>
     <includes refid="base__rocalution_8hpp" local="yes">base_rocalution.hpp</includes>
     <includes local="yes">../utils/types.hpp</includes>
-    <includes local="yes">/home/tcs/Lakshmi/jan29_surya_test/ROCm_Libraries/rocALUTION/src/utils/def.hpp</includes>
+    <includes local="yes">/home/tcs/jan29_surya_test/ROCm_Libraries/rocALUTION/src/utils/def.hpp</includes>
     <includes local="no">assert.h</includes>
     <includes local="no">limits</includes>
     <includes local="no">string</includes>
@@ -12,14 +12,14 @@
     <includedby refid="global__vector_8hpp" local="yes">ROCm_Libraries/rocALUTION/src/base/global_vector.hpp</includedby>
     <includedby refid="global__matrix_8hpp" local="yes">ROCm_Libraries/rocALUTION/src/base/global_matrix.hpp</includedby>
     <incdepgraph>
-      <node id="146">
-        <label>/home/tcs/Lakshmi/jan29_surya_test/ROCm_Libraries/rocALUTION/src/utils/def.hpp</label>
-      </node>
       <node id="148">
         <label>limits</label>
       </node>
       <node id="147">
         <label>assert.h</label>
+      </node>
+      <node id="146">
+        <label>/home/tcs/jan29_surya_test/ROCm_Libraries/rocALUTION/src/utils/def.hpp</label>
       </node>
       <node id="137">
         <label>base_rocalution.hpp</label>
@@ -29,20 +29,6 @@
         <childnode refid="144" relation="include">
         </childnode>
         <childnode refid="142" relation="include">
-        </childnode>
-      </node>
-      <node id="138">
-        <label>backend_manager.hpp</label>
-        <link refid="backend__manager_8hpp_source"/>
-        <childnode refid="139" relation="include">
-        </childnode>
-        <childnode refid="140" relation="include">
-        </childnode>
-        <childnode refid="141" relation="include">
-        </childnode>
-        <childnode refid="142" relation="include">
-        </childnode>
-        <childnode refid="143" relation="include">
         </childnode>
       </node>
       <node id="143">
@@ -56,7 +42,7 @@
       </node>
       <node id="136">
         <label>ROCm_Libraries/rocALUTION/src/base/parallel_manager.hpp</label>
-        <link refid="parallel__manager_8hpp"/>
+        <link refid="parallel_manager.hpp"/>
         <childnode refid="137" relation="include">
         </childnode>
         <childnode refid="145" relation="include">
@@ -84,19 +70,33 @@
       <node id="144">
         <label>complex</label>
       </node>
+      <node id="138">
+        <label>backend_manager.hpp</label>
+        <link refid="backend__manager_8hpp_source"/>
+        <childnode refid="139" relation="include">
+        </childnode>
+        <childnode refid="140" relation="include">
+        </childnode>
+        <childnode refid="141" relation="include">
+        </childnode>
+        <childnode refid="142" relation="include">
+        </childnode>
+        <childnode refid="143" relation="include">
+        </childnode>
+      </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="150">
-        <label>ROCm_Libraries/rocALUTION/src/base/global_vector.hpp</label>
-        <link refid="global__vector_8hpp_source"/>
-      </node>
       <node id="151">
         <label>ROCm_Libraries/rocALUTION/src/base/global_matrix.hpp</label>
         <link refid="global__matrix_8hpp_source"/>
       </node>
+      <node id="150">
+        <label>ROCm_Libraries/rocALUTION/src/base/global_vector.hpp</label>
+        <link refid="global__vector_8hpp_source"/>
+      </node>
       <node id="149">
         <label>ROCm_Libraries/rocALUTION/src/base/parallel_manager.hpp</label>
-        <link refid="parallel__manager_8hpp"/>
+        <link refid="parallel_manager.hpp"/>
         <childnode refid="150" relation="include">
         </childnode>
         <childnode refid="151" relation="include">
@@ -160,12 +160,12 @@
 <codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_parallel_manager_1aefdb9831f66c0ca18532e47b2c5246a4" kindref="member">SetMPICommunicator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>comm);</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_parallel_manager_1a8a0136bfba7b4cee5d17b1f1e1aab580" kindref="member">Clear</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>IndexType2<sp/><ref refid="classrocalution_1_1_parallel_manager_1a686ba88f36cbfb8537e40270a57a9f60" kindref="member">GetGlobalSize</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_parallel_manager_1a5ab207c389a3342e8a9d4bccd6df0a27" kindref="member">GetLocalSize</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>IndexType2<sp/><ref refid="classrocalution_1_1_parallel_manager_1a967b89b058f8082eec3bd8756d4c6b6b" kindref="member">GetGlobalSize</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_parallel_manager_1ad48f73195cb1129f31446bf3b04ede34" kindref="member">GetLocalSize</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_parallel_manager_1a601ceb971f16e0f44351f0953bd403c5" kindref="member">GetNumReceivers</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_parallel_manager_1a79f4ba4c2f552fbb5355bca1e11858ca" kindref="member">GetNumSenders</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_parallel_manager_1a504931964a2b65a5cac1f7acc08bd5b1" kindref="member">GetNumProcs</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_parallel_manager_1a3a06da2930908bb3a9597dbbe67fd603" kindref="member">GetNumReceivers</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_parallel_manager_1aa7bddbbc6400c22cdbef7679bf3e305b" kindref="member">GetNumSenders</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_parallel_manager_1a3cb9f47f18754042797b283725b51ec9" kindref="member">GetNumProcs</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
 <codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_parallel_manager_1ab0e344d56f2b46daef9e26c81468803e" kindref="member">SetGlobalSize</ref>(IndexType2<sp/>size);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_parallel_manager_1acb4593542cf35bb0ae204431cc0512de" kindref="member">SetLocalSize</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
@@ -179,10 +179,10 @@
 <codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_parallel_manager_1a0e903a81bec91b1b93535cf31f6ebe27" kindref="member">LocalToGlobal</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>proc,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>local,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>global);</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_parallel_manager_1a97530fd3bf6d9a82162636bab39d2894" kindref="member">GlobalToLocal</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>global,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>proc,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>local);</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_parallel_manager_1a33a713fa35d63e581ec464fe175d3776" kindref="member">Status</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_parallel_manager_1af15fd3af90c23d1e030dc5d1a50ae00a" kindref="member">Status</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
 <codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_parallel_manager_1a159317f7d0b72501de8c452ad07286e3" kindref="member">ReadFileASCII</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>filename);</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_parallel_manager_1af0b697c6a34544b3091c909def74eb9c" kindref="member">WriteFileASCII</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>filename)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_parallel_manager_1a37a0aa9b2845153988f277aabf194ba5" kindref="member">WriteFileASCII</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>filename)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
 <codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>comm_;</highlight></codeline>

@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="ruge__stueben__amg_8cpp" kind="file" language="C++">
     <compoundname>ruge_stueben_amg.cpp</compoundname>
     <includes local="yes">../../utils/def.hpp</includes>
     <includes local="yes">ruge_stueben_amg.hpp</includes>
-    <includes local="yes">/home/tcs/Lakshmi/jan29_surya_test/ROCm_Libraries/rocALUTION/src/solvers/solver.hpp</includes>
-    <includes local="yes">/home/tcs/Lakshmi/jan29_surya_test/ROCm_Libraries/rocALUTION/src/solvers/multigrid/base_amg.hpp</includes>
+    <includes local="yes">/home/tcs/jan29_surya_test/ROCm_Libraries/rocALUTION/src/solvers/solver.hpp</includes>
+    <includes local="yes">/home/tcs/jan29_surya_test/ROCm_Libraries/rocALUTION/src/solvers/multigrid/base_amg.hpp</includes>
     <includes local="no">vector</includes>
     <includes refid="local__matrix_8hpp" local="yes">../../base/local_matrix.hpp</includes>
     <includes refid="local__vector_8hpp" local="yes">../../base/local_vector.hpp</includes>
     <includes local="yes">../preconditioners/preconditioner_multicolored_gs.hpp</includes>
-    <includes local="yes">/home/tcs/Lakshmi/jan29_surya_test/ROCm_Libraries/rocALUTION/src/solvers/preconditioners/preconditioner.hpp</includes>
-    <includes local="yes">/home/tcs/Lakshmi/jan29_surya_test/ROCm_Libraries/rocALUTION/src/solvers/preconditioners/preconditioner_multicolored.hpp</includes>
+    <includes local="yes">/home/tcs/jan29_surya_test/ROCm_Libraries/rocALUTION/src/solvers/preconditioners/preconditioner.hpp</includes>
+    <includes local="yes">/home/tcs/jan29_surya_test/ROCm_Libraries/rocALUTION/src/solvers/preconditioners/preconditioner_multicolored.hpp</includes>
     <includes local="yes">../../utils/log.hpp</includes>
     <includes local="yes">../../utils/math_functions.hpp</includes>
     <incdepgraph>
@@ -25,30 +25,8 @@
         <childnode refid="752" relation="include">
         </childnode>
       </node>
-      <node id="765">
-        <label>../../base/local_vector.hpp</label>
-        <link refid="local__vector_8hpp_source"/>
-        <childnode refid="754" relation="include">
-        </childnode>
-        <childnode refid="766" relation="include">
-        </childnode>
-      </node>
-      <node id="750">
-        <label>/home/tcs/Lakshmi/jan29_surya_test/ROCm_Libraries/rocALUTION/src/solvers/solver.hpp</label>
-      </node>
-      <node id="757">
-        <label>backend_manager.hpp</label>
-        <link refid="backend__manager_8hpp_source"/>
-        <childnode refid="758" relation="include">
-        </childnode>
-        <childnode refid="759" relation="include">
-        </childnode>
-        <childnode refid="760" relation="include">
-        </childnode>
-        <childnode refid="752" relation="include">
-        </childnode>
-        <childnode refid="761" relation="include">
-        </childnode>
+      <node id="751">
+        <label>/home/tcs/jan29_surya_test/ROCm_Libraries/rocALUTION/src/solvers/multigrid/base_amg.hpp</label>
       </node>
       <node id="761">
         <label>string</label>
@@ -56,57 +34,45 @@
       <node id="760">
         <label>map</label>
       </node>
-      <node id="755">
-        <label>operator.hpp</label>
-        <link refid="operator_8hpp_source"/>
-        <childnode refid="754" relation="include">
-        </childnode>
-        <childnode refid="756" relation="include">
-        </childnode>
-        <childnode refid="758" relation="include">
-        </childnode>
-        <childnode refid="761" relation="include">
-        </childnode>
-        <childnode refid="763" relation="include">
-        </childnode>
-      </node>
-      <node id="753">
-        <label>../../base/local_matrix.hpp</label>
-        <link refid="local__matrix_8hpp_source"/>
-        <childnode refid="754" relation="include">
-        </childnode>
-        <childnode refid="755" relation="include">
-        </childnode>
-        <childnode refid="757" relation="include">
-        </childnode>
-        <childnode refid="764" relation="include">
-        </childnode>
-        <childnode refid="761" relation="include">
-        </childnode>
-      </node>
       <node id="759">
         <label>fstream</label>
-      </node>
-      <node id="766">
-        <label>vector.hpp</label>
-        <link refid="vector_8hpp_source"/>
-        <childnode refid="754" relation="include">
-        </childnode>
-        <childnode refid="756" relation="include">
-        </childnode>
-        <childnode refid="758" relation="include">
-        </childnode>
-        <childnode refid="761" relation="include">
-        </childnode>
-        <childnode refid="763" relation="include">
-        </childnode>
       </node>
       <node id="764">
         <label>matrix_formats.hpp</label>
       </node>
+      <node id="768">
+        <label>/home/tcs/jan29_surya_test/ROCm_Libraries/rocALUTION/src/solvers/preconditioners/preconditioner.hpp</label>
+      </node>
+      <node id="754">
+        <label>../utils/types.hpp</label>
+      </node>
+      <node id="750">
+        <label>/home/tcs/jan29_surya_test/ROCm_Libraries/rocALUTION/src/solvers/solver.hpp</label>
+      </node>
+      <node id="769">
+        <label>/home/tcs/jan29_surya_test/ROCm_Libraries/rocALUTION/src/solvers/preconditioners/preconditioner_multicolored.hpp</label>
+      </node>
+      <node id="752">
+        <label>vector</label>
+      </node>
+      <node id="748">
+        <label>../../utils/def.hpp</label>
+      </node>
+      <node id="770">
+        <label>../../utils/log.hpp</label>
+      </node>
+      <node id="749">
+        <label>ruge_stueben_amg.hpp</label>
+      </node>
+      <node id="763">
+        <label>cstdlib</label>
+      </node>
+      <node id="758">
+        <label>iostream</label>
+      </node>
       <node id="747">
         <label>ROCm_Libraries/rocALUTION/src/solvers/multigrid/ruge_stueben_amg.cpp</label>
-        <link refid="ruge__stueben__amg_8cpp"/>
+        <link refid="ruge_stueben_amg.cpp"/>
         <childnode refid="748" relation="include">
         </childnode>
         <childnode refid="749" relation="include">
@@ -132,41 +98,75 @@
         <childnode refid="771" relation="include">
         </childnode>
       </node>
-      <node id="769">
-        <label>/home/tcs/Lakshmi/jan29_surya_test/ROCm_Libraries/rocALUTION/src/solvers/preconditioners/preconditioner_multicolored.hpp</label>
-      </node>
-      <node id="754">
-        <label>../utils/types.hpp</label>
-      </node>
-      <node id="751">
-        <label>/home/tcs/Lakshmi/jan29_surya_test/ROCm_Libraries/rocALUTION/src/solvers/multigrid/base_amg.hpp</label>
-      </node>
-      <node id="752">
-        <label>vector</label>
-      </node>
-      <node id="748">
-        <label>../../utils/def.hpp</label>
-      </node>
-      <node id="770">
-        <label>../../utils/log.hpp</label>
-      </node>
-      <node id="749">
-        <label>ruge_stueben_amg.hpp</label>
-      </node>
-      <node id="763">
-        <label>cstdlib</label>
-      </node>
-      <node id="758">
-        <label>iostream</label>
-      </node>
-      <node id="768">
-        <label>/home/tcs/Lakshmi/jan29_surya_test/ROCm_Libraries/rocALUTION/src/solvers/preconditioners/preconditioner.hpp</label>
+      <node id="755">
+        <label>operator.hpp</label>
+        <link refid="operator_8hpp_source"/>
+        <childnode refid="754" relation="include">
+        </childnode>
+        <childnode refid="756" relation="include">
+        </childnode>
+        <childnode refid="758" relation="include">
+        </childnode>
+        <childnode refid="761" relation="include">
+        </childnode>
+        <childnode refid="763" relation="include">
+        </childnode>
       </node>
       <node id="767">
         <label>../preconditioners/preconditioner_multicolored_gs.hpp</label>
       </node>
+      <node id="765">
+        <label>../../base/local_vector.hpp</label>
+        <link refid="local__vector_8hpp_source"/>
+        <childnode refid="754" relation="include">
+        </childnode>
+        <childnode refid="766" relation="include">
+        </childnode>
+      </node>
+      <node id="766">
+        <label>vector.hpp</label>
+        <link refid="vector_8hpp_source"/>
+        <childnode refid="754" relation="include">
+        </childnode>
+        <childnode refid="756" relation="include">
+        </childnode>
+        <childnode refid="758" relation="include">
+        </childnode>
+        <childnode refid="761" relation="include">
+        </childnode>
+        <childnode refid="763" relation="include">
+        </childnode>
+      </node>
       <node id="762">
         <label>complex</label>
+      </node>
+      <node id="753">
+        <label>../../base/local_matrix.hpp</label>
+        <link refid="local__matrix_8hpp_source"/>
+        <childnode refid="754" relation="include">
+        </childnode>
+        <childnode refid="755" relation="include">
+        </childnode>
+        <childnode refid="757" relation="include">
+        </childnode>
+        <childnode refid="764" relation="include">
+        </childnode>
+        <childnode refid="761" relation="include">
+        </childnode>
+      </node>
+      <node id="757">
+        <label>backend_manager.hpp</label>
+        <link refid="backend__manager_8hpp_source"/>
+        <childnode refid="758" relation="include">
+        </childnode>
+        <childnode refid="759" relation="include">
+        </childnode>
+        <childnode refid="760" relation="include">
+        </childnode>
+        <childnode refid="752" relation="include">
+        </childnode>
+        <childnode refid="761" relation="include">
+        </childnode>
       </node>
       <node id="771">
         <label>../../utils/math_functions.hpp</label>

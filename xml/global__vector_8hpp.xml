@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="global__vector_8hpp" kind="file" language="C++">
     <compoundname>global_vector.hpp</compoundname>
     <includes local="yes">../utils/types.hpp</includes>
@@ -23,24 +23,14 @@
     <includedby refid="preconditioner__blockjacobi_8cpp" local="yes">ROCm_Libraries/rocALUTION/src/solvers/preconditioners/preconditioner_blockjacobi.cpp</includedby>
     <includedby refid="solver_8cpp" local="yes">ROCm_Libraries/rocALUTION/src/solvers/solver.cpp</includedby>
     <incdepgraph>
-      <node id="73">
-        <label>/home/tcs/Lakshmi/jan29_surya_test/ROCm_Libraries/rocALUTION/src/utils/def.hpp</label>
-      </node>
       <node id="75">
         <label>limits</label>
       </node>
-      <node id="60">
-        <label>ROCm_Libraries/rocALUTION/src/base/global_vector.hpp</label>
-        <link refid="global__vector_8hpp"/>
-        <childnode refid="61" relation="include">
-        </childnode>
-        <childnode refid="62" relation="include">
-        </childnode>
-        <childnode refid="72" relation="include">
-        </childnode>
-      </node>
       <node id="74">
         <label>assert.h</label>
+      </node>
+      <node id="73">
+        <label>/home/tcs/jan29_surya_test/ROCm_Libraries/rocALUTION/src/utils/def.hpp</label>
       </node>
       <node id="63">
         <label>base_rocalution.hpp</label>
@@ -52,42 +42,24 @@
         <childnode refid="68" relation="include">
         </childnode>
       </node>
-      <node id="64">
-        <label>backend_manager.hpp</label>
-        <link refid="backend__manager_8hpp_source"/>
-        <childnode refid="65" relation="include">
-        </childnode>
-        <childnode refid="66" relation="include">
-        </childnode>
-        <childnode refid="67" relation="include">
-        </childnode>
-        <childnode refid="68" relation="include">
-        </childnode>
-        <childnode refid="69" relation="include">
-        </childnode>
-      </node>
       <node id="69">
         <label>string</label>
       </node>
       <node id="67">
         <label>map</label>
       </node>
-      <node id="66">
-        <label>fstream</label>
-      </node>
-      <node id="62">
-        <label>vector.hpp</label>
-        <link refid="vector_8hpp_source"/>
+      <node id="60">
+        <label>ROCm_Libraries/rocALUTION/src/base/global_vector.hpp</label>
+        <link refid="global_vector.hpp"/>
         <childnode refid="61" relation="include">
         </childnode>
-        <childnode refid="63" relation="include">
+        <childnode refid="62" relation="include">
         </childnode>
-        <childnode refid="65" relation="include">
+        <childnode refid="72" relation="include">
         </childnode>
-        <childnode refid="69" relation="include">
-        </childnode>
-        <childnode refid="71" relation="include">
-        </childnode>
+      </node>
+      <node id="66">
+        <label>fstream</label>
       </node>
       <node id="72">
         <label>parallel_manager.hpp</label>
@@ -119,8 +91,36 @@
       <node id="65">
         <label>iostream</label>
       </node>
+      <node id="62">
+        <label>vector.hpp</label>
+        <link refid="vector_8hpp_source"/>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+      </node>
       <node id="70">
         <label>complex</label>
+      </node>
+      <node id="64">
+        <label>backend_manager.hpp</label>
+        <link refid="backend__manager_8hpp_source"/>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
     <innerclass refid="classrocalution_1_1_local_vector" prot="public">rocalution::LocalVector</innerclass>
@@ -184,12 +184,12 @@
 <codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1a94d52c5d6af6d72ad95fd40c3b4311f5" kindref="member">MoveToAccelerator</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1ac3d2919284a9b71fad591e356e357ffe" kindref="member">MoveToHost</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1adba19a166864f4edad7c2333d84782d0" kindref="member">Info</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1aaaf75d2ec850ee5646866ed1b6c0901c" kindref="member">Check</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1a28c0e4f040278169e360a9084196b533" kindref="member">Info</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1ac9a6644e545ba64dfc18595a1ec92e2d" kindref="member">Check</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>IndexType2<sp/><ref refid="classrocalution_1_1_global_vector_1a5e804a659202e2bd824f2d3e583c9729" kindref="member">GetSize</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1a1a28e19929589726047f44ffbbdd1a02" kindref="member">GetLocalSize</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1ad7bcf809595d1c1701c4078c051b3e25" kindref="member">GetGhostSize</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>IndexType2<sp/><ref refid="classrocalution_1_1_global_vector_1a2388fc4e5a0bda04c7a172a17a40d5f8" kindref="member">GetSize</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1a9a6b31c07ceefb5fe59bcb550f5ee482" kindref="member">GetLocalSize</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1a05f7933a9ed930e9869396fd7904b95f" kindref="member">GetGhostSize</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
 <codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>LocalVector&lt;ValueType&gt;&amp;<sp/>GetInterior()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>LocalVector&lt;ValueType&gt;&amp;<sp/>GetInterior();</highlight></codeline>
@@ -219,9 +219,9 @@
 <codeline lineno="108"><highlight class="normal"></highlight></codeline>
 <codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CopyFrom(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>GlobalVector&lt;ValueType&gt;&amp;<sp/>src);</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1a26597a91fbeac7b324f34e9c0af58582" kindref="member">ReadFileASCII</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>filename);</highlight></codeline>
-<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1acffd8199e0ee1ed21abfe66612a2e39e" kindref="member">WriteFileASCII</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>filename)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1ace9b59e40960553559ba72772492caf4" kindref="member">WriteFileASCII</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>filename)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1a7f54dacddf4f3f5a615f7e2ac3b6a949" kindref="member">ReadFileBinary</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>filename);</highlight></codeline>
-<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1a8562871e61d54369093bccfcf7045666" kindref="member">WriteFileBinary</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>filename)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1addc8a8ce8c32c4521b1c825fe6c74969" kindref="member">WriteFileBinary</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>filename)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"></highlight></codeline>
 <codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1a8c061e6f4715e9969861a08e6fce864f" kindref="member">AddScale</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>GlobalVector&lt;ValueType&gt;&amp;<sp/>x,<sp/>ValueType<sp/>alpha);</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1a0324a2852ec0c5bf5dde665860a068d5" kindref="member">ScaleAdd</ref>(ValueType<sp/>alpha,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>GlobalVector&lt;ValueType&gt;&amp;<sp/>x);</highlight></codeline>
@@ -232,12 +232,12 @@
 <codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ValueType<sp/>gamma);</highlight></codeline>
 <codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1acdd79345b1ab83ca6b30e83136ff1003" kindref="member">ScaleAddScale</ref>(ValueType<sp/>alpha,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>GlobalVector&lt;ValueType&gt;&amp;<sp/>x,<sp/>ValueType<sp/>beta);</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1a03ecd5d92ee9b1b0b561b816cf6dca11" kindref="member">Scale</ref>(ValueType<sp/>alpha);</highlight></codeline>
-<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>ValueType<sp/><ref refid="classrocalution_1_1_global_vector_1acff4d26fb485147fa4d5fddbfc9e5261" kindref="member">Dot</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>GlobalVector&lt;ValueType&gt;&amp;<sp/>x)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>ValueType<sp/><ref refid="classrocalution_1_1_global_vector_1a86be26351b1935e3595ac4ff64cb6d98" kindref="member">DotNonConj</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>GlobalVector&lt;ValueType&gt;&amp;<sp/>x)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>ValueType<sp/><ref refid="classrocalution_1_1_global_vector_1ac50685032c64d2b20f37502e2a085c7f" kindref="member">Norm</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>ValueType<sp/><ref refid="classrocalution_1_1_global_vector_1a7c777dba889c54bf7d42257a8f3fd9db" kindref="member">Reduce</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>ValueType<sp/><ref refid="classrocalution_1_1_global_vector_1a02a2f9e333cbdc26c917321ee0e833b9" kindref="member">Asum</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1a0609a049872a62a5218a38e4187d3ef9" kindref="member">Amax</ref>(ValueType&amp;<sp/>value)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>ValueType<sp/><ref refid="classrocalution_1_1_global_vector_1aae95dc7f0dae13a8c12cec05d6901b61" kindref="member">Dot</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>GlobalVector&lt;ValueType&gt;&amp;<sp/>x)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>ValueType<sp/><ref refid="classrocalution_1_1_global_vector_1acd4815015616537eb057b90515921991" kindref="member">DotNonConj</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>GlobalVector&lt;ValueType&gt;&amp;<sp/>x)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>ValueType<sp/><ref refid="classrocalution_1_1_global_vector_1a228841f8a2e39f99cf0ec82d8819a385" kindref="member">Norm</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>ValueType<sp/><ref refid="classrocalution_1_1_global_vector_1a8c8418385bea0ce7ec4113b0be51b181" kindref="member">Reduce</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>ValueType<sp/><ref refid="classrocalution_1_1_global_vector_1aa101efc85ef1799bb142ee05c185281f" kindref="member">Asum</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1af78bb9c0347f97871fb6f63ab23c3ab5" kindref="member">Amax</ref>(ValueType&amp;<sp/>value)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1a7d6ca3d4ab5460695e39b77ffbf8bcc0" kindref="member">PointWiseMult</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>GlobalVector&lt;ValueType&gt;&amp;<sp/>x);</highlight></codeline>
 <codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1a7d6ca3d4ab5460695e39b77ffbf8bcc0" kindref="member">PointWiseMult</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>GlobalVector&lt;ValueType&gt;&amp;<sp/>x,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>GlobalVector&lt;ValueType&gt;&amp;<sp/>y);</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>
@@ -248,8 +248,8 @@
 <codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1a0cf1f907d09b9eb6ef6bb67b0a25be07" kindref="member">Prolongation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>GlobalVector&lt;ValueType&gt;&amp;<sp/>vec_coarse,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>LocalVector&lt;int&gt;&amp;<sp/>map);</highlight></codeline>
 <codeline lineno="140"><highlight class="normal"></highlight></codeline>
 <codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1a89724f2b33c55e669fe4a058237d7e97" kindref="member">is_host_</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1a3c381dab7f46657d59cf7a9858274a17" kindref="member">is_accel_</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1a7313ed947702ea39680632d439c24aac" kindref="member">is_host_</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1aeaf84d601b67d62ffee7f021eb6cd8ed" kindref="member">is_accel_</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="144"><highlight class="normal"></highlight></codeline>
 <codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1a69fbfaa93c76d79395d5bee39707daaa" kindref="member">UpdateGhostValuesAsync_</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>GlobalVector&lt;ValueType&gt;&amp;<sp/>in);</highlight></codeline>
 <codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector_1a612e63c1a7791a7cfdff210d7c1441c5" kindref="member">UpdateGhostValuesSync_</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>

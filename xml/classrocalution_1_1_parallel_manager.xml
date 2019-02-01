@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="classrocalution_1_1_parallel_manager" kind="class" language="C++" prot="public">
     <compoundname>rocalution::ParallelManager</compoundname>
     <basecompoundref prot="public" virt="non-virtual">rocalution::RocalutionObj</basecompoundref>
@@ -367,10 +367,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/parallel_manager.hpp" line="58" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_parallel_manager_1a686ba88f36cbfb8537e40270a57a9f60" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_parallel_manager_1a967b89b058f8082eec3bd8756d4c6b6b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>IndexType2</type>
         <definition>IndexType2 rocalution::ParallelManager::GetGlobalSize</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>GetGlobalSize</name>
         <param>
           <type>void</type>
@@ -383,10 +383,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/parallel_manager.hpp" line="61" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_parallel_manager_1a5ab207c389a3342e8a9d4bccd6df0a27" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_parallel_manager_1ad48f73195cb1129f31446bf3b04ede34" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
         <definition>int rocalution::ParallelManager::GetLocalSize</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>GetLocalSize</name>
         <param>
           <type>void</type>
@@ -399,10 +399,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/parallel_manager.hpp" line="63" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_parallel_manager_1a601ceb971f16e0f44351f0953bd403c5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_parallel_manager_1a3a06da2930908bb3a9597dbbe67fd603" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
         <definition>int rocalution::ParallelManager::GetNumReceivers</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>GetNumReceivers</name>
         <param>
           <type>void</type>
@@ -415,10 +415,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/parallel_manager.hpp" line="66" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_parallel_manager_1a79f4ba4c2f552fbb5355bca1e11858ca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_parallel_manager_1aa7bddbbc6400c22cdbef7679bf3e305b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
         <definition>int rocalution::ParallelManager::GetNumSenders</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>GetNumSenders</name>
         <param>
           <type>void</type>
@@ -431,10 +431,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/parallel_manager.hpp" line="68" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_parallel_manager_1a504931964a2b65a5cac1f7acc08bd5b1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_parallel_manager_1a3cb9f47f18754042797b283725b51ec9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
         <definition>int rocalution::ParallelManager::GetNumProcs</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>GetNumProcs</name>
         <param>
           <type>void</type>
@@ -602,10 +602,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/parallel_manager.hpp" line="95" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_parallel_manager_1a33a713fa35d63e581ec464fe175d3776" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_parallel_manager_1af15fd3af90c23d1e030dc5d1a50ae00a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
         <definition>bool rocalution::ParallelManager::Status</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>Status</name>
         <param>
           <type>void</type>
@@ -635,10 +635,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/parallel_manager.hpp" line="101" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_parallel_manager_1af0b697c6a34544b3091c909def74eb9c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_parallel_manager_1a37a0aa9b2845153988f277aabf194ba5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::ParallelManager::WriteFileASCII</definition>
-        <argsstring>(const std::string filename) const</argsstring>
+        <argsstring>(const std::string filename) const </argsstring>
         <name>WriteFileASCII</name>
         <param>
           <type>const std::string</type>
@@ -684,11 +684,11 @@
       <member refid="classrocalution_1_1_parallel_manager_1ab7a1acb6ea0dac9a363297261996a567" prot="private" virt="non-virtual"><scope>rocalution::ParallelManager</scope><name>boundary_index_</name></member>
       <member refid="classrocalution_1_1_parallel_manager_1a8a0136bfba7b4cee5d17b1f1e1aab580" prot="public" virt="non-virtual"><scope>rocalution::ParallelManager</scope><name>Clear</name></member>
       <member refid="classrocalution_1_1_parallel_manager_1acc2db640bbd8ad02609f5b3789975714" prot="private" virt="non-virtual"><scope>rocalution::ParallelManager</scope><name>comm_</name></member>
-      <member refid="classrocalution_1_1_parallel_manager_1a686ba88f36cbfb8537e40270a57a9f60" prot="public" virt="non-virtual"><scope>rocalution::ParallelManager</scope><name>GetGlobalSize</name></member>
-      <member refid="classrocalution_1_1_parallel_manager_1a5ab207c389a3342e8a9d4bccd6df0a27" prot="public" virt="non-virtual"><scope>rocalution::ParallelManager</scope><name>GetLocalSize</name></member>
-      <member refid="classrocalution_1_1_parallel_manager_1a504931964a2b65a5cac1f7acc08bd5b1" prot="public" virt="non-virtual"><scope>rocalution::ParallelManager</scope><name>GetNumProcs</name></member>
-      <member refid="classrocalution_1_1_parallel_manager_1a601ceb971f16e0f44351f0953bd403c5" prot="public" virt="non-virtual"><scope>rocalution::ParallelManager</scope><name>GetNumReceivers</name></member>
-      <member refid="classrocalution_1_1_parallel_manager_1a79f4ba4c2f552fbb5355bca1e11858ca" prot="public" virt="non-virtual"><scope>rocalution::ParallelManager</scope><name>GetNumSenders</name></member>
+      <member refid="classrocalution_1_1_parallel_manager_1a967b89b058f8082eec3bd8756d4c6b6b" prot="public" virt="non-virtual"><scope>rocalution::ParallelManager</scope><name>GetGlobalSize</name></member>
+      <member refid="classrocalution_1_1_parallel_manager_1ad48f73195cb1129f31446bf3b04ede34" prot="public" virt="non-virtual"><scope>rocalution::ParallelManager</scope><name>GetLocalSize</name></member>
+      <member refid="classrocalution_1_1_parallel_manager_1a3cb9f47f18754042797b283725b51ec9" prot="public" virt="non-virtual"><scope>rocalution::ParallelManager</scope><name>GetNumProcs</name></member>
+      <member refid="classrocalution_1_1_parallel_manager_1a3a06da2930908bb3a9597dbbe67fd603" prot="public" virt="non-virtual"><scope>rocalution::ParallelManager</scope><name>GetNumReceivers</name></member>
+      <member refid="classrocalution_1_1_parallel_manager_1aa7bddbbc6400c22cdbef7679bf3e305b" prot="public" virt="non-virtual"><scope>rocalution::ParallelManager</scope><name>GetNumSenders</name></member>
       <member refid="classrocalution_1_1_rocalution_obj_1a4bba5aeaf4fd705efc00402f1f6ed40b" prot="protected" virt="non-virtual"><scope>rocalution::ParallelManager</scope><name>global_obj_id_</name></member>
       <member refid="classrocalution_1_1_parallel_manager_1a6f4d9ece34c486dd7d6747b86865379b" prot="private" virt="non-virtual"><scope>rocalution::ParallelManager</scope><name>global_size_</name></member>
       <member refid="classrocalution_1_1_parallel_manager_1abb67a62852ee7c728a306d175435b362" prot="private" virt="non-virtual"><scope>rocalution::ParallelManager</scope><name>GlobalMatrix&lt; double &gt;</name></member>
@@ -722,8 +722,8 @@
       <member refid="classrocalution_1_1_parallel_manager_1aefdb9831f66c0ca18532e47b2c5246a4" prot="public" virt="non-virtual"><scope>rocalution::ParallelManager</scope><name>SetMPICommunicator</name></member>
       <member refid="classrocalution_1_1_parallel_manager_1a0fc6bd3785eb225288323b8ab688b945" prot="public" virt="non-virtual"><scope>rocalution::ParallelManager</scope><name>SetReceivers</name></member>
       <member refid="classrocalution_1_1_parallel_manager_1abcf826d069bc9006fea0a2da87cc4165" prot="public" virt="non-virtual"><scope>rocalution::ParallelManager</scope><name>SetSenders</name></member>
-      <member refid="classrocalution_1_1_parallel_manager_1a33a713fa35d63e581ec464fe175d3776" prot="public" virt="non-virtual"><scope>rocalution::ParallelManager</scope><name>Status</name></member>
-      <member refid="classrocalution_1_1_parallel_manager_1af0b697c6a34544b3091c909def74eb9c" prot="public" virt="non-virtual"><scope>rocalution::ParallelManager</scope><name>WriteFileASCII</name></member>
+      <member refid="classrocalution_1_1_parallel_manager_1af15fd3af90c23d1e030dc5d1a50ae00a" prot="public" virt="non-virtual"><scope>rocalution::ParallelManager</scope><name>Status</name></member>
+      <member refid="classrocalution_1_1_parallel_manager_1a37a0aa9b2845153988f277aabf194ba5" prot="public" virt="non-virtual"><scope>rocalution::ParallelManager</scope><name>WriteFileASCII</name></member>
       <member refid="classrocalution_1_1_parallel_manager_1a52203daa37007acaf57fe708147511a2" prot="public" virt="non-virtual"><scope>rocalution::ParallelManager</scope><name>~ParallelManager</name></member>
       <member refid="classrocalution_1_1_rocalution_obj_1a55a2f93f798cebdda6343b20db959e2d" prot="public" virt="virtual"><scope>rocalution::ParallelManager</scope><name>~RocalutionObj</name></member>
     </listofallmembers>

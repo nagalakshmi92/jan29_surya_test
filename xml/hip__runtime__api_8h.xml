@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="hip__runtime__api_8h" kind="file" language="C++">
     <compoundname>hip_runtime_api.h</compoundname>
     <includes local="no">stdint.h</includes>
@@ -29,9 +29,12 @@
       <node id="7">
         <label>hip/hcc_detail/hip_surface_types.h</label>
       </node>
+      <node id="8">
+        <label>hip/hcc_detail/hip_prof_api.h</label>
+      </node>
       <node id="0">
         <label>ROCm_API_References/HIP/include/hip/hcc_detail/hip_runtime_api.h</label>
-        <link refid="hip__runtime__api_8h"/>
+        <link refid="hip_runtime_api.h"/>
         <childnode refid="1" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
@@ -48,9 +51,6 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-      </node>
-      <node id="8">
-        <label>hip/hcc_detail/hip_prof_api.h</label>
       </node>
       <node id="3">
         <label>hip/hcc_detail/host_defines.h</label>
@@ -7433,7 +7433,7 @@ Returns &quot;1&quot; in <computeroutput>canAccessPeer</computeroutput> if the s
 <codeline lineno="2270"><highlight class="normal">hipError_t<sp/><ref refid="group___driver_1gaaa961c8ec8047903617f4245fa50256a" kindref="member">hipDeviceGetPCIBusId</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>pciBusId,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>device);</highlight></codeline>
 <codeline lineno="2271"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2272"><highlight class="normal"></highlight></codeline>
-<codeline lineno="2280"><highlight class="normal">hipError_t<sp/><ref refid="group___driver_1ga2ec307f165d576c0c673a7b1fa9b0fe4" kindref="member">hipDeviceGetByPCIBusId</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>device,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>pciBusId);</highlight></codeline>
+<codeline lineno="2280"><highlight class="normal">hipError_t<sp/><ref refid="group___driver_1ga2ec307f165d576c0c673a7b1fa9b0fe4" kindref="member">hipDeviceGetByPCIBusId</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>device,<sp/>const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>pciBusId);</highlight></codeline>
 <codeline lineno="2281"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2282"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2290"><highlight class="normal">hipError_t<sp/><ref refid="group___driver_1ga8991e535d0ef1ead0524e73364623041" kindref="member">hipDeviceTotalMem</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">*<sp/>bytes,<sp/>hipDevice_t<sp/>device);</highlight></codeline>
@@ -7442,24 +7442,24 @@ Returns &quot;1&quot; in <computeroutput>canAccessPeer</computeroutput> if the s
 <codeline lineno="2308"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2321"><highlight class="normal">hipError_t<sp/><ref refid="group___driver_1gae8b7ba34d2e11e334650aa51a4dd87ee" kindref="member">hipRuntimeGetVersion</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>runtimeVersion);</highlight></codeline>
 <codeline lineno="2322"><highlight class="normal"></highlight></codeline>
-<codeline lineno="2334"><highlight class="normal">hipError_t<sp/><ref refid="group___driver_1ga31d806d976e91d36bd990ae3004d8760" kindref="member">hipModuleLoad</ref>(hipModule_t*<sp/>module,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fname);</highlight></codeline>
+<codeline lineno="2334"><highlight class="normal">hipError_t<sp/><ref refid="group___driver_1ga31d806d976e91d36bd990ae3004d8760" kindref="member">hipModuleLoad</ref>(hipModule_t*<sp/>module,<sp/>const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fname);</highlight></codeline>
 <codeline lineno="2335"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2346"><highlight class="normal">hipError_t<sp/><ref refid="group___driver_1gae58e345f55bb3ec13dca80d2df88e0ed" kindref="member">hipModuleUnload</ref>(hipModule_t<sp/>module);</highlight></codeline>
 <codeline lineno="2347"><highlight class="normal"></highlight></codeline>
-<codeline lineno="2358"><highlight class="normal">hipError_t<sp/><ref refid="group___driver_1ga9648b457bb837838cb936b417b56a65d" kindref="member">hipModuleGetFunction</ref>(hipFunction_t*<sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal">,<sp/>hipModule_t<sp/>module,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>kname);</highlight></codeline>
+<codeline lineno="2358"><highlight class="normal">hipError_t<sp/><ref refid="group___driver_1ga9648b457bb837838cb936b417b56a65d" kindref="member">hipModuleGetFunction</ref>(hipFunction_t*<sp/>function,<sp/>hipModule_t<sp/>module,<sp/>const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>kname);</highlight></codeline>
 <codeline lineno="2359"><highlight class="normal"></highlight></codeline>
-<codeline lineno="2369"><highlight class="normal">hipError_t<sp/><ref refid="group___driver_1ga8fd39dc48bcf28cc693ed7673c9f02c1" kindref="member">hipFuncGetAttributes</ref>(<ref refid="structhip_func_attributes" kindref="compound">hipFuncAttributes</ref>*<sp/>attr,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>func);</highlight></codeline>
+<codeline lineno="2369"><highlight class="normal">hipError_t<sp/><ref refid="group___driver_1ga8fd39dc48bcf28cc693ed7673c9f02c1" kindref="member">hipFuncGetAttributes</ref>(<ref refid="structhip_func_attributes" kindref="compound">hipFuncAttributes</ref>*<sp/>attr,<sp/>const<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>func);</highlight></codeline>
 <codeline lineno="2370"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2382"><highlight class="normal">hipError_t<sp/><ref refid="group___driver_1ga3e425a680285f495e776f096e9632c89" kindref="member">hipModuleGetGlobal</ref>(hipDeviceptr_t*<sp/>dptr,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">*<sp/>bytes,<sp/>hipModule_t<sp/>hmod,</highlight></codeline>
-<codeline lineno="2383"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name);</highlight></codeline>
+<codeline lineno="2383"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name);</highlight></codeline>
 <codeline lineno="2384"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2385"><highlight class="normal">hipError_t<sp/>ihipModuleGetGlobal(hipDeviceptr_t*<sp/>dptr,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">*<sp/>bytes,<sp/>hipModule_t<sp/>hmod,</highlight></codeline>
-<codeline lineno="2386"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name);</highlight></codeline>
+<codeline lineno="2386"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name);</highlight></codeline>
 <codeline lineno="2387"><highlight class="normal"></highlight></codeline>
-<codeline lineno="2388"><highlight class="normal">hipError_t<sp/>hipModuleGetTexRef(textureReference**<sp/>texRef,<sp/>hipModule_t<sp/>hmod,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name);</highlight></codeline>
-<codeline lineno="2398"><highlight class="normal">hipError_t<sp/><ref refid="group___driver_1gaabdbd73e952a741e861d01109c4790f3" kindref="member">hipModuleLoadData</ref>(hipModule_t*<sp/>module,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>image);</highlight></codeline>
+<codeline lineno="2388"><highlight class="normal">hipError_t<sp/>hipModuleGetTexRef(textureReference**<sp/>texRef,<sp/>hipModule_t<sp/>hmod,<sp/>const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name);</highlight></codeline>
+<codeline lineno="2398"><highlight class="normal">hipError_t<sp/><ref refid="group___driver_1gaabdbd73e952a741e861d01109c4790f3" kindref="member">hipModuleLoadData</ref>(hipModule_t*<sp/>module,<sp/>const<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>image);</highlight></codeline>
 <codeline lineno="2399"><highlight class="normal"></highlight></codeline>
-<codeline lineno="2412"><highlight class="normal">hipError_t<sp/><ref refid="group___driver_1ga3e70722338894f48540c7be9a136af79" kindref="member">hipModuleLoadDataEx</ref>(hipModule_t*<sp/>module,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>image,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numOptions,</highlight></codeline>
+<codeline lineno="2412"><highlight class="normal">hipError_t<sp/><ref refid="group___driver_1ga3e70722338894f48540c7be9a136af79" kindref="member">hipModuleLoadDataEx</ref>(hipModule_t*<sp/>module,<sp/>const<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>image,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numOptions,</highlight></codeline>
 <codeline lineno="2413"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>hipJitOption*<sp/>options,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">**<sp/>optionValues);</highlight></codeline>
 <codeline lineno="2414"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2439"><highlight class="normal">hipError_t<sp/><ref refid="group___driver_1ga2e4de5937aa8171e9eda16c881ed0674" kindref="member">hipModuleLaunchKernel</ref>(hipFunction_t<sp/>f,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>gridDimX,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>gridDimY,</highlight></codeline>
@@ -7494,10 +7494,10 @@ Returns &quot;1&quot; in <computeroutput>canAccessPeer</computeroutput> if the s
 <codeline lineno="2598"><highlight class="normal">hipError_t<sp/><ref refid="group___clang_1ga61aa3baf383168cc638e01d9e8d8f229" kindref="member">hipConfigureCall</ref>(<ref refid="structdim3" kindref="compound">dim3</ref><sp/>gridDim,<sp/><ref refid="structdim3" kindref="compound">dim3</ref><sp/>blockDim,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>sharedMem<sp/>__dparm(0),<sp/>hipStream_t<sp/>stream<sp/>__dparm(0));</highlight></codeline>
 <codeline lineno="2599"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2600"><highlight class="normal"></highlight></codeline>
-<codeline lineno="2611"><highlight class="normal">hipError_t<sp/><ref refid="group___clang_1ga047cff6205399540ebe31cdd11257c07" kindref="member">hipSetupArgument</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>arg,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>offset);</highlight></codeline>
+<codeline lineno="2611"><highlight class="normal">hipError_t<sp/><ref refid="group___clang_1ga047cff6205399540ebe31cdd11257c07" kindref="member">hipSetupArgument</ref>(const<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>arg,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>offset);</highlight></codeline>
 <codeline lineno="2612"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2613"><highlight class="normal"></highlight></codeline>
-<codeline lineno="2622"><highlight class="normal">hipError_t<sp/><ref refid="group___clang_1ga80f5f26fe76b213fbfd77e4fc9e04cbd" kindref="member">hipLaunchByPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>func);</highlight></codeline>
+<codeline lineno="2622"><highlight class="normal">hipError_t<sp/><ref refid="group___clang_1ga80f5f26fe76b213fbfd77e4fc9e04cbd" kindref="member">hipLaunchByPtr</ref>(const<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>func);</highlight></codeline>
 <codeline lineno="2623"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2624"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2625"><highlight class="normal"></highlight></codeline>

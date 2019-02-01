@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="dir_96edc4a395950aafa2f54996a59552f7" kind="dir">
     <compoundname>ROCm_Libraries</compoundname>
     <innerdir refid="dir_90edf3454520669c7f798061b876b19a">ROCm_Libraries/rocALUTION</innerdir>
+    <innerdir refid="dir_4394b0d5752e077b3ff182ea242099c9">ROCm_Libraries/rocFFT</innerdir>
     <innerdir refid="dir_7659a237a78f124bf483967c6100c45f">ROCm_Libraries/rocSPARSE</innerdir>
     <briefdescription>
     </briefdescription>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="allocate__free_8hpp" kind="file" language="C++">
     <compoundname>allocate_free.hpp</compoundname>
     <includedby refid="fgmres_8cpp" local="yes">ROCm_Libraries/rocALUTION/src/solvers/krylov/fgmres.cpp</includedby>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="dir_07b087b0a832c7dd14daad07f351f53e" kind="dir">
     <compoundname>ROCm_Libraries/rocALUTION/src/solvers</compoundname>
     <innerdir refid="dir_38fdb61b3512cdb4abd7b219d35472ce">ROCm_Libraries/rocALUTION/src/solvers/direct</innerdir>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="local__vector_8hpp" kind="file" language="C++">
     <compoundname>local_vector.hpp</compoundname>
     <includes local="yes">../utils/types.hpp</includes>
@@ -49,28 +49,6 @@
         <childnode refid="115" relation="include">
         </childnode>
       </node>
-      <node id="107">
-        <label>ROCm_Libraries/rocALUTION/src/base/local_vector.hpp</label>
-        <link refid="local__vector_8hpp"/>
-        <childnode refid="108" relation="include">
-        </childnode>
-        <childnode refid="109" relation="include">
-        </childnode>
-      </node>
-      <node id="111">
-        <label>backend_manager.hpp</label>
-        <link refid="backend__manager_8hpp_source"/>
-        <childnode refid="112" relation="include">
-        </childnode>
-        <childnode refid="113" relation="include">
-        </childnode>
-        <childnode refid="114" relation="include">
-        </childnode>
-        <childnode refid="115" relation="include">
-        </childnode>
-        <childnode refid="116" relation="include">
-        </childnode>
-      </node>
       <node id="116">
         <label>string</label>
       </node>
@@ -79,6 +57,26 @@
       </node>
       <node id="113">
         <label>fstream</label>
+      </node>
+      <node id="108">
+        <label>../utils/types.hpp</label>
+      </node>
+      <node id="115">
+        <label>vector</label>
+      </node>
+      <node id="118">
+        <label>cstdlib</label>
+      </node>
+      <node id="112">
+        <label>iostream</label>
+      </node>
+      <node id="107">
+        <label>ROCm_Libraries/rocALUTION/src/base/local_vector.hpp</label>
+        <link refid="local_vector.hpp"/>
+        <childnode refid="108" relation="include">
+        </childnode>
+        <childnode refid="109" relation="include">
+        </childnode>
       </node>
       <node id="109">
         <label>vector.hpp</label>
@@ -94,20 +92,22 @@
         <childnode refid="118" relation="include">
         </childnode>
       </node>
-      <node id="108">
-        <label>../utils/types.hpp</label>
-      </node>
-      <node id="115">
-        <label>vector</label>
-      </node>
-      <node id="118">
-        <label>cstdlib</label>
-      </node>
-      <node id="112">
-        <label>iostream</label>
-      </node>
       <node id="117">
         <label>complex</label>
+      </node>
+      <node id="111">
+        <label>backend_manager.hpp</label>
+        <link refid="backend__manager_8hpp_source"/>
+        <childnode refid="112" relation="include">
+        </childnode>
+        <childnode refid="113" relation="include">
+        </childnode>
+        <childnode refid="114" relation="include">
+        </childnode>
+        <childnode refid="115" relation="include">
+        </childnode>
+        <childnode refid="116" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -117,7 +117,7 @@
       </node>
       <node id="119">
         <label>ROCm_Libraries/rocALUTION/src/base/local_vector.hpp</label>
-        <link refid="local__vector_8hpp"/>
+        <link refid="local_vector.hpp"/>
         <childnode refid="120" relation="include">
         </childnode>
       </node>
@@ -191,13 +191,13 @@
 <codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1a8370ff1b9f590254ec0e8f4c28e1f7b3" kindref="member">MoveToHostAsync</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1aed0b8ba7c4968cddd589b4605b63120b" kindref="member">Sync</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1a174999811741be695665554df732aa0b" kindref="member">Info</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>IndexType2<sp/><ref refid="classrocalution_1_1_local_vector_1a42d48bb3bb6a89218ede8fcff7bbc644" kindref="member">GetSize</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1a2b55a9fb17108db0818a7f761ab7e3a1" kindref="member">Info</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>IndexType2<sp/><ref refid="classrocalution_1_1_local_vector_1a1d7f451d4463cf22a12ee8a068d48c56" kindref="member">GetSize</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
 <codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector&lt;ValueType&gt;</ref>&amp;<sp/>GetInterior()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector&lt;ValueType&gt;</ref>&amp;<sp/>GetInterior();</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1a83a0ca326ebe939dac9cea93022dc663" kindref="member">Check</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1aa44e79b3549f6028448121e42bd524ea" kindref="member">Check</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
 <codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1ae9ad82b77b1fa3f94112092d69354a15" kindref="member">Allocate</ref>(std::string<sp/>name,<sp/>IndexType2<sp/>size);</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
@@ -219,9 +219,9 @@
 <codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>ValueType&amp;<sp/><ref refid="classrocalution_1_1_local_vector_1a20913b1560bec91831c49351530d34e8" kindref="member">operator[]</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
 <codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ValueType&amp;<sp/><ref refid="classrocalution_1_1_local_vector_1a20913b1560bec91831c49351530d34e8" kindref="member">operator[]</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1a4f93a990c2b1a89bed6b8f69f965a729" kindref="member">ReadFileASCII</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>filename);</highlight></codeline>
-<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1ae25cac3e31ae90cfb0ed6cd26a0b820c" kindref="member">WriteFileASCII</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>filename)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1a12194025d8645cbc9c6fdbba0d17f885" kindref="member">WriteFileASCII</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>filename)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1a3ab863a463e4bfd2b1fc172ed9103c29" kindref="member">ReadFileBinary</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>filename);</highlight></codeline>
-<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1a9c753058a01044c092079eade04d9fb1" kindref="member">WriteFileBinary</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>filename)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1aaacbd47676b11e0a21032ac92f336e37" kindref="member">WriteFileBinary</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>filename)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="197"><highlight class="normal"></highlight></codeline>
 <codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1abf2ee09b2fccba75add5ca106026cb25" kindref="member">CopyFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector&lt;ValueType&gt;</ref>&amp;<sp/>src);</highlight></codeline>
 <codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1a13217124fbe9532f6ef14ae160fd427d" kindref="member">CopyFromAsync</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector&lt;ValueType&gt;</ref>&amp;<sp/>src);</highlight></codeline>
@@ -240,7 +240,7 @@
 <codeline lineno="214"><highlight class="normal"></highlight></codeline>
 <codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1acecc27f2c96f010bb8f43749f1f643ce" kindref="member">CopyFromData</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ValueType*<sp/>data);</highlight></codeline>
 <codeline lineno="225"><highlight class="normal"></highlight></codeline>
-<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1aad7c0fe9094784b24ca6fd1be7749e64" kindref="member">CopyToData</ref>(ValueType*<sp/>data)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1a0b718079bb70d714704aaa8bb28ae85b" kindref="member">CopyToData</ref>(ValueType*<sp/>data)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="236"><highlight class="normal"></highlight></codeline>
 <codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1a92e2ca6e5fa325feda519fe53cbce6d0" kindref="member">Permute</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector&lt;int&gt;</ref>&amp;<sp/>permutation);</highlight></codeline>
 <codeline lineno="239"><highlight class="normal"></highlight></codeline>
@@ -265,29 +265,29 @@
 <codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector&lt;ValueType&gt;</ref>&amp;<sp/>y,</highlight></codeline>
 <codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ValueType<sp/>gamma);</highlight></codeline>
 <codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1a88b8838c303c6f0c43c763264fdad077" kindref="member">Scale</ref>(ValueType<sp/>alpha);</highlight></codeline>
-<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>ValueType<sp/><ref refid="classrocalution_1_1_local_vector_1abfe1184d8f1432b03e2b42546273f11d" kindref="member">Dot</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector&lt;ValueType&gt;</ref>&amp;<sp/>x)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>ValueType<sp/><ref refid="classrocalution_1_1_local_vector_1a5aa5910bdca4e1102e8d31af8d7e29a4" kindref="member">DotNonConj</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector&lt;ValueType&gt;</ref>&amp;<sp/>x)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>ValueType<sp/><ref refid="classrocalution_1_1_local_vector_1a1941030d968ef965f8cf2abb864cbd0d" kindref="member">Norm</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>ValueType<sp/><ref refid="classrocalution_1_1_local_vector_1a49e4cfe29ae2e155ff4b79d7e907b71c" kindref="member">Reduce</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>ValueType<sp/><ref refid="classrocalution_1_1_local_vector_1a781d7827180d02a253b59698f6228863" kindref="member">Asum</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1a20c79273550b3a82a409ef3cbcbc7e6b" kindref="member">Amax</ref>(ValueType&amp;<sp/>value)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>ValueType<sp/><ref refid="classrocalution_1_1_local_vector_1ac93025ae20b85c7a31591fa9b6c0efe2" kindref="member">Dot</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector&lt;ValueType&gt;</ref>&amp;<sp/>x)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>ValueType<sp/><ref refid="classrocalution_1_1_local_vector_1a3310a5cea63b7bb40516ab2c5267dce4" kindref="member">DotNonConj</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector&lt;ValueType&gt;</ref>&amp;<sp/>x)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>ValueType<sp/><ref refid="classrocalution_1_1_local_vector_1a061392cfcb6f3b622b4265f8992ab632" kindref="member">Norm</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>ValueType<sp/><ref refid="classrocalution_1_1_local_vector_1a17f61b3da5d083d87ce51a57646402c1" kindref="member">Reduce</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>ValueType<sp/><ref refid="classrocalution_1_1_local_vector_1a2fe2ab1468e18566e244b751665a49f7" kindref="member">Asum</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1a3415aadc975e432560db9b05d0206acc" kindref="member">Amax</ref>(ValueType&amp;<sp/>value)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1ac1369d49e5715c4b75e52ccca7f368a7" kindref="member">PointWiseMult</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector&lt;ValueType&gt;</ref>&amp;<sp/>x);</highlight></codeline>
 <codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1ac1369d49e5715c4b75e52ccca7f368a7" kindref="member">PointWiseMult</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector&lt;ValueType&gt;</ref>&amp;<sp/>x,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector&lt;ValueType&gt;</ref>&amp;<sp/>y);</highlight></codeline>
 <codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1a203456f8c05ce0af1993f9465f1908ac" kindref="member">Power</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>power);</highlight></codeline>
 <codeline lineno="273"><highlight class="normal"></highlight></codeline>
 <codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1a7f57311a7117ebd71f0047b929a29ebb" kindref="member">SetIndexArray</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>index);</highlight></codeline>
-<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1acf3ca0c6d88caa78a3fd7e87b7ccd360" kindref="member">GetIndexValues</ref>(ValueType*<sp/>values)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1a723a0148a56f5c5947d63e36aafa5636" kindref="member">GetIndexValues</ref>(ValueType*<sp/>values)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1a4b8bc1b9e3f0ea7a2382d4174f520de6" kindref="member">SetIndexValues</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ValueType*<sp/>values);</highlight></codeline>
-<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1a8dfec518f2b82a365a8b6802bfc01ac8" kindref="member">GetContinuousValues</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>end,<sp/>ValueType*<sp/>values)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1aac0e695a529beaffb7e9dab871862b46" kindref="member">GetContinuousValues</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>end,<sp/>ValueType*<sp/>values)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1a28a42f5430f54fec8be7b4bd6d084f01" kindref="member">SetContinuousValues</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ValueType*<sp/>values);</highlight></codeline>
 <codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classrocalution_1_1_local_vector_1af166cb6cfd14a2eb0d35eb08bbe21329" kindref="member">ExtractCoarseMapping</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>index,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nc,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>map)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1a3814baf9e0a6ee7ff7cda823a71a2b67" kindref="member">ExtractCoarseBoundary</ref>(</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classrocalution_1_1_local_vector_1ac3f15e8714d8950c76579ee966b941e9" kindref="member">ExtractCoarseMapping</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>index,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nc,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>map)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1a9e43354a381586f5732682ee7d1396c2" kindref="member">ExtractCoarseBoundary</ref>(</highlight></codeline>
 <codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>index,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nc,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>size,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>boundary)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="290"><highlight class="normal"></highlight></codeline>
 <codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1afbdf8d167e9e7b2b0b9de28ddd79fca9" kindref="member">is_host_</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1ace8f5b57d245fe498a5e4c97be7f5355" kindref="member">is_accel_</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1a0db175ea833d9b44184e4ebe705ade84" kindref="member">is_host_</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector_1aff1058570ec0ac28fbc5bf3800d6bb64" kindref="member">is_accel_</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="294"><highlight class="normal"></highlight></codeline>
 <codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Pointer<sp/>from<sp/>the<sp/>base<sp/>vector<sp/>class<sp/>to<sp/>the<sp/>current<sp/>allocated<sp/>vector<sp/>(host_<sp/>or<sp/>accel_)</highlight><highlight class="normal"></highlight></codeline>

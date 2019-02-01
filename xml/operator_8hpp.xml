@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="operator_8hpp" kind="file" language="C++">
     <compoundname>operator.hpp</compoundname>
     <includes local="yes">../utils/types.hpp</includes>
@@ -21,39 +21,11 @@
         <childnode refid="128" relation="include">
         </childnode>
       </node>
-      <node id="124">
-        <label>backend_manager.hpp</label>
-        <link refid="backend__manager_8hpp_source"/>
-        <childnode refid="125" relation="include">
-        </childnode>
-        <childnode refid="126" relation="include">
-        </childnode>
-        <childnode refid="127" relation="include">
-        </childnode>
-        <childnode refid="128" relation="include">
-        </childnode>
-        <childnode refid="129" relation="include">
-        </childnode>
-      </node>
       <node id="129">
         <label>string</label>
       </node>
       <node id="127">
         <label>map</label>
-      </node>
-      <node id="121">
-        <label>ROCm_Libraries/rocALUTION/src/base/operator.hpp</label>
-        <link refid="operator_8hpp"/>
-        <childnode refid="122" relation="include">
-        </childnode>
-        <childnode refid="123" relation="include">
-        </childnode>
-        <childnode refid="125" relation="include">
-        </childnode>
-        <childnode refid="129" relation="include">
-        </childnode>
-        <childnode refid="131" relation="include">
-        </childnode>
       </node>
       <node id="126">
         <label>fstream</label>
@@ -70,8 +42,36 @@
       <node id="125">
         <label>iostream</label>
       </node>
+      <node id="121">
+        <label>ROCm_Libraries/rocALUTION/src/base/operator.hpp</label>
+        <link refid="operator.hpp"/>
+        <childnode refid="122" relation="include">
+        </childnode>
+        <childnode refid="123" relation="include">
+        </childnode>
+        <childnode refid="125" relation="include">
+        </childnode>
+        <childnode refid="129" relation="include">
+        </childnode>
+        <childnode refid="131" relation="include">
+        </childnode>
+      </node>
       <node id="130">
         <label>complex</label>
+      </node>
+      <node id="124">
+        <label>backend_manager.hpp</label>
+        <link refid="backend__manager_8hpp_source"/>
+        <childnode refid="125" relation="include">
+        </childnode>
+        <childnode refid="126" relation="include">
+        </childnode>
+        <childnode refid="127" relation="include">
+        </childnode>
+        <childnode refid="128" relation="include">
+        </childnode>
+        <childnode refid="129" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
@@ -79,19 +79,19 @@
         <label>ROCm_Libraries/rocALUTION/src/base/local_stencil.hpp</label>
         <link refid="local__stencil_8hpp_source"/>
       </node>
+      <node id="134">
+        <label>ROCm_Libraries/rocALUTION/src/base/global_matrix.hpp</label>
+        <link refid="global__matrix_8hpp_source"/>
+      </node>
       <node id="132">
         <label>ROCm_Libraries/rocALUTION/src/base/operator.hpp</label>
-        <link refid="operator_8hpp"/>
+        <link refid="operator.hpp"/>
         <childnode refid="133" relation="include">
         </childnode>
         <childnode refid="134" relation="include">
         </childnode>
         <childnode refid="135" relation="include">
         </childnode>
-      </node>
-      <node id="134">
-        <label>ROCm_Libraries/rocALUTION/src/base/global_matrix.hpp</label>
-        <link refid="global__matrix_8hpp_source"/>
       </node>
       <node id="133">
         <label>ROCm_Libraries/rocALUTION/src/base/local_matrix.hpp</label>
@@ -158,22 +158,22 @@
 <codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>IndexType2<sp/><ref refid="classrocalution_1_1_operator_1ac155a69301db3035abcd3beac9dbe7ce" kindref="member">GetN</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>IndexType2<sp/><ref refid="classrocalution_1_1_operator_1af834a59b334d754e5e803bd6561b675d" kindref="member">GetNnz</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_operator_1ab070535791b24e8c8a190bca82cb30a3" kindref="member">GetLocalM</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_operator_1a63a78d3258db4fdfe74e517484591246" kindref="member">GetLocalN</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_operator_1a7900eb19fb5ecb00adb18e4c8b498187" kindref="member">GetLocalNnz</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_operator_1ad1841e2a7e753685139f067388cdc2c4" kindref="member">GetLocalM</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_operator_1ae3410f8b7a3b02b1e3fad239a0b96109" kindref="member">GetLocalN</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_operator_1a90052816483e63cd6dc5365323bfe59c" kindref="member">GetLocalNnz</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_operator_1a47f59b41b12bb76fdc5dbc1c7155e282" kindref="member">GetGhostM</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_operator_1a88c39d124082dd9254fe21c0074fea07" kindref="member">GetGhostN</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_operator_1ae4d7fedf59d0fb6a2507dde507f7efb7" kindref="member">GetGhostNnz</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_operator_1a560aaa25f0979b6edbd09815f2d49399" kindref="member">GetGhostM</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_operator_1a18c75f9b1225f08fd4f6c0b7edecb4ab" kindref="member">GetGhostN</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_operator_1ac4e69080970e4cea756160693e503a02" kindref="member">GetGhostNnz</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_operator_1a8dc56052b7fc57029c7cfc4eb5a8a25b" kindref="member">Apply</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector&lt;ValueType&gt;</ref>&amp;<sp/>in,<sp/><ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector&lt;ValueType&gt;</ref>*<sp/>out)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_operator_1a3f86a25c9390428212a7af3a70ed2ac9" kindref="member">Apply</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector&lt;ValueType&gt;</ref>&amp;<sp/>in,<sp/><ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector&lt;ValueType&gt;</ref>*<sp/>out)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
 <codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classrocalution_1_1_operator_1a9607876a1dc71ab7f4c03ade2e6bc952" kindref="member">ApplyAdd</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector&lt;ValueType&gt;</ref>&amp;<sp/>in,<sp/>ValueType<sp/>scalar,<sp/><ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector&lt;ValueType&gt;</ref>*<sp/>out)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classrocalution_1_1_operator_1a4a80bbed8eee584f8b4971372c67d289" kindref="member">ApplyAdd</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector&lt;ValueType&gt;</ref>&amp;<sp/>in,<sp/>ValueType<sp/>scalar,<sp/><ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector&lt;ValueType&gt;</ref>*<sp/>out)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_operator_1a8dc56052b7fc57029c7cfc4eb5a8a25b" kindref="member">Apply</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector" kindref="compound">GlobalVector&lt;ValueType&gt;</ref>&amp;<sp/>in,<sp/><ref refid="classrocalution_1_1_global_vector" kindref="compound">GlobalVector&lt;ValueType&gt;</ref>*<sp/>out)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_operator_1a3f86a25c9390428212a7af3a70ed2ac9" kindref="member">Apply</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector" kindref="compound">GlobalVector&lt;ValueType&gt;</ref>&amp;<sp/>in,<sp/><ref refid="classrocalution_1_1_global_vector" kindref="compound">GlobalVector&lt;ValueType&gt;</ref>*<sp/>out)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_operator_1a9607876a1dc71ab7f4c03ade2e6bc952" kindref="member">ApplyAdd</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector" kindref="compound">GlobalVector&lt;ValueType&gt;</ref>&amp;<sp/>in,</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_operator_1a4a80bbed8eee584f8b4971372c67d289" kindref="member">ApplyAdd</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classrocalution_1_1_global_vector" kindref="compound">GlobalVector&lt;ValueType&gt;</ref>&amp;<sp/>in,</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ValueType<sp/>scalar,</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classrocalution_1_1_global_vector" kindref="compound">GlobalVector&lt;ValueType&gt;</ref>*<sp/>out)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="101"><highlight class="normal">};</highlight></codeline>

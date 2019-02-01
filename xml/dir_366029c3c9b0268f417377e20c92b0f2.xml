@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
-  <compounddef id="dir_b28f3b0ee61db4a71fad52144a163a7d" kind="dir">
-    <compoundname>ROCm_API_References/HIP/include</compoundname>
-    <innerdir refid="dir_fb722007d528e64ca6a97703c7787877">ROCm_API_References/HIP/include/hip</innerdir>
+  <compounddef id="dir_366029c3c9b0268f417377e20c92b0f2" kind="dir">
+    <compoundname>ROCm_Libraries/rocFFT/library</compoundname>
+    <innerdir refid="dir_0fabf4f32e92a5e6df20b21fa27fbc12">ROCm_Libraries/rocFFT/library/include</innerdir>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="ROCm_API_References/HIP/include/"/>
+    <location file="ROCm_Libraries/rocFFT/library/"/>
   </compounddef>
 </doxygen>

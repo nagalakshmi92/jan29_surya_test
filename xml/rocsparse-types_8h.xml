@@ -1,37 +1,37 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="rocsparse-types_8h" kind="file" language="C++">
     <compoundname>rocsparse-types.h</compoundname>
     <includes local="no">stdint.h</includes>
     <includedby refid="rocsparse-functions_8h" local="yes">ROCm_Libraries/rocSPARSE/library/include/rocsparse-functions.h</includedby>
     <includedby refid="rocsparse-auxiliary_8h" local="yes">ROCm_Libraries/rocSPARSE/library/include/rocsparse-auxiliary.h</includedby>
     <incdepgraph>
-      <node id="1112">
-        <label>ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h</label>
-        <link refid="rocsparse-types_8h"/>
-        <childnode refid="1113" relation="include">
-        </childnode>
-      </node>
-      <node id="1113">
+      <node id="1117">
         <label>stdint.h</label>
+      </node>
+      <node id="1116">
+        <label>ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h</label>
+        <link refid="rocsparse-types.h"/>
+        <childnode refid="1117" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1116">
+      <node id="1119">
+        <label>ROCm_Libraries/rocSPARSE/library/include/rocsparse-functions.h</label>
+        <link refid="rocsparse-functions_8h"/>
+      </node>
+      <node id="1120">
         <label>ROCm_Libraries/rocSPARSE/library/include/rocsparse-auxiliary.h</label>
         <link refid="rocsparse-auxiliary_8h"/>
       </node>
-      <node id="1114">
+      <node id="1118">
         <label>ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h</label>
-        <link refid="rocsparse-types_8h"/>
-        <childnode refid="1115" relation="include">
+        <link refid="rocsparse-types.h"/>
+        <childnode refid="1119" relation="include">
         </childnode>
-        <childnode refid="1116" relation="include">
+        <childnode refid="1120" relation="include">
         </childnode>
-      </node>
-      <node id="1115">
-        <label>ROCm_Libraries/rocSPARSE/library/include/rocsparse-functions.h</label>
-        <link refid="rocsparse-functions_8h"/>
       </node>
     </invincdepgraph>
       <sectiondef kind="define">

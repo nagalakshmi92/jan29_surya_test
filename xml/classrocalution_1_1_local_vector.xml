@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="classrocalution_1_1_local_vector" kind="class" language="C++" prot="public">
     <compoundname>rocalution::LocalVector</compoundname>
     <basecompoundref refid="classrocalution_1_1_vector" prot="public" virt="non-virtual">rocalution::Vector&lt; ValueType &gt;</basecompoundref>
@@ -53,10 +53,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_vector.hpp" line="189" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_vector_1ae584b51e9e91a17b5aeb5750cfd1d8d9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_vector_1a7518750fc91f0ccd7836f779972cb468" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const ValueType &amp;</type>
         <definition>const ValueType&amp; rocalution::LocalVector&lt; ValueType &gt;::operator[]</definition>
-        <argsstring>(int i) const</argsstring>
+        <argsstring>(int i) const </argsstring>
         <name>operator[]</name>
         <param>
           <type>int</type>
@@ -434,10 +434,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_vector.hpp" line="67" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_vector_1a174999811741be695665554df732aa0b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_vector_1a2b55a9fb17108db0818a7f761ab7e3a1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>virtual void rocalution::LocalVector&lt; ValueType &gt;::Info</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>Info</name>
         <reimplements refid="classrocalution_1_1_base_rocalution_1a62720e4ccdd3879dcf093abc2688076e">Info</reimplements>
         <param>
@@ -454,10 +454,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_vector.hpp" line="69" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_vector_1a42d48bb3bb6a89218ede8fcff7bbc644" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_vector_1a1d7f451d4463cf22a12ee8a068d48c56" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>IndexType2</type>
         <definition>virtual IndexType2 rocalution::LocalVector&lt; ValueType &gt;::GetSize</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>GetSize</name>
         <reimplements refid="classrocalution_1_1_vector_1a69a7295c57e35e030999c5764c05cfe7">GetSize</reimplements>
         <param>
@@ -471,10 +471,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_vector.hpp" line="70" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_vector_1a83a0ca326ebe939dac9cea93022dc663" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_vector_1aa44e79b3549f6028448121e42bd524ea" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
         <definition>virtual bool rocalution::LocalVector&lt; ValueType &gt;::Check</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>Check</name>
         <reimplements refid="classrocalution_1_1_vector_1afb8f27ffca2ff3d59995d56b7093330c">Check</reimplements>
         <param>
@@ -758,10 +758,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_vector.hpp" line="193" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_vector_1ae25cac3e31ae90cfb0ed6cd26a0b820c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_vector_1a12194025d8645cbc9c6fdbba0d17f885" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>virtual void rocalution::LocalVector&lt; ValueType &gt;::WriteFileASCII</definition>
-        <argsstring>(const std::string filename) const</argsstring>
+        <argsstring>(const std::string filename) const </argsstring>
         <name>WriteFileASCII</name>
         <reimplements refid="classrocalution_1_1_vector_1adf8762b6ad93bcc19b87675c63a67752">WriteFileASCII</reimplements>
         <param>
@@ -804,7 +804,7 @@
         <briefdescription>
 <para>Read vector from binary file. </para>        </briefdescription>
         <detaileddescription>
-<para>Read a vector from binary file. For details on the format, see <ref refid="classrocalution_1_1_local_vector_1a9c753058a01044c092079eade04d9fb1" kindref="member">WriteFileBinary()</ref>.</para><para><parameterlist kind="param"><parameteritem>
+<para>Read a vector from binary file. For details on the format, see <ref refid="classrocalution_1_1_local_vector_1aaacbd47676b11e0a21032ac92f336e37" kindref="member">WriteFileBinary()</ref>.</para><para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">filename</parametername>
 </parameternamelist>
@@ -820,10 +820,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_vector.hpp" line="195" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_vector_1a9c753058a01044c092079eade04d9fb1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_vector_1aaacbd47676b11e0a21032ac92f336e37" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>virtual void rocalution::LocalVector&lt; ValueType &gt;::WriteFileBinary</definition>
-        <argsstring>(const std::string filename) const</argsstring>
+        <argsstring>(const std::string filename) const </argsstring>
         <name>WriteFileBinary</name>
         <reimplements refid="classrocalution_1_1_vector_1ae03e3d74cf727f69bb1a8ca5d87d1fa7">WriteFileBinary</reimplements>
         <param>
@@ -1123,10 +1123,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_vector.hpp" line="224" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_vector_1aad7c0fe9094784b24ca6fd1be7749e64" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_vector_1a0b718079bb70d714704aaa8bb28ae85b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalVector&lt; ValueType &gt;::CopyToData</definition>
-        <argsstring>(ValueType *data) const</argsstring>
+        <argsstring>(ValueType *data) const </argsstring>
         <name>CopyToData</name>
         <param>
           <type>ValueType *</type>
@@ -1384,12 +1384,12 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_vector.hpp" line="263" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_vector_1abfe1184d8f1432b03e2b42546273f11d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_vector_1ac93025ae20b85c7a31591fa9b6c0efe2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>ValueType</type>
         <definition>virtual ValueType rocalution::LocalVector&lt; ValueType &gt;::Dot</definition>
-        <argsstring>(const LocalVector&lt; ValueType &gt; &amp;x) const</argsstring>
+        <argsstring>(const LocalVector&lt; ValueType &gt; &amp;x) const </argsstring>
         <name>Dot</name>
-        <reimplements refid="classrocalution_1_1_vector_1a4b8794f97529984f9eb0be2532e7a452">Dot</reimplements>
+        <reimplements refid="classrocalution_1_1_vector_1ae651d9b9c31f2b07544fc5a3f45cf622">Dot</reimplements>
         <param>
           <type>const <ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector</ref>&lt; ValueType &gt; &amp;</type>
           <declname>x</declname>
@@ -1402,12 +1402,12 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_vector.hpp" line="264" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_vector_1a5aa5910bdca4e1102e8d31af8d7e29a4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_vector_1a3310a5cea63b7bb40516ab2c5267dce4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>ValueType</type>
         <definition>virtual ValueType rocalution::LocalVector&lt; ValueType &gt;::DotNonConj</definition>
-        <argsstring>(const LocalVector&lt; ValueType &gt; &amp;x) const</argsstring>
+        <argsstring>(const LocalVector&lt; ValueType &gt; &amp;x) const </argsstring>
         <name>DotNonConj</name>
-        <reimplements refid="classrocalution_1_1_vector_1afc0de1e6246fb0a5e9a6b0bbaf481727">DotNonConj</reimplements>
+        <reimplements refid="classrocalution_1_1_vector_1a05147ab9158d7786f8ae346569d86d9d">DotNonConj</reimplements>
         <param>
           <type>const <ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector</ref>&lt; ValueType &gt; &amp;</type>
           <declname>x</declname>
@@ -1420,10 +1420,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_vector.hpp" line="265" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_vector_1a1941030d968ef965f8cf2abb864cbd0d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_vector_1a061392cfcb6f3b622b4265f8992ab632" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>ValueType</type>
         <definition>virtual ValueType rocalution::LocalVector&lt; ValueType &gt;::Norm</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>Norm</name>
         <reimplements refid="classrocalution_1_1_vector_1ae497a40ab0a3c1b7927e53b856775d96">Norm</reimplements>
         <param>
@@ -1437,10 +1437,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_vector.hpp" line="266" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_vector_1a49e4cfe29ae2e155ff4b79d7e907b71c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_vector_1a17f61b3da5d083d87ce51a57646402c1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>ValueType</type>
         <definition>virtual ValueType rocalution::LocalVector&lt; ValueType &gt;::Reduce</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>Reduce</name>
         <reimplements refid="classrocalution_1_1_vector_1a2fdb72cd02801525457e9ada7dd60ef2">Reduce</reimplements>
         <param>
@@ -1454,10 +1454,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_vector.hpp" line="267" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_vector_1a781d7827180d02a253b59698f6228863" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_vector_1a2fe2ab1468e18566e244b751665a49f7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>ValueType</type>
         <definition>virtual ValueType rocalution::LocalVector&lt; ValueType &gt;::Asum</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>Asum</name>
         <reimplements refid="classrocalution_1_1_vector_1adcd00282279cb53befa5b684cfe1b810">Asum</reimplements>
         <param>
@@ -1471,10 +1471,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_vector.hpp" line="268" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_vector_1a20c79273550b3a82a409ef3cbcbc7e6b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_vector_1a3415aadc975e432560db9b05d0206acc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>int</type>
         <definition>virtual int rocalution::LocalVector&lt; ValueType &gt;::Amax</definition>
-        <argsstring>(ValueType &amp;value) const</argsstring>
+        <argsstring>(ValueType &amp;value) const </argsstring>
         <name>Amax</name>
         <reimplements refid="classrocalution_1_1_vector_1ad12fff786a24c4d5fccb452dea303767">Amax</reimplements>
         <param>
@@ -1568,10 +1568,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_vector.hpp" line="275" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_vector_1acf3ca0c6d88caa78a3fd7e87b7ccd360" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_vector_1a723a0148a56f5c5947d63e36aafa5636" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalVector&lt; ValueType &gt;::GetIndexValues</definition>
-        <argsstring>(ValueType *values) const</argsstring>
+        <argsstring>(ValueType *values) const </argsstring>
         <name>GetIndexValues</name>
         <param>
           <type>ValueType *</type>
@@ -1602,10 +1602,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_vector.hpp" line="279" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_vector_1a8dfec518f2b82a365a8b6802bfc01ac8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_vector_1aac0e695a529beaffb7e9dab871862b46" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalVector&lt; ValueType &gt;::GetContinuousValues</definition>
-        <argsstring>(int start, int end, ValueType *values) const</argsstring>
+        <argsstring>(int start, int end, ValueType *values) const </argsstring>
         <name>GetContinuousValues</name>
         <param>
           <type>int</type>
@@ -1652,10 +1652,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_vector.hpp" line="283" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_vector_1af166cb6cfd14a2eb0d35eb08bbe21329" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_vector_1ac3f15e8714d8950c76579ee966b941e9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalVector&lt; ValueType &gt;::ExtractCoarseMapping</definition>
-        <argsstring>(int start, int end, const int *index, int nc, int *size, int *map) const</argsstring>
+        <argsstring>(int start, int end, const int *index, int nc, int *size, int *map) const </argsstring>
         <name>ExtractCoarseMapping</name>
         <param>
           <type>int</type>
@@ -1689,10 +1689,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_vector.hpp" line="286" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_vector_1a3814baf9e0a6ee7ff7cda823a71a2b67" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_vector_1a9e43354a381586f5732682ee7d1396c2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::LocalVector&lt; ValueType &gt;::ExtractCoarseBoundary</definition>
-        <argsstring>(int start, int end, const int *index, int nc, int *size, int *boundary) const</argsstring>
+        <argsstring>(int start, int end, const int *index, int nc, int *size, int *boundary) const </argsstring>
         <name>ExtractCoarseBoundary</name>
         <param>
           <type>int</type>
@@ -1728,10 +1728,10 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
-      <memberdef kind="function" id="classrocalution_1_1_local_vector_1aeacc3a01597143a1f1f0d741eab7abde" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_vector_1ac62a8fa292e061ad5b7f7317ad690993" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector</ref>&lt; ValueType &gt; &amp;</type>
         <definition>const LocalVector&lt;ValueType&gt;&amp; rocalution::LocalVector&lt; ValueType &gt;::GetInterior</definition>
-        <argsstring>() const</argsstring>
+        <argsstring>() const </argsstring>
         <name>GetInterior</name>
         <briefdescription>
         </briefdescription>
@@ -1756,10 +1756,10 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
-      <memberdef kind="function" id="classrocalution_1_1_local_vector_1afbdf8d167e9e7b2b0b9de28ddd79fca9" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_vector_1a0db175ea833d9b44184e4ebe705ade84" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
         <definition>virtual bool rocalution::LocalVector&lt; ValueType &gt;::is_host_</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>is_host_</name>
         <reimplements refid="classrocalution_1_1_base_rocalution_1a4bf61bf87e25d66b63187e21d00e4f2d">is_host_</reimplements>
         <param>
@@ -1773,10 +1773,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/local_vector.hpp" line="292" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_local_vector_1ace8f5b57d245fe498a5e4c97be7f5355" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_local_vector_1aff1058570ec0ac28fbc5bf3800d6bb64" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
         <definition>virtual bool rocalution::LocalVector&lt; ValueType &gt;::is_accel_</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>is_accel_</name>
         <reimplements refid="classrocalution_1_1_base_rocalution_1a3fd4724cb23b135d6b6528674c3aec14">is_accel_</reimplements>
         <param>
@@ -1854,10 +1854,10 @@
       <member refid="classrocalution_1_1_local_vector_1a83e7f8e6a99c29cf727a0782e2674bba" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>AddScale</name></member>
       <member refid="classrocalution_1_1_vector_1aedf4d64ae2c3b8ee1f37519f306d0041" prot="public" virt="virtual" ambiguityscope="rocalution::Vector::"><scope>rocalution::LocalVector</scope><name>AddScale</name></member>
       <member refid="classrocalution_1_1_local_vector_1ae9ad82b77b1fa3f94112092d69354a15" prot="public" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>Allocate</name></member>
-      <member refid="classrocalution_1_1_local_vector_1a20c79273550b3a82a409ef3cbcbc7e6b" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>Amax</name></member>
-      <member refid="classrocalution_1_1_local_vector_1a781d7827180d02a253b59698f6228863" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>Asum</name></member>
+      <member refid="classrocalution_1_1_local_vector_1a3415aadc975e432560db9b05d0206acc" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>Amax</name></member>
+      <member refid="classrocalution_1_1_local_vector_1a2fe2ab1468e18566e244b751665a49f7" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>Asum</name></member>
       <member refid="classrocalution_1_1_base_rocalution_1ad248c147237baaf809978dba69edf342" prot="public" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>BaseRocalution</name></member>
-      <member refid="classrocalution_1_1_local_vector_1a83a0ca326ebe939dac9cea93022dc663" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>Check</name></member>
+      <member refid="classrocalution_1_1_local_vector_1aa44e79b3549f6028448121e42bd524ea" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>Check</name></member>
       <member refid="classrocalution_1_1_local_vector_1ae58d9c9b346f80079f4028108b8dfdb2" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>Clear</name></member>
       <member refid="classrocalution_1_1_base_rocalution_1a85acdb9844b7c6a630f14ace59d99f5d" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>CloneBackend</name></member>
       <member refid="classrocalution_1_1_local_vector_1a9eeae5cca8f0af5c5723510b1b280e60" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>CloneFrom</name></member>
@@ -1871,26 +1871,26 @@
       <member refid="classrocalution_1_1_local_vector_1a4d0ef0ba1b9ba78136a71199a7a6b734" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>CopyFromFloat</name></member>
       <member refid="classrocalution_1_1_local_vector_1a8bb052f38c9d5c2af40a7eeda2ace780" prot="public" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>CopyFromPermute</name></member>
       <member refid="classrocalution_1_1_local_vector_1a571cffb9722df69bebeb854cd05d041a" prot="public" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>CopyFromPermuteBackward</name></member>
-      <member refid="classrocalution_1_1_local_vector_1aad7c0fe9094784b24ca6fd1be7749e64" prot="public" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>CopyToData</name></member>
-      <member refid="classrocalution_1_1_local_vector_1abfe1184d8f1432b03e2b42546273f11d" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>Dot</name></member>
-      <member refid="classrocalution_1_1_vector_1ab43c0f9c89802ced75ac7e3b248cc798" prot="public" virt="virtual" ambiguityscope="rocalution::Vector::"><scope>rocalution::LocalVector</scope><name>Dot</name></member>
-      <member refid="classrocalution_1_1_local_vector_1a5aa5910bdca4e1102e8d31af8d7e29a4" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>DotNonConj</name></member>
-      <member refid="classrocalution_1_1_vector_1a6ff165b83b46e200e76cef9be9fc3505" prot="public" virt="virtual" ambiguityscope="rocalution::Vector::"><scope>rocalution::LocalVector</scope><name>DotNonConj</name></member>
-      <member refid="classrocalution_1_1_local_vector_1a3814baf9e0a6ee7ff7cda823a71a2b67" prot="public" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>ExtractCoarseBoundary</name></member>
-      <member refid="classrocalution_1_1_local_vector_1af166cb6cfd14a2eb0d35eb08bbe21329" prot="public" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>ExtractCoarseMapping</name></member>
-      <member refid="classrocalution_1_1_local_vector_1a8dfec518f2b82a365a8b6802bfc01ac8" prot="public" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>GetContinuousValues</name></member>
-      <member refid="classrocalution_1_1_vector_1abd0787513f949d91f445890ea4d2ce81" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>GetGhostSize</name></member>
-      <member refid="classrocalution_1_1_local_vector_1acf3ca0c6d88caa78a3fd7e87b7ccd360" prot="public" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>GetIndexValues</name></member>
-      <member refid="classrocalution_1_1_local_vector_1aeacc3a01597143a1f1f0d741eab7abde" prot="private" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>GetInterior</name></member>
+      <member refid="classrocalution_1_1_local_vector_1a0b718079bb70d714704aaa8bb28ae85b" prot="public" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>CopyToData</name></member>
+      <member refid="classrocalution_1_1_local_vector_1ac93025ae20b85c7a31591fa9b6c0efe2" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>Dot</name></member>
+      <member refid="classrocalution_1_1_vector_1a991fc5d02e9483b13015e6c406fff766" prot="public" virt="virtual" ambiguityscope="rocalution::Vector::"><scope>rocalution::LocalVector</scope><name>Dot</name></member>
+      <member refid="classrocalution_1_1_local_vector_1a3310a5cea63b7bb40516ab2c5267dce4" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>DotNonConj</name></member>
+      <member refid="classrocalution_1_1_vector_1a41e70a14e4abfe9516a89d528f514d70" prot="public" virt="virtual" ambiguityscope="rocalution::Vector::"><scope>rocalution::LocalVector</scope><name>DotNonConj</name></member>
+      <member refid="classrocalution_1_1_local_vector_1a9e43354a381586f5732682ee7d1396c2" prot="public" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>ExtractCoarseBoundary</name></member>
+      <member refid="classrocalution_1_1_local_vector_1ac3f15e8714d8950c76579ee966b941e9" prot="public" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>ExtractCoarseMapping</name></member>
+      <member refid="classrocalution_1_1_local_vector_1aac0e695a529beaffb7e9dab871862b46" prot="public" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>GetContinuousValues</name></member>
+      <member refid="classrocalution_1_1_vector_1ad430c1606a83811081517e9d95c6b939" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>GetGhostSize</name></member>
+      <member refid="classrocalution_1_1_local_vector_1a723a0148a56f5c5947d63e36aafa5636" prot="public" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>GetIndexValues</name></member>
+      <member refid="classrocalution_1_1_local_vector_1ac62a8fa292e061ad5b7f7317ad690993" prot="private" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>GetInterior</name></member>
       <member refid="classrocalution_1_1_local_vector_1a2fc99dadb5f2ba7bbd6de62ef4f4a8ce" prot="private" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>GetInterior</name></member>
-      <member refid="classrocalution_1_1_vector_1af4e80d10bbfd9a243d0dfa3a5481358c" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>GetLocalSize</name></member>
-      <member refid="classrocalution_1_1_local_vector_1a42d48bb3bb6a89218ede8fcff7bbc644" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>GetSize</name></member>
+      <member refid="classrocalution_1_1_vector_1acfe3ff4ae742dfda779ceccc92d001ed" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>GetLocalSize</name></member>
+      <member refid="classrocalution_1_1_local_vector_1a1d7f451d4463cf22a12ee8a068d48c56" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>GetSize</name></member>
       <member refid="classrocalution_1_1_rocalution_obj_1a4bba5aeaf4fd705efc00402f1f6ed40b" prot="protected" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>global_obj_id_</name></member>
       <member refid="classrocalution_1_1_local_vector_1a350700fdc95d2918442f14af47bb3ff4" prot="private" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>GlobalMatrix&lt; ValueType &gt;</name></member>
       <member refid="classrocalution_1_1_local_vector_1ad50ce751e5dafbeb3ca73c65cd542fce" prot="private" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>GlobalVector&lt; ValueType &gt;</name></member>
-      <member refid="classrocalution_1_1_local_vector_1a174999811741be695665554df732aa0b" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>Info</name></member>
-      <member refid="classrocalution_1_1_local_vector_1ace8f5b57d245fe498a5e4c97be7f5355" prot="protected" virt="virtual"><scope>rocalution::LocalVector</scope><name>is_accel_</name></member>
-      <member refid="classrocalution_1_1_local_vector_1afbdf8d167e9e7b2b0b9de28ddd79fca9" prot="protected" virt="virtual"><scope>rocalution::LocalVector</scope><name>is_host_</name></member>
+      <member refid="classrocalution_1_1_local_vector_1a2b55a9fb17108db0818a7f761ab7e3a1" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>Info</name></member>
+      <member refid="classrocalution_1_1_local_vector_1aff1058570ec0ac28fbc5bf3800d6bb64" prot="protected" virt="virtual"><scope>rocalution::LocalVector</scope><name>is_accel_</name></member>
+      <member refid="classrocalution_1_1_local_vector_1a0db175ea833d9b44184e4ebe705ade84" prot="protected" virt="virtual"><scope>rocalution::LocalVector</scope><name>is_host_</name></member>
       <member refid="classrocalution_1_1_local_vector_1a9400481562559c79b10346b8af097e9f" prot="public" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>LeaveDataPtr</name></member>
       <member refid="classrocalution_1_1_local_vector_1ac25414b59f0a5cf064e05213a5911a13" prot="private" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>LocalMatrix&lt; double &gt;</name></member>
       <member refid="classrocalution_1_1_local_vector_1a249687a6b0f164407332088fe0b7a78a" prot="private" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>LocalMatrix&lt; float &gt;</name></member>
@@ -1911,11 +1911,11 @@
       <member refid="classrocalution_1_1_local_vector_1a826bebed1f7008efcb99551e1fb0093e" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>MoveToAcceleratorAsync</name></member>
       <member refid="classrocalution_1_1_local_vector_1ae3120701431e40e505554e98f55df533" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>MoveToHost</name></member>
       <member refid="classrocalution_1_1_local_vector_1a8370ff1b9f590254ec0e8f4c28e1f7b3" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>MoveToHostAsync</name></member>
-      <member refid="classrocalution_1_1_local_vector_1a1941030d968ef965f8cf2abb864cbd0d" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>Norm</name></member>
+      <member refid="classrocalution_1_1_local_vector_1a061392cfcb6f3b622b4265f8992ab632" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>Norm</name></member>
       <member refid="classrocalution_1_1_base_rocalution_1a5d818c77bc906d543c44d441bb589b46" prot="protected" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>object_name_</name></member>
       <member refid="classrocalution_1_1_local_vector_1aee43d40aa4bd9347aa7f4757244a6d8e" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>Ones</name></member>
       <member refid="classrocalution_1_1_local_vector_1a20913b1560bec91831c49351530d34e8" prot="public" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>operator[]</name></member>
-      <member refid="classrocalution_1_1_local_vector_1ae584b51e9e91a17b5aeb5750cfd1d8d9" prot="public" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>operator[]</name></member>
+      <member refid="classrocalution_1_1_local_vector_1a7518750fc91f0ccd7836f779972cb468" prot="public" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>operator[]</name></member>
       <member refid="classrocalution_1_1_local_vector_1a92e2ca6e5fa325feda519fe53cbce6d0" prot="public" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>Permute</name></member>
       <member refid="classrocalution_1_1_local_vector_1a8d9df926f49cde234e10bfc4f7c14502" prot="public" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>PermuteBackward</name></member>
       <member refid="classrocalution_1_1_local_vector_1ac1369d49e5715c4b75e52ccca7f368a7" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>PointWiseMult</name></member>
@@ -1926,7 +1926,7 @@
       <member refid="classrocalution_1_1_local_vector_1a8b786211344f28ea1f88bdd4a9a79399" prot="public" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>Prolongation</name></member>
       <member refid="classrocalution_1_1_local_vector_1a4f93a990c2b1a89bed6b8f69f965a729" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>ReadFileASCII</name></member>
       <member refid="classrocalution_1_1_local_vector_1a3ab863a463e4bfd2b1fc172ed9103c29" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>ReadFileBinary</name></member>
-      <member refid="classrocalution_1_1_local_vector_1a49e4cfe29ae2e155ff4b79d7e907b71c" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>Reduce</name></member>
+      <member refid="classrocalution_1_1_local_vector_1a17f61b3da5d083d87ce51a57646402c1" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>Reduce</name></member>
       <member refid="classrocalution_1_1_local_vector_1ac177710b65d6c47db97b1c7040d8afda" prot="public" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>Restriction</name></member>
       <member refid="classrocalution_1_1_rocalution_obj_1ad60a8b2047aad74e488c552264fa7737" prot="public" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>RocalutionObj</name></member>
       <member refid="classrocalution_1_1_local_vector_1a88b8838c303c6f0c43c763264fdad077" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>Scale</name></member>
@@ -1950,8 +1950,8 @@
       <member refid="classrocalution_1_1_local_vector_1a727a6a2779ff9706494503148692945a" prot="private" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>vector_</name></member>
       <member refid="classrocalution_1_1_local_vector_1a2d0a61bac246791efe423eabf4da0882" prot="private" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>vector_accel_</name></member>
       <member refid="classrocalution_1_1_local_vector_1a0604a42470b999f35279350a1d25beea" prot="private" virt="non-virtual"><scope>rocalution::LocalVector</scope><name>vector_host_</name></member>
-      <member refid="classrocalution_1_1_local_vector_1ae25cac3e31ae90cfb0ed6cd26a0b820c" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>WriteFileASCII</name></member>
-      <member refid="classrocalution_1_1_local_vector_1a9c753058a01044c092079eade04d9fb1" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>WriteFileBinary</name></member>
+      <member refid="classrocalution_1_1_local_vector_1a12194025d8645cbc9c6fdbba0d17f885" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>WriteFileASCII</name></member>
+      <member refid="classrocalution_1_1_local_vector_1aaacbd47676b11e0a21032ac92f336e37" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>WriteFileBinary</name></member>
       <member refid="classrocalution_1_1_local_vector_1a945331227cdbc7889ede1070ef502b81" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>Zeros</name></member>
       <member refid="classrocalution_1_1_base_rocalution_1aad8ac3188091c4683181bfe6d739b7fd" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>~BaseRocalution</name></member>
       <member refid="classrocalution_1_1_local_vector_1a9d3f36859ea4d3e70ac03c8d180f82bd" prot="public" virt="virtual"><scope>rocalution::LocalVector</scope><name>~LocalVector</name></member>

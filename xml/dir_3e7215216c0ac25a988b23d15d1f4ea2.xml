@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="dir_3e7215216c0ac25a988b23d15d1f4ea2" kind="dir">
     <compoundname>ROCm_Libraries/rocSPARSE/library</compoundname>
     <innerdir refid="dir_fd70e2c219e05e676628d7fc304c039c">ROCm_Libraries/rocSPARSE/library/include</innerdir>

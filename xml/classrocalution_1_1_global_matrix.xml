@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="classrocalution_1_1_global_matrix" kind="class" language="C++" prot="public">
     <compoundname>rocalution::GlobalMatrix</compoundname>
     <basecompoundref refid="classrocalution_1_1_operator" prot="public" virt="non-virtual">rocalution::Operator&lt; ValueType &gt;</basecompoundref>
@@ -135,10 +135,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/global_matrix.hpp" line="57" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a8932d6188eac1af1b17b4a2f9f314ae7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1acbcc8abc595ec1da033cb5096c6e2eb5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>IndexType2</type>
         <definition>virtual IndexType2 rocalution::GlobalMatrix&lt; ValueType &gt;::GetM</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>GetM</name>
         <reimplements refid="classrocalution_1_1_operator_1a6af0e81191e63d15e95b227cd9129c87">GetM</reimplements>
         <param>
@@ -152,10 +152,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/global_matrix.hpp" line="59" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a00a41023e373bbc9e1a3949fecdb25c2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a8fed78a83731f1991dcef967d1489537" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>IndexType2</type>
         <definition>virtual IndexType2 rocalution::GlobalMatrix&lt; ValueType &gt;::GetN</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>GetN</name>
         <reimplements refid="classrocalution_1_1_operator_1ac155a69301db3035abcd3beac9dbe7ce">GetN</reimplements>
         <param>
@@ -169,10 +169,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/global_matrix.hpp" line="60" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a1829ae55194f1ebdb8988b0cd0bdbb5c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a816194be1b1986dcd2281a2c0cb4c2b7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>IndexType2</type>
         <definition>virtual IndexType2 rocalution::GlobalMatrix&lt; ValueType &gt;::GetNnz</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>GetNnz</name>
         <reimplements refid="classrocalution_1_1_operator_1af834a59b334d754e5e803bd6561b675d">GetNnz</reimplements>
         <param>
@@ -186,12 +186,12 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/global_matrix.hpp" line="61" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a8d495da832312553ce87eba9e545d645" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a35df35341a42be1e2b9c0d02e30375cd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>int</type>
         <definition>virtual int rocalution::GlobalMatrix&lt; ValueType &gt;::GetLocalM</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>GetLocalM</name>
-        <reimplements refid="classrocalution_1_1_operator_1ab070535791b24e8c8a190bca82cb30a3">GetLocalM</reimplements>
+        <reimplements refid="classrocalution_1_1_operator_1ad1841e2a7e753685139f067388cdc2c4">GetLocalM</reimplements>
         <param>
           <type>void</type>
         </param>
@@ -203,12 +203,12 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/global_matrix.hpp" line="62" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1af500f5c9e18f923a5f1a98c2bfa66067" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a799a233fda1a65fe08e1ae953d76fab7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>int</type>
         <definition>virtual int rocalution::GlobalMatrix&lt; ValueType &gt;::GetLocalN</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>GetLocalN</name>
-        <reimplements refid="classrocalution_1_1_operator_1a63a78d3258db4fdfe74e517484591246">GetLocalN</reimplements>
+        <reimplements refid="classrocalution_1_1_operator_1ae3410f8b7a3b02b1e3fad239a0b96109">GetLocalN</reimplements>
         <param>
           <type>void</type>
         </param>
@@ -220,12 +220,12 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/global_matrix.hpp" line="63" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1aea3b976ce5d334edd709756db2ad968d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a0da9006b2e5e300ef2748b2436b4fcc7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>int</type>
         <definition>virtual int rocalution::GlobalMatrix&lt; ValueType &gt;::GetLocalNnz</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>GetLocalNnz</name>
-        <reimplements refid="classrocalution_1_1_operator_1a7900eb19fb5ecb00adb18e4c8b498187">GetLocalNnz</reimplements>
+        <reimplements refid="classrocalution_1_1_operator_1a90052816483e63cd6dc5365323bfe59c">GetLocalNnz</reimplements>
         <param>
           <type>void</type>
         </param>
@@ -237,12 +237,12 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/global_matrix.hpp" line="64" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1aca83e998b4631b863849ba6f3186bcee" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a3537faf3a69187db8a1fbc42c94f4810" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>int</type>
         <definition>virtual int rocalution::GlobalMatrix&lt; ValueType &gt;::GetGhostM</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>GetGhostM</name>
-        <reimplements refid="classrocalution_1_1_operator_1a47f59b41b12bb76fdc5dbc1c7155e282">GetGhostM</reimplements>
+        <reimplements refid="classrocalution_1_1_operator_1a560aaa25f0979b6edbd09815f2d49399">GetGhostM</reimplements>
         <param>
           <type>void</type>
         </param>
@@ -254,12 +254,12 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/global_matrix.hpp" line="65" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a8e9d2f67a90178055b7020b1059f7f47" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1aaacd0b926ea3c76dfdab5f8470a5a3d0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>int</type>
         <definition>virtual int rocalution::GlobalMatrix&lt; ValueType &gt;::GetGhostN</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>GetGhostN</name>
-        <reimplements refid="classrocalution_1_1_operator_1a88c39d124082dd9254fe21c0074fea07">GetGhostN</reimplements>
+        <reimplements refid="classrocalution_1_1_operator_1a18c75f9b1225f08fd4f6c0b7edecb4ab">GetGhostN</reimplements>
         <param>
           <type>void</type>
         </param>
@@ -271,12 +271,12 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/global_matrix.hpp" line="66" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a29ebbf7d43bb58b0b160c493200240c4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a4d2778916766d4487e0f69e30e75b6b0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>int</type>
         <definition>virtual int rocalution::GlobalMatrix&lt; ValueType &gt;::GetGhostNnz</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>GetGhostNnz</name>
-        <reimplements refid="classrocalution_1_1_operator_1ae4d7fedf59d0fb6a2507dde507f7efb7">GetGhostNnz</reimplements>
+        <reimplements refid="classrocalution_1_1_operator_1ac4e69080970e4cea756160693e503a02">GetGhostNnz</reimplements>
         <param>
           <type>void</type>
         </param>
@@ -322,10 +322,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/global_matrix.hpp" line="75" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a4e38a9f74b2bfbabfcfc3bba8a74008d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a315a60ccd047e5dd93c9970e1e076588" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>virtual void rocalution::GlobalMatrix&lt; ValueType &gt;::Info</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>Info</name>
         <reimplements refid="classrocalution_1_1_base_rocalution_1a62720e4ccdd3879dcf093abc2688076e">Info</reimplements>
         <param>
@@ -342,10 +342,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/global_matrix.hpp" line="77" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a870b6dec8536dc61b4c0476222ed28ca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1aa2433e2159522fdd1552709eed7fb0a9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
         <definition>virtual bool rocalution::GlobalMatrix&lt; ValueType &gt;::Check</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>Check</name>
         <param>
           <type>void</type>
@@ -1025,12 +1025,12 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/global_matrix.hpp" line="174" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1abdfd9065b7efe135448032b8c2577c69" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1adfd4bc7e51323d91bcf5861a5df8831b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>virtual void rocalution::GlobalMatrix&lt; ValueType &gt;::Apply</definition>
-        <argsstring>(const GlobalVector&lt; ValueType &gt; &amp;in, GlobalVector&lt; ValueType &gt; *out) const</argsstring>
+        <argsstring>(const GlobalVector&lt; ValueType &gt; &amp;in, GlobalVector&lt; ValueType &gt; *out) const </argsstring>
         <name>Apply</name>
-        <reimplements refid="classrocalution_1_1_operator_1a4ad4397df83f1fc6af9aecf0cb9af17c">Apply</reimplements>
+        <reimplements refid="classrocalution_1_1_operator_1aeb7eed71cee575be8f32679ebefa51a7">Apply</reimplements>
         <param>
           <type>const <ref refid="classrocalution_1_1_global_vector" kindref="compound">GlobalVector</ref>&lt; ValueType &gt; &amp;</type>
           <declname>in</declname>
@@ -1047,12 +1047,12 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/global_matrix.hpp" line="176" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a5be99571408e159d1ed3ece42aff4f03" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1af799e6956f5cbee7f588c6f589fdc77e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>void</type>
         <definition>virtual void rocalution::GlobalMatrix&lt; ValueType &gt;::ApplyAdd</definition>
-        <argsstring>(const GlobalVector&lt; ValueType &gt; &amp;in, ValueType scalar, GlobalVector&lt; ValueType &gt; *out) const</argsstring>
+        <argsstring>(const GlobalVector&lt; ValueType &gt; &amp;in, ValueType scalar, GlobalVector&lt; ValueType &gt; *out) const </argsstring>
         <name>ApplyAdd</name>
-        <reimplements refid="classrocalution_1_1_operator_1a87f809dde4c8d7d98fe443c0fb9bc92b">ApplyAdd</reimplements>
+        <reimplements refid="classrocalution_1_1_operator_1a5770aa3284c92ddcc874d12bc28e6d50">ApplyAdd</reimplements>
         <param>
           <type>const <ref refid="classrocalution_1_1_global_vector" kindref="compound">GlobalVector</ref>&lt; ValueType &gt; &amp;</type>
           <declname>in</declname>
@@ -1090,10 +1090,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/global_matrix.hpp" line="182" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a42ffc73504340c27f2ca6b03cf0eba39" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1aa513f674b48ccbcf93ceb499cebcba6e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::GlobalMatrix&lt; ValueType &gt;::WriteFileMTX</definition>
-        <argsstring>(const std::string filename) const</argsstring>
+        <argsstring>(const std::string filename) const </argsstring>
         <name>WriteFileMTX</name>
         <param>
           <type>const std::string</type>
@@ -1124,10 +1124,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/global_matrix.hpp" line="186" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1ae3c9250612a612248f4e57810b6e3025" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a9cb30b35b1c300f1e0a4d28af4faf92a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::GlobalMatrix&lt; ValueType &gt;::WriteFileCSR</definition>
-        <argsstring>(const std::string filename) const</argsstring>
+        <argsstring>(const std::string filename) const </argsstring>
         <name>WriteFileCSR</name>
         <param>
           <type>const std::string</type>
@@ -1157,10 +1157,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/global_matrix.hpp" line="191" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a044d23c3e411d5034262acb28a4c1176" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a5bf0474b2c801398bba8274a839d8ba4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::GlobalMatrix&lt; ValueType &gt;::ExtractInverseDiagonal</definition>
-        <argsstring>(GlobalVector&lt; ValueType &gt; *vec_inv_diag) const</argsstring>
+        <argsstring>(GlobalVector&lt; ValueType &gt; *vec_inv_diag) const </argsstring>
         <name>ExtractInverseDiagonal</name>
         <param>
           <type><ref refid="classrocalution_1_1_global_vector" kindref="compound">GlobalVector</ref>&lt; ValueType &gt; *</type>
@@ -1191,10 +1191,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/global_matrix.hpp" line="199" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a21b06650c4c022d8414e49cf2b90b98b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a90c27166a8480485d536e71385baf7ca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::GlobalMatrix&lt; ValueType &gt;::InitialPairwiseAggregation</definition>
-        <argsstring>(ValueType beta, int &amp;nc, LocalVector&lt; int &gt; *G, int &amp;Gsize, int **rG, int &amp;rGsize, int ordering) const</argsstring>
+        <argsstring>(ValueType beta, int &amp;nc, LocalVector&lt; int &gt; *G, int &amp;Gsize, int **rG, int &amp;rGsize, int ordering) const </argsstring>
         <name>InitialPairwiseAggregation</name>
         <param>
           <type>ValueType</type>
@@ -1232,10 +1232,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/global_matrix.hpp" line="202" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a5aaae97a058dd30859f6a4ab5d9babaf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1aa16449eb36f03bb0575aa6ac32f9ea20" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::GlobalMatrix&lt; ValueType &gt;::FurtherPairwiseAggregation</definition>
-        <argsstring>(ValueType beta, int &amp;nc, LocalVector&lt; int &gt; *G, int &amp;Gsize, int **rG, int &amp;rGsize, int ordering) const</argsstring>
+        <argsstring>(ValueType beta, int &amp;nc, LocalVector&lt; int &gt; *G, int &amp;Gsize, int **rG, int &amp;rGsize, int ordering) const </argsstring>
         <name>FurtherPairwiseAggregation</name>
         <param>
           <type>ValueType</type>
@@ -1273,10 +1273,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/global_matrix.hpp" line="210" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a891fe800ad6dead789354765471e9965" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a90a31a83e395d0b4f56a0b1743e868a9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void rocalution::GlobalMatrix&lt; ValueType &gt;::CoarsenOperator</definition>
-        <argsstring>(GlobalMatrix&lt; ValueType &gt; *Ac, ParallelManager *pm, int nrow, int ncol, const LocalVector&lt; int &gt; &amp;G, int Gsize, const int *rG, int rGsize) const</argsstring>
+        <argsstring>(GlobalMatrix&lt; ValueType &gt; *Ac, ParallelManager *pm, int nrow, int ncol, const LocalVector&lt; int &gt; &amp;G, int Gsize, const int *rG, int rGsize) const </argsstring>
         <name>CoarsenOperator</name>
         <param>
           <type><ref refid="classrocalution_1_1_global_matrix" kindref="compound">GlobalMatrix</ref>&lt; ValueType &gt; *</type>
@@ -1320,10 +1320,10 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
-      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a06388f5fee7036aafbc89c5e3cccad8d" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a96872fb969c6896b54212d205fe6e0da" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="classrocalution_1_1_local_matrix" kindref="compound">LocalMatrix</ref>&lt; ValueType &gt; &amp;</type>
         <definition>const LocalMatrix&lt;ValueType&gt;&amp; rocalution::GlobalMatrix&lt; ValueType &gt;::GetInterior</definition>
-        <argsstring>() const</argsstring>
+        <argsstring>() const </argsstring>
         <name>GetInterior</name>
         <briefdescription>
         </briefdescription>
@@ -1333,10 +1333,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/global_matrix.hpp" line="70" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a288b50d8be6f7e8673a6847cf8505b8f" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1abe2680c5401925a9f49810cf4e224438" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="classrocalution_1_1_local_matrix" kindref="compound">LocalMatrix</ref>&lt; ValueType &gt; &amp;</type>
         <definition>const LocalMatrix&lt;ValueType&gt;&amp; rocalution::GlobalMatrix&lt; ValueType &gt;::GetGhost</definition>
-        <argsstring>() const</argsstring>
+        <argsstring>() const </argsstring>
         <name>GetGhost</name>
         <briefdescription>
         </briefdescription>
@@ -1348,10 +1348,10 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
-      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1a4bd38b6e13c7a46e50cd18b53a96b96b" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1ab6ba6018c94cc0301720f1c69c69848f" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
         <definition>virtual bool rocalution::GlobalMatrix&lt; ValueType &gt;::is_host_</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>is_host_</name>
         <reimplements refid="classrocalution_1_1_base_rocalution_1a4bf61bf87e25d66b63187e21d00e4f2d">is_host_</reimplements>
         <param>
@@ -1365,10 +1365,10 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/global_matrix.hpp" line="228" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1aba4776a93e5b76ddad6d8f57ec2895a1" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_global_matrix_1acb2d724a4db311ab3fa0acfae38845f7" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
         <definition>virtual bool rocalution::GlobalMatrix&lt; ValueType &gt;::is_accel_</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>is_accel_</name>
         <reimplements refid="classrocalution_1_1_base_rocalution_1a3fd4724cb23b135d6b6528674c3aec14">is_accel_</reimplements>
         <param>
@@ -1445,16 +1445,16 @@
     <listofallmembers>
       <member refid="classrocalution_1_1_global_matrix_1a1776519a7bd69f17a9a758109deed5b7" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>AllocateCOO</name></member>
       <member refid="classrocalution_1_1_global_matrix_1a57abf518a59637c1dd680fcb08e91f20" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>AllocateCSR</name></member>
-      <member refid="classrocalution_1_1_global_matrix_1abdfd9065b7efe135448032b8c2577c69" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>Apply</name></member>
-      <member refid="classrocalution_1_1_operator_1a8dc56052b7fc57029c7cfc4eb5a8a25b" prot="public" virt="virtual" ambiguityscope="rocalution::Operator::"><scope>rocalution::GlobalMatrix</scope><name>Apply</name></member>
-      <member refid="classrocalution_1_1_global_matrix_1a5be99571408e159d1ed3ece42aff4f03" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>ApplyAdd</name></member>
-      <member refid="classrocalution_1_1_operator_1a9607876a1dc71ab7f4c03ade2e6bc952" prot="public" virt="virtual" ambiguityscope="rocalution::Operator::"><scope>rocalution::GlobalMatrix</scope><name>ApplyAdd</name></member>
+      <member refid="classrocalution_1_1_global_matrix_1adfd4bc7e51323d91bcf5861a5df8831b" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>Apply</name></member>
+      <member refid="classrocalution_1_1_operator_1a3f86a25c9390428212a7af3a70ed2ac9" prot="public" virt="virtual" ambiguityscope="rocalution::Operator::"><scope>rocalution::GlobalMatrix</scope><name>Apply</name></member>
+      <member refid="classrocalution_1_1_global_matrix_1af799e6956f5cbee7f588c6f589fdc77e" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>ApplyAdd</name></member>
+      <member refid="classrocalution_1_1_operator_1a4a80bbed8eee584f8b4971372c67d289" prot="public" virt="virtual" ambiguityscope="rocalution::Operator::"><scope>rocalution::GlobalMatrix</scope><name>ApplyAdd</name></member>
       <member refid="classrocalution_1_1_base_rocalution_1ad248c147237baaf809978dba69edf342" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>BaseRocalution</name></member>
-      <member refid="classrocalution_1_1_global_matrix_1a870b6dec8536dc61b4c0476222ed28ca" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>Check</name></member>
+      <member refid="classrocalution_1_1_global_matrix_1aa2433e2159522fdd1552709eed7fb0a9" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>Check</name></member>
       <member refid="classrocalution_1_1_global_matrix_1a8cee4fcfe4f83a3af8d2b8bb5a7c1dc1" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>Clear</name></member>
       <member refid="classrocalution_1_1_base_rocalution_1a85acdb9844b7c6a630f14ace59d99f5d" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>CloneBackend</name></member>
       <member refid="classrocalution_1_1_global_matrix_1ae7cbc73a5ecf2acc932687afeffa3f05" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>CloneFrom</name></member>
-      <member refid="classrocalution_1_1_global_matrix_1a891fe800ad6dead789354765471e9965" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>CoarsenOperator</name></member>
+      <member refid="classrocalution_1_1_global_matrix_1a90a31a83e395d0b4f56a0b1743e868a9" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>CoarsenOperator</name></member>
       <member refid="classrocalution_1_1_global_matrix_1ae615b1716a2a1021ee314a131a9fdf7d" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>ConvertTo</name></member>
       <member refid="classrocalution_1_1_global_matrix_1ae722d756c1f26bb801a336ecf7813598" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>ConvertToBCSR</name></member>
       <member refid="classrocalution_1_1_global_matrix_1a608a96dbfe9533945447aebfd26275e2" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>ConvertToCOO</name></member>
@@ -1465,27 +1465,27 @@
       <member refid="classrocalution_1_1_global_matrix_1a465ecd4ec49b3652632a43d4d85bb6af" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>ConvertToHYB</name></member>
       <member refid="classrocalution_1_1_global_matrix_1afae4cfc7856dd52c6f87f31ca0fb318e" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>ConvertToMCSR</name></member>
       <member refid="classrocalution_1_1_global_matrix_1a634e35f823363d5495a88df1a80f95ac" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>CopyFrom</name></member>
-      <member refid="classrocalution_1_1_global_matrix_1a044d23c3e411d5034262acb28a4c1176" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>ExtractInverseDiagonal</name></member>
-      <member refid="classrocalution_1_1_global_matrix_1a5aaae97a058dd30859f6a4ab5d9babaf" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>FurtherPairwiseAggregation</name></member>
-      <member refid="classrocalution_1_1_global_matrix_1a288b50d8be6f7e8673a6847cf8505b8f" prot="private" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>GetGhost</name></member>
-      <member refid="classrocalution_1_1_global_matrix_1aca83e998b4631b863849ba6f3186bcee" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>GetGhostM</name></member>
-      <member refid="classrocalution_1_1_global_matrix_1a8e9d2f67a90178055b7020b1059f7f47" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>GetGhostN</name></member>
-      <member refid="classrocalution_1_1_global_matrix_1a29ebbf7d43bb58b0b160c493200240c4" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>GetGhostNnz</name></member>
-      <member refid="classrocalution_1_1_global_matrix_1a06388f5fee7036aafbc89c5e3cccad8d" prot="private" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>GetInterior</name></member>
-      <member refid="classrocalution_1_1_global_matrix_1a8d495da832312553ce87eba9e545d645" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>GetLocalM</name></member>
-      <member refid="classrocalution_1_1_global_matrix_1af500f5c9e18f923a5f1a98c2bfa66067" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>GetLocalN</name></member>
-      <member refid="classrocalution_1_1_global_matrix_1aea3b976ce5d334edd709756db2ad968d" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>GetLocalNnz</name></member>
-      <member refid="classrocalution_1_1_global_matrix_1a8932d6188eac1af1b17b4a2f9f314ae7" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>GetM</name></member>
-      <member refid="classrocalution_1_1_global_matrix_1a00a41023e373bbc9e1a3949fecdb25c2" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>GetN</name></member>
-      <member refid="classrocalution_1_1_global_matrix_1a1829ae55194f1ebdb8988b0cd0bdbb5c" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>GetNnz</name></member>
+      <member refid="classrocalution_1_1_global_matrix_1a5bf0474b2c801398bba8274a839d8ba4" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>ExtractInverseDiagonal</name></member>
+      <member refid="classrocalution_1_1_global_matrix_1aa16449eb36f03bb0575aa6ac32f9ea20" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>FurtherPairwiseAggregation</name></member>
+      <member refid="classrocalution_1_1_global_matrix_1abe2680c5401925a9f49810cf4e224438" prot="private" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>GetGhost</name></member>
+      <member refid="classrocalution_1_1_global_matrix_1a3537faf3a69187db8a1fbc42c94f4810" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>GetGhostM</name></member>
+      <member refid="classrocalution_1_1_global_matrix_1aaacd0b926ea3c76dfdab5f8470a5a3d0" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>GetGhostN</name></member>
+      <member refid="classrocalution_1_1_global_matrix_1a4d2778916766d4487e0f69e30e75b6b0" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>GetGhostNnz</name></member>
+      <member refid="classrocalution_1_1_global_matrix_1a96872fb969c6896b54212d205fe6e0da" prot="private" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>GetInterior</name></member>
+      <member refid="classrocalution_1_1_global_matrix_1a35df35341a42be1e2b9c0d02e30375cd" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>GetLocalM</name></member>
+      <member refid="classrocalution_1_1_global_matrix_1a799a233fda1a65fe08e1ae953d76fab7" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>GetLocalN</name></member>
+      <member refid="classrocalution_1_1_global_matrix_1a0da9006b2e5e300ef2748b2436b4fcc7" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>GetLocalNnz</name></member>
+      <member refid="classrocalution_1_1_global_matrix_1acbcc8abc595ec1da033cb5096c6e2eb5" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>GetM</name></member>
+      <member refid="classrocalution_1_1_global_matrix_1a8fed78a83731f1991dcef967d1489537" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>GetN</name></member>
+      <member refid="classrocalution_1_1_global_matrix_1a816194be1b1986dcd2281a2c0cb4c2b7" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>GetNnz</name></member>
       <member refid="classrocalution_1_1_rocalution_obj_1a4bba5aeaf4fd705efc00402f1f6ed40b" prot="protected" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>global_obj_id_</name></member>
       <member refid="classrocalution_1_1_global_matrix_1a87e57da1892018bbfef53305e614aeee" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>GlobalMatrix</name></member>
       <member refid="classrocalution_1_1_global_matrix_1a239d1b9acaebee90bcafc46dba849dd5" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>GlobalMatrix</name></member>
       <member refid="classrocalution_1_1_global_matrix_1ad50ce751e5dafbeb3ca73c65cd542fce" prot="private" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>GlobalVector&lt; ValueType &gt;</name></member>
-      <member refid="classrocalution_1_1_global_matrix_1a4e38a9f74b2bfbabfcfc3bba8a74008d" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>Info</name></member>
-      <member refid="classrocalution_1_1_global_matrix_1a21b06650c4c022d8414e49cf2b90b98b" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>InitialPairwiseAggregation</name></member>
-      <member refid="classrocalution_1_1_global_matrix_1aba4776a93e5b76ddad6d8f57ec2895a1" prot="protected" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>is_accel_</name></member>
-      <member refid="classrocalution_1_1_global_matrix_1a4bd38b6e13c7a46e50cd18b53a96b96b" prot="protected" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>is_host_</name></member>
+      <member refid="classrocalution_1_1_global_matrix_1a315a60ccd047e5dd93c9970e1e076588" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>Info</name></member>
+      <member refid="classrocalution_1_1_global_matrix_1a90c27166a8480485d536e71385baf7ca" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>InitialPairwiseAggregation</name></member>
+      <member refid="classrocalution_1_1_global_matrix_1acb2d724a4db311ab3fa0acfae38845f7" prot="protected" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>is_accel_</name></member>
+      <member refid="classrocalution_1_1_global_matrix_1ab6ba6018c94cc0301720f1c69c69848f" prot="protected" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>is_host_</name></member>
       <member refid="classrocalution_1_1_global_matrix_1a0c80178f6e9496e7c8a17958354ef370" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>LeaveDataPtrCOO</name></member>
       <member refid="classrocalution_1_1_global_matrix_1a2eb0842687f4b546441a611ce7a0eb11" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>LeaveDataPtrCSR</name></member>
       <member refid="classrocalution_1_1_global_matrix_1a1c309c717ca2a28a9ec2f0495499ea29" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>LeaveGhostDataPtrCOO</name></member>
@@ -1516,8 +1516,8 @@
       <member refid="classrocalution_1_1_global_matrix_1a235ba2d1e7d61973cb6afb7b31e63b41" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>SetParallelManager</name></member>
       <member refid="classrocalution_1_1_global_matrix_1ae0e7123ccd0600ff538e2db868885a45" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>Sort</name></member>
       <member refid="classrocalution_1_1_base_rocalution_1a67986dbebc9b025e6ac30be4f85f784b" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>Sync</name></member>
-      <member refid="classrocalution_1_1_global_matrix_1ae3c9250612a612248f4e57810b6e3025" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>WriteFileCSR</name></member>
-      <member refid="classrocalution_1_1_global_matrix_1a42ffc73504340c27f2ca6b03cf0eba39" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>WriteFileMTX</name></member>
+      <member refid="classrocalution_1_1_global_matrix_1a9cb30b35b1c300f1e0a4d28af4faf92a" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>WriteFileCSR</name></member>
+      <member refid="classrocalution_1_1_global_matrix_1aa513f674b48ccbcf93ceb499cebcba6e" prot="public" virt="non-virtual"><scope>rocalution::GlobalMatrix</scope><name>WriteFileMTX</name></member>
       <member refid="classrocalution_1_1_base_rocalution_1aad8ac3188091c4683181bfe6d739b7fd" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>~BaseRocalution</name></member>
       <member refid="classrocalution_1_1_global_matrix_1a55127cdfe0a768db235eff066f8ff65b" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>~GlobalMatrix</name></member>
       <member refid="classrocalution_1_1_operator_1a17862759071f26a8bfc2ec7230c5f226" prot="public" virt="virtual"><scope>rocalution::GlobalMatrix</scope><name>~Operator</name></member>

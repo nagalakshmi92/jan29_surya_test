@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
   <compound refid="classrocalution_1_1_accelerator_matrix" kind="class"><name>rocalution::AcceleratorMatrix</name>
   </compound>
   <compound refid="classrocalution_1_1_accelerator_stencil" kind="class"><name>rocalution::AcceleratorStencil</name>
@@ -59,19 +59,19 @@
     <member refid="classrocalution_1_1_global_matrix_1a87e57da1892018bbfef53305e614aeee" kind="function"><name>GlobalMatrix</name></member>
     <member refid="classrocalution_1_1_global_matrix_1a239d1b9acaebee90bcafc46dba849dd5" kind="function"><name>GlobalMatrix</name></member>
     <member refid="classrocalution_1_1_global_matrix_1a55127cdfe0a768db235eff066f8ff65b" kind="function"><name>~GlobalMatrix</name></member>
-    <member refid="classrocalution_1_1_global_matrix_1a8932d6188eac1af1b17b4a2f9f314ae7" kind="function"><name>GetM</name></member>
-    <member refid="classrocalution_1_1_global_matrix_1a00a41023e373bbc9e1a3949fecdb25c2" kind="function"><name>GetN</name></member>
-    <member refid="classrocalution_1_1_global_matrix_1a1829ae55194f1ebdb8988b0cd0bdbb5c" kind="function"><name>GetNnz</name></member>
-    <member refid="classrocalution_1_1_global_matrix_1a8d495da832312553ce87eba9e545d645" kind="function"><name>GetLocalM</name></member>
-    <member refid="classrocalution_1_1_global_matrix_1af500f5c9e18f923a5f1a98c2bfa66067" kind="function"><name>GetLocalN</name></member>
-    <member refid="classrocalution_1_1_global_matrix_1aea3b976ce5d334edd709756db2ad968d" kind="function"><name>GetLocalNnz</name></member>
-    <member refid="classrocalution_1_1_global_matrix_1aca83e998b4631b863849ba6f3186bcee" kind="function"><name>GetGhostM</name></member>
-    <member refid="classrocalution_1_1_global_matrix_1a8e9d2f67a90178055b7020b1059f7f47" kind="function"><name>GetGhostN</name></member>
-    <member refid="classrocalution_1_1_global_matrix_1a29ebbf7d43bb58b0b160c493200240c4" kind="function"><name>GetGhostNnz</name></member>
+    <member refid="classrocalution_1_1_global_matrix_1acbcc8abc595ec1da033cb5096c6e2eb5" kind="function"><name>GetM</name></member>
+    <member refid="classrocalution_1_1_global_matrix_1a8fed78a83731f1991dcef967d1489537" kind="function"><name>GetN</name></member>
+    <member refid="classrocalution_1_1_global_matrix_1a816194be1b1986dcd2281a2c0cb4c2b7" kind="function"><name>GetNnz</name></member>
+    <member refid="classrocalution_1_1_global_matrix_1a35df35341a42be1e2b9c0d02e30375cd" kind="function"><name>GetLocalM</name></member>
+    <member refid="classrocalution_1_1_global_matrix_1a799a233fda1a65fe08e1ae953d76fab7" kind="function"><name>GetLocalN</name></member>
+    <member refid="classrocalution_1_1_global_matrix_1a0da9006b2e5e300ef2748b2436b4fcc7" kind="function"><name>GetLocalNnz</name></member>
+    <member refid="classrocalution_1_1_global_matrix_1a3537faf3a69187db8a1fbc42c94f4810" kind="function"><name>GetGhostM</name></member>
+    <member refid="classrocalution_1_1_global_matrix_1aaacd0b926ea3c76dfdab5f8470a5a3d0" kind="function"><name>GetGhostN</name></member>
+    <member refid="classrocalution_1_1_global_matrix_1a4d2778916766d4487e0f69e30e75b6b0" kind="function"><name>GetGhostNnz</name></member>
     <member refid="classrocalution_1_1_global_matrix_1aaea5820fdc34b332ec60da1fa53fd5c7" kind="function"><name>MoveToAccelerator</name></member>
     <member refid="classrocalution_1_1_global_matrix_1a95d5a480866e92862069e81ab3c68c24" kind="function"><name>MoveToHost</name></member>
-    <member refid="classrocalution_1_1_global_matrix_1a4e38a9f74b2bfbabfcfc3bba8a74008d" kind="function"><name>Info</name></member>
-    <member refid="classrocalution_1_1_global_matrix_1a870b6dec8536dc61b4c0476222ed28ca" kind="function"><name>Check</name></member>
+    <member refid="classrocalution_1_1_global_matrix_1a315a60ccd047e5dd93c9970e1e076588" kind="function"><name>Info</name></member>
+    <member refid="classrocalution_1_1_global_matrix_1aa2433e2159522fdd1552709eed7fb0a9" kind="function"><name>Check</name></member>
     <member refid="classrocalution_1_1_global_matrix_1a57abf518a59637c1dd680fcb08e91f20" kind="function"><name>AllocateCSR</name></member>
     <member refid="classrocalution_1_1_global_matrix_1a1776519a7bd69f17a9a758109deed5b7" kind="function"><name>AllocateCOO</name></member>
     <member refid="classrocalution_1_1_global_matrix_1a8cee4fcfe4f83a3af8d2b8bb5a7c1dc1" kind="function"><name>Clear</name></member>
@@ -99,22 +99,22 @@
     <member refid="classrocalution_1_1_global_matrix_1a465ecd4ec49b3652632a43d4d85bb6af" kind="function"><name>ConvertToHYB</name></member>
     <member refid="classrocalution_1_1_global_matrix_1a7b6da67732d07cd28ba630f51ee9e2a6" kind="function"><name>ConvertToDENSE</name></member>
     <member refid="classrocalution_1_1_global_matrix_1ae615b1716a2a1021ee314a131a9fdf7d" kind="function"><name>ConvertTo</name></member>
-    <member refid="classrocalution_1_1_global_matrix_1abdfd9065b7efe135448032b8c2577c69" kind="function"><name>Apply</name></member>
-    <member refid="classrocalution_1_1_global_matrix_1a5be99571408e159d1ed3ece42aff4f03" kind="function"><name>ApplyAdd</name></member>
+    <member refid="classrocalution_1_1_global_matrix_1adfd4bc7e51323d91bcf5861a5df8831b" kind="function"><name>Apply</name></member>
+    <member refid="classrocalution_1_1_global_matrix_1af799e6956f5cbee7f588c6f589fdc77e" kind="function"><name>ApplyAdd</name></member>
     <member refid="classrocalution_1_1_global_matrix_1a0481a22957dc085d8ca1d244fa9ecea3" kind="function"><name>ReadFileMTX</name></member>
-    <member refid="classrocalution_1_1_global_matrix_1a42ffc73504340c27f2ca6b03cf0eba39" kind="function"><name>WriteFileMTX</name></member>
+    <member refid="classrocalution_1_1_global_matrix_1aa513f674b48ccbcf93ceb499cebcba6e" kind="function"><name>WriteFileMTX</name></member>
     <member refid="classrocalution_1_1_global_matrix_1aff6ad8d5361550f1fb8fa4697acc5c04" kind="function"><name>ReadFileCSR</name></member>
-    <member refid="classrocalution_1_1_global_matrix_1ae3c9250612a612248f4e57810b6e3025" kind="function"><name>WriteFileCSR</name></member>
+    <member refid="classrocalution_1_1_global_matrix_1a9cb30b35b1c300f1e0a4d28af4faf92a" kind="function"><name>WriteFileCSR</name></member>
     <member refid="classrocalution_1_1_global_matrix_1ae0e7123ccd0600ff538e2db868885a45" kind="function"><name>Sort</name></member>
-    <member refid="classrocalution_1_1_global_matrix_1a044d23c3e411d5034262acb28a4c1176" kind="function"><name>ExtractInverseDiagonal</name></member>
+    <member refid="classrocalution_1_1_global_matrix_1a5bf0474b2c801398bba8274a839d8ba4" kind="function"><name>ExtractInverseDiagonal</name></member>
     <member refid="classrocalution_1_1_global_matrix_1a7c30c6acb7080aea1d2272e7467da276" kind="function"><name>Scale</name></member>
-    <member refid="classrocalution_1_1_global_matrix_1a21b06650c4c022d8414e49cf2b90b98b" kind="function"><name>InitialPairwiseAggregation</name></member>
-    <member refid="classrocalution_1_1_global_matrix_1a5aaae97a058dd30859f6a4ab5d9babaf" kind="function"><name>FurtherPairwiseAggregation</name></member>
-    <member refid="classrocalution_1_1_global_matrix_1a891fe800ad6dead789354765471e9965" kind="function"><name>CoarsenOperator</name></member>
-    <member refid="classrocalution_1_1_global_matrix_1a06388f5fee7036aafbc89c5e3cccad8d" kind="function"><name>GetInterior</name></member>
-    <member refid="classrocalution_1_1_global_matrix_1a288b50d8be6f7e8673a6847cf8505b8f" kind="function"><name>GetGhost</name></member>
-    <member refid="classrocalution_1_1_global_matrix_1a4bd38b6e13c7a46e50cd18b53a96b96b" kind="function"><name>is_host_</name></member>
-    <member refid="classrocalution_1_1_global_matrix_1aba4776a93e5b76ddad6d8f57ec2895a1" kind="function"><name>is_accel_</name></member>
+    <member refid="classrocalution_1_1_global_matrix_1a90c27166a8480485d536e71385baf7ca" kind="function"><name>InitialPairwiseAggregation</name></member>
+    <member refid="classrocalution_1_1_global_matrix_1aa16449eb36f03bb0575aa6ac32f9ea20" kind="function"><name>FurtherPairwiseAggregation</name></member>
+    <member refid="classrocalution_1_1_global_matrix_1a90a31a83e395d0b4f56a0b1743e868a9" kind="function"><name>CoarsenOperator</name></member>
+    <member refid="classrocalution_1_1_global_matrix_1a96872fb969c6896b54212d205fe6e0da" kind="function"><name>GetInterior</name></member>
+    <member refid="classrocalution_1_1_global_matrix_1abe2680c5401925a9f49810cf4e224438" kind="function"><name>GetGhost</name></member>
+    <member refid="classrocalution_1_1_global_matrix_1ab6ba6018c94cc0301720f1c69c69848f" kind="function"><name>is_host_</name></member>
+    <member refid="classrocalution_1_1_global_matrix_1acb2d724a4db311ab3fa0acfae38845f7" kind="function"><name>is_accel_</name></member>
   </compound>
   <compound refid="classrocalution_1_1_global_vector" kind="class"><name>rocalution::GlobalVector</name>
     <member refid="classrocalution_1_1_global_vector_1a66a51fc46b0922e9040c810d2c995c84" kind="variable"><name>recv_event_</name></member>
@@ -131,11 +131,11 @@
     <member refid="classrocalution_1_1_global_vector_1a405dfba2b12b05f2e7b2490c5ec3c7bf" kind="function"><name>~GlobalVector</name></member>
     <member refid="classrocalution_1_1_global_vector_1a94d52c5d6af6d72ad95fd40c3b4311f5" kind="function"><name>MoveToAccelerator</name></member>
     <member refid="classrocalution_1_1_global_vector_1ac3d2919284a9b71fad591e356e357ffe" kind="function"><name>MoveToHost</name></member>
-    <member refid="classrocalution_1_1_global_vector_1adba19a166864f4edad7c2333d84782d0" kind="function"><name>Info</name></member>
-    <member refid="classrocalution_1_1_global_vector_1aaaf75d2ec850ee5646866ed1b6c0901c" kind="function"><name>Check</name></member>
-    <member refid="classrocalution_1_1_global_vector_1a5e804a659202e2bd824f2d3e583c9729" kind="function"><name>GetSize</name></member>
-    <member refid="classrocalution_1_1_global_vector_1a1a28e19929589726047f44ffbbdd1a02" kind="function"><name>GetLocalSize</name></member>
-    <member refid="classrocalution_1_1_global_vector_1ad7bcf809595d1c1701c4078c051b3e25" kind="function"><name>GetGhostSize</name></member>
+    <member refid="classrocalution_1_1_global_vector_1a28c0e4f040278169e360a9084196b533" kind="function"><name>Info</name></member>
+    <member refid="classrocalution_1_1_global_vector_1ac9a6644e545ba64dfc18595a1ec92e2d" kind="function"><name>Check</name></member>
+    <member refid="classrocalution_1_1_global_vector_1a2388fc4e5a0bda04c7a172a17a40d5f8" kind="function"><name>GetSize</name></member>
+    <member refid="classrocalution_1_1_global_vector_1a9a6b31c07ceefb5fe59bcb550f5ee482" kind="function"><name>GetLocalSize</name></member>
+    <member refid="classrocalution_1_1_global_vector_1a05f7933a9ed930e9869396fd7904b95f" kind="function"><name>GetGhostSize</name></member>
     <member refid="classrocalution_1_1_global_vector_1a778bad724e09e546ca92d051f0dee1b2" kind="function"><name>Allocate</name></member>
     <member refid="classrocalution_1_1_global_vector_1abd727ab7d5d7f676f973e0a5664237a5" kind="function"><name>Clear</name></member>
     <member refid="classrocalution_1_1_global_vector_1a3ac1694db485d9638f5c89b109560287" kind="function"><name>SetParallelManager</name></member>
@@ -146,35 +146,35 @@
     <member refid="classrocalution_1_1_global_vector_1a6b4f089c92ce7885bcc867c806640cf0" kind="function"><name>SetRandomNormal</name></member>
     <member refid="classrocalution_1_1_global_vector_1a0ebad2dd42e2051f897bb50c08531f55" kind="function"><name>CloneFrom</name></member>
     <member refid="classrocalution_1_1_global_vector_1a7bd3dee898a678434b8a54e9de90fbc3" kind="function"><name>operator[]</name></member>
-    <member refid="classrocalution_1_1_global_vector_1a08dc9c0e2619d757bb57698d6a97dc02" kind="function"><name>operator[]</name></member>
+    <member refid="classrocalution_1_1_global_vector_1ab5015262925f75a55a7d99167ad489a7" kind="function"><name>operator[]</name></member>
     <member refid="classrocalution_1_1_global_vector_1af0e3a1cc9f3df6003216b12516b62a7a" kind="function"><name>SetDataPtr</name></member>
     <member refid="classrocalution_1_1_global_vector_1a855142bc4abe3c60fc28a3a847a0821b" kind="function"><name>LeaveDataPtr</name></member>
     <member refid="classrocalution_1_1_global_vector_1abbbcd38528e2e8d206074ded7d057675" kind="function"><name>CopyFrom</name></member>
     <member refid="classrocalution_1_1_global_vector_1a26597a91fbeac7b324f34e9c0af58582" kind="function"><name>ReadFileASCII</name></member>
-    <member refid="classrocalution_1_1_global_vector_1acffd8199e0ee1ed21abfe66612a2e39e" kind="function"><name>WriteFileASCII</name></member>
+    <member refid="classrocalution_1_1_global_vector_1ace9b59e40960553559ba72772492caf4" kind="function"><name>WriteFileASCII</name></member>
     <member refid="classrocalution_1_1_global_vector_1a7f54dacddf4f3f5a615f7e2ac3b6a949" kind="function"><name>ReadFileBinary</name></member>
-    <member refid="classrocalution_1_1_global_vector_1a8562871e61d54369093bccfcf7045666" kind="function"><name>WriteFileBinary</name></member>
+    <member refid="classrocalution_1_1_global_vector_1addc8a8ce8c32c4521b1c825fe6c74969" kind="function"><name>WriteFileBinary</name></member>
     <member refid="classrocalution_1_1_global_vector_1a8c061e6f4715e9969861a08e6fce864f" kind="function"><name>AddScale</name></member>
     <member refid="classrocalution_1_1_global_vector_1a0324a2852ec0c5bf5dde665860a068d5" kind="function"><name>ScaleAdd</name></member>
     <member refid="classrocalution_1_1_global_vector_1a65839dc24fe2172f999ba5d1a1f37b25" kind="function"><name>ScaleAdd2</name></member>
     <member refid="classrocalution_1_1_global_vector_1acdd79345b1ab83ca6b30e83136ff1003" kind="function"><name>ScaleAddScale</name></member>
     <member refid="classrocalution_1_1_global_vector_1a03ecd5d92ee9b1b0b561b816cf6dca11" kind="function"><name>Scale</name></member>
-    <member refid="classrocalution_1_1_global_vector_1acff4d26fb485147fa4d5fddbfc9e5261" kind="function"><name>Dot</name></member>
-    <member refid="classrocalution_1_1_global_vector_1a86be26351b1935e3595ac4ff64cb6d98" kind="function"><name>DotNonConj</name></member>
-    <member refid="classrocalution_1_1_global_vector_1ac50685032c64d2b20f37502e2a085c7f" kind="function"><name>Norm</name></member>
-    <member refid="classrocalution_1_1_global_vector_1a7c777dba889c54bf7d42257a8f3fd9db" kind="function"><name>Reduce</name></member>
-    <member refid="classrocalution_1_1_global_vector_1a02a2f9e333cbdc26c917321ee0e833b9" kind="function"><name>Asum</name></member>
-    <member refid="classrocalution_1_1_global_vector_1a0609a049872a62a5218a38e4187d3ef9" kind="function"><name>Amax</name></member>
+    <member refid="classrocalution_1_1_global_vector_1aae95dc7f0dae13a8c12cec05d6901b61" kind="function"><name>Dot</name></member>
+    <member refid="classrocalution_1_1_global_vector_1acd4815015616537eb057b90515921991" kind="function"><name>DotNonConj</name></member>
+    <member refid="classrocalution_1_1_global_vector_1a228841f8a2e39f99cf0ec82d8819a385" kind="function"><name>Norm</name></member>
+    <member refid="classrocalution_1_1_global_vector_1a8c8418385bea0ce7ec4113b0be51b181" kind="function"><name>Reduce</name></member>
+    <member refid="classrocalution_1_1_global_vector_1aa101efc85ef1799bb142ee05c185281f" kind="function"><name>Asum</name></member>
+    <member refid="classrocalution_1_1_global_vector_1af78bb9c0347f97871fb6f63ab23c3ab5" kind="function"><name>Amax</name></member>
     <member refid="classrocalution_1_1_global_vector_1a7d6ca3d4ab5460695e39b77ffbf8bcc0" kind="function"><name>PointWiseMult</name></member>
     <member refid="classrocalution_1_1_global_vector_1ab63d13d318613fdd27619f53ef8f8a63" kind="function"><name>PointWiseMult</name></member>
     <member refid="classrocalution_1_1_global_vector_1a6d5f5a56660fb6d970bae54be37d9162" kind="function"><name>Power</name></member>
     <member refid="classrocalution_1_1_global_vector_1ab4eafcc8921e7ab30339e121c93995aa" kind="function"><name>Restriction</name></member>
     <member refid="classrocalution_1_1_global_vector_1a0cf1f907d09b9eb6ef6bb67b0a25be07" kind="function"><name>Prolongation</name></member>
-    <member refid="classrocalution_1_1_global_vector_1ab751e276b6fc3ff9ae734a4ee21c207c" kind="function"><name>GetInterior</name></member>
+    <member refid="classrocalution_1_1_global_vector_1ab8fdd5918f590ad0172ba05a29d5bd4d" kind="function"><name>GetInterior</name></member>
     <member refid="classrocalution_1_1_global_vector_1a2975c1146ee59b3f742e59413991b453" kind="function"><name>GetInterior</name></member>
-    <member refid="classrocalution_1_1_global_vector_1a52ebee33c61f1927434551845b35537c" kind="function"><name>GetGhost</name></member>
-    <member refid="classrocalution_1_1_global_vector_1a89724f2b33c55e669fe4a058237d7e97" kind="function"><name>is_host_</name></member>
-    <member refid="classrocalution_1_1_global_vector_1a3c381dab7f46657d59cf7a9858274a17" kind="function"><name>is_accel_</name></member>
+    <member refid="classrocalution_1_1_global_vector_1a43ba1128b603173b999d3eda27b00f10" kind="function"><name>GetGhost</name></member>
+    <member refid="classrocalution_1_1_global_vector_1a7313ed947702ea39680632d439c24aac" kind="function"><name>is_host_</name></member>
+    <member refid="classrocalution_1_1_global_vector_1aeaf84d601b67d62ffee7f021eb6cd8ed" kind="function"><name>is_accel_</name></member>
     <member refid="classrocalution_1_1_global_vector_1a69fbfaa93c76d79395d5bee39707daaa" kind="function"><name>UpdateGhostValuesAsync_</name></member>
     <member refid="classrocalution_1_1_global_vector_1a612e63c1a7791a7cfdff210d7c1441c5" kind="function"><name>UpdateGhostValuesSync_</name></member>
   </compound>
@@ -228,12 +228,12 @@
     <member refid="classrocalution_1_1_local_matrix_1a350700fdc95d2918442f14af47bb3ff4" kind="friend"><name>GlobalMatrix&lt; ValueType &gt;</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a24693e40cc06b807cec974b4fb7c0f22" kind="function"><name>LocalMatrix</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a30380ef77093ef355c8d666401833c60" kind="function"><name>~LocalMatrix</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a8f66294a7f7bf412dc44acdd6850e061" kind="function"><name>Info</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a0a077e9b521fc8af41c7f18de1cad1d5" kind="function"><name>GetFormat</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1aeb0c36e210a0bbbc835874b5bac6437f" kind="function"><name>GetM</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1af87c058edc0aadb0b0c8b026f8d9b00a" kind="function"><name>GetN</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1afab6feb71269348bb0665338f167ac16" kind="function"><name>GetNnz</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a69e093022f1ccd32d046422c4e6196f1" kind="function"><name>Check</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1afe36dba5d24a8f6714738dad361fe6a3" kind="function"><name>Info</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1af7726dcf3f37962dd1b35ae112bb5469" kind="function"><name>GetFormat</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1ae1e91b6ac4ac1c2233d6306b52523556" kind="function"><name>GetM</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a0dcea805d6d0a3434918f7efc4a91948" kind="function"><name>GetN</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1aa6744f499c4bb6ab9aca5a9d68f6311d" kind="function"><name>GetNnz</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a7c9203659014dc0689907f8e03e712f2" kind="function"><name>Check</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a8df7184b26588a0d06d6c65a53fd7a73" kind="function"><name>Clear</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a7218681c7054a12aae6057d96d3a4e54" kind="function"><name>Zeros</name></member>
     <member refid="classrocalution_1_1_local_matrix_1aeabad9b79068c70637ef311af34af61a" kind="function"><name>Scale</name></member>
@@ -242,46 +242,46 @@
     <member refid="classrocalution_1_1_local_matrix_1aae36bb533533cfa66a8be5ef2cca9d79" kind="function"><name>AddScalar</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a6356bb9437e4d2c0f497a9180af4dc42" kind="function"><name>AddScalarDiagonal</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a0b3eebe052f2084d66987e0a3cea2951" kind="function"><name>AddScalarOffDiagonal</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1aedb177d0e93bae5b39de9658ba9c94a7" kind="function"><name>ExtractSubMatrix</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a7811d26ca30b8ec442565efe312d2d3d" kind="function"><name>ExtractSubMatrices</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1af8468d33ff07d255428536d6ddb5ac43" kind="function"><name>ExtractDiagonal</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1aaeec31daa2a51742f5c561cf22997c39" kind="function"><name>ExtractInverseDiagonal</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1aaa37a2beb38374a8b0dff4ba91080fd3" kind="function"><name>ExtractU</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a00138976889bc73fa21db16a9c209daf" kind="function"><name>ExtractL</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1aacf86649af150764a98044d345f74753" kind="function"><name>ExtractSubMatrix</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a8461ce4a258e7195b772534bcaf9b584" kind="function"><name>ExtractSubMatrices</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a963d344fb20ea50a6050b2d224595617" kind="function"><name>ExtractDiagonal</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a695ed56a95ec28175ac46fac03a0ccd8" kind="function"><name>ExtractInverseDiagonal</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1abc22033b1bd55ae0c5ae3aac65b12dfe" kind="function"><name>ExtractU</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a4dda2a283e1c367a1fe1e6a5274f187a" kind="function"><name>ExtractL</name></member>
     <member refid="classrocalution_1_1_local_matrix_1afc9486fee8f49d50db5c6cf49593aace" kind="function"><name>Permute</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a0648ae8c06a0c0bcff3eda554eb168a8" kind="function"><name>PermuteBackward</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a14788d661ea22a00f7a74601e132bb50" kind="function"><name>CMK</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1aaed8576707da922ffa1107f1ce427052" kind="function"><name>RCMK</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a433a6b2f5e09f3260b269776e8322a4f" kind="function"><name>ConnectivityOrder</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a55000bad263b499ab9638ec95b852a1e" kind="function"><name>MultiColoring</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1ac8448fee69b9c9be5335083878ae5aa9" kind="function"><name>MaximalIndependentSet</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a378871e3f6570a110c844d4b77fdb5c9" kind="function"><name>ZeroBlockPermutation</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a891b56e1a1def0b6e6c673fdf35e139e" kind="function"><name>CMK</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1aa59854cafa832b4d30afd72c1a897fa4" kind="function"><name>RCMK</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a5f83d09c5abe91fc68ea43b32b16b36a" kind="function"><name>ConnectivityOrder</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a330760ce2eabfb32d74f9ddb79e2b9af" kind="function"><name>MultiColoring</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a49d2fccc07f404491ad490e785ff17b5" kind="function"><name>MaximalIndependentSet</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a4755cff29b49e4c2992d2d1ff6961f53" kind="function"><name>ZeroBlockPermutation</name></member>
     <member refid="classrocalution_1_1_local_matrix_1ac94a0833f8c29fee3d4a9019f9b923bd" kind="function"><name>ILU0Factorize</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a2d32b530636d756b878c5ff3ba08df99" kind="function"><name>LUFactorize</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a61ba9e4902f01289697ae7f8e26b57b2" kind="function"><name>ILUTFactorize</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a73e4e1d4f189884f9c428c3c2dad0da6" kind="function"><name>ILUpFactorize</name></member>
     <member refid="classrocalution_1_1_local_matrix_1ac731fe03bccfebcbd70feabdb144e0d9" kind="function"><name>LUAnalyse</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a5e9eaaca1b947c97cd9069fbc80b7f8c" kind="function"><name>LUAnalyseClear</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a353e62f96359c56f26d3c22e642b019e" kind="function"><name>LUSolve</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1aa8cd98141ec092cbd326b6ee81507838" kind="function"><name>LUSolve</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a4ca38ea117584b77253a9a116fb03440" kind="function"><name>ICFactorize</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a3536ca2f5595ab309fcda32d07e011fe" kind="function"><name>LLAnalyse</name></member>
     <member refid="classrocalution_1_1_local_matrix_1aa707f4992b07d0775840a8346c680e46" kind="function"><name>LLAnalyseClear</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a58c25b8be2b7889b1a7e649e6432d967" kind="function"><name>LLSolve</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a1cb66ea276d6420861757557092e5b43" kind="function"><name>LLSolve</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a8c97f8b8fa46dea24026e44b1ca37597" kind="function"><name>LLSolve</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a8e1c707845545ec2d0411d21307dbcf5" kind="function"><name>LLSolve</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a8d45e8ee1a1982d8041bf826d245fef9" kind="function"><name>LAnalyse</name></member>
     <member refid="classrocalution_1_1_local_matrix_1ab3ed5fbb875f957c3bb25735c0630b54" kind="function"><name>LAnalyseClear</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a0ab35d3254b8406e1888951cfe0f2ca5" kind="function"><name>LSolve</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1af026016e63192acdd3c7c4e7189d75dd" kind="function"><name>LSolve</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a6317edc804d8c58adac000b6d9cf85e3" kind="function"><name>UAnalyse</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a23c0d959e4bcbf2ab832f62c452f9338" kind="function"><name>UAnalyseClear</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1acf5119d230b9babddca4fc6211626b72" kind="function"><name>USolve</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a74bf982628515f449051fd5a0d2f1a59" kind="function"><name>Householder</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a7a5c451dbf26eb91bd0dc1c1916ff790" kind="function"><name>USolve</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1ad14f9592f242a0b22f517ce4ebbad3ee" kind="function"><name>Householder</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a2b1dfac5efdefe7193dc8f634685e6b9" kind="function"><name>QRDecompose</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1ad8626c5597ca310ef3366c7c8a135baa" kind="function"><name>QRSolve</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a1f935a65fccbe3735bf295815ebf845d" kind="function"><name>QRSolve</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a51514f7bd4213881a3a7d54cabfb4bcc" kind="function"><name>Invert</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a22b9f4275cef954b889bf89a3b5889c9" kind="function"><name>ReadFileMTX</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1ab10a7e473601a9a1d368b48781816185" kind="function"><name>WriteFileMTX</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1aaef37537780b875aa8e9218af1ec1d33" kind="function"><name>WriteFileMTX</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a0c211ccae3c7b1f1c8f631786c552aa9" kind="function"><name>ReadFileCSR</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1af955765ef46e0a31967b87755c6053f5" kind="function"><name>WriteFileCSR</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a171858a5a6d1d7028d74660cd909d529" kind="function"><name>WriteFileCSR</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a3217ea740fbb231226dcf6a5def3c6e6" kind="function"><name>MoveToAccelerator</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a7df391e420a6a364e0a062792c1324d5" kind="function"><name>MoveToAcceleratorAsync</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a67f483ae6f80db8474a0af39a6e19e7b" kind="function"><name>MoveToHost</name></member>
@@ -292,9 +292,9 @@
     <member refid="classrocalution_1_1_local_matrix_1acd9898aa33dc1f333a8eac885482e485" kind="function"><name>CloneFrom</name></member>
     <member refid="classrocalution_1_1_local_matrix_1ab192c147b9440ca3889523ee6f6f7cf9" kind="function"><name>UpdateValuesCSR</name></member>
     <member refid="classrocalution_1_1_local_matrix_1aea46a0ce5f1a5879ac7c594ed7ec9afd" kind="function"><name>CopyFromCSR</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1ac7af52ae1a880b6141ff96339d8cad30" kind="function"><name>CopyToCSR</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a3de8922601d1b0d35f38165033293232" kind="function"><name>CopyToCSR</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a07c7170a8d5baac3249e6aace1c6f36b" kind="function"><name>CopyFromCOO</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1ab04f137dbfb7c951641a40e823d2546c" kind="function"><name>CopyToCOO</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a05ac9a6abeb24c25b89b5300187123e7" kind="function"><name>CopyToCOO</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a4b22c7c6c5264370fa6c141b2ba7d5f1" kind="function"><name>CopyFromHostCSR</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a909d0dc7a44dd03689f25122924b6a6f" kind="function"><name>CreateFromMap</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a201bc2b46526e26a1d0164902792c850" kind="function"><name>CreateFromMap</name></member>
@@ -307,37 +307,37 @@
     <member refid="classrocalution_1_1_local_matrix_1af2e44e2f4f18693de82aeb24cefe3353" kind="function"><name>ConvertToHYB</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a72339728c2b5ec041621d9954a51c578" kind="function"><name>ConvertToDENSE</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a9b2b21d5afcb1000e1a3cbac7dacb9db" kind="function"><name>ConvertTo</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a9a172b7d9b1ef03e16797fb2aaa89091" kind="function"><name>Apply</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a892f08f618568dfbe1c55ef5895a5eb7" kind="function"><name>ApplyAdd</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a610e6e3411648f05d1b21f262dbff224" kind="function"><name>Apply</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1aaafe0bbe20a0c153300f792691af028c" kind="function"><name>ApplyAdd</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a74ff5df228d07b024901af42e861ba1b" kind="function"><name>SymbolicPower</name></member>
     <member refid="classrocalution_1_1_local_matrix_1aff5cbf55130bbc230ef30cf7d288b9d5" kind="function"><name>MatrixAdd</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a5aaed16ec266a65af00a810d30485158" kind="function"><name>MatrixMult</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a12f274f560e2dc874d49951a5b1e1dd3" kind="function"><name>DiagonalMatrixMult</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a542e55d43ee269119e0ef7b93d2f91a0" kind="function"><name>DiagonalMatrixMultL</name></member>
     <member refid="classrocalution_1_1_local_matrix_1ac02a9ef133bfac459ee3f2408d6b5cb1" kind="function"><name>DiagonalMatrixMultR</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1ac00dcabfacdb09128cd30f4870d6b946" kind="function"><name>Gershgorin</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a51311cc70520abb7a21e9f505f3b5d05" kind="function"><name>Gershgorin</name></member>
     <member refid="classrocalution_1_1_local_matrix_1af55140e4df68bfc790fabd1d3599dc60" kind="function"><name>Compress</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a331509a714652f0b1bd392492befdd1f" kind="function"><name>Transpose</name></member>
     <member refid="classrocalution_1_1_local_matrix_1af06a2e47ded5fba67bdffc4d78240351" kind="function"><name>Sort</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a97e57c0b9a5637e2b067eab0636f0c31" kind="function"><name>Key</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a75dbd371118b3ddd1cb1e1c1e65837cd" kind="function"><name>Key</name></member>
     <member refid="classrocalution_1_1_local_matrix_1af9dd9cda7b02e65b668f96d7c9d042e1" kind="function"><name>ReplaceColumnVector</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a5e9996e79994a0d1c365578ffc95c848" kind="function"><name>ReplaceRowVector</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1acb2b6de9c63df359ce9375efec15d688" kind="function"><name>ExtractColumnVector</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a129c620b4d02dc7290cdc3f2c2bf49f8" kind="function"><name>ExtractRowVector</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a96cbe9428a7723ebdf05c5df230ca053" kind="function"><name>AMGConnect</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1afbbe25c7f920d7bb1b2d4af3278e362c" kind="function"><name>AMGAggregate</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a55efe34f4c2e43fdb03e58de0b1e139a" kind="function"><name>AMGSmoothedAggregation</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a20f191b084461deb555bc23f91b50f3c" kind="function"><name>AMGAggregation</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a4e808f6815264a27e7eb3ec8d80751ff" kind="function"><name>RugeStueben</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a9bcfa7d56fefe89f7d4bb91620fe3b6e" kind="function"><name>ExtractColumnVector</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a3d9bb9a84defdf1df8900fcb6bca42c1" kind="function"><name>ExtractRowVector</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a59c27360862cc3fed95cb5122717ebee" kind="function"><name>AMGConnect</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a2f90f04c2abd0a885b7b595edcddae00" kind="function"><name>AMGAggregate</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a082fdbc0f2e73e558734314aa583465d" kind="function"><name>AMGSmoothedAggregation</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1ab7dd846c35608f976c88c279fbc26834" kind="function"><name>AMGAggregation</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a02b17f65d76f9d400ab9d8ea4bc0bdeb" kind="function"><name>RugeStueben</name></member>
     <member refid="classrocalution_1_1_local_matrix_1adf8e7af5f894ca6f71aa5bec3cb4f241" kind="function"><name>FSAI</name></member>
     <member refid="classrocalution_1_1_local_matrix_1a321308ee427e0410a3a279bec202b807" kind="function"><name>SPAI</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a697953de89ba60acfa0fbc4e3e609a95" kind="function"><name>InitialPairwiseAggregation</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a483d8c54d44527af2609df026bc4fced" kind="function"><name>InitialPairwiseAggregation</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a422b401c53da06552cc4246c5c6d1c10" kind="function"><name>FurtherPairwiseAggregation</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a12ec36f0be7f8a93619da8e1977c3b51" kind="function"><name>FurtherPairwiseAggregation</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1afe5bc9c61ab6f2aa95e334a13b4fbba3" kind="function"><name>CoarsenOperator</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1a160ff82fbc0a88b6a5f7fece80976fcf" kind="function"><name>is_host_</name></member>
-    <member refid="classrocalution_1_1_local_matrix_1adde0a240b27720e9df7e2706433ddb25" kind="function"><name>is_accel_</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a3be515776a47a75396c536d9f0a5e153" kind="function"><name>InitialPairwiseAggregation</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a4de9569198f144f5c47d447e8f26b35d" kind="function"><name>InitialPairwiseAggregation</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a9df75907e078f5aa2199f6183e218ef1" kind="function"><name>FurtherPairwiseAggregation</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a62314cdad5e47791dd64c8a25ad2e38d" kind="function"><name>FurtherPairwiseAggregation</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1ac20466bdf2721bd9732e533fbf865a6b" kind="function"><name>CoarsenOperator</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a77b084b0e279ffc65f335b68d1eefa6b" kind="function"><name>is_host_</name></member>
+    <member refid="classrocalution_1_1_local_matrix_1a1941a1ddd454d81f4fd654af0a41ce56" kind="function"><name>is_accel_</name></member>
   </compound>
   <compound refid="classrocalution_1_1_local_stencil" kind="class"><name>rocalution::LocalStencil</name>
     <member refid="classrocalution_1_1_local_stencil_1a80b3cdf02eac6f9082c21edd2cba56ae" kind="variable"><name>object_name_</name></member>
@@ -349,23 +349,23 @@
     <member refid="classrocalution_1_1_local_stencil_1a03f501f3cb041d3de227c31fb10ae142" kind="function"><name>LocalStencil</name></member>
     <member refid="classrocalution_1_1_local_stencil_1a5dbfda8bea951c06870c26e3a4637401" kind="function"><name>LocalStencil</name></member>
     <member refid="classrocalution_1_1_local_stencil_1a35abb20d68827b3e515d51445ddb6b9b" kind="function"><name>~LocalStencil</name></member>
-    <member refid="classrocalution_1_1_local_stencil_1aa3c7b580398079ca5fac493fff9a25ce" kind="function"><name>Info</name></member>
-    <member refid="classrocalution_1_1_local_stencil_1a61fa7d018580635e05578162a5d275f4" kind="function"><name>GetNDim</name></member>
-    <member refid="classrocalution_1_1_local_stencil_1a3bf19a55df03c450401f1bee48540a97" kind="function"><name>GetM</name></member>
-    <member refid="classrocalution_1_1_local_stencil_1ad8d6ba20012a45dfbee8ac7211f7d05c" kind="function"><name>GetN</name></member>
-    <member refid="classrocalution_1_1_local_stencil_1ae18aa3865d0bd503b41665542adbc89d" kind="function"><name>GetNnz</name></member>
+    <member refid="classrocalution_1_1_local_stencil_1ae2e923e0a1c3dd6d512fcf6e3b434214" kind="function"><name>Info</name></member>
+    <member refid="classrocalution_1_1_local_stencil_1afce81b68c628334092ccb2bf98bee814" kind="function"><name>GetNDim</name></member>
+    <member refid="classrocalution_1_1_local_stencil_1a11679f39d7ed4e4a4e0f91c00e11b10c" kind="function"><name>GetM</name></member>
+    <member refid="classrocalution_1_1_local_stencil_1a39d5a176259c318d816bf58589545437" kind="function"><name>GetN</name></member>
+    <member refid="classrocalution_1_1_local_stencil_1a2ee307d8d69292589854c36c384ecc05" kind="function"><name>GetNnz</name></member>
     <member refid="classrocalution_1_1_local_stencil_1ab2eccbd73572aa5dafdde0482e78638a" kind="function"><name>SetGrid</name></member>
     <member refid="classrocalution_1_1_local_stencil_1a4b3311913e88a61f613a83f08dca1c80" kind="function"><name>Clear</name></member>
-    <member refid="classrocalution_1_1_local_stencil_1a6edab2ff02e64cff943666cb19543d64" kind="function"><name>Apply</name></member>
-    <member refid="classrocalution_1_1_local_stencil_1a2cf176e84fc5582ddb9cfc7218990c85" kind="function"><name>ApplyAdd</name></member>
+    <member refid="classrocalution_1_1_local_stencil_1ab0fa2648e77b1c27e2ee8839ab90e263" kind="function"><name>Apply</name></member>
+    <member refid="classrocalution_1_1_local_stencil_1af1a1a74c1619f8d3fb67f00b06da863c" kind="function"><name>ApplyAdd</name></member>
     <member refid="classrocalution_1_1_local_stencil_1a202674432e0cc298d80ebc64bb2d0971" kind="function"><name>MoveToAccelerator</name></member>
     <member refid="classrocalution_1_1_local_stencil_1a27d90bd5bc5c26ea28494309dc859791" kind="function"><name>MoveToHost</name></member>
-    <member refid="classrocalution_1_1_local_stencil_1a21a31db491486b781603aae3edaf8424" kind="function"><name>is_host_</name></member>
-    <member refid="classrocalution_1_1_local_stencil_1a2dee7dbdeca9713b9a580b490cabbd89" kind="function"><name>is_accel_</name></member>
+    <member refid="classrocalution_1_1_local_stencil_1aff2f7a04c1d4fcbddb34c351fee7fd19" kind="function"><name>is_host_</name></member>
+    <member refid="classrocalution_1_1_local_stencil_1a80aef63ec7c717a5ff4301b03d27c32c" kind="function"><name>is_accel_</name></member>
   </compound>
   <compound refid="classrocalution_1_1_local_vector" kind="class"><name>rocalution::LocalVector</name>
     <member refid="classrocalution_1_1_local_vector_1a20913b1560bec91831c49351530d34e8" kind="function"><name>operator[]</name></member>
-    <member refid="classrocalution_1_1_local_vector_1ae584b51e9e91a17b5aeb5750cfd1d8d9" kind="function"><name>operator[]</name></member>
+    <member refid="classrocalution_1_1_local_vector_1a7518750fc91f0ccd7836f779972cb468" kind="function"><name>operator[]</name></member>
     <member refid="classrocalution_1_1_local_vector_1a727a6a2779ff9706494503148692945a" kind="variable"><name>vector_</name></member>
     <member refid="classrocalution_1_1_local_vector_1a0604a42470b999f35279350a1d25beea" kind="variable"><name>vector_host_</name></member>
     <member refid="classrocalution_1_1_local_vector_1a2d0a61bac246791efe423eabf4da0882" kind="variable"><name>vector_accel_</name></member>
@@ -392,9 +392,9 @@
     <member refid="classrocalution_1_1_local_vector_1ae3120701431e40e505554e98f55df533" kind="function"><name>MoveToHost</name></member>
     <member refid="classrocalution_1_1_local_vector_1a8370ff1b9f590254ec0e8f4c28e1f7b3" kind="function"><name>MoveToHostAsync</name></member>
     <member refid="classrocalution_1_1_local_vector_1aed0b8ba7c4968cddd589b4605b63120b" kind="function"><name>Sync</name></member>
-    <member refid="classrocalution_1_1_local_vector_1a174999811741be695665554df732aa0b" kind="function"><name>Info</name></member>
-    <member refid="classrocalution_1_1_local_vector_1a42d48bb3bb6a89218ede8fcff7bbc644" kind="function"><name>GetSize</name></member>
-    <member refid="classrocalution_1_1_local_vector_1a83a0ca326ebe939dac9cea93022dc663" kind="function"><name>Check</name></member>
+    <member refid="classrocalution_1_1_local_vector_1a2b55a9fb17108db0818a7f761ab7e3a1" kind="function"><name>Info</name></member>
+    <member refid="classrocalution_1_1_local_vector_1a1d7f451d4463cf22a12ee8a068d48c56" kind="function"><name>GetSize</name></member>
+    <member refid="classrocalution_1_1_local_vector_1aa44e79b3549f6028448121e42bd524ea" kind="function"><name>Check</name></member>
     <member refid="classrocalution_1_1_local_vector_1ae9ad82b77b1fa3f94112092d69354a15" kind="function"><name>Allocate</name></member>
     <member refid="classrocalution_1_1_local_vector_1ae189cd6c550d72df04f2e7a15c9a5d4a" kind="function"><name>SetDataPtr</name></member>
     <member refid="classrocalution_1_1_local_vector_1a9400481562559c79b10346b8af097e9f" kind="function"><name>LeaveDataPtr</name></member>
@@ -405,9 +405,9 @@
     <member refid="classrocalution_1_1_local_vector_1a4a78f0acd7f8479717e811a032b1c36b" kind="function"><name>SetRandomUniform</name></member>
     <member refid="classrocalution_1_1_local_vector_1a7385bcd27a52c94549a354799e23a7f9" kind="function"><name>SetRandomNormal</name></member>
     <member refid="classrocalution_1_1_local_vector_1a4f93a990c2b1a89bed6b8f69f965a729" kind="function"><name>ReadFileASCII</name></member>
-    <member refid="classrocalution_1_1_local_vector_1ae25cac3e31ae90cfb0ed6cd26a0b820c" kind="function"><name>WriteFileASCII</name></member>
+    <member refid="classrocalution_1_1_local_vector_1a12194025d8645cbc9c6fdbba0d17f885" kind="function"><name>WriteFileASCII</name></member>
     <member refid="classrocalution_1_1_local_vector_1a3ab863a463e4bfd2b1fc172ed9103c29" kind="function"><name>ReadFileBinary</name></member>
-    <member refid="classrocalution_1_1_local_vector_1a9c753058a01044c092079eade04d9fb1" kind="function"><name>WriteFileBinary</name></member>
+    <member refid="classrocalution_1_1_local_vector_1aaacbd47676b11e0a21032ac92f336e37" kind="function"><name>WriteFileBinary</name></member>
     <member refid="classrocalution_1_1_local_vector_1abf2ee09b2fccba75add5ca106026cb25" kind="function"><name>CopyFrom</name></member>
     <member refid="classrocalution_1_1_local_vector_1a13217124fbe9532f6ef14ae160fd427d" kind="function"><name>CopyFromAsync</name></member>
     <member refid="classrocalution_1_1_local_vector_1a4d0ef0ba1b9ba78136a71199a7a6b734" kind="function"><name>CopyFromFloat</name></member>
@@ -417,7 +417,7 @@
     <member refid="classrocalution_1_1_local_vector_1a571cffb9722df69bebeb854cd05d041a" kind="function"><name>CopyFromPermuteBackward</name></member>
     <member refid="classrocalution_1_1_local_vector_1a9eeae5cca8f0af5c5723510b1b280e60" kind="function"><name>CloneFrom</name></member>
     <member refid="classrocalution_1_1_local_vector_1acecc27f2c96f010bb8f43749f1f643ce" kind="function"><name>CopyFromData</name></member>
-    <member refid="classrocalution_1_1_local_vector_1aad7c0fe9094784b24ca6fd1be7749e64" kind="function"><name>CopyToData</name></member>
+    <member refid="classrocalution_1_1_local_vector_1a0b718079bb70d714704aaa8bb28ae85b" kind="function"><name>CopyToData</name></member>
     <member refid="classrocalution_1_1_local_vector_1a92e2ca6e5fa325feda519fe53cbce6d0" kind="function"><name>Permute</name></member>
     <member refid="classrocalution_1_1_local_vector_1a8d9df926f49cde234e10bfc4f7c14502" kind="function"><name>PermuteBackward</name></member>
     <member refid="classrocalution_1_1_local_vector_1ac177710b65d6c47db97b1c7040d8afda" kind="function"><name>Restriction</name></member>
@@ -428,26 +428,26 @@
     <member refid="classrocalution_1_1_local_vector_1a678bc1b7f566cca0f8548a4cc806d4f5" kind="function"><name>ScaleAddScale</name></member>
     <member refid="classrocalution_1_1_local_vector_1a789b6b7874da73bdd5e6698fec222a91" kind="function"><name>ScaleAdd2</name></member>
     <member refid="classrocalution_1_1_local_vector_1a88b8838c303c6f0c43c763264fdad077" kind="function"><name>Scale</name></member>
-    <member refid="classrocalution_1_1_local_vector_1abfe1184d8f1432b03e2b42546273f11d" kind="function"><name>Dot</name></member>
-    <member refid="classrocalution_1_1_local_vector_1a5aa5910bdca4e1102e8d31af8d7e29a4" kind="function"><name>DotNonConj</name></member>
-    <member refid="classrocalution_1_1_local_vector_1a1941030d968ef965f8cf2abb864cbd0d" kind="function"><name>Norm</name></member>
-    <member refid="classrocalution_1_1_local_vector_1a49e4cfe29ae2e155ff4b79d7e907b71c" kind="function"><name>Reduce</name></member>
-    <member refid="classrocalution_1_1_local_vector_1a781d7827180d02a253b59698f6228863" kind="function"><name>Asum</name></member>
-    <member refid="classrocalution_1_1_local_vector_1a20c79273550b3a82a409ef3cbcbc7e6b" kind="function"><name>Amax</name></member>
+    <member refid="classrocalution_1_1_local_vector_1ac93025ae20b85c7a31591fa9b6c0efe2" kind="function"><name>Dot</name></member>
+    <member refid="classrocalution_1_1_local_vector_1a3310a5cea63b7bb40516ab2c5267dce4" kind="function"><name>DotNonConj</name></member>
+    <member refid="classrocalution_1_1_local_vector_1a061392cfcb6f3b622b4265f8992ab632" kind="function"><name>Norm</name></member>
+    <member refid="classrocalution_1_1_local_vector_1a17f61b3da5d083d87ce51a57646402c1" kind="function"><name>Reduce</name></member>
+    <member refid="classrocalution_1_1_local_vector_1a2fe2ab1468e18566e244b751665a49f7" kind="function"><name>Asum</name></member>
+    <member refid="classrocalution_1_1_local_vector_1a3415aadc975e432560db9b05d0206acc" kind="function"><name>Amax</name></member>
     <member refid="classrocalution_1_1_local_vector_1ac1369d49e5715c4b75e52ccca7f368a7" kind="function"><name>PointWiseMult</name></member>
     <member refid="classrocalution_1_1_local_vector_1abc0e63a78bd3ca01505986783c815736" kind="function"><name>PointWiseMult</name></member>
     <member refid="classrocalution_1_1_local_vector_1a203456f8c05ce0af1993f9465f1908ac" kind="function"><name>Power</name></member>
     <member refid="classrocalution_1_1_local_vector_1a7f57311a7117ebd71f0047b929a29ebb" kind="function"><name>SetIndexArray</name></member>
-    <member refid="classrocalution_1_1_local_vector_1acf3ca0c6d88caa78a3fd7e87b7ccd360" kind="function"><name>GetIndexValues</name></member>
+    <member refid="classrocalution_1_1_local_vector_1a723a0148a56f5c5947d63e36aafa5636" kind="function"><name>GetIndexValues</name></member>
     <member refid="classrocalution_1_1_local_vector_1a4b8bc1b9e3f0ea7a2382d4174f520de6" kind="function"><name>SetIndexValues</name></member>
-    <member refid="classrocalution_1_1_local_vector_1a8dfec518f2b82a365a8b6802bfc01ac8" kind="function"><name>GetContinuousValues</name></member>
+    <member refid="classrocalution_1_1_local_vector_1aac0e695a529beaffb7e9dab871862b46" kind="function"><name>GetContinuousValues</name></member>
     <member refid="classrocalution_1_1_local_vector_1a28a42f5430f54fec8be7b4bd6d084f01" kind="function"><name>SetContinuousValues</name></member>
-    <member refid="classrocalution_1_1_local_vector_1af166cb6cfd14a2eb0d35eb08bbe21329" kind="function"><name>ExtractCoarseMapping</name></member>
-    <member refid="classrocalution_1_1_local_vector_1a3814baf9e0a6ee7ff7cda823a71a2b67" kind="function"><name>ExtractCoarseBoundary</name></member>
-    <member refid="classrocalution_1_1_local_vector_1aeacc3a01597143a1f1f0d741eab7abde" kind="function"><name>GetInterior</name></member>
+    <member refid="classrocalution_1_1_local_vector_1ac3f15e8714d8950c76579ee966b941e9" kind="function"><name>ExtractCoarseMapping</name></member>
+    <member refid="classrocalution_1_1_local_vector_1a9e43354a381586f5732682ee7d1396c2" kind="function"><name>ExtractCoarseBoundary</name></member>
+    <member refid="classrocalution_1_1_local_vector_1ac62a8fa292e061ad5b7f7317ad690993" kind="function"><name>GetInterior</name></member>
     <member refid="classrocalution_1_1_local_vector_1a2fc99dadb5f2ba7bbd6de62ef4f4a8ce" kind="function"><name>GetInterior</name></member>
-    <member refid="classrocalution_1_1_local_vector_1afbdf8d167e9e7b2b0b9de28ddd79fca9" kind="function"><name>is_host_</name></member>
-    <member refid="classrocalution_1_1_local_vector_1ace8f5b57d245fe498a5e4c97be7f5355" kind="function"><name>is_accel_</name></member>
+    <member refid="classrocalution_1_1_local_vector_1a0db175ea833d9b44184e4ebe705ade84" kind="function"><name>is_host_</name></member>
+    <member refid="classrocalution_1_1_local_vector_1aff1058570ec0ac28fbc5bf3800d6bb64" kind="function"><name>is_accel_</name></member>
   </compound>
   <compound refid="classrocalution_1_1_operator" kind="class"><name>rocalution::Operator</name>
     <member refid="classrocalution_1_1_operator_1afcbc2abbfe58ce8c6a3d86a5a48b7fc7" kind="function"><name>Operator</name></member>
@@ -455,16 +455,16 @@
     <member refid="classrocalution_1_1_operator_1a6af0e81191e63d15e95b227cd9129c87" kind="function"><name>GetM</name></member>
     <member refid="classrocalution_1_1_operator_1ac155a69301db3035abcd3beac9dbe7ce" kind="function"><name>GetN</name></member>
     <member refid="classrocalution_1_1_operator_1af834a59b334d754e5e803bd6561b675d" kind="function"><name>GetNnz</name></member>
-    <member refid="classrocalution_1_1_operator_1ab070535791b24e8c8a190bca82cb30a3" kind="function"><name>GetLocalM</name></member>
-    <member refid="classrocalution_1_1_operator_1a63a78d3258db4fdfe74e517484591246" kind="function"><name>GetLocalN</name></member>
-    <member refid="classrocalution_1_1_operator_1a7900eb19fb5ecb00adb18e4c8b498187" kind="function"><name>GetLocalNnz</name></member>
-    <member refid="classrocalution_1_1_operator_1a47f59b41b12bb76fdc5dbc1c7155e282" kind="function"><name>GetGhostM</name></member>
-    <member refid="classrocalution_1_1_operator_1a88c39d124082dd9254fe21c0074fea07" kind="function"><name>GetGhostN</name></member>
-    <member refid="classrocalution_1_1_operator_1ae4d7fedf59d0fb6a2507dde507f7efb7" kind="function"><name>GetGhostNnz</name></member>
-    <member refid="classrocalution_1_1_operator_1a8dc56052b7fc57029c7cfc4eb5a8a25b" kind="function"><name>Apply</name></member>
-    <member refid="classrocalution_1_1_operator_1a9607876a1dc71ab7f4c03ade2e6bc952" kind="function"><name>ApplyAdd</name></member>
-    <member refid="classrocalution_1_1_operator_1a4ad4397df83f1fc6af9aecf0cb9af17c" kind="function"><name>Apply</name></member>
-    <member refid="classrocalution_1_1_operator_1a87f809dde4c8d7d98fe443c0fb9bc92b" kind="function"><name>ApplyAdd</name></member>
+    <member refid="classrocalution_1_1_operator_1ad1841e2a7e753685139f067388cdc2c4" kind="function"><name>GetLocalM</name></member>
+    <member refid="classrocalution_1_1_operator_1ae3410f8b7a3b02b1e3fad239a0b96109" kind="function"><name>GetLocalN</name></member>
+    <member refid="classrocalution_1_1_operator_1a90052816483e63cd6dc5365323bfe59c" kind="function"><name>GetLocalNnz</name></member>
+    <member refid="classrocalution_1_1_operator_1a560aaa25f0979b6edbd09815f2d49399" kind="function"><name>GetGhostM</name></member>
+    <member refid="classrocalution_1_1_operator_1a18c75f9b1225f08fd4f6c0b7edecb4ab" kind="function"><name>GetGhostN</name></member>
+    <member refid="classrocalution_1_1_operator_1ac4e69080970e4cea756160693e503a02" kind="function"><name>GetGhostNnz</name></member>
+    <member refid="classrocalution_1_1_operator_1a3f86a25c9390428212a7af3a70ed2ac9" kind="function"><name>Apply</name></member>
+    <member refid="classrocalution_1_1_operator_1a4a80bbed8eee584f8b4971372c67d289" kind="function"><name>ApplyAdd</name></member>
+    <member refid="classrocalution_1_1_operator_1aeb7eed71cee575be8f32679ebefa51a7" kind="function"><name>Apply</name></member>
+    <member refid="classrocalution_1_1_operator_1a5770aa3284c92ddcc874d12bc28e6d50" kind="function"><name>ApplyAdd</name></member>
   </compound>
   <compound refid="classrocalution_1_1_parallel_manager" kind="class"><name>rocalution::ParallelManager</name>
     <member refid="classrocalution_1_1_parallel_manager_1acc2db640bbd8ad02609f5b3789975714" kind="variable"><name>comm_</name></member>
@@ -494,11 +494,11 @@
     <member refid="classrocalution_1_1_parallel_manager_1a52203daa37007acaf57fe708147511a2" kind="function"><name>~ParallelManager</name></member>
     <member refid="classrocalution_1_1_parallel_manager_1aefdb9831f66c0ca18532e47b2c5246a4" kind="function"><name>SetMPICommunicator</name></member>
     <member refid="classrocalution_1_1_parallel_manager_1a8a0136bfba7b4cee5d17b1f1e1aab580" kind="function"><name>Clear</name></member>
-    <member refid="classrocalution_1_1_parallel_manager_1a686ba88f36cbfb8537e40270a57a9f60" kind="function"><name>GetGlobalSize</name></member>
-    <member refid="classrocalution_1_1_parallel_manager_1a5ab207c389a3342e8a9d4bccd6df0a27" kind="function"><name>GetLocalSize</name></member>
-    <member refid="classrocalution_1_1_parallel_manager_1a601ceb971f16e0f44351f0953bd403c5" kind="function"><name>GetNumReceivers</name></member>
-    <member refid="classrocalution_1_1_parallel_manager_1a79f4ba4c2f552fbb5355bca1e11858ca" kind="function"><name>GetNumSenders</name></member>
-    <member refid="classrocalution_1_1_parallel_manager_1a504931964a2b65a5cac1f7acc08bd5b1" kind="function"><name>GetNumProcs</name></member>
+    <member refid="classrocalution_1_1_parallel_manager_1a967b89b058f8082eec3bd8756d4c6b6b" kind="function"><name>GetGlobalSize</name></member>
+    <member refid="classrocalution_1_1_parallel_manager_1ad48f73195cb1129f31446bf3b04ede34" kind="function"><name>GetLocalSize</name></member>
+    <member refid="classrocalution_1_1_parallel_manager_1a3a06da2930908bb3a9597dbbe67fd603" kind="function"><name>GetNumReceivers</name></member>
+    <member refid="classrocalution_1_1_parallel_manager_1aa7bddbbc6400c22cdbef7679bf3e305b" kind="function"><name>GetNumSenders</name></member>
+    <member refid="classrocalution_1_1_parallel_manager_1a3cb9f47f18754042797b283725b51ec9" kind="function"><name>GetNumProcs</name></member>
     <member refid="classrocalution_1_1_parallel_manager_1ab0e344d56f2b46daef9e26c81468803e" kind="function"><name>SetGlobalSize</name></member>
     <member refid="classrocalution_1_1_parallel_manager_1acb4593542cf35bb0ae204431cc0512de" kind="function"><name>SetLocalSize</name></member>
     <member refid="classrocalution_1_1_parallel_manager_1a9482ad4c25b1594393cb8d85a9bb71e7" kind="function"><name>SetBoundaryIndex</name></member>
@@ -506,9 +506,9 @@
     <member refid="classrocalution_1_1_parallel_manager_1abcf826d069bc9006fea0a2da87cc4165" kind="function"><name>SetSenders</name></member>
     <member refid="classrocalution_1_1_parallel_manager_1a0e903a81bec91b1b93535cf31f6ebe27" kind="function"><name>LocalToGlobal</name></member>
     <member refid="classrocalution_1_1_parallel_manager_1a97530fd3bf6d9a82162636bab39d2894" kind="function"><name>GlobalToLocal</name></member>
-    <member refid="classrocalution_1_1_parallel_manager_1a33a713fa35d63e581ec464fe175d3776" kind="function"><name>Status</name></member>
+    <member refid="classrocalution_1_1_parallel_manager_1af15fd3af90c23d1e030dc5d1a50ae00a" kind="function"><name>Status</name></member>
     <member refid="classrocalution_1_1_parallel_manager_1a159317f7d0b72501de8c452ad07286e3" kind="function"><name>ReadFileASCII</name></member>
-    <member refid="classrocalution_1_1_parallel_manager_1af0b697c6a34544b3091c909def74eb9c" kind="function"><name>WriteFileASCII</name></member>
+    <member refid="classrocalution_1_1_parallel_manager_1a37a0aa9b2845153988f277aabf194ba5" kind="function"><name>WriteFileASCII</name></member>
   </compound>
   <compound refid="structrocalution_1_1_rocalution___backend___descriptor" kind="struct"><name>rocalution::Rocalution_Backend_Descriptor</name>
     <member refid="structrocalution_1_1_rocalution___backend___descriptor_1aca662bd6b411072db340b8d4cf097e2a" kind="variable"><name>init</name></member>
@@ -549,8 +549,8 @@
     <member refid="classrocalution_1_1_vector_1ab7cc8dac1aaae183de2a26b9f2e891a1" kind="function"><name>Vector</name></member>
     <member refid="classrocalution_1_1_vector_1a1a5d1bd49e7ce33f80f1f71e9e681818" kind="function"><name>~Vector</name></member>
     <member refid="classrocalution_1_1_vector_1a69a7295c57e35e030999c5764c05cfe7" kind="function"><name>GetSize</name></member>
-    <member refid="classrocalution_1_1_vector_1af4e80d10bbfd9a243d0dfa3a5481358c" kind="function"><name>GetLocalSize</name></member>
-    <member refid="classrocalution_1_1_vector_1abd0787513f949d91f445890ea4d2ce81" kind="function"><name>GetGhostSize</name></member>
+    <member refid="classrocalution_1_1_vector_1acfe3ff4ae742dfda779ceccc92d001ed" kind="function"><name>GetLocalSize</name></member>
+    <member refid="classrocalution_1_1_vector_1ad430c1606a83811081517e9d95c6b939" kind="function"><name>GetGhostSize</name></member>
     <member refid="classrocalution_1_1_vector_1afb8f27ffca2ff3d59995d56b7093330c" kind="function"><name>Check</name></member>
     <member refid="classrocalution_1_1_vector_1af0cc06112714483ae4af25fba1e9bd04" kind="function"><name>Clear</name></member>
     <member refid="classrocalution_1_1_vector_1ac61cd2a27428d8cb0b7325697ab54883" kind="function"><name>Zeros</name></member>
@@ -577,10 +577,10 @@
     <member refid="classrocalution_1_1_vector_1ace75caff6cab8ebcc6dbbbe10ac38fad" kind="function"><name>ScaleAdd2</name></member>
     <member refid="classrocalution_1_1_vector_1ae85d99b6f2ba4f0f072d3f2ce3c59ea4" kind="function"><name>ScaleAdd2</name></member>
     <member refid="classrocalution_1_1_vector_1ad00973260f6b2ca585220060fa8f074c" kind="function"><name>Scale</name></member>
-    <member refid="classrocalution_1_1_vector_1a4b8794f97529984f9eb0be2532e7a452" kind="function"><name>Dot</name></member>
-    <member refid="classrocalution_1_1_vector_1ab43c0f9c89802ced75ac7e3b248cc798" kind="function"><name>Dot</name></member>
-    <member refid="classrocalution_1_1_vector_1afc0de1e6246fb0a5e9a6b0bbaf481727" kind="function"><name>DotNonConj</name></member>
-    <member refid="classrocalution_1_1_vector_1a6ff165b83b46e200e76cef9be9fc3505" kind="function"><name>DotNonConj</name></member>
+    <member refid="classrocalution_1_1_vector_1ae651d9b9c31f2b07544fc5a3f45cf622" kind="function"><name>Dot</name></member>
+    <member refid="classrocalution_1_1_vector_1a991fc5d02e9483b13015e6c406fff766" kind="function"><name>Dot</name></member>
+    <member refid="classrocalution_1_1_vector_1a05147ab9158d7786f8ae346569d86d9d" kind="function"><name>DotNonConj</name></member>
+    <member refid="classrocalution_1_1_vector_1a41e70a14e4abfe9516a89d528f514d70" kind="function"><name>DotNonConj</name></member>
     <member refid="classrocalution_1_1_vector_1ae497a40ab0a3c1b7927e53b856775d96" kind="function"><name>Norm</name></member>
     <member refid="classrocalution_1_1_vector_1a2fdb72cd02801525457e9ada7dd60ef2" kind="function"><name>Reduce</name></member>
     <member refid="classrocalution_1_1_vector_1adcd00282279cb53befa5b684cfe1b810" kind="function"><name>Asum</name></member>
@@ -950,6 +950,62 @@
   <compound refid="allocate__free_8hpp" kind="file"><name>allocate_free.hpp</name>
   </compound>
   <compound refid="time__functions_8hpp" kind="file"><name>time_functions.hpp</name>
+  </compound>
+  <compound refid="rocfft_8h" kind="file"><name>rocfft.h</name>
+    <member refid="rocfft_8h_1a2720a32a7033c97a0577207ddbe10b74" kind="enum"><name>rocfft_status_e</name></member>
+    <member refid="rocfft_8h_1a2720a32a7033c97a0577207ddbe10b74aaea9c8ae08d2c01c4d7039a8e00a5a05" kind="enumvalue"><name>rocfft_status_success</name></member>
+    <member refid="rocfft_8h_1a2720a32a7033c97a0577207ddbe10b74aa84a54833c9a5d8997e407f2af193153" kind="enumvalue"><name>rocfft_status_failure</name></member>
+    <member refid="rocfft_8h_1a2720a32a7033c97a0577207ddbe10b74a50e2c98bab41698c1e6e3702d7d29beb" kind="enumvalue"><name>rocfft_status_invalid_arg_value</name></member>
+    <member refid="rocfft_8h_1a2720a32a7033c97a0577207ddbe10b74af963fd5c5de2399df79ae1130ab1489d" kind="enumvalue"><name>rocfft_status_invalid_dimensions</name></member>
+    <member refid="rocfft_8h_1a2720a32a7033c97a0577207ddbe10b74ad42eab68cab4a1bcb9c22603cfd37cee" kind="enumvalue"><name>rocfft_status_invalid_array_type</name></member>
+    <member refid="rocfft_8h_1a2720a32a7033c97a0577207ddbe10b74a87b80c954daf7a03fdf06cab320bdca1" kind="enumvalue"><name>rocfft_status_invalid_strides</name></member>
+    <member refid="rocfft_8h_1a2720a32a7033c97a0577207ddbe10b74a462b6b715c62690684f26e2692ebdacc" kind="enumvalue"><name>rocfft_status_invalid_distance</name></member>
+    <member refid="rocfft_8h_1a2720a32a7033c97a0577207ddbe10b74a00e585ce3a40782dd7bb4bcc13b5a325" kind="enumvalue"><name>rocfft_status_invalid_offset</name></member>
+    <member refid="rocfft_8h_1a4c535f465d5f448a17cf3b086b662f91" kind="enum"><name>rocfft_transform_type_e</name></member>
+    <member refid="rocfft_8h_1a4c535f465d5f448a17cf3b086b662f91a3418f24ad68ae3e2f108e4c2700c3f86" kind="enumvalue"><name>rocfft_transform_type_complex_forward</name></member>
+    <member refid="rocfft_8h_1a4c535f465d5f448a17cf3b086b662f91afba51638423dd542a94465097dbb29b5" kind="enumvalue"><name>rocfft_transform_type_complex_inverse</name></member>
+    <member refid="rocfft_8h_1a4c535f465d5f448a17cf3b086b662f91a73c8a62c48692bce84cfd61788e9b602" kind="enumvalue"><name>rocfft_transform_type_real_forward</name></member>
+    <member refid="rocfft_8h_1a4c535f465d5f448a17cf3b086b662f91a489a1ce67f9cf3ce881e056c3d169097" kind="enumvalue"><name>rocfft_transform_type_real_inverse</name></member>
+    <member refid="rocfft_8h_1afcdced145c01725882e126e8a19ca70e" kind="enum"><name>rocfft_precision_e</name></member>
+    <member refid="rocfft_8h_1afcdced145c01725882e126e8a19ca70eadc6b26bd449f7733d0f2bf3ac01685a1" kind="enumvalue"><name>rocfft_precision_single</name></member>
+    <member refid="rocfft_8h_1afcdced145c01725882e126e8a19ca70eaa16c76b134f0c1d4fced11c883170d8d" kind="enumvalue"><name>rocfft_precision_double</name></member>
+    <member refid="rocfft_8h_1ad9c9682d2ae3c5724e87c2294b8bea74" kind="enum"><name>rocfft_result_placement_e</name></member>
+    <member refid="rocfft_8h_1ad9c9682d2ae3c5724e87c2294b8bea74a2f3deefd5f1671449539fe705f97a82f" kind="enumvalue"><name>rocfft_placement_inplace</name></member>
+    <member refid="rocfft_8h_1ad9c9682d2ae3c5724e87c2294b8bea74a057cd8d4a298ec2e17af28b0c86cbcc6" kind="enumvalue"><name>rocfft_placement_notinplace</name></member>
+    <member refid="rocfft_8h_1a24093e5f0c7644e0c8bfe50847c238b7" kind="enum"><name>rocfft_array_type_e</name></member>
+    <member refid="rocfft_8h_1a24093e5f0c7644e0c8bfe50847c238b7af0ebe89b911eeb432dd32cc76217f113" kind="enumvalue"><name>rocfft_array_type_complex_interleaved</name></member>
+    <member refid="rocfft_8h_1a24093e5f0c7644e0c8bfe50847c238b7a2ed200fc7af834fc3d2509ffb74e5eda" kind="enumvalue"><name>rocfft_array_type_complex_planar</name></member>
+    <member refid="rocfft_8h_1a24093e5f0c7644e0c8bfe50847c238b7ad1d92fd678601fb42533129dbab09ff1" kind="enumvalue"><name>rocfft_array_type_real</name></member>
+    <member refid="rocfft_8h_1a24093e5f0c7644e0c8bfe50847c238b7a462787127585af6bda9980e72a2f9e60" kind="enumvalue"><name>rocfft_array_type_hermitian_interleaved</name></member>
+    <member refid="rocfft_8h_1a24093e5f0c7644e0c8bfe50847c238b7a365b8d747f5ae0b44e21c515de57d63c" kind="enumvalue"><name>rocfft_array_type_hermitian_planar</name></member>
+    <member refid="rocfft_8h_1aa337560aaae10c58b6e6b06f7f135f9f" kind="enum"><name>rocfft_execution_mode_e</name></member>
+    <member refid="rocfft_8h_1aa337560aaae10c58b6e6b06f7f135f9fadee6829621e9584fc43c59bdefdb9170" kind="enumvalue"><name>rocfft_exec_mode_nonblocking</name></member>
+    <member refid="rocfft_8h_1aa337560aaae10c58b6e6b06f7f135f9fae7afaaceeef8ca6a17098952bf4d8cfd" kind="enumvalue"><name>rocfft_exec_mode_nonblocking_with_flush</name></member>
+    <member refid="rocfft_8h_1aa337560aaae10c58b6e6b06f7f135f9fa73e93f5ce7df812c8291ba369477eca5" kind="enumvalue"><name>rocfft_exec_mode_blocking</name></member>
+    <member refid="rocfft_8h_1aecca10c6ee20e6710a6fb7e39d69aeae" kind="typedef"><name>rocfft_plan</name></member>
+    <member refid="rocfft_8h_1ad25e39e540dd29040edf589b2ef503c2" kind="typedef"><name>rocfft_plan_description</name></member>
+    <member refid="rocfft_8h_1a9ee8a9967030355964ecf5f770c214d5" kind="typedef"><name>rocfft_execution_info</name></member>
+    <member refid="rocfft_8h_1a4b26da9b2b996eec7b9d378486ca645a" kind="typedef"><name>rocfft_status</name></member>
+    <member refid="rocfft_8h_1a9325c1d713e82d0e09bb95d5dcc5102b" kind="typedef"><name>rocfft_transform_type</name></member>
+    <member refid="rocfft_8h_1a1fd4e8878e8d1daba70595e3c2ca90e4" kind="typedef"><name>rocfft_precision</name></member>
+    <member refid="rocfft_8h_1ae474f17dee337a5554dc54b4e3d8828d" kind="typedef"><name>rocfft_result_placement</name></member>
+    <member refid="rocfft_8h_1a85be2b437c772e5d080f14fe51b75421" kind="typedef"><name>rocfft_array_type</name></member>
+    <member refid="rocfft_8h_1aab6b86183cd8c9cc3022d7ff159a18a0" kind="typedef"><name>rocfft_execution_mode</name></member>
+    <member refid="rocfft_8h_1a1fcd18b6f9e0c0e7abdb3bfee8233fcb" kind="function"><name>rocfft_setup</name></member>
+    <member refid="rocfft_8h_1a56bffbee30821ea2ea2f60cf2224d443" kind="function"><name>rocfft_cleanup</name></member>
+    <member refid="rocfft_8h_1abb634a881606b1f0025a511f76aed8f2" kind="function"><name>rocfft_plan_create</name></member>
+    <member refid="rocfft_8h_1a046e114a5a39195b720b898641c964f0" kind="function"><name>rocfft_execute</name></member>
+    <member refid="rocfft_8h_1a9b1d3d0b9e32f8de5a7339c5c1af7c8d" kind="function"><name>rocfft_plan_destroy</name></member>
+    <member refid="rocfft_8h_1ae71fed768f5f1a8565f0774f71aae81f" kind="function"><name>rocfft_plan_description_set_data_layout</name></member>
+    <member refid="rocfft_8h_1a4aae106d0b529e5cf2ee1528bbee147f" kind="function"><name>rocfft_get_version_string</name></member>
+    <member refid="rocfft_8h_1a77f5080676b10e1bddec26529fe7ba5d" kind="function"><name>rocfft_plan_get_work_buffer_size</name></member>
+    <member refid="rocfft_8h_1a2d8f1617275b55a3c26b299f279946b6" kind="function"><name>rocfft_plan_get_print</name></member>
+    <member refid="rocfft_8h_1af7ab8e84ca114f084473579ad0055b82" kind="function"><name>rocfft_plan_description_create</name></member>
+    <member refid="rocfft_8h_1a257f0bdac92e0b857043df95c4ea7f0e" kind="function"><name>rocfft_plan_description_destroy</name></member>
+    <member refid="rocfft_8h_1a17592e7111dd0da1b361945a7977c5c9" kind="function"><name>rocfft_execution_info_create</name></member>
+    <member refid="rocfft_8h_1afcef5156cb6209ad843843d03ab7ffbd" kind="function"><name>rocfft_execution_info_destroy</name></member>
+    <member refid="rocfft_8h_1a5d04ee7f64be3dd31d74d6e696cb2917" kind="function"><name>rocfft_execution_info_set_work_buffer</name></member>
+    <member refid="rocfft_8h_1afeffdc3a56eb170dfd64f0fab61d954c" kind="function"><name>rocfft_execution_info_set_stream</name></member>
   </compound>
   <compound refid="rocsparse-auxiliary_8h" kind="file"><name>rocsparse-auxiliary.h</name>
     <member refid="rocsparse-auxiliary_8h_1a5a15e972124bb7c46dc9aab7c47e3149" kind="define"><name>_ROCSPARSE_AUXILIARY_H_</name></member>
@@ -1356,11 +1412,13 @@
   </compound>
   <compound refid="dir_c2b33b6ec3bcdcb197ddb8221bded60a" kind="dir"><name>ROCm_API_References/HIP/include/hip/hcc_detail</name>
   </compound>
-  <compound refid="dir_cddc8ce188c1145a5212a95235526c2a" kind="dir"><name>ROCm_API_References/HIP</name>
-  </compound>
   <compound refid="dir_fb722007d528e64ca6a97703c7787877" kind="dir"><name>ROCm_API_References/HIP/include/hip</name>
   </compound>
+  <compound refid="dir_cddc8ce188c1145a5212a95235526c2a" kind="dir"><name>ROCm_API_References/HIP</name>
+  </compound>
   <compound refid="dir_fd70e2c219e05e676628d7fc304c039c" kind="dir"><name>ROCm_Libraries/rocSPARSE/library/include</name>
+  </compound>
+  <compound refid="dir_0fabf4f32e92a5e6df20b21fa27fbc12" kind="dir"><name>ROCm_Libraries/rocFFT/library/include</name>
   </compound>
   <compound refid="dir_b28f3b0ee61db4a71fad52144a163a7d" kind="dir"><name>ROCm_API_References/HIP/include</name>
   </compound>
@@ -1368,11 +1426,15 @@
   </compound>
   <compound refid="dir_3e7215216c0ac25a988b23d15d1f4ea2" kind="dir"><name>ROCm_Libraries/rocSPARSE/library</name>
   </compound>
+  <compound refid="dir_366029c3c9b0268f417377e20c92b0f2" kind="dir"><name>ROCm_Libraries/rocFFT/library</name>
+  </compound>
   <compound refid="dir_a1ee1ab676b34c8c7f965a7636587e0a" kind="dir"><name>ROCm_Libraries/rocALUTION/src/solvers/multigrid</name>
   </compound>
   <compound refid="dir_9806f60f061123ee4ea5bfe3c65f6921" kind="dir"><name>ROCm_Libraries/rocALUTION/src/solvers/preconditioners</name>
   </compound>
   <compound refid="dir_90edf3454520669c7f798061b876b19a" kind="dir"><name>ROCm_Libraries/rocALUTION</name>
+  </compound>
+  <compound refid="dir_4394b0d5752e077b3ff182ea242099c9" kind="dir"><name>ROCm_Libraries/rocFFT</name>
   </compound>
   <compound refid="dir_e0b5a003ae0c9b7b27ac8d4146e57323" kind="dir"><name>ROCm_API_References</name>
   </compound>

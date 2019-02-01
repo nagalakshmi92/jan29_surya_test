@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="classrocalution_1_1_vector" kind="class" language="C++" prot="public" abstract="yes">
     <compoundname>rocalution::Vector</compoundname>
     <basecompoundref refid="classrocalution_1_1_base_rocalution" prot="public" virt="non-virtual">rocalution::BaseRocalution&lt; ValueType &gt;</basecompoundref>
@@ -162,8 +162,8 @@
         <definition>virtual IndexType2 rocalution::Vector&lt; ValueType &gt;::GetSize</definition>
         <argsstring>(void) const =0</argsstring>
         <name>GetSize</name>
-        <reimplementedby refid="classrocalution_1_1_global_vector_1a5e804a659202e2bd824f2d3e583c9729">GetSize</reimplementedby>
-        <reimplementedby refid="classrocalution_1_1_local_vector_1a42d48bb3bb6a89218ede8fcff7bbc644">GetSize</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_global_vector_1a2388fc4e5a0bda04c7a172a17a40d5f8">GetSize</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_local_vector_1a1d7f451d4463cf22a12ee8a068d48c56">GetSize</reimplementedby>
         <param>
           <type>void</type>
         </param>
@@ -175,12 +175,12 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/vector.hpp" line="58" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_vector_1af4e80d10bbfd9a243d0dfa3a5481358c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_vector_1acfe3ff4ae742dfda779ceccc92d001ed" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>int</type>
         <definition>virtual int rocalution::Vector&lt; ValueType &gt;::GetLocalSize</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>GetLocalSize</name>
-        <reimplementedby refid="classrocalution_1_1_global_vector_1a1a28e19929589726047f44ffbbdd1a02">GetLocalSize</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_global_vector_1a9a6b31c07ceefb5fe59bcb550f5ee482">GetLocalSize</reimplementedby>
         <param>
           <type>void</type>
         </param>
@@ -192,12 +192,12 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/vector.hpp" line="60" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_vector_1abd0787513f949d91f445890ea4d2ce81" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_vector_1ad430c1606a83811081517e9d95c6b939" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>int</type>
         <definition>virtual int rocalution::Vector&lt; ValueType &gt;::GetGhostSize</definition>
-        <argsstring>(void) const</argsstring>
+        <argsstring>(void) const </argsstring>
         <name>GetGhostSize</name>
-        <reimplementedby refid="classrocalution_1_1_global_vector_1ad7bcf809595d1c1701c4078c051b3e25">GetGhostSize</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_global_vector_1a05f7933a9ed930e9869396fd7904b95f">GetGhostSize</reimplementedby>
         <param>
           <type>void</type>
         </param>
@@ -214,8 +214,8 @@
         <definition>virtual bool rocalution::Vector&lt; ValueType &gt;::Check</definition>
         <argsstring>(void) const =0</argsstring>
         <name>Check</name>
-        <reimplementedby refid="classrocalution_1_1_global_vector_1aaaf75d2ec850ee5646866ed1b6c0901c">Check</reimplementedby>
-        <reimplementedby refid="classrocalution_1_1_local_vector_1a83a0ca326ebe939dac9cea93022dc663">Check</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_global_vector_1ac9a6644e545ba64dfc18595a1ec92e2d">Check</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_local_vector_1aa44e79b3549f6028448121e42bd524ea">Check</reimplementedby>
         <param>
           <type>void</type>
         </param>
@@ -409,8 +409,8 @@
         <definition>virtual void rocalution::Vector&lt; ValueType &gt;::WriteFileASCII</definition>
         <argsstring>(const std::string filename) const =0</argsstring>
         <name>WriteFileASCII</name>
-        <reimplementedby refid="classrocalution_1_1_global_vector_1acffd8199e0ee1ed21abfe66612a2e39e">WriteFileASCII</reimplementedby>
-        <reimplementedby refid="classrocalution_1_1_local_vector_1ae25cac3e31ae90cfb0ed6cd26a0b820c">WriteFileASCII</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_global_vector_1ace9b59e40960553559ba72772492caf4">WriteFileASCII</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_local_vector_1a12194025d8645cbc9c6fdbba0d17f885">WriteFileASCII</reimplementedby>
         <param>
           <type>const std::string</type>
           <declname>filename</declname>
@@ -473,8 +473,8 @@
         <definition>virtual void rocalution::Vector&lt; ValueType &gt;::WriteFileBinary</definition>
         <argsstring>(const std::string filename) const =0</argsstring>
         <name>WriteFileBinary</name>
-        <reimplementedby refid="classrocalution_1_1_global_vector_1a8562871e61d54369093bccfcf7045666">WriteFileBinary</reimplementedby>
-        <reimplementedby refid="classrocalution_1_1_local_vector_1a9c753058a01044c092079eade04d9fb1">WriteFileBinary</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_global_vector_1addc8a8ce8c32c4521b1c825fe6c74969">WriteFileBinary</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_local_vector_1aaacbd47676b11e0a21032ac92f336e37">WriteFileBinary</reimplementedby>
         <param>
           <type>const std::string</type>
           <declname>filename</declname>
@@ -928,12 +928,12 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/vector.hpp" line="315" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_vector_1a4b8794f97529984f9eb0be2532e7a452" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_vector_1ae651d9b9c31f2b07544fc5a3f45cf622" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>ValueType</type>
         <definition>virtual ValueType rocalution::Vector&lt; ValueType &gt;::Dot</definition>
-        <argsstring>(const LocalVector&lt; ValueType &gt; &amp;x) const</argsstring>
+        <argsstring>(const LocalVector&lt; ValueType &gt; &amp;x) const </argsstring>
         <name>Dot</name>
-        <reimplementedby refid="classrocalution_1_1_local_vector_1abfe1184d8f1432b03e2b42546273f11d">Dot</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_local_vector_1ac93025ae20b85c7a31591fa9b6c0efe2">Dot</reimplementedby>
         <param>
           <type>const <ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector</ref>&lt; ValueType &gt; &amp;</type>
           <declname>x</declname>
@@ -946,12 +946,12 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/vector.hpp" line="318" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_vector_1ab43c0f9c89802ced75ac7e3b248cc798" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_vector_1a991fc5d02e9483b13015e6c406fff766" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>ValueType</type>
         <definition>virtual ValueType rocalution::Vector&lt; ValueType &gt;::Dot</definition>
-        <argsstring>(const GlobalVector&lt; ValueType &gt; &amp;x) const</argsstring>
+        <argsstring>(const GlobalVector&lt; ValueType &gt; &amp;x) const </argsstring>
         <name>Dot</name>
-        <reimplementedby refid="classrocalution_1_1_global_vector_1acff4d26fb485147fa4d5fddbfc9e5261">Dot</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_global_vector_1aae95dc7f0dae13a8c12cec05d6901b61">Dot</reimplementedby>
         <param>
           <type>const <ref refid="classrocalution_1_1_global_vector" kindref="compound">GlobalVector</ref>&lt; ValueType &gt; &amp;</type>
           <declname>x</declname>
@@ -964,12 +964,12 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/vector.hpp" line="320" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_vector_1afc0de1e6246fb0a5e9a6b0bbaf481727" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_vector_1a05147ab9158d7786f8ae346569d86d9d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>ValueType</type>
         <definition>virtual ValueType rocalution::Vector&lt; ValueType &gt;::DotNonConj</definition>
-        <argsstring>(const LocalVector&lt; ValueType &gt; &amp;x) const</argsstring>
+        <argsstring>(const LocalVector&lt; ValueType &gt; &amp;x) const </argsstring>
         <name>DotNonConj</name>
-        <reimplementedby refid="classrocalution_1_1_local_vector_1a5aa5910bdca4e1102e8d31af8d7e29a4">DotNonConj</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_local_vector_1a3310a5cea63b7bb40516ab2c5267dce4">DotNonConj</reimplementedby>
         <param>
           <type>const <ref refid="classrocalution_1_1_local_vector" kindref="compound">LocalVector</ref>&lt; ValueType &gt; &amp;</type>
           <declname>x</declname>
@@ -982,12 +982,12 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocALUTION/src/base/vector.hpp" line="323" column="1"/>
       </memberdef>
-      <memberdef kind="function" id="classrocalution_1_1_vector_1a6ff165b83b46e200e76cef9be9fc3505" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+      <memberdef kind="function" id="classrocalution_1_1_vector_1a41e70a14e4abfe9516a89d528f514d70" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>ValueType</type>
         <definition>virtual ValueType rocalution::Vector&lt; ValueType &gt;::DotNonConj</definition>
-        <argsstring>(const GlobalVector&lt; ValueType &gt; &amp;x) const</argsstring>
+        <argsstring>(const GlobalVector&lt; ValueType &gt; &amp;x) const </argsstring>
         <name>DotNonConj</name>
-        <reimplementedby refid="classrocalution_1_1_global_vector_1a86be26351b1935e3595ac4ff64cb6d98">DotNonConj</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_global_vector_1acd4815015616537eb057b90515921991">DotNonConj</reimplementedby>
         <param>
           <type>const <ref refid="classrocalution_1_1_global_vector" kindref="compound">GlobalVector</ref>&lt; ValueType &gt; &amp;</type>
           <declname>x</declname>
@@ -1005,8 +1005,8 @@
         <definition>virtual ValueType rocalution::Vector&lt; ValueType &gt;::Norm</definition>
         <argsstring>(void) const =0</argsstring>
         <name>Norm</name>
-        <reimplementedby refid="classrocalution_1_1_global_vector_1ac50685032c64d2b20f37502e2a085c7f">Norm</reimplementedby>
-        <reimplementedby refid="classrocalution_1_1_local_vector_1a1941030d968ef965f8cf2abb864cbd0d">Norm</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_global_vector_1a228841f8a2e39f99cf0ec82d8819a385">Norm</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_local_vector_1a061392cfcb6f3b622b4265f8992ab632">Norm</reimplementedby>
         <param>
           <type>void</type>
         </param>
@@ -1023,8 +1023,8 @@
         <definition>virtual ValueType rocalution::Vector&lt; ValueType &gt;::Reduce</definition>
         <argsstring>(void) const =0</argsstring>
         <name>Reduce</name>
-        <reimplementedby refid="classrocalution_1_1_global_vector_1a7c777dba889c54bf7d42257a8f3fd9db">Reduce</reimplementedby>
-        <reimplementedby refid="classrocalution_1_1_local_vector_1a49e4cfe29ae2e155ff4b79d7e907b71c">Reduce</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_global_vector_1a8c8418385bea0ce7ec4113b0be51b181">Reduce</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_local_vector_1a17f61b3da5d083d87ce51a57646402c1">Reduce</reimplementedby>
         <param>
           <type>void</type>
         </param>
@@ -1041,8 +1041,8 @@
         <definition>virtual ValueType rocalution::Vector&lt; ValueType &gt;::Asum</definition>
         <argsstring>(void) const =0</argsstring>
         <name>Asum</name>
-        <reimplementedby refid="classrocalution_1_1_global_vector_1a02a2f9e333cbdc26c917321ee0e833b9">Asum</reimplementedby>
-        <reimplementedby refid="classrocalution_1_1_local_vector_1a781d7827180d02a253b59698f6228863">Asum</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_global_vector_1aa101efc85ef1799bb142ee05c185281f">Asum</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_local_vector_1a2fe2ab1468e18566e244b751665a49f7">Asum</reimplementedby>
         <param>
           <type>void</type>
         </param>
@@ -1059,8 +1059,8 @@
         <definition>virtual int rocalution::Vector&lt; ValueType &gt;::Amax</definition>
         <argsstring>(ValueType &amp;value) const =0</argsstring>
         <name>Amax</name>
-        <reimplementedby refid="classrocalution_1_1_global_vector_1a0609a049872a62a5218a38e4187d3ef9">Amax</reimplementedby>
-        <reimplementedby refid="classrocalution_1_1_local_vector_1a20c79273550b3a82a409ef3cbcbc7e6b">Amax</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_global_vector_1af78bb9c0347f97871fb6f63ab23c3ab5">Amax</reimplementedby>
+        <reimplementedby refid="classrocalution_1_1_local_vector_1a3415aadc975e432560db9b05d0206acc">Amax</reimplementedby>
         <param>
           <type>ValueType &amp;</type>
           <declname>value</declname>
@@ -1249,12 +1249,12 @@
       <member refid="classrocalution_1_1_vector_1a19b74819ca4d2d4aba804b4b3882d33e" prot="public" virt="virtual"><scope>rocalution::Vector</scope><name>CopyFromAsync</name></member>
       <member refid="classrocalution_1_1_vector_1a602f35cbb92908373b7eee02a097f006" prot="public" virt="virtual"><scope>rocalution::Vector</scope><name>CopyFromDouble</name></member>
       <member refid="classrocalution_1_1_vector_1af85033a1ee476fde1a8e595bf820aee7" prot="public" virt="virtual"><scope>rocalution::Vector</scope><name>CopyFromFloat</name></member>
-      <member refid="classrocalution_1_1_vector_1a4b8794f97529984f9eb0be2532e7a452" prot="public" virt="virtual"><scope>rocalution::Vector</scope><name>Dot</name></member>
-      <member refid="classrocalution_1_1_vector_1ab43c0f9c89802ced75ac7e3b248cc798" prot="public" virt="virtual"><scope>rocalution::Vector</scope><name>Dot</name></member>
-      <member refid="classrocalution_1_1_vector_1afc0de1e6246fb0a5e9a6b0bbaf481727" prot="public" virt="virtual"><scope>rocalution::Vector</scope><name>DotNonConj</name></member>
-      <member refid="classrocalution_1_1_vector_1a6ff165b83b46e200e76cef9be9fc3505" prot="public" virt="virtual"><scope>rocalution::Vector</scope><name>DotNonConj</name></member>
-      <member refid="classrocalution_1_1_vector_1abd0787513f949d91f445890ea4d2ce81" prot="public" virt="virtual"><scope>rocalution::Vector</scope><name>GetGhostSize</name></member>
-      <member refid="classrocalution_1_1_vector_1af4e80d10bbfd9a243d0dfa3a5481358c" prot="public" virt="virtual"><scope>rocalution::Vector</scope><name>GetLocalSize</name></member>
+      <member refid="classrocalution_1_1_vector_1ae651d9b9c31f2b07544fc5a3f45cf622" prot="public" virt="virtual"><scope>rocalution::Vector</scope><name>Dot</name></member>
+      <member refid="classrocalution_1_1_vector_1a991fc5d02e9483b13015e6c406fff766" prot="public" virt="virtual"><scope>rocalution::Vector</scope><name>Dot</name></member>
+      <member refid="classrocalution_1_1_vector_1a05147ab9158d7786f8ae346569d86d9d" prot="public" virt="virtual"><scope>rocalution::Vector</scope><name>DotNonConj</name></member>
+      <member refid="classrocalution_1_1_vector_1a41e70a14e4abfe9516a89d528f514d70" prot="public" virt="virtual"><scope>rocalution::Vector</scope><name>DotNonConj</name></member>
+      <member refid="classrocalution_1_1_vector_1ad430c1606a83811081517e9d95c6b939" prot="public" virt="virtual"><scope>rocalution::Vector</scope><name>GetGhostSize</name></member>
+      <member refid="classrocalution_1_1_vector_1acfe3ff4ae742dfda779ceccc92d001ed" prot="public" virt="virtual"><scope>rocalution::Vector</scope><name>GetLocalSize</name></member>
       <member refid="classrocalution_1_1_vector_1a69a7295c57e35e030999c5764c05cfe7" prot="public" virt="pure-virtual"><scope>rocalution::Vector</scope><name>GetSize</name></member>
       <member refid="classrocalution_1_1_rocalution_obj_1a4bba5aeaf4fd705efc00402f1f6ed40b" prot="protected" virt="non-virtual"><scope>rocalution::Vector</scope><name>global_obj_id_</name></member>
       <member refid="classrocalution_1_1_base_rocalution_1a62720e4ccdd3879dcf093abc2688076e" prot="public" virt="pure-virtual"><scope>rocalution::Vector</scope><name>Info</name></member>

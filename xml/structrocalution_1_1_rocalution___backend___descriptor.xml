@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
   <compounddef id="structrocalution_1_1_rocalution___backend___descriptor" kind="struct" language="C++" prot="public">
     <compoundname>rocalution::Rocalution_Backend_Descriptor</compoundname>
       <sectiondef kind="public-attrib">
