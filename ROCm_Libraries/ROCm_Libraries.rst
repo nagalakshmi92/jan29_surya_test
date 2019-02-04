@@ -2525,7 +2525,6 @@ rocsparse_coosort_by_column()
 
 .. doxygenfunction:: rocsparse_coosort_by_column
 
-
 *******
 rocFFT
 *******
