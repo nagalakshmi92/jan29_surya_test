@@ -190,8 +190,8 @@
     <member refid="structhip_func_attributes_1aa8e68f3ee074574871131b6247ba1606" kind="variable"><name>ptxVersion</name></member>
     <member refid="structhip_func_attributes_1a9cdeeb8fa11970a585eff67e1506dfe2" kind="variable"><name>sharedSizeBytes</name></member>
   </compound>
-  <compound refid="structhip_ipc_mem_handle__st" kind="struct"><name>hipIpcMemHandle_st</name>
-    <member refid="structhip_ipc_mem_handle__st_1a5903b28f79c60df22deb4a1314754ed3" kind="variable"><name>reserved</name></member>
+  <compound refid="structhip_ipc_mem_handle__t" kind="struct"><name>hipIpcMemHandle_t</name>
+    <member refid="structhip_ipc_mem_handle__t_1a19634e4f84dbf8944574244792dcf46a" kind="variable"><name>reserved</name></member>
   </compound>
   <compound refid="classrocalution_1_1_host_matrix" kind="class"><name>rocalution::HostMatrix</name>
   </compound>
@@ -699,16 +699,10 @@
     <member refid="hip__runtime__api_8h_1a0ebbb61a275c1adb950de995aadd22bf" kind="typedef"><name>hipCtx_t</name></member>
     <member refid="hip__runtime__api_8h_1a181a06ca0d50ffdd6e019c87ffe02fb4" kind="typedef"><name>hipDevice_t</name></member>
     <member refid="hip__runtime__api_8h_1a0fc4326b345ac109cb72b90a22a1cb29" kind="typedef"><name>hipStream_t</name></member>
-    <member refid="hip__runtime__api_8h_1a9e6d62bec626192ca25cfe831d4a9586" kind="typedef"><name>hipIpcMemHandle_t</name></member>
     <member refid="hip__runtime__api_8h_1abd2e1ad718d6d7e625a54c24cb920793" kind="typedef"><name>hipIpcEventHandle_t</name></member>
     <member refid="hip__runtime__api_8h_1ab0b1dd6ce7ee1720c2970552c20173e8" kind="typedef"><name>hipModule_t</name></member>
     <member refid="hip__runtime__api_8h_1ac7ab0ad556b5e1b3461e450fd2c7da3b" kind="typedef"><name>hipFunction_t</name></member>
-    <member refid="hip__runtime__api_8h_1a04ff3562d6fe7b2f01bb60851f497933" kind="typedef"><name>hipFuncAttributes</name></member>
     <member refid="hip__runtime__api_8h_1a3640952e23c028a87a7db564443948ea" kind="typedef"><name>hipEvent_t</name></member>
-    <member refid="group___global_defs_1ga0a2145bd05973b6fce0994dce37e13ce" kind="typedef"><name>hipJitOption</name></member>
-    <member refid="group___global_defs_1ga7effbca2af70714feaa3330bf1a77a72" kind="typedef"><name>hipFuncCache_t</name></member>
-    <member refid="group___global_defs_1ga6b1ca424fa26a5fb718937d662eaee7f" kind="typedef"><name>hipSharedMemConfig</name></member>
-    <member refid="group___global_defs_1gacb37281795c3567d0b10a61c056d512b" kind="typedef"><name>dim3</name></member>
     <member refid="group___stream_1ga6d4e90ec5736f9728102be22d0559dfd" kind="typedef"><name>hipStreamCallback_t</name></member>
     <member refid="group___device_1gaefdc2847fb1d6c3fb1354e827a191ebd" kind="function"><name>hipDeviceSynchronize</name></member>
     <member refid="group___device_1ga8d57161ae56a8edc46eeda447417bf6c" kind="function"><name>hipDeviceReset</name></member>
@@ -952,45 +946,39 @@
   <compound refid="time__functions_8hpp" kind="file"><name>time_functions.hpp</name>
   </compound>
   <compound refid="rocfft_8h" kind="file"><name>rocfft.h</name>
-    <member refid="rocfft_8h_1a2720a32a7033c97a0577207ddbe10b74" kind="enum"><name>rocfft_status_e</name></member>
-    <member refid="rocfft_8h_1a2720a32a7033c97a0577207ddbe10b74aaea9c8ae08d2c01c4d7039a8e00a5a05" kind="enumvalue"><name>rocfft_status_success</name></member>
-    <member refid="rocfft_8h_1a2720a32a7033c97a0577207ddbe10b74aa84a54833c9a5d8997e407f2af193153" kind="enumvalue"><name>rocfft_status_failure</name></member>
-    <member refid="rocfft_8h_1a2720a32a7033c97a0577207ddbe10b74a50e2c98bab41698c1e6e3702d7d29beb" kind="enumvalue"><name>rocfft_status_invalid_arg_value</name></member>
-    <member refid="rocfft_8h_1a2720a32a7033c97a0577207ddbe10b74af963fd5c5de2399df79ae1130ab1489d" kind="enumvalue"><name>rocfft_status_invalid_dimensions</name></member>
-    <member refid="rocfft_8h_1a2720a32a7033c97a0577207ddbe10b74ad42eab68cab4a1bcb9c22603cfd37cee" kind="enumvalue"><name>rocfft_status_invalid_array_type</name></member>
-    <member refid="rocfft_8h_1a2720a32a7033c97a0577207ddbe10b74a87b80c954daf7a03fdf06cab320bdca1" kind="enumvalue"><name>rocfft_status_invalid_strides</name></member>
-    <member refid="rocfft_8h_1a2720a32a7033c97a0577207ddbe10b74a462b6b715c62690684f26e2692ebdacc" kind="enumvalue"><name>rocfft_status_invalid_distance</name></member>
-    <member refid="rocfft_8h_1a2720a32a7033c97a0577207ddbe10b74a00e585ce3a40782dd7bb4bcc13b5a325" kind="enumvalue"><name>rocfft_status_invalid_offset</name></member>
-    <member refid="rocfft_8h_1a4c535f465d5f448a17cf3b086b662f91" kind="enum"><name>rocfft_transform_type_e</name></member>
-    <member refid="rocfft_8h_1a4c535f465d5f448a17cf3b086b662f91a3418f24ad68ae3e2f108e4c2700c3f86" kind="enumvalue"><name>rocfft_transform_type_complex_forward</name></member>
-    <member refid="rocfft_8h_1a4c535f465d5f448a17cf3b086b662f91afba51638423dd542a94465097dbb29b5" kind="enumvalue"><name>rocfft_transform_type_complex_inverse</name></member>
-    <member refid="rocfft_8h_1a4c535f465d5f448a17cf3b086b662f91a73c8a62c48692bce84cfd61788e9b602" kind="enumvalue"><name>rocfft_transform_type_real_forward</name></member>
-    <member refid="rocfft_8h_1a4c535f465d5f448a17cf3b086b662f91a489a1ce67f9cf3ce881e056c3d169097" kind="enumvalue"><name>rocfft_transform_type_real_inverse</name></member>
-    <member refid="rocfft_8h_1afcdced145c01725882e126e8a19ca70e" kind="enum"><name>rocfft_precision_e</name></member>
-    <member refid="rocfft_8h_1afcdced145c01725882e126e8a19ca70eadc6b26bd449f7733d0f2bf3ac01685a1" kind="enumvalue"><name>rocfft_precision_single</name></member>
-    <member refid="rocfft_8h_1afcdced145c01725882e126e8a19ca70eaa16c76b134f0c1d4fced11c883170d8d" kind="enumvalue"><name>rocfft_precision_double</name></member>
-    <member refid="rocfft_8h_1ad9c9682d2ae3c5724e87c2294b8bea74" kind="enum"><name>rocfft_result_placement_e</name></member>
-    <member refid="rocfft_8h_1ad9c9682d2ae3c5724e87c2294b8bea74a2f3deefd5f1671449539fe705f97a82f" kind="enumvalue"><name>rocfft_placement_inplace</name></member>
-    <member refid="rocfft_8h_1ad9c9682d2ae3c5724e87c2294b8bea74a057cd8d4a298ec2e17af28b0c86cbcc6" kind="enumvalue"><name>rocfft_placement_notinplace</name></member>
-    <member refid="rocfft_8h_1a24093e5f0c7644e0c8bfe50847c238b7" kind="enum"><name>rocfft_array_type_e</name></member>
-    <member refid="rocfft_8h_1a24093e5f0c7644e0c8bfe50847c238b7af0ebe89b911eeb432dd32cc76217f113" kind="enumvalue"><name>rocfft_array_type_complex_interleaved</name></member>
-    <member refid="rocfft_8h_1a24093e5f0c7644e0c8bfe50847c238b7a2ed200fc7af834fc3d2509ffb74e5eda" kind="enumvalue"><name>rocfft_array_type_complex_planar</name></member>
-    <member refid="rocfft_8h_1a24093e5f0c7644e0c8bfe50847c238b7ad1d92fd678601fb42533129dbab09ff1" kind="enumvalue"><name>rocfft_array_type_real</name></member>
-    <member refid="rocfft_8h_1a24093e5f0c7644e0c8bfe50847c238b7a462787127585af6bda9980e72a2f9e60" kind="enumvalue"><name>rocfft_array_type_hermitian_interleaved</name></member>
-    <member refid="rocfft_8h_1a24093e5f0c7644e0c8bfe50847c238b7a365b8d747f5ae0b44e21c515de57d63c" kind="enumvalue"><name>rocfft_array_type_hermitian_planar</name></member>
-    <member refid="rocfft_8h_1aa337560aaae10c58b6e6b06f7f135f9f" kind="enum"><name>rocfft_execution_mode_e</name></member>
-    <member refid="rocfft_8h_1aa337560aaae10c58b6e6b06f7f135f9fadee6829621e9584fc43c59bdefdb9170" kind="enumvalue"><name>rocfft_exec_mode_nonblocking</name></member>
-    <member refid="rocfft_8h_1aa337560aaae10c58b6e6b06f7f135f9fae7afaaceeef8ca6a17098952bf4d8cfd" kind="enumvalue"><name>rocfft_exec_mode_nonblocking_with_flush</name></member>
-    <member refid="rocfft_8h_1aa337560aaae10c58b6e6b06f7f135f9fa73e93f5ce7df812c8291ba369477eca5" kind="enumvalue"><name>rocfft_exec_mode_blocking</name></member>
+    <member refid="rocfft_8h_1a6c303a11144ba0794b22f2668bef6c10" kind="enum"><name>rocfft_status</name></member>
+    <member refid="rocfft_8h_1a6c303a11144ba0794b22f2668bef6c10aaea9c8ae08d2c01c4d7039a8e00a5a05" kind="enumvalue"><name>rocfft_status_success</name></member>
+    <member refid="rocfft_8h_1a6c303a11144ba0794b22f2668bef6c10aa84a54833c9a5d8997e407f2af193153" kind="enumvalue"><name>rocfft_status_failure</name></member>
+    <member refid="rocfft_8h_1a6c303a11144ba0794b22f2668bef6c10a50e2c98bab41698c1e6e3702d7d29beb" kind="enumvalue"><name>rocfft_status_invalid_arg_value</name></member>
+    <member refid="rocfft_8h_1a6c303a11144ba0794b22f2668bef6c10af963fd5c5de2399df79ae1130ab1489d" kind="enumvalue"><name>rocfft_status_invalid_dimensions</name></member>
+    <member refid="rocfft_8h_1a6c303a11144ba0794b22f2668bef6c10ad42eab68cab4a1bcb9c22603cfd37cee" kind="enumvalue"><name>rocfft_status_invalid_array_type</name></member>
+    <member refid="rocfft_8h_1a6c303a11144ba0794b22f2668bef6c10a87b80c954daf7a03fdf06cab320bdca1" kind="enumvalue"><name>rocfft_status_invalid_strides</name></member>
+    <member refid="rocfft_8h_1a6c303a11144ba0794b22f2668bef6c10a462b6b715c62690684f26e2692ebdacc" kind="enumvalue"><name>rocfft_status_invalid_distance</name></member>
+    <member refid="rocfft_8h_1a6c303a11144ba0794b22f2668bef6c10a00e585ce3a40782dd7bb4bcc13b5a325" kind="enumvalue"><name>rocfft_status_invalid_offset</name></member>
+    <member refid="rocfft_8h_1a3728f124c59954d96726d6da5b22c4ab" kind="enum"><name>rocfft_transform_type</name></member>
+    <member refid="rocfft_8h_1a3728f124c59954d96726d6da5b22c4aba3418f24ad68ae3e2f108e4c2700c3f86" kind="enumvalue"><name>rocfft_transform_type_complex_forward</name></member>
+    <member refid="rocfft_8h_1a3728f124c59954d96726d6da5b22c4abafba51638423dd542a94465097dbb29b5" kind="enumvalue"><name>rocfft_transform_type_complex_inverse</name></member>
+    <member refid="rocfft_8h_1a3728f124c59954d96726d6da5b22c4aba73c8a62c48692bce84cfd61788e9b602" kind="enumvalue"><name>rocfft_transform_type_real_forward</name></member>
+    <member refid="rocfft_8h_1a3728f124c59954d96726d6da5b22c4aba489a1ce67f9cf3ce881e056c3d169097" kind="enumvalue"><name>rocfft_transform_type_real_inverse</name></member>
+    <member refid="rocfft_8h_1aee35b558738dd61471b175ff0cbd05fd" kind="enum"><name>rocfft_precision</name></member>
+    <member refid="rocfft_8h_1aee35b558738dd61471b175ff0cbd05fdadc6b26bd449f7733d0f2bf3ac01685a1" kind="enumvalue"><name>rocfft_precision_single</name></member>
+    <member refid="rocfft_8h_1aee35b558738dd61471b175ff0cbd05fdaa16c76b134f0c1d4fced11c883170d8d" kind="enumvalue"><name>rocfft_precision_double</name></member>
+    <member refid="rocfft_8h_1aa9ae6a5843775ad7446e90fe67c5c50a" kind="enum"><name>rocfft_result_placement</name></member>
+    <member refid="rocfft_8h_1aa9ae6a5843775ad7446e90fe67c5c50aa2f3deefd5f1671449539fe705f97a82f" kind="enumvalue"><name>rocfft_placement_inplace</name></member>
+    <member refid="rocfft_8h_1aa9ae6a5843775ad7446e90fe67c5c50aa057cd8d4a298ec2e17af28b0c86cbcc6" kind="enumvalue"><name>rocfft_placement_notinplace</name></member>
+    <member refid="rocfft_8h_1a48d8dde0add00914bd8c639790ba29e1" kind="enum"><name>rocfft_array_type</name></member>
+    <member refid="rocfft_8h_1a48d8dde0add00914bd8c639790ba29e1af0ebe89b911eeb432dd32cc76217f113" kind="enumvalue"><name>rocfft_array_type_complex_interleaved</name></member>
+    <member refid="rocfft_8h_1a48d8dde0add00914bd8c639790ba29e1a2ed200fc7af834fc3d2509ffb74e5eda" kind="enumvalue"><name>rocfft_array_type_complex_planar</name></member>
+    <member refid="rocfft_8h_1a48d8dde0add00914bd8c639790ba29e1ad1d92fd678601fb42533129dbab09ff1" kind="enumvalue"><name>rocfft_array_type_real</name></member>
+    <member refid="rocfft_8h_1a48d8dde0add00914bd8c639790ba29e1a462787127585af6bda9980e72a2f9e60" kind="enumvalue"><name>rocfft_array_type_hermitian_interleaved</name></member>
+    <member refid="rocfft_8h_1a48d8dde0add00914bd8c639790ba29e1a365b8d747f5ae0b44e21c515de57d63c" kind="enumvalue"><name>rocfft_array_type_hermitian_planar</name></member>
+    <member refid="rocfft_8h_1a7e5bca613a3ece2af5bc229631f960e7" kind="enum"><name>rocfft_execution_mode</name></member>
+    <member refid="rocfft_8h_1a7e5bca613a3ece2af5bc229631f960e7adee6829621e9584fc43c59bdefdb9170" kind="enumvalue"><name>rocfft_exec_mode_nonblocking</name></member>
+    <member refid="rocfft_8h_1a7e5bca613a3ece2af5bc229631f960e7ae7afaaceeef8ca6a17098952bf4d8cfd" kind="enumvalue"><name>rocfft_exec_mode_nonblocking_with_flush</name></member>
+    <member refid="rocfft_8h_1a7e5bca613a3ece2af5bc229631f960e7a73e93f5ce7df812c8291ba369477eca5" kind="enumvalue"><name>rocfft_exec_mode_blocking</name></member>
     <member refid="rocfft_8h_1aecca10c6ee20e6710a6fb7e39d69aeae" kind="typedef"><name>rocfft_plan</name></member>
     <member refid="rocfft_8h_1ad25e39e540dd29040edf589b2ef503c2" kind="typedef"><name>rocfft_plan_description</name></member>
     <member refid="rocfft_8h_1a9ee8a9967030355964ecf5f770c214d5" kind="typedef"><name>rocfft_execution_info</name></member>
-    <member refid="rocfft_8h_1a4b26da9b2b996eec7b9d378486ca645a" kind="typedef"><name>rocfft_status</name></member>
-    <member refid="rocfft_8h_1a9325c1d713e82d0e09bb95d5dcc5102b" kind="typedef"><name>rocfft_transform_type</name></member>
-    <member refid="rocfft_8h_1a1fd4e8878e8d1daba70595e3c2ca90e4" kind="typedef"><name>rocfft_precision</name></member>
-    <member refid="rocfft_8h_1ae474f17dee337a5554dc54b4e3d8828d" kind="typedef"><name>rocfft_result_placement</name></member>
-    <member refid="rocfft_8h_1a85be2b437c772e5d080f14fe51b75421" kind="typedef"><name>rocfft_array_type</name></member>
-    <member refid="rocfft_8h_1aab6b86183cd8c9cc3022d7ff159a18a0" kind="typedef"><name>rocfft_execution_mode</name></member>
     <member refid="rocfft_8h_1a1fcd18b6f9e0c0e7abdb3bfee8233fcb" kind="function"><name>rocfft_setup</name></member>
     <member refid="rocfft_8h_1a56bffbee30821ea2ea2f60cf2224d443" kind="function"><name>rocfft_cleanup</name></member>
     <member refid="rocfft_8h_1abb634a881606b1f0025a511f76aed8f2" kind="function"><name>rocfft_plan_create</name></member>
@@ -1098,71 +1086,59 @@
   </compound>
   <compound refid="rocsparse-types_8h" kind="file"><name>rocsparse-types.h</name>
     <member refid="rocsparse-types_8h_1a60d5e4c9d3a93d51469e853cc3eed1c8" kind="define"><name>_ROCSPARSE_TYPES_H_</name></member>
-    <member refid="rocsparse-types_8h_1aa2f0cb9d4dc12e4b3700063444bd117c" kind="enum"><name>rocsparse_operation_</name></member>
-    <member refid="rocsparse-types_8h_1aa2f0cb9d4dc12e4b3700063444bd117cad992ce988c65ce01fe87f0da2018f528" kind="enumvalue"><name>rocsparse_operation_none</name></member>
-    <member refid="rocsparse-types_8h_1aa2f0cb9d4dc12e4b3700063444bd117ca1ea3194d0c7bdb9e500d6faeead8ebf5" kind="enumvalue"><name>rocsparse_operation_transpose</name></member>
-    <member refid="rocsparse-types_8h_1aa2f0cb9d4dc12e4b3700063444bd117ca6920c1aa5f80005eee4b66ea6f25330f" kind="enumvalue"><name>rocsparse_operation_conjugate_transpose</name></member>
-    <member refid="rocsparse-types_8h_1abbe2a27a405938060d5c194e893c2325" kind="enum"><name>rocsparse_index_base_</name></member>
-    <member refid="rocsparse-types_8h_1abbe2a27a405938060d5c194e893c2325a71f5a4d652495d496d1b049fbfd4074d" kind="enumvalue"><name>rocsparse_index_base_zero</name></member>
-    <member refid="rocsparse-types_8h_1abbe2a27a405938060d5c194e893c2325a7ebbfb972c7bb96f4960a3c80d8b0625" kind="enumvalue"><name>rocsparse_index_base_one</name></member>
-    <member refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93c" kind="enum"><name>rocsparse_matrix_type_</name></member>
-    <member refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93ca8374056a76ce56d1392e6b35f8ddde03" kind="enumvalue"><name>rocsparse_matrix_type_general</name></member>
-    <member refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93ca8340a3909d43b5b6bedd8ecc928605a5" kind="enumvalue"><name>rocsparse_matrix_type_symmetric</name></member>
-    <member refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93caa30592e2cccfda6e1d66dc3a484fc7a8" kind="enumvalue"><name>rocsparse_matrix_type_hermitian</name></member>
-    <member refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93ca73d9ef5e5e18209f9f10a5885d3e15ba" kind="enumvalue"><name>rocsparse_matrix_type_triangular</name></member>
-    <member refid="rocsparse-types_8h_1afb42afadc8f6a36e00f03d703d662116" kind="enum"><name>rocsparse_diag_type_</name></member>
-    <member refid="rocsparse-types_8h_1afb42afadc8f6a36e00f03d703d662116a4f6d3d25237d1b2520659c9ec7635cf1" kind="enumvalue"><name>rocsparse_diag_type_non_unit</name></member>
-    <member refid="rocsparse-types_8h_1afb42afadc8f6a36e00f03d703d662116ac14545fb3bf8773d5f6b8e258c9576f4" kind="enumvalue"><name>rocsparse_diag_type_unit</name></member>
-    <member refid="rocsparse-types_8h_1ad241f6b4b0d17a745be1cc4f1bf4f15d" kind="enum"><name>rocsparse_fill_mode_</name></member>
-    <member refid="rocsparse-types_8h_1ad241f6b4b0d17a745be1cc4f1bf4f15da1eb644f6f2701329635e07d91919d37e" kind="enumvalue"><name>rocsparse_fill_mode_lower</name></member>
-    <member refid="rocsparse-types_8h_1ad241f6b4b0d17a745be1cc4f1bf4f15da905f490c7fc5a59e8a635938cec0d004" kind="enumvalue"><name>rocsparse_fill_mode_upper</name></member>
-    <member refid="rocsparse-types_8h_1abca90adafa9301fb9fa5c519e239aaf0" kind="enum"><name>rocsparse_action_</name></member>
-    <member refid="rocsparse-types_8h_1abca90adafa9301fb9fa5c519e239aaf0a8e396adaad286c3fd887ace34ac95333" kind="enumvalue"><name>rocsparse_action_symbolic</name></member>
-    <member refid="rocsparse-types_8h_1abca90adafa9301fb9fa5c519e239aaf0a87bdd4fa932567a61306494cc31759eb" kind="enumvalue"><name>rocsparse_action_numeric</name></member>
-    <member refid="rocsparse-types_8h_1a0d6cb5baf049ea59409a29074b0e9553" kind="enum"><name>rocsparse_hyb_partition_</name></member>
-    <member refid="rocsparse-types_8h_1a0d6cb5baf049ea59409a29074b0e9553a16c98963b39ca0f7c300531b418455b1" kind="enumvalue"><name>rocsparse_hyb_partition_auto</name></member>
-    <member refid="rocsparse-types_8h_1a0d6cb5baf049ea59409a29074b0e9553a1fab46e61eb120731fcce2f3a0ddc85e" kind="enumvalue"><name>rocsparse_hyb_partition_user</name></member>
-    <member refid="rocsparse-types_8h_1a0d6cb5baf049ea59409a29074b0e9553a35eb173683e0cc9ed5a0e4bf083e17a4" kind="enumvalue"><name>rocsparse_hyb_partition_max</name></member>
-    <member refid="rocsparse-types_8h_1a079d5d720ec9a82d12c31b880a1d40ff" kind="enum"><name>rocsparse_analysis_policy_</name></member>
-    <member refid="rocsparse-types_8h_1a079d5d720ec9a82d12c31b880a1d40ffa658466413f4005c0c103d20d5e352078" kind="enumvalue"><name>rocsparse_analysis_policy_reuse</name></member>
-    <member refid="rocsparse-types_8h_1a079d5d720ec9a82d12c31b880a1d40ffac66b70c4f519ddd03dcbe0f3a973401a" kind="enumvalue"><name>rocsparse_analysis_policy_force</name></member>
-    <member refid="rocsparse-types_8h_1a62d6e1f4e8ff7b75ab346223df84a026" kind="enum"><name>rocsparse_solve_policy_</name></member>
-    <member refid="rocsparse-types_8h_1a62d6e1f4e8ff7b75ab346223df84a026a9c6bdf97e192d429ca536d5ab98ea866" kind="enumvalue"><name>rocsparse_solve_policy_auto</name></member>
-    <member refid="rocsparse-types_8h_1a0e6f512018940f5d1cf6b3032fba468a" kind="enum"><name>rocsparse_pointer_mode_</name></member>
-    <member refid="rocsparse-types_8h_1a0e6f512018940f5d1cf6b3032fba468aab69d8b65b07ce81f2a28a03da361c698" kind="enumvalue"><name>rocsparse_pointer_mode_host</name></member>
-    <member refid="rocsparse-types_8h_1a0e6f512018940f5d1cf6b3032fba468aa8e76bc462cef4e84dc4c15f53006ac5e" kind="enumvalue"><name>rocsparse_pointer_mode_device</name></member>
+    <member refid="rocsparse-types_8h_1a820761e4768bb4f50a1ae78e722c8ca0" kind="enum"><name>rocsparse_operation</name></member>
+    <member refid="rocsparse-types_8h_1a820761e4768bb4f50a1ae78e722c8ca0ad992ce988c65ce01fe87f0da2018f528" kind="enumvalue"><name>rocsparse_operation_none</name></member>
+    <member refid="rocsparse-types_8h_1a820761e4768bb4f50a1ae78e722c8ca0a1ea3194d0c7bdb9e500d6faeead8ebf5" kind="enumvalue"><name>rocsparse_operation_transpose</name></member>
+    <member refid="rocsparse-types_8h_1a820761e4768bb4f50a1ae78e722c8ca0a6920c1aa5f80005eee4b66ea6f25330f" kind="enumvalue"><name>rocsparse_operation_conjugate_transpose</name></member>
+    <member refid="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060d" kind="enum"><name>rocsparse_index_base</name></member>
+    <member refid="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060da71f5a4d652495d496d1b049fbfd4074d" kind="enumvalue"><name>rocsparse_index_base_zero</name></member>
+    <member refid="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060da7ebbfb972c7bb96f4960a3c80d8b0625" kind="enumvalue"><name>rocsparse_index_base_one</name></member>
+    <member refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75" kind="enum"><name>rocsparse_matrix_type</name></member>
+    <member refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75a8374056a76ce56d1392e6b35f8ddde03" kind="enumvalue"><name>rocsparse_matrix_type_general</name></member>
+    <member refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75a8340a3909d43b5b6bedd8ecc928605a5" kind="enumvalue"><name>rocsparse_matrix_type_symmetric</name></member>
+    <member refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75aa30592e2cccfda6e1d66dc3a484fc7a8" kind="enumvalue"><name>rocsparse_matrix_type_hermitian</name></member>
+    <member refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75a73d9ef5e5e18209f9f10a5885d3e15ba" kind="enumvalue"><name>rocsparse_matrix_type_triangular</name></member>
+    <member refid="rocsparse-types_8h_1a6e8e038adcd3fa03168a1cb4a7da1bc5" kind="enum"><name>rocsparse_diag_type</name></member>
+    <member refid="rocsparse-types_8h_1a6e8e038adcd3fa03168a1cb4a7da1bc5a4f6d3d25237d1b2520659c9ec7635cf1" kind="enumvalue"><name>rocsparse_diag_type_non_unit</name></member>
+    <member refid="rocsparse-types_8h_1a6e8e038adcd3fa03168a1cb4a7da1bc5ac14545fb3bf8773d5f6b8e258c9576f4" kind="enumvalue"><name>rocsparse_diag_type_unit</name></member>
+    <member refid="rocsparse-types_8h_1ae3a66441e40bb7caa1861df90aae01d1" kind="enum"><name>rocsparse_fill_mode</name></member>
+    <member refid="rocsparse-types_8h_1ae3a66441e40bb7caa1861df90aae01d1a1eb644f6f2701329635e07d91919d37e" kind="enumvalue"><name>rocsparse_fill_mode_lower</name></member>
+    <member refid="rocsparse-types_8h_1ae3a66441e40bb7caa1861df90aae01d1a905f490c7fc5a59e8a635938cec0d004" kind="enumvalue"><name>rocsparse_fill_mode_upper</name></member>
+    <member refid="rocsparse-types_8h_1a1ec75a33f6cf43e19b2b4e254213c465" kind="enum"><name>rocsparse_action</name></member>
+    <member refid="rocsparse-types_8h_1a1ec75a33f6cf43e19b2b4e254213c465a8e396adaad286c3fd887ace34ac95333" kind="enumvalue"><name>rocsparse_action_symbolic</name></member>
+    <member refid="rocsparse-types_8h_1a1ec75a33f6cf43e19b2b4e254213c465a87bdd4fa932567a61306494cc31759eb" kind="enumvalue"><name>rocsparse_action_numeric</name></member>
+    <member refid="rocsparse-types_8h_1a756fd5aab6f202ce45cbf151fc1a46a6" kind="enum"><name>rocsparse_hyb_partition</name></member>
+    <member refid="rocsparse-types_8h_1a756fd5aab6f202ce45cbf151fc1a46a6a16c98963b39ca0f7c300531b418455b1" kind="enumvalue"><name>rocsparse_hyb_partition_auto</name></member>
+    <member refid="rocsparse-types_8h_1a756fd5aab6f202ce45cbf151fc1a46a6a1fab46e61eb120731fcce2f3a0ddc85e" kind="enumvalue"><name>rocsparse_hyb_partition_user</name></member>
+    <member refid="rocsparse-types_8h_1a756fd5aab6f202ce45cbf151fc1a46a6a35eb173683e0cc9ed5a0e4bf083e17a4" kind="enumvalue"><name>rocsparse_hyb_partition_max</name></member>
+    <member refid="rocsparse-types_8h_1a43b20aa4bb19623a91b5952422fbe35c" kind="enum"><name>rocsparse_analysis_policy</name></member>
+    <member refid="rocsparse-types_8h_1a43b20aa4bb19623a91b5952422fbe35ca658466413f4005c0c103d20d5e352078" kind="enumvalue"><name>rocsparse_analysis_policy_reuse</name></member>
+    <member refid="rocsparse-types_8h_1a43b20aa4bb19623a91b5952422fbe35cac66b70c4f519ddd03dcbe0f3a973401a" kind="enumvalue"><name>rocsparse_analysis_policy_force</name></member>
+    <member refid="rocsparse-types_8h_1a5a3e261123e81a9e8b267c6109e26957" kind="enum"><name>rocsparse_solve_policy</name></member>
+    <member refid="rocsparse-types_8h_1a5a3e261123e81a9e8b267c6109e26957a9c6bdf97e192d429ca536d5ab98ea866" kind="enumvalue"><name>rocsparse_solve_policy_auto</name></member>
+    <member refid="rocsparse-types_8h_1a154fe9812f99d1f2c3db94c1ce561a15" kind="enum"><name>rocsparse_pointer_mode</name></member>
+    <member refid="rocsparse-types_8h_1a154fe9812f99d1f2c3db94c1ce561a15ab69d8b65b07ce81f2a28a03da361c698" kind="enumvalue"><name>rocsparse_pointer_mode_host</name></member>
+    <member refid="rocsparse-types_8h_1a154fe9812f99d1f2c3db94c1ce561a15a8e76bc462cef4e84dc4c15f53006ac5e" kind="enumvalue"><name>rocsparse_pointer_mode_device</name></member>
     <member refid="rocsparse-types_8h_1a062e1e182fefcda578bb4bd8925afb44" kind="enum"><name>rocsparse_layer_mode</name></member>
     <member refid="rocsparse-types_8h_1a062e1e182fefcda578bb4bd8925afb44aa507b5d5dc9c0da5c70959cbbeb9fa92" kind="enumvalue"><name>rocsparse_layer_mode_none</name></member>
     <member refid="rocsparse-types_8h_1a062e1e182fefcda578bb4bd8925afb44a306f654f6a22cb9d00c4ad1fcf6a2015" kind="enumvalue"><name>rocsparse_layer_mode_log_trace</name></member>
     <member refid="rocsparse-types_8h_1a062e1e182fefcda578bb4bd8925afb44abf04b118d7b12949523c1a890dc99184" kind="enumvalue"><name>rocsparse_layer_mode_log_bench</name></member>
-    <member refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88" kind="enum"><name>rocsparse_status_</name></member>
-    <member refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a96462a9361cfceb6cf9354e10fdc671b" kind="enumvalue"><name>rocsparse_status_success</name></member>
-    <member refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a00db084ea5ca4334f2f9597ef77be306" kind="enumvalue"><name>rocsparse_status_invalid_handle</name></member>
-    <member refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a66f7d73b3128cc9e72a6450e87b67c84" kind="enumvalue"><name>rocsparse_status_not_implemented</name></member>
-    <member refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a6c8604554aec57949b76be10ceb11d14" kind="enumvalue"><name>rocsparse_status_invalid_pointer</name></member>
-    <member refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a4681af32d7cdd0106dddce4f24b5508b" kind="enumvalue"><name>rocsparse_status_invalid_size</name></member>
-    <member refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88adef07366416a3b0e2070b0c2b9baeba0" kind="enumvalue"><name>rocsparse_status_memory_error</name></member>
-    <member refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a37f0081a59e0f1be2f8242b05cd3c9c7" kind="enumvalue"><name>rocsparse_status_internal_error</name></member>
-    <member refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88ae6f9bdcedf444837aec53b8489f83223" kind="enumvalue"><name>rocsparse_status_invalid_value</name></member>
-    <member refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a974385cdf5e6e7bf3984a85379aed5b8" kind="enumvalue"><name>rocsparse_status_arch_mismatch</name></member>
-    <member refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a01fe264830c8ce6451ce6888bc8d3e80" kind="enumvalue"><name>rocsparse_status_zero_pivot</name></member>
+    <member refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kind="enum"><name>rocsparse_status</name></member>
+    <member refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a96462a9361cfceb6cf9354e10fdc671b" kind="enumvalue"><name>rocsparse_status_success</name></member>
+    <member refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a00db084ea5ca4334f2f9597ef77be306" kind="enumvalue"><name>rocsparse_status_invalid_handle</name></member>
+    <member refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a66f7d73b3128cc9e72a6450e87b67c84" kind="enumvalue"><name>rocsparse_status_not_implemented</name></member>
+    <member refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a6c8604554aec57949b76be10ceb11d14" kind="enumvalue"><name>rocsparse_status_invalid_pointer</name></member>
+    <member refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a4681af32d7cdd0106dddce4f24b5508b" kind="enumvalue"><name>rocsparse_status_invalid_size</name></member>
+    <member refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8adef07366416a3b0e2070b0c2b9baeba0" kind="enumvalue"><name>rocsparse_status_memory_error</name></member>
+    <member refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a37f0081a59e0f1be2f8242b05cd3c9c7" kind="enumvalue"><name>rocsparse_status_internal_error</name></member>
+    <member refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8ae6f9bdcedf444837aec53b8489f83223" kind="enumvalue"><name>rocsparse_status_invalid_value</name></member>
+    <member refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a974385cdf5e6e7bf3984a85379aed5b8" kind="enumvalue"><name>rocsparse_status_arch_mismatch</name></member>
+    <member refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a01fe264830c8ce6451ce6888bc8d3e80" kind="enumvalue"><name>rocsparse_status_zero_pivot</name></member>
     <member refid="rocsparse-types_8h_1a32e0426e931aa6e44354b18563332934" kind="typedef"><name>rocsparse_int</name></member>
     <member refid="rocsparse-types_8h_1a78c803f46b33ae1e212dac7922be823d" kind="typedef"><name>rocsparse_handle</name></member>
     <member refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kind="typedef"><name>rocsparse_mat_descr</name></member>
     <member refid="rocsparse-types_8h_1a919d9ad6075d1abf3cd007f13cbb4ddb" kind="typedef"><name>rocsparse_hyb_mat</name></member>
     <member refid="rocsparse-types_8h_1a3347be72f6e4f3c55318c32b46dcaa92" kind="typedef"><name>rocsparse_mat_info</name></member>
-    <member refid="rocsparse-types_8h_1a808cc40956985590061ad3617edd6649" kind="typedef"><name>rocsparse_operation</name></member>
-    <member refid="rocsparse-types_8h_1a29595b0a8c3c3fe4cb26d1221e920b6d" kind="typedef"><name>rocsparse_index_base</name></member>
-    <member refid="rocsparse-types_8h_1a6cc840e437d4f5b3fe948c96658560dc" kind="typedef"><name>rocsparse_matrix_type</name></member>
-    <member refid="rocsparse-types_8h_1ae49afcee26c3a52d881ce899b74c695a" kind="typedef"><name>rocsparse_diag_type</name></member>
-    <member refid="rocsparse-types_8h_1af275676f23c77734dbf14aff9ef22c28" kind="typedef"><name>rocsparse_fill_mode</name></member>
-    <member refid="rocsparse-types_8h_1af5ab987cf9ae0fe8a036e0df213bfd15" kind="typedef"><name>rocsparse_action</name></member>
-    <member refid="rocsparse-types_8h_1afe3e3b66958620671f3e9f76036b4bae" kind="typedef"><name>rocsparse_hyb_partition</name></member>
-    <member refid="rocsparse-types_8h_1afd19542f0f7fe1c83d805b85438f3a7a" kind="typedef"><name>rocsparse_analysis_policy</name></member>
-    <member refid="rocsparse-types_8h_1abf95bc7109c800a7fed747e474b5c08b" kind="typedef"><name>rocsparse_solve_policy</name></member>
-    <member refid="rocsparse-types_8h_1a85acb14426ccaccdb76aab10546b3918" kind="typedef"><name>rocsparse_pointer_mode</name></member>
-    <member refid="rocsparse-types_8h_1a0986b6630912ca0766a38c07262b25cc" kind="typedef"><name>rocsparse_layer_mode</name></member>
-    <member refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kind="typedef"><name>rocsparse_status</name></member>
   </compound>
   <compound refid="group___a_p_i" kind="group"><name>API</name>
     <member refid="group___a_p_i_1gafd8c80f7e3b6426a630fff768409be70" kind="function"><name>hipIpcGetMemHandle</name></member>
@@ -1367,10 +1343,6 @@
     <member refid="group___global_defs_1gga2e17b71d94ac350f2ccd914fd49d104eaf5b325c9b7bde878913f768eaba5014d" kind="enumvalue"><name>hipSharedMemBankSizeDefault</name></member>
     <member refid="group___global_defs_1gga2e17b71d94ac350f2ccd914fd49d104ea0a95a6e0c33106c42d66ab9476ff954a" kind="enumvalue"><name>hipSharedMemBankSizeFourByte</name></member>
     <member refid="group___global_defs_1gga2e17b71d94ac350f2ccd914fd49d104ea64518b4f5a25f536c883330167e79258" kind="enumvalue"><name>hipSharedMemBankSizeEightByte</name></member>
-    <member refid="group___global_defs_1ga0a2145bd05973b6fce0994dce37e13ce" kind="typedef"><name>hipJitOption</name></member>
-    <member refid="group___global_defs_1ga7effbca2af70714feaa3330bf1a77a72" kind="typedef"><name>hipFuncCache_t</name></member>
-    <member refid="group___global_defs_1ga6b1ca424fa26a5fb718937d662eaee7f" kind="typedef"><name>hipSharedMemConfig</name></member>
-    <member refid="group___global_defs_1gacb37281795c3567d0b10a61c056d512b" kind="typedef"><name>dim3</name></member>
     <member refid="group___global_defs_1ga6df5f70eb976836ab3598cacf0ffcdf9" kind="define"><name>hipStreamDefault</name></member>
     <member refid="group___global_defs_1gaaba9ae995d9b43b7d1ee70c6fa12c57d" kind="define"><name>hipStreamNonBlocking</name></member>
     <member refid="group___global_defs_1ga122a5853359eba97cf047ddd153740f0" kind="define"><name>hipEventDefault</name></member>

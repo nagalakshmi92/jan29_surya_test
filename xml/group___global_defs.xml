@@ -214,62 +214,6 @@
         <location file="ROCm_API_References/HIP/include/hip/hcc_detail/hip_runtime_api.h" line="232" column="1" bodyfile="ROCm_API_References/HIP/include/hip/hcc_detail/hip_runtime_api.h" bodystart="232" bodyend="238"/>
       </memberdef>
       </sectiondef>
-      <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="group___global_defs_1ga0a2145bd05973b6fce0994dce37e13ce" prot="public" static="no">
-        <type>enum hipJitOption</type>
-        <definition>typedef enum hipJitOption  hipJitOption</definition>
-        <argsstring></argsstring>
-        <name>hipJitOption</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="ROCm_API_References/HIP/include/hip/hcc_detail/hip_runtime_api.h" line="215" column="1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="group___global_defs_1ga7effbca2af70714feaa3330bf1a77a72" prot="public" static="no">
-        <type>enum <ref refid="group___global_defs_1ga86e5c5692645963a9a673e1aa88ba6ca" kindref="member">hipFuncCache_t</ref></type>
-        <definition>typedef enum hipFuncCache_t  hipFuncCache_t</definition>
-        <argsstring></argsstring>
-        <name>hipFuncCache_t</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="warning"><para>On AMD devices and some Nvidia devices, these hints and controls are ignored. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="ROCm_API_References/HIP/include/hip/hcc_detail/hip_runtime_api.h" line="226" column="1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="group___global_defs_1ga6b1ca424fa26a5fb718937d662eaee7f" prot="public" static="no">
-        <type>enum <ref refid="group___global_defs_1ga2e17b71d94ac350f2ccd914fd49d104e" kindref="member">hipSharedMemConfig</ref></type>
-        <definition>typedef enum hipSharedMemConfig  hipSharedMemConfig</definition>
-        <argsstring></argsstring>
-        <name>hipSharedMemConfig</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="warning"><para>On AMD devices and some Nvidia devices, these hints and controls are ignored. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="ROCm_API_References/HIP/include/hip/hcc_detail/hip_runtime_api.h" line="238" column="1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="group___global_defs_1gacb37281795c3567d0b10a61c056d512b" prot="public" static="no">
-        <type>struct <ref refid="structdim3" kindref="compound">dim3</ref></type>
-        <definition>typedef struct dim3  dim3</definition>
-        <argsstring></argsstring>
-        <name>dim3</name>
-        <briefdescription>
-<para>Struct for data in 3D. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="ROCm_API_References/HIP/include/hip/hcc_detail/hip_runtime_api.h" line="252" column="1"/>
-      </memberdef>
-      </sectiondef>
       <sectiondef kind="define">
       <memberdef kind="define" id="group___global_defs_1ga6df5f70eb976836ab3598cacf0ffcdf9" prot="public" static="no">
         <name>hipStreamDefault</name>

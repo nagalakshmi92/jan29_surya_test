@@ -47,9 +47,9 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="enum">
-      <memberdef kind="enum" id="rocsparse-types_8h_1aa2f0cb9d4dc12e4b3700063444bd117c" prot="public" static="no">
-        <name>rocsparse_operation_</name>
-        <enumvalue id="rocsparse-types_8h_1aa2f0cb9d4dc12e4b3700063444bd117cad992ce988c65ce01fe87f0da2018f528" prot="public">
+      <memberdef kind="enum" id="rocsparse-types_8h_1a820761e4768bb4f50a1ae78e722c8ca0" prot="public" static="no">
+        <name>rocsparse_operation</name>
+        <enumvalue id="rocsparse-types_8h_1a820761e4768bb4f50a1ae78e722c8ca0ad992ce988c65ce01fe87f0da2018f528" prot="public">
           <name>rocsparse_operation_none</name>
           <initializer>= 111</initializer>
           <briefdescription>
@@ -57,7 +57,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="rocsparse-types_8h_1aa2f0cb9d4dc12e4b3700063444bd117ca1ea3194d0c7bdb9e500d6faeead8ebf5" prot="public">
+        <enumvalue id="rocsparse-types_8h_1a820761e4768bb4f50a1ae78e722c8ca0a1ea3194d0c7bdb9e500d6faeead8ebf5" prot="public">
           <name>rocsparse_operation_transpose</name>
           <initializer>= 112</initializer>
           <briefdescription>
@@ -65,7 +65,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="rocsparse-types_8h_1aa2f0cb9d4dc12e4b3700063444bd117ca6920c1aa5f80005eee4b66ea6f25330f" prot="public">
+        <enumvalue id="rocsparse-types_8h_1a820761e4768bb4f50a1ae78e722c8ca0a6920c1aa5f80005eee4b66ea6f25330f" prot="public">
           <name>rocsparse_operation_conjugate_transpose</name>
           <initializer>= 113</initializer>
           <briefdescription>
@@ -76,14 +76,14 @@
         <briefdescription>
 <para>Specify whether the matrix is to be transposed or not. </para>        </briefdescription>
         <detaileddescription>
-<para>The <ref refid="rocsparse-types_8h_1a808cc40956985590061ad3617edd6649" kindref="member">rocsparse_operation</ref> indicates the operation performed with the given matrix. </para>        </detaileddescription>
+<para>The <ref refid="rocsparse-types_8h_1a820761e4768bb4f50a1ae78e722c8ca0" kindref="member">rocsparse_operation</ref> indicates the operation performed with the given matrix. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" line="98" column="1" bodyfile="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" bodystart="98" bodyend="102"/>
       </memberdef>
-      <memberdef kind="enum" id="rocsparse-types_8h_1abbe2a27a405938060d5c194e893c2325" prot="public" static="no">
-        <name>rocsparse_index_base_</name>
-        <enumvalue id="rocsparse-types_8h_1abbe2a27a405938060d5c194e893c2325a71f5a4d652495d496d1b049fbfd4074d" prot="public">
+      <memberdef kind="enum" id="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060d" prot="public" static="no">
+        <name>rocsparse_index_base</name>
+        <enumvalue id="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060da71f5a4d652495d496d1b049fbfd4074d" prot="public">
           <name>rocsparse_index_base_zero</name>
           <initializer>= 0</initializer>
           <briefdescription>
@@ -91,7 +91,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="rocsparse-types_8h_1abbe2a27a405938060d5c194e893c2325a7ebbfb972c7bb96f4960a3c80d8b0625" prot="public">
+        <enumvalue id="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060da7ebbfb972c7bb96f4960a3c80d8b0625" prot="public">
           <name>rocsparse_index_base_one</name>
           <initializer>= 1</initializer>
           <briefdescription>
@@ -102,14 +102,14 @@
         <briefdescription>
 <para>Specify the matrix index base. </para>        </briefdescription>
         <detaileddescription>
-<para>The <ref refid="rocsparse-types_8h_1a29595b0a8c3c3fe4cb26d1221e920b6d" kindref="member">rocsparse_index_base</ref> indicates the index base of the indices. For a given <ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref>, the <ref refid="rocsparse-types_8h_1a29595b0a8c3c3fe4cb26d1221e920b6d" kindref="member">rocsparse_index_base</ref> can be set using <ref refid="rocsparse-auxiliary_8h_1af78ff691793a2e50752883a7fe12d0bd" kindref="member">rocsparse_set_mat_index_base()</ref>. The current <ref refid="rocsparse-types_8h_1a29595b0a8c3c3fe4cb26d1221e920b6d" kindref="member">rocsparse_index_base</ref> of a matrix can be obtained by <ref refid="rocsparse-auxiliary_8h_1a72e7a8018a34974ea1617516b03200b8" kindref="member">rocsparse_get_mat_index_base()</ref>. </para>        </detaileddescription>
+<para>The <ref refid="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060d" kindref="member">rocsparse_index_base</ref> indicates the index base of the indices. For a given <ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref>, the <ref refid="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060d" kindref="member">rocsparse_index_base</ref> can be set using <ref refid="rocsparse-auxiliary_8h_1af78ff691793a2e50752883a7fe12d0bd" kindref="member">rocsparse_set_mat_index_base()</ref>. The current <ref refid="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060d" kindref="member">rocsparse_index_base</ref> of a matrix can be obtained by <ref refid="rocsparse-auxiliary_8h_1a72e7a8018a34974ea1617516b03200b8" kindref="member">rocsparse_get_mat_index_base()</ref>. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" line="113" column="1" bodyfile="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" bodystart="113" bodyend="116"/>
       </memberdef>
-      <memberdef kind="enum" id="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93c" prot="public" static="no">
-        <name>rocsparse_matrix_type_</name>
-        <enumvalue id="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93ca8374056a76ce56d1392e6b35f8ddde03" prot="public">
+      <memberdef kind="enum" id="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75" prot="public" static="no">
+        <name>rocsparse_matrix_type</name>
+        <enumvalue id="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75a8374056a76ce56d1392e6b35f8ddde03" prot="public">
           <name>rocsparse_matrix_type_general</name>
           <initializer>= 0</initializer>
           <briefdescription>
@@ -117,7 +117,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93ca8340a3909d43b5b6bedd8ecc928605a5" prot="public">
+        <enumvalue id="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75a8340a3909d43b5b6bedd8ecc928605a5" prot="public">
           <name>rocsparse_matrix_type_symmetric</name>
           <initializer>= 1</initializer>
           <briefdescription>
@@ -125,7 +125,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93caa30592e2cccfda6e1d66dc3a484fc7a8" prot="public">
+        <enumvalue id="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75aa30592e2cccfda6e1d66dc3a484fc7a8" prot="public">
           <name>rocsparse_matrix_type_hermitian</name>
           <initializer>= 2</initializer>
           <briefdescription>
@@ -133,7 +133,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93ca73d9ef5e5e18209f9f10a5885d3e15ba" prot="public">
+        <enumvalue id="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75a73d9ef5e5e18209f9f10a5885d3e15ba" prot="public">
           <name>rocsparse_matrix_type_triangular</name>
           <initializer>= 3</initializer>
           <briefdescription>
@@ -144,14 +144,14 @@
         <briefdescription>
 <para>Specify the matrix type. </para>        </briefdescription>
         <detaileddescription>
-<para>The <ref refid="rocsparse-types_8h_1a6cc840e437d4f5b3fe948c96658560dc" kindref="member">rocsparse_matrix_type</ref> indices the type of a matrix. For a given <ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref>, the <ref refid="rocsparse-types_8h_1a6cc840e437d4f5b3fe948c96658560dc" kindref="member">rocsparse_matrix_type</ref> can be set using <ref refid="rocsparse-auxiliary_8h_1af245e1e5eedf20ceb123ed1dbf96d423" kindref="member">rocsparse_set_mat_type()</ref>. The current <ref refid="rocsparse-types_8h_1a6cc840e437d4f5b3fe948c96658560dc" kindref="member">rocsparse_matrix_type</ref> of a matrix can be obtained by <ref refid="rocsparse-auxiliary_8h_1a87c1a4a2bacafdc0b5ddee3f7cbe7a42" kindref="member">rocsparse_get_mat_type()</ref>. </para>        </detaileddescription>
+<para>The <ref refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75" kindref="member">rocsparse_matrix_type</ref> indices the type of a matrix. For a given <ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref>, the <ref refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75" kindref="member">rocsparse_matrix_type</ref> can be set using <ref refid="rocsparse-auxiliary_8h_1af245e1e5eedf20ceb123ed1dbf96d423" kindref="member">rocsparse_set_mat_type()</ref>. The current <ref refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75" kindref="member">rocsparse_matrix_type</ref> of a matrix can be obtained by <ref refid="rocsparse-auxiliary_8h_1a87c1a4a2bacafdc0b5ddee3f7cbe7a42" kindref="member">rocsparse_get_mat_type()</ref>. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" line="127" column="1" bodyfile="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" bodystart="127" bodyend="132"/>
       </memberdef>
-      <memberdef kind="enum" id="rocsparse-types_8h_1afb42afadc8f6a36e00f03d703d662116" prot="public" static="no">
-        <name>rocsparse_diag_type_</name>
-        <enumvalue id="rocsparse-types_8h_1afb42afadc8f6a36e00f03d703d662116a4f6d3d25237d1b2520659c9ec7635cf1" prot="public">
+      <memberdef kind="enum" id="rocsparse-types_8h_1a6e8e038adcd3fa03168a1cb4a7da1bc5" prot="public" static="no">
+        <name>rocsparse_diag_type</name>
+        <enumvalue id="rocsparse-types_8h_1a6e8e038adcd3fa03168a1cb4a7da1bc5a4f6d3d25237d1b2520659c9ec7635cf1" prot="public">
           <name>rocsparse_diag_type_non_unit</name>
           <initializer>= 0</initializer>
           <briefdescription>
@@ -159,7 +159,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="rocsparse-types_8h_1afb42afadc8f6a36e00f03d703d662116ac14545fb3bf8773d5f6b8e258c9576f4" prot="public">
+        <enumvalue id="rocsparse-types_8h_1a6e8e038adcd3fa03168a1cb4a7da1bc5ac14545fb3bf8773d5f6b8e258c9576f4" prot="public">
           <name>rocsparse_diag_type_unit</name>
           <initializer>= 1</initializer>
           <briefdescription>
@@ -170,14 +170,14 @@
         <briefdescription>
 <para>Indicates if the diagonal entries are unity. </para>        </briefdescription>
         <detaileddescription>
-<para>The <ref refid="rocsparse-types_8h_1ae49afcee26c3a52d881ce899b74c695a" kindref="member">rocsparse_diag_type</ref> indicates whether the diagonal entries of a matrix are unity or not. If <ref refid="rocsparse-types_8h_1afb42afadc8f6a36e00f03d703d662116ac14545fb3bf8773d5f6b8e258c9576f4" kindref="member">rocsparse_diag_type_unit</ref> is specified, all present diagonal values will be ignored. For a given <ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref>, the <ref refid="rocsparse-types_8h_1ae49afcee26c3a52d881ce899b74c695a" kindref="member">rocsparse_diag_type</ref> can be set using <ref refid="rocsparse-auxiliary_8h_1ab7058104a8b9f6505fa7cf2106c59fbd" kindref="member">rocsparse_set_mat_diag_type()</ref>. The current <ref refid="rocsparse-types_8h_1ae49afcee26c3a52d881ce899b74c695a" kindref="member">rocsparse_diag_type</ref> of a matrix can be obtained by <ref refid="rocsparse-auxiliary_8h_1ae32708359682932eb74060f4041f626e" kindref="member">rocsparse_get_mat_diag_type()</ref>. </para>        </detaileddescription>
+<para>The <ref refid="rocsparse-types_8h_1a6e8e038adcd3fa03168a1cb4a7da1bc5" kindref="member">rocsparse_diag_type</ref> indicates whether the diagonal entries of a matrix are unity or not. If <ref refid="rocsparse-types_8h_1a6e8e038adcd3fa03168a1cb4a7da1bc5ac14545fb3bf8773d5f6b8e258c9576f4" kindref="member">rocsparse_diag_type_unit</ref> is specified, all present diagonal values will be ignored. For a given <ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref>, the <ref refid="rocsparse-types_8h_1a6e8e038adcd3fa03168a1cb4a7da1bc5" kindref="member">rocsparse_diag_type</ref> can be set using <ref refid="rocsparse-auxiliary_8h_1ab7058104a8b9f6505fa7cf2106c59fbd" kindref="member">rocsparse_set_mat_diag_type()</ref>. The current <ref refid="rocsparse-types_8h_1a6e8e038adcd3fa03168a1cb4a7da1bc5" kindref="member">rocsparse_diag_type</ref> of a matrix can be obtained by <ref refid="rocsparse-auxiliary_8h_1ae32708359682932eb74060f4041f626e" kindref="member">rocsparse_get_mat_diag_type()</ref>. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" line="145" column="1" bodyfile="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" bodystart="145" bodyend="148"/>
       </memberdef>
-      <memberdef kind="enum" id="rocsparse-types_8h_1ad241f6b4b0d17a745be1cc4f1bf4f15d" prot="public" static="no">
-        <name>rocsparse_fill_mode_</name>
-        <enumvalue id="rocsparse-types_8h_1ad241f6b4b0d17a745be1cc4f1bf4f15da1eb644f6f2701329635e07d91919d37e" prot="public">
+      <memberdef kind="enum" id="rocsparse-types_8h_1ae3a66441e40bb7caa1861df90aae01d1" prot="public" static="no">
+        <name>rocsparse_fill_mode</name>
+        <enumvalue id="rocsparse-types_8h_1ae3a66441e40bb7caa1861df90aae01d1a1eb644f6f2701329635e07d91919d37e" prot="public">
           <name>rocsparse_fill_mode_lower</name>
           <initializer>= 0</initializer>
           <briefdescription>
@@ -185,7 +185,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="rocsparse-types_8h_1ad241f6b4b0d17a745be1cc4f1bf4f15da905f490c7fc5a59e8a635938cec0d004" prot="public">
+        <enumvalue id="rocsparse-types_8h_1ae3a66441e40bb7caa1861df90aae01d1a905f490c7fc5a59e8a635938cec0d004" prot="public">
           <name>rocsparse_fill_mode_upper</name>
           <initializer>= 1</initializer>
           <briefdescription>
@@ -196,14 +196,14 @@
         <briefdescription>
 <para>Specify the matrix fill mode. </para>        </briefdescription>
         <detaileddescription>
-<para>The <ref refid="rocsparse-types_8h_1af275676f23c77734dbf14aff9ef22c28" kindref="member">rocsparse_fill_mode</ref> indicates whether the lower or the upper part is stored in a sparse triangular matrix. For a given <ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref>, the <ref refid="rocsparse-types_8h_1af275676f23c77734dbf14aff9ef22c28" kindref="member">rocsparse_fill_mode</ref> can be set using <ref refid="rocsparse-auxiliary_8h_1a4c888ce95b80067ad135215299708378" kindref="member">rocsparse_set_mat_fill_mode()</ref>. The current <ref refid="rocsparse-types_8h_1af275676f23c77734dbf14aff9ef22c28" kindref="member">rocsparse_fill_mode</ref> of a matrix can be obtained by <ref refid="rocsparse-auxiliary_8h_1ab4f68f8662c0596a9904f4534b8dcbd1" kindref="member">rocsparse_get_mat_fill_mode()</ref>. </para>        </detaileddescription>
+<para>The <ref refid="rocsparse-types_8h_1ae3a66441e40bb7caa1861df90aae01d1" kindref="member">rocsparse_fill_mode</ref> indicates whether the lower or the upper part is stored in a sparse triangular matrix. For a given <ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref>, the <ref refid="rocsparse-types_8h_1ae3a66441e40bb7caa1861df90aae01d1" kindref="member">rocsparse_fill_mode</ref> can be set using <ref refid="rocsparse-auxiliary_8h_1a4c888ce95b80067ad135215299708378" kindref="member">rocsparse_set_mat_fill_mode()</ref>. The current <ref refid="rocsparse-types_8h_1ae3a66441e40bb7caa1861df90aae01d1" kindref="member">rocsparse_fill_mode</ref> of a matrix can be obtained by <ref refid="rocsparse-auxiliary_8h_1ab4f68f8662c0596a9904f4534b8dcbd1" kindref="member">rocsparse_get_mat_fill_mode()</ref>. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" line="160" column="1" bodyfile="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" bodystart="160" bodyend="163"/>
       </memberdef>
-      <memberdef kind="enum" id="rocsparse-types_8h_1abca90adafa9301fb9fa5c519e239aaf0" prot="public" static="no">
-        <name>rocsparse_action_</name>
-        <enumvalue id="rocsparse-types_8h_1abca90adafa9301fb9fa5c519e239aaf0a8e396adaad286c3fd887ace34ac95333" prot="public">
+      <memberdef kind="enum" id="rocsparse-types_8h_1a1ec75a33f6cf43e19b2b4e254213c465" prot="public" static="no">
+        <name>rocsparse_action</name>
+        <enumvalue id="rocsparse-types_8h_1a1ec75a33f6cf43e19b2b4e254213c465a8e396adaad286c3fd887ace34ac95333" prot="public">
           <name>rocsparse_action_symbolic</name>
           <initializer>= 0</initializer>
           <briefdescription>
@@ -211,7 +211,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="rocsparse-types_8h_1abca90adafa9301fb9fa5c519e239aaf0a87bdd4fa932567a61306494cc31759eb" prot="public">
+        <enumvalue id="rocsparse-types_8h_1a1ec75a33f6cf43e19b2b4e254213c465a87bdd4fa932567a61306494cc31759eb" prot="public">
           <name>rocsparse_action_numeric</name>
           <initializer>= 1</initializer>
           <briefdescription>
@@ -222,14 +222,14 @@
         <briefdescription>
 <para>Specify where the operation is performed on. </para>        </briefdescription>
         <detaileddescription>
-<para>The <ref refid="rocsparse-types_8h_1af5ab987cf9ae0fe8a036e0df213bfd15" kindref="member">rocsparse_action</ref> indicates whether the operation is performed on the full matrix, or only on the sparsity pattern of the matrix. </para>        </detaileddescription>
+<para>The <ref refid="rocsparse-types_8h_1a1ec75a33f6cf43e19b2b4e254213c465" kindref="member">rocsparse_action</ref> indicates whether the operation is performed on the full matrix, or only on the sparsity pattern of the matrix. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" line="172" column="1" bodyfile="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" bodystart="172" bodyend="175"/>
       </memberdef>
-      <memberdef kind="enum" id="rocsparse-types_8h_1a0d6cb5baf049ea59409a29074b0e9553" prot="public" static="no">
-        <name>rocsparse_hyb_partition_</name>
-        <enumvalue id="rocsparse-types_8h_1a0d6cb5baf049ea59409a29074b0e9553a16c98963b39ca0f7c300531b418455b1" prot="public">
+      <memberdef kind="enum" id="rocsparse-types_8h_1a756fd5aab6f202ce45cbf151fc1a46a6" prot="public" static="no">
+        <name>rocsparse_hyb_partition</name>
+        <enumvalue id="rocsparse-types_8h_1a756fd5aab6f202ce45cbf151fc1a46a6a16c98963b39ca0f7c300531b418455b1" prot="public">
           <name>rocsparse_hyb_partition_auto</name>
           <initializer>= 0</initializer>
           <briefdescription>
@@ -237,7 +237,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="rocsparse-types_8h_1a0d6cb5baf049ea59409a29074b0e9553a1fab46e61eb120731fcce2f3a0ddc85e" prot="public">
+        <enumvalue id="rocsparse-types_8h_1a756fd5aab6f202ce45cbf151fc1a46a6a1fab46e61eb120731fcce2f3a0ddc85e" prot="public">
           <name>rocsparse_hyb_partition_user</name>
           <initializer>= 1</initializer>
           <briefdescription>
@@ -245,7 +245,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="rocsparse-types_8h_1a0d6cb5baf049ea59409a29074b0e9553a35eb173683e0cc9ed5a0e4bf083e17a4" prot="public">
+        <enumvalue id="rocsparse-types_8h_1a756fd5aab6f202ce45cbf151fc1a46a6a35eb173683e0cc9ed5a0e4bf083e17a4" prot="public">
           <name>rocsparse_hyb_partition_max</name>
           <initializer>= 2</initializer>
           <briefdescription>
@@ -256,14 +256,14 @@
         <briefdescription>
 <para>HYB matrix partitioning type. </para>        </briefdescription>
         <detaileddescription>
-<para>The <ref refid="rocsparse-types_8h_1afe3e3b66958620671f3e9f76036b4bae" kindref="member">rocsparse_hyb_partition</ref> type indicates how the hybrid format partitioning between COO and ELL storage formats is performed. </para>        </detaileddescription>
+<para>The <ref refid="rocsparse-types_8h_1a756fd5aab6f202ce45cbf151fc1a46a6" kindref="member">rocsparse_hyb_partition</ref> type indicates how the hybrid format partitioning between COO and ELL storage formats is performed. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" line="184" column="1" bodyfile="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" bodystart="184" bodyend="188"/>
       </memberdef>
-      <memberdef kind="enum" id="rocsparse-types_8h_1a079d5d720ec9a82d12c31b880a1d40ff" prot="public" static="no">
-        <name>rocsparse_analysis_policy_</name>
-        <enumvalue id="rocsparse-types_8h_1a079d5d720ec9a82d12c31b880a1d40ffa658466413f4005c0c103d20d5e352078" prot="public">
+      <memberdef kind="enum" id="rocsparse-types_8h_1a43b20aa4bb19623a91b5952422fbe35c" prot="public" static="no">
+        <name>rocsparse_analysis_policy</name>
+        <enumvalue id="rocsparse-types_8h_1a43b20aa4bb19623a91b5952422fbe35ca658466413f4005c0c103d20d5e352078" prot="public">
           <name>rocsparse_analysis_policy_reuse</name>
           <initializer>= 0</initializer>
           <briefdescription>
@@ -271,7 +271,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="rocsparse-types_8h_1a079d5d720ec9a82d12c31b880a1d40ffac66b70c4f519ddd03dcbe0f3a973401a" prot="public">
+        <enumvalue id="rocsparse-types_8h_1a43b20aa4bb19623a91b5952422fbe35cac66b70c4f519ddd03dcbe0f3a973401a" prot="public">
           <name>rocsparse_analysis_policy_force</name>
           <initializer>= 1</initializer>
           <briefdescription>
@@ -282,14 +282,14 @@
         <briefdescription>
 <para>Specify policy in analysis functions. </para>        </briefdescription>
         <detaileddescription>
-<para>The <ref refid="rocsparse-types_8h_1afd19542f0f7fe1c83d805b85438f3a7a" kindref="member">rocsparse_analysis_policy</ref> specifies whether gathered analysis data should be re-used or not. If meta data from a previous e.g. rocsparse_csrilu0_analysis() call is available, it can be re-used for subsequent calls to e.g. rocsparse_csrsv_analysis() and greatly improve performance of the analysis function. </para>        </detaileddescription>
+<para>The <ref refid="rocsparse-types_8h_1a43b20aa4bb19623a91b5952422fbe35c" kindref="member">rocsparse_analysis_policy</ref> specifies whether gathered analysis data should be re-used or not. If meta data from a previous e.g. rocsparse_csrilu0_analysis() call is available, it can be re-used for subsequent calls to e.g. rocsparse_csrsv_analysis() and greatly improve performance of the analysis function. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" line="199" column="1" bodyfile="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" bodystart="199" bodyend="202"/>
       </memberdef>
-      <memberdef kind="enum" id="rocsparse-types_8h_1a62d6e1f4e8ff7b75ab346223df84a026" prot="public" static="no">
-        <name>rocsparse_solve_policy_</name>
-        <enumvalue id="rocsparse-types_8h_1a62d6e1f4e8ff7b75ab346223df84a026a9c6bdf97e192d429ca536d5ab98ea866" prot="public">
+      <memberdef kind="enum" id="rocsparse-types_8h_1a5a3e261123e81a9e8b267c6109e26957" prot="public" static="no">
+        <name>rocsparse_solve_policy</name>
+        <enumvalue id="rocsparse-types_8h_1a5a3e261123e81a9e8b267c6109e26957a9c6bdf97e192d429ca536d5ab98ea866" prot="public">
           <name>rocsparse_solve_policy_auto</name>
           <initializer>= 0</initializer>
           <briefdescription>
@@ -305,9 +305,9 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" line="210" column="1" bodyfile="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" bodystart="210" bodyend="212"/>
       </memberdef>
-      <memberdef kind="enum" id="rocsparse-types_8h_1a0e6f512018940f5d1cf6b3032fba468a" prot="public" static="no">
-        <name>rocsparse_pointer_mode_</name>
-        <enumvalue id="rocsparse-types_8h_1a0e6f512018940f5d1cf6b3032fba468aab69d8b65b07ce81f2a28a03da361c698" prot="public">
+      <memberdef kind="enum" id="rocsparse-types_8h_1a154fe9812f99d1f2c3db94c1ce561a15" prot="public" static="no">
+        <name>rocsparse_pointer_mode</name>
+        <enumvalue id="rocsparse-types_8h_1a154fe9812f99d1f2c3db94c1ce561a15ab69d8b65b07ce81f2a28a03da361c698" prot="public">
           <name>rocsparse_pointer_mode_host</name>
           <initializer>= 0</initializer>
           <briefdescription>
@@ -315,7 +315,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="rocsparse-types_8h_1a0e6f512018940f5d1cf6b3032fba468aa8e76bc462cef4e84dc4c15f53006ac5e" prot="public">
+        <enumvalue id="rocsparse-types_8h_1a154fe9812f99d1f2c3db94c1ce561a15a8e76bc462cef4e84dc4c15f53006ac5e" prot="public">
           <name>rocsparse_pointer_mode_device</name>
           <initializer>= 1</initializer>
           <briefdescription>
@@ -326,7 +326,7 @@
         <briefdescription>
 <para>Indicates if the pointer is device pointer or host pointer. </para>        </briefdescription>
         <detaileddescription>
-<para>The <ref refid="rocsparse-types_8h_1a85acb14426ccaccdb76aab10546b3918" kindref="member">rocsparse_pointer_mode</ref> indicates whether scalar values are passed by reference on the host or device. The <ref refid="rocsparse-types_8h_1a85acb14426ccaccdb76aab10546b3918" kindref="member">rocsparse_pointer_mode</ref> can be changed by <ref refid="rocsparse-auxiliary_8h_1ad489e6b789bcd0cbe3ad0ef9f65551fa" kindref="member">rocsparse_set_pointer_mode()</ref>. The currently used pointer mode can be obtained by <ref refid="rocsparse-auxiliary_8h_1a50ff27b0a6d06dc0034453cc880f17de" kindref="member">rocsparse_get_pointer_mode()</ref>. </para>        </detaileddescription>
+<para>The <ref refid="rocsparse-types_8h_1a154fe9812f99d1f2c3db94c1ce561a15" kindref="member">rocsparse_pointer_mode</ref> indicates whether scalar values are passed by reference on the host or device. The <ref refid="rocsparse-types_8h_1a154fe9812f99d1f2c3db94c1ce561a15" kindref="member">rocsparse_pointer_mode</ref> can be changed by <ref refid="rocsparse-auxiliary_8h_1ad489e6b789bcd0cbe3ad0ef9f65551fa" kindref="member">rocsparse_set_pointer_mode()</ref>. The currently used pointer mode can be obtained by <ref refid="rocsparse-auxiliary_8h_1a50ff27b0a6d06dc0034453cc880f17de" kindref="member">rocsparse_get_pointer_mode()</ref>. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" line="223" column="1" bodyfile="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" bodystart="223" bodyend="226"/>
@@ -360,14 +360,14 @@
         <briefdescription>
 <para>Indicates if layer is active with bitmask. </para>        </briefdescription>
         <detaileddescription>
-<para>The <ref refid="rocsparse-types_8h_1a0986b6630912ca0766a38c07262b25cc" kindref="member">rocsparse_layer_mode</ref> bit mask indicates the logging characteristics. </para>        </detaileddescription>
+<para>The <ref refid="rocsparse-types_8h_1a062e1e182fefcda578bb4bd8925afb44" kindref="member">rocsparse_layer_mode</ref> bit mask indicates the logging characteristics. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" line="234" column="1" bodyfile="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" bodystart="234" bodyend="238"/>
       </memberdef>
-      <memberdef kind="enum" id="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88" prot="public" static="no">
-        <name>rocsparse_status_</name>
-        <enumvalue id="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a96462a9361cfceb6cf9354e10fdc671b" prot="public">
+      <memberdef kind="enum" id="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" prot="public" static="no">
+        <name>rocsparse_status</name>
+        <enumvalue id="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a96462a9361cfceb6cf9354e10fdc671b" prot="public">
           <name>rocsparse_status_success</name>
           <initializer>= 0</initializer>
           <briefdescription>
@@ -375,7 +375,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a00db084ea5ca4334f2f9597ef77be306" prot="public">
+        <enumvalue id="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a00db084ea5ca4334f2f9597ef77be306" prot="public">
           <name>rocsparse_status_invalid_handle</name>
           <initializer>= 1</initializer>
           <briefdescription>
@@ -383,7 +383,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a66f7d73b3128cc9e72a6450e87b67c84" prot="public">
+        <enumvalue id="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a66f7d73b3128cc9e72a6450e87b67c84" prot="public">
           <name>rocsparse_status_not_implemented</name>
           <initializer>= 2</initializer>
           <briefdescription>
@@ -391,7 +391,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a6c8604554aec57949b76be10ceb11d14" prot="public">
+        <enumvalue id="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a6c8604554aec57949b76be10ceb11d14" prot="public">
           <name>rocsparse_status_invalid_pointer</name>
           <initializer>= 3</initializer>
           <briefdescription>
@@ -399,7 +399,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a4681af32d7cdd0106dddce4f24b5508b" prot="public">
+        <enumvalue id="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a4681af32d7cdd0106dddce4f24b5508b" prot="public">
           <name>rocsparse_status_invalid_size</name>
           <initializer>= 4</initializer>
           <briefdescription>
@@ -407,7 +407,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88adef07366416a3b0e2070b0c2b9baeba0" prot="public">
+        <enumvalue id="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8adef07366416a3b0e2070b0c2b9baeba0" prot="public">
           <name>rocsparse_status_memory_error</name>
           <initializer>= 5</initializer>
           <briefdescription>
@@ -415,7 +415,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a37f0081a59e0f1be2f8242b05cd3c9c7" prot="public">
+        <enumvalue id="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a37f0081a59e0f1be2f8242b05cd3c9c7" prot="public">
           <name>rocsparse_status_internal_error</name>
           <initializer>= 6</initializer>
           <briefdescription>
@@ -423,7 +423,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88ae6f9bdcedf444837aec53b8489f83223" prot="public">
+        <enumvalue id="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8ae6f9bdcedf444837aec53b8489f83223" prot="public">
           <name>rocsparse_status_invalid_value</name>
           <initializer>= 7</initializer>
           <briefdescription>
@@ -431,7 +431,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a974385cdf5e6e7bf3984a85379aed5b8" prot="public">
+        <enumvalue id="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a974385cdf5e6e7bf3984a85379aed5b8" prot="public">
           <name>rocsparse_status_arch_mismatch</name>
           <initializer>= 8</initializer>
           <briefdescription>
@@ -439,7 +439,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a01fe264830c8ce6451ce6888bc8d3e80" prot="public">
+        <enumvalue id="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a01fe264830c8ce6451ce6888bc8d3e80" prot="public">
           <name>rocsparse_status_zero_pivot</name>
           <initializer>= 9</initializer>
           <briefdescription>
@@ -450,7 +450,7 @@
         <briefdescription>
 <para>List of rocsparse status codes definition. </para>        </briefdescription>
         <detaileddescription>
-<para>This is a list of the <ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref> types that are used by the rocSPARSE library. </para>        </detaileddescription>
+<para>This is a list of the <ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref> types that are used by the rocSPARSE library. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" line="247" column="1" bodyfile="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" bodystart="247" bodyend="258"/>
@@ -522,162 +522,6 @@
         </inbodydescription>
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" line="86" column="1" bodyfile="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" bodystart="86" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="rocsparse-types_8h_1a808cc40956985590061ad3617edd6649" prot="public" static="no">
-        <type>enum <ref refid="rocsparse-types_8h_1aa2f0cb9d4dc12e4b3700063444bd117c" kindref="member">rocsparse_operation_</ref></type>
-        <definition>typedef enum rocsparse_operation_  rocsparse_operation</definition>
-        <argsstring></argsstring>
-        <name>rocsparse_operation</name>
-        <briefdescription>
-<para>Specify whether the matrix is to be transposed or not. </para>        </briefdescription>
-        <detaileddescription>
-<para>The <ref refid="rocsparse-types_8h_1a808cc40956985590061ad3617edd6649" kindref="member">rocsparse_operation</ref> indicates the operation performed with the given matrix. </para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" line="102" column="1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="rocsparse-types_8h_1a29595b0a8c3c3fe4cb26d1221e920b6d" prot="public" static="no">
-        <type>enum <ref refid="rocsparse-types_8h_1abbe2a27a405938060d5c194e893c2325" kindref="member">rocsparse_index_base_</ref></type>
-        <definition>typedef enum rocsparse_index_base_  rocsparse_index_base</definition>
-        <argsstring></argsstring>
-        <name>rocsparse_index_base</name>
-        <briefdescription>
-<para>Specify the matrix index base. </para>        </briefdescription>
-        <detaileddescription>
-<para>The <ref refid="rocsparse-types_8h_1a29595b0a8c3c3fe4cb26d1221e920b6d" kindref="member">rocsparse_index_base</ref> indicates the index base of the indices. For a given <ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref>, the <ref refid="rocsparse-types_8h_1a29595b0a8c3c3fe4cb26d1221e920b6d" kindref="member">rocsparse_index_base</ref> can be set using <ref refid="rocsparse-auxiliary_8h_1af78ff691793a2e50752883a7fe12d0bd" kindref="member">rocsparse_set_mat_index_base()</ref>. The current <ref refid="rocsparse-types_8h_1a29595b0a8c3c3fe4cb26d1221e920b6d" kindref="member">rocsparse_index_base</ref> of a matrix can be obtained by <ref refid="rocsparse-auxiliary_8h_1a72e7a8018a34974ea1617516b03200b8" kindref="member">rocsparse_get_mat_index_base()</ref>. </para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" line="116" column="1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="rocsparse-types_8h_1a6cc840e437d4f5b3fe948c96658560dc" prot="public" static="no">
-        <type>enum <ref refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93c" kindref="member">rocsparse_matrix_type_</ref></type>
-        <definition>typedef enum rocsparse_matrix_type_  rocsparse_matrix_type</definition>
-        <argsstring></argsstring>
-        <name>rocsparse_matrix_type</name>
-        <briefdescription>
-<para>Specify the matrix type. </para>        </briefdescription>
-        <detaileddescription>
-<para>The <ref refid="rocsparse-types_8h_1a6cc840e437d4f5b3fe948c96658560dc" kindref="member">rocsparse_matrix_type</ref> indices the type of a matrix. For a given <ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref>, the <ref refid="rocsparse-types_8h_1a6cc840e437d4f5b3fe948c96658560dc" kindref="member">rocsparse_matrix_type</ref> can be set using <ref refid="rocsparse-auxiliary_8h_1af245e1e5eedf20ceb123ed1dbf96d423" kindref="member">rocsparse_set_mat_type()</ref>. The current <ref refid="rocsparse-types_8h_1a6cc840e437d4f5b3fe948c96658560dc" kindref="member">rocsparse_matrix_type</ref> of a matrix can be obtained by <ref refid="rocsparse-auxiliary_8h_1a87c1a4a2bacafdc0b5ddee3f7cbe7a42" kindref="member">rocsparse_get_mat_type()</ref>. </para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" line="132" column="1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="rocsparse-types_8h_1ae49afcee26c3a52d881ce899b74c695a" prot="public" static="no">
-        <type>enum <ref refid="rocsparse-types_8h_1afb42afadc8f6a36e00f03d703d662116" kindref="member">rocsparse_diag_type_</ref></type>
-        <definition>typedef enum rocsparse_diag_type_  rocsparse_diag_type</definition>
-        <argsstring></argsstring>
-        <name>rocsparse_diag_type</name>
-        <briefdescription>
-<para>Indicates if the diagonal entries are unity. </para>        </briefdescription>
-        <detaileddescription>
-<para>The <ref refid="rocsparse-types_8h_1ae49afcee26c3a52d881ce899b74c695a" kindref="member">rocsparse_diag_type</ref> indicates whether the diagonal entries of a matrix are unity or not. If <ref refid="rocsparse-types_8h_1afb42afadc8f6a36e00f03d703d662116ac14545fb3bf8773d5f6b8e258c9576f4" kindref="member">rocsparse_diag_type_unit</ref> is specified, all present diagonal values will be ignored. For a given <ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref>, the <ref refid="rocsparse-types_8h_1ae49afcee26c3a52d881ce899b74c695a" kindref="member">rocsparse_diag_type</ref> can be set using <ref refid="rocsparse-auxiliary_8h_1ab7058104a8b9f6505fa7cf2106c59fbd" kindref="member">rocsparse_set_mat_diag_type()</ref>. The current <ref refid="rocsparse-types_8h_1ae49afcee26c3a52d881ce899b74c695a" kindref="member">rocsparse_diag_type</ref> of a matrix can be obtained by <ref refid="rocsparse-auxiliary_8h_1ae32708359682932eb74060f4041f626e" kindref="member">rocsparse_get_mat_diag_type()</ref>. </para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" line="148" column="1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="rocsparse-types_8h_1af275676f23c77734dbf14aff9ef22c28" prot="public" static="no">
-        <type>enum <ref refid="rocsparse-types_8h_1ad241f6b4b0d17a745be1cc4f1bf4f15d" kindref="member">rocsparse_fill_mode_</ref></type>
-        <definition>typedef enum rocsparse_fill_mode_  rocsparse_fill_mode</definition>
-        <argsstring></argsstring>
-        <name>rocsparse_fill_mode</name>
-        <briefdescription>
-<para>Specify the matrix fill mode. </para>        </briefdescription>
-        <detaileddescription>
-<para>The <ref refid="rocsparse-types_8h_1af275676f23c77734dbf14aff9ef22c28" kindref="member">rocsparse_fill_mode</ref> indicates whether the lower or the upper part is stored in a sparse triangular matrix. For a given <ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref>, the <ref refid="rocsparse-types_8h_1af275676f23c77734dbf14aff9ef22c28" kindref="member">rocsparse_fill_mode</ref> can be set using <ref refid="rocsparse-auxiliary_8h_1a4c888ce95b80067ad135215299708378" kindref="member">rocsparse_set_mat_fill_mode()</ref>. The current <ref refid="rocsparse-types_8h_1af275676f23c77734dbf14aff9ef22c28" kindref="member">rocsparse_fill_mode</ref> of a matrix can be obtained by <ref refid="rocsparse-auxiliary_8h_1ab4f68f8662c0596a9904f4534b8dcbd1" kindref="member">rocsparse_get_mat_fill_mode()</ref>. </para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" line="163" column="1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="rocsparse-types_8h_1af5ab987cf9ae0fe8a036e0df213bfd15" prot="public" static="no">
-        <type>enum <ref refid="rocsparse-types_8h_1abca90adafa9301fb9fa5c519e239aaf0" kindref="member">rocsparse_action_</ref></type>
-        <definition>typedef enum rocsparse_action_  rocsparse_action</definition>
-        <argsstring></argsstring>
-        <name>rocsparse_action</name>
-        <briefdescription>
-<para>Specify where the operation is performed on. </para>        </briefdescription>
-        <detaileddescription>
-<para>The <ref refid="rocsparse-types_8h_1af5ab987cf9ae0fe8a036e0df213bfd15" kindref="member">rocsparse_action</ref> indicates whether the operation is performed on the full matrix, or only on the sparsity pattern of the matrix. </para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" line="175" column="1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="rocsparse-types_8h_1afe3e3b66958620671f3e9f76036b4bae" prot="public" static="no">
-        <type>enum <ref refid="rocsparse-types_8h_1a0d6cb5baf049ea59409a29074b0e9553" kindref="member">rocsparse_hyb_partition_</ref></type>
-        <definition>typedef enum rocsparse_hyb_partition_  rocsparse_hyb_partition</definition>
-        <argsstring></argsstring>
-        <name>rocsparse_hyb_partition</name>
-        <briefdescription>
-<para>HYB matrix partitioning type. </para>        </briefdescription>
-        <detaileddescription>
-<para>The <ref refid="rocsparse-types_8h_1afe3e3b66958620671f3e9f76036b4bae" kindref="member">rocsparse_hyb_partition</ref> type indicates how the hybrid format partitioning between COO and ELL storage formats is performed. </para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" line="188" column="1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="rocsparse-types_8h_1afd19542f0f7fe1c83d805b85438f3a7a" prot="public" static="no">
-        <type>enum <ref refid="rocsparse-types_8h_1a079d5d720ec9a82d12c31b880a1d40ff" kindref="member">rocsparse_analysis_policy_</ref></type>
-        <definition>typedef enum rocsparse_analysis_policy_  rocsparse_analysis_policy</definition>
-        <argsstring></argsstring>
-        <name>rocsparse_analysis_policy</name>
-        <briefdescription>
-<para>Specify policy in analysis functions. </para>        </briefdescription>
-        <detaileddescription>
-<para>The <ref refid="rocsparse-types_8h_1afd19542f0f7fe1c83d805b85438f3a7a" kindref="member">rocsparse_analysis_policy</ref> specifies whether gathered analysis data should be re-used or not. If meta data from a previous e.g. rocsparse_csrilu0_analysis() call is available, it can be re-used for subsequent calls to e.g. rocsparse_csrsv_analysis() and greatly improve performance of the analysis function. </para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" line="202" column="1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="rocsparse-types_8h_1abf95bc7109c800a7fed747e474b5c08b" prot="public" static="no">
-        <type>enum <ref refid="rocsparse-types_8h_1a62d6e1f4e8ff7b75ab346223df84a026" kindref="member">rocsparse_solve_policy_</ref></type>
-        <definition>typedef enum rocsparse_solve_policy_  rocsparse_solve_policy</definition>
-        <argsstring></argsstring>
-        <name>rocsparse_solve_policy</name>
-        <briefdescription>
-<para>Specify policy in triangular solvers and factorizations. </para>        </briefdescription>
-        <detaileddescription>
-<para>This is a placeholder. </para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" line="212" column="1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="rocsparse-types_8h_1a85acb14426ccaccdb76aab10546b3918" prot="public" static="no">
-        <type>enum <ref refid="rocsparse-types_8h_1a0e6f512018940f5d1cf6b3032fba468a" kindref="member">rocsparse_pointer_mode_</ref></type>
-        <definition>typedef enum rocsparse_pointer_mode_  rocsparse_pointer_mode</definition>
-        <argsstring></argsstring>
-        <name>rocsparse_pointer_mode</name>
-        <briefdescription>
-<para>Indicates if the pointer is device pointer or host pointer. </para>        </briefdescription>
-        <detaileddescription>
-<para>The <ref refid="rocsparse-types_8h_1a85acb14426ccaccdb76aab10546b3918" kindref="member">rocsparse_pointer_mode</ref> indicates whether scalar values are passed by reference on the host or device. The <ref refid="rocsparse-types_8h_1a85acb14426ccaccdb76aab10546b3918" kindref="member">rocsparse_pointer_mode</ref> can be changed by <ref refid="rocsparse-auxiliary_8h_1ad489e6b789bcd0cbe3ad0ef9f65551fa" kindref="member">rocsparse_set_pointer_mode()</ref>. The currently used pointer mode can be obtained by <ref refid="rocsparse-auxiliary_8h_1a50ff27b0a6d06dc0034453cc880f17de" kindref="member">rocsparse_get_pointer_mode()</ref>. </para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" line="226" column="1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="rocsparse-types_8h_1a0986b6630912ca0766a38c07262b25cc" prot="public" static="no">
-        <type>enum <ref refid="rocsparse-types_8h_1a062e1e182fefcda578bb4bd8925afb44" kindref="member">rocsparse_layer_mode</ref></type>
-        <definition>typedef enum rocsparse_layer_mode  rocsparse_layer_mode</definition>
-        <argsstring></argsstring>
-        <name>rocsparse_layer_mode</name>
-        <briefdescription>
-<para>Indicates if layer is active with bitmask. </para>        </briefdescription>
-        <detaileddescription>
-<para>The <ref refid="rocsparse-types_8h_1a0986b6630912ca0766a38c07262b25cc" kindref="member">rocsparse_layer_mode</ref> bit mask indicates the logging characteristics. </para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" line="238" column="1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" prot="public" static="no">
-        <type>enum <ref refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88" kindref="member">rocsparse_status_</ref></type>
-        <definition>typedef enum rocsparse_status_  rocsparse_status</definition>
-        <argsstring></argsstring>
-        <name>rocsparse_status</name>
-        <briefdescription>
-<para>List of rocsparse status codes definition. </para>        </briefdescription>
-        <detaileddescription>
-<para>This is a list of the <ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref> types that are used by the rocSPARSE library. </para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-types.h" line="258" column="1"/>
-      </memberdef>
       </sectiondef>
     <briefdescription>
 <para><ref refid="rocsparse-types_8h" kindref="compound">rocsparse-types.h</ref> defines data types used by rocsparse </para>    </briefdescription>
@@ -731,58 +575,58 @@
 <codeline lineno="89"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="rocsparse-types_8h_1aa2f0cb9d4dc12e4b3700063444bd117c" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="rocsparse-types_8h_1aa2f0cb9d4dc12e4b3700063444bd117c" kindref="member">rocsparse_operation_</ref><sp/>{</highlight></codeline>
-<codeline lineno="99" refid="rocsparse-types_8h_1aa2f0cb9d4dc12e4b3700063444bd117cad992ce988c65ce01fe87f0da2018f528" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1aa2f0cb9d4dc12e4b3700063444bd117cad992ce988c65ce01fe87f0da2018f528" kindref="member">rocsparse_operation_none</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>111,<sp/></highlight></codeline>
-<codeline lineno="100" refid="rocsparse-types_8h_1aa2f0cb9d4dc12e4b3700063444bd117ca1ea3194d0c7bdb9e500d6faeead8ebf5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1aa2f0cb9d4dc12e4b3700063444bd117ca1ea3194d0c7bdb9e500d6faeead8ebf5" kindref="member">rocsparse_operation_transpose</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>112,<sp/></highlight></codeline>
-<codeline lineno="101" refid="rocsparse-types_8h_1aa2f0cb9d4dc12e4b3700063444bd117ca6920c1aa5f80005eee4b66ea6f25330f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1aa2f0cb9d4dc12e4b3700063444bd117ca6920c1aa5f80005eee4b66ea6f25330f" kindref="member">rocsparse_operation_conjugate_transpose</ref><sp/>=<sp/>113<sp/><sp/></highlight></codeline>
-<codeline lineno="102"><highlight class="normal">}<sp/><ref refid="rocsparse-types_8h_1a808cc40956985590061ad3617edd6649" kindref="member">rocsparse_operation</ref>;</highlight></codeline>
+<codeline lineno="98" refid="rocsparse-types_8h_1a820761e4768bb4f50a1ae78e722c8ca0" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>rocsparse_operation_<sp/>{</highlight></codeline>
+<codeline lineno="99" refid="rocsparse-types_8h_1a820761e4768bb4f50a1ae78e722c8ca0ad992ce988c65ce01fe87f0da2018f528" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a820761e4768bb4f50a1ae78e722c8ca0ad992ce988c65ce01fe87f0da2018f528" kindref="member">rocsparse_operation_none</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>111,<sp/></highlight></codeline>
+<codeline lineno="100" refid="rocsparse-types_8h_1a820761e4768bb4f50a1ae78e722c8ca0a1ea3194d0c7bdb9e500d6faeead8ebf5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a820761e4768bb4f50a1ae78e722c8ca0a1ea3194d0c7bdb9e500d6faeead8ebf5" kindref="member">rocsparse_operation_transpose</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>112,<sp/></highlight></codeline>
+<codeline lineno="101" refid="rocsparse-types_8h_1a820761e4768bb4f50a1ae78e722c8ca0a6920c1aa5f80005eee4b66ea6f25330f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a820761e4768bb4f50a1ae78e722c8ca0a6920c1aa5f80005eee4b66ea6f25330f" kindref="member">rocsparse_operation_conjugate_transpose</ref><sp/>=<sp/>113<sp/><sp/></highlight></codeline>
+<codeline lineno="102"><highlight class="normal">}<sp/><ref refid="rocsparse-types_8h_1a820761e4768bb4f50a1ae78e722c8ca0" kindref="member">rocsparse_operation</ref>;</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113" refid="rocsparse-types_8h_1abbe2a27a405938060d5c194e893c2325" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="rocsparse-types_8h_1abbe2a27a405938060d5c194e893c2325" kindref="member">rocsparse_index_base_</ref><sp/>{</highlight></codeline>
-<codeline lineno="114" refid="rocsparse-types_8h_1abbe2a27a405938060d5c194e893c2325a71f5a4d652495d496d1b049fbfd4074d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1abbe2a27a405938060d5c194e893c2325a71f5a4d652495d496d1b049fbfd4074d" kindref="member">rocsparse_index_base_zero</ref><sp/>=<sp/>0,<sp/></highlight></codeline>
-<codeline lineno="115" refid="rocsparse-types_8h_1abbe2a27a405938060d5c194e893c2325a7ebbfb972c7bb96f4960a3c80d8b0625" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1abbe2a27a405938060d5c194e893c2325a7ebbfb972c7bb96f4960a3c80d8b0625" kindref="member">rocsparse_index_base_one</ref><sp/><sp/>=<sp/>1<sp/><sp/></highlight></codeline>
-<codeline lineno="116"><highlight class="normal">}<sp/><ref refid="rocsparse-types_8h_1a29595b0a8c3c3fe4cb26d1221e920b6d" kindref="member">rocsparse_index_base</ref>;</highlight></codeline>
+<codeline lineno="113" refid="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060d" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>rocsparse_index_base_<sp/>{</highlight></codeline>
+<codeline lineno="114" refid="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060da71f5a4d652495d496d1b049fbfd4074d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060da71f5a4d652495d496d1b049fbfd4074d" kindref="member">rocsparse_index_base_zero</ref><sp/>=<sp/>0,<sp/></highlight></codeline>
+<codeline lineno="115" refid="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060da7ebbfb972c7bb96f4960a3c80d8b0625" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060da7ebbfb972c7bb96f4960a3c80d8b0625" kindref="member">rocsparse_index_base_one</ref><sp/><sp/>=<sp/>1<sp/><sp/></highlight></codeline>
+<codeline lineno="116"><highlight class="normal">}<sp/><ref refid="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060d" kindref="member">rocsparse_index_base</ref>;</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="127" refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93c" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93c" kindref="member">rocsparse_matrix_type_</ref><sp/>{</highlight></codeline>
-<codeline lineno="128" refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93ca8374056a76ce56d1392e6b35f8ddde03" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93ca8374056a76ce56d1392e6b35f8ddde03" kindref="member">rocsparse_matrix_type_general</ref><sp/><sp/><sp/><sp/>=<sp/>0,<sp/></highlight></codeline>
-<codeline lineno="129" refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93ca8340a3909d43b5b6bedd8ecc928605a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93ca8340a3909d43b5b6bedd8ecc928605a5" kindref="member">rocsparse_matrix_type_symmetric</ref><sp/><sp/>=<sp/>1,<sp/></highlight></codeline>
-<codeline lineno="130" refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93caa30592e2cccfda6e1d66dc3a484fc7a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93caa30592e2cccfda6e1d66dc3a484fc7a8" kindref="member">rocsparse_matrix_type_hermitian</ref><sp/><sp/>=<sp/>2,<sp/></highlight></codeline>
-<codeline lineno="131" refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93ca73d9ef5e5e18209f9f10a5885d3e15ba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93ca73d9ef5e5e18209f9f10a5885d3e15ba" kindref="member">rocsparse_matrix_type_triangular</ref><sp/>=<sp/>3<sp/><sp/></highlight></codeline>
-<codeline lineno="132"><highlight class="normal">}<sp/><ref refid="rocsparse-types_8h_1a6cc840e437d4f5b3fe948c96658560dc" kindref="member">rocsparse_matrix_type</ref>;</highlight></codeline>
+<codeline lineno="127" refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>rocsparse_matrix_type_<sp/>{</highlight></codeline>
+<codeline lineno="128" refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75a8374056a76ce56d1392e6b35f8ddde03" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75a8374056a76ce56d1392e6b35f8ddde03" kindref="member">rocsparse_matrix_type_general</ref><sp/><sp/><sp/><sp/>=<sp/>0,<sp/></highlight></codeline>
+<codeline lineno="129" refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75a8340a3909d43b5b6bedd8ecc928605a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75a8340a3909d43b5b6bedd8ecc928605a5" kindref="member">rocsparse_matrix_type_symmetric</ref><sp/><sp/>=<sp/>1,<sp/></highlight></codeline>
+<codeline lineno="130" refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75aa30592e2cccfda6e1d66dc3a484fc7a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75aa30592e2cccfda6e1d66dc3a484fc7a8" kindref="member">rocsparse_matrix_type_hermitian</ref><sp/><sp/>=<sp/>2,<sp/></highlight></codeline>
+<codeline lineno="131" refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75a73d9ef5e5e18209f9f10a5885d3e15ba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75a73d9ef5e5e18209f9f10a5885d3e15ba" kindref="member">rocsparse_matrix_type_triangular</ref><sp/>=<sp/>3<sp/><sp/></highlight></codeline>
+<codeline lineno="132"><highlight class="normal">}<sp/><ref refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75" kindref="member">rocsparse_matrix_type</ref>;</highlight></codeline>
 <codeline lineno="133"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145" refid="rocsparse-types_8h_1afb42afadc8f6a36e00f03d703d662116" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="rocsparse-types_8h_1afb42afadc8f6a36e00f03d703d662116" kindref="member">rocsparse_diag_type_</ref><sp/>{</highlight></codeline>
-<codeline lineno="146" refid="rocsparse-types_8h_1afb42afadc8f6a36e00f03d703d662116a4f6d3d25237d1b2520659c9ec7635cf1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1afb42afadc8f6a36e00f03d703d662116a4f6d3d25237d1b2520659c9ec7635cf1" kindref="member">rocsparse_diag_type_non_unit</ref><sp/>=<sp/>0,<sp/></highlight></codeline>
-<codeline lineno="147" refid="rocsparse-types_8h_1afb42afadc8f6a36e00f03d703d662116ac14545fb3bf8773d5f6b8e258c9576f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1afb42afadc8f6a36e00f03d703d662116ac14545fb3bf8773d5f6b8e258c9576f4" kindref="member">rocsparse_diag_type_unit</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/><sp/></highlight></codeline>
-<codeline lineno="148"><highlight class="normal">}<sp/><ref refid="rocsparse-types_8h_1ae49afcee26c3a52d881ce899b74c695a" kindref="member">rocsparse_diag_type</ref>;</highlight></codeline>
+<codeline lineno="145" refid="rocsparse-types_8h_1a6e8e038adcd3fa03168a1cb4a7da1bc5" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>rocsparse_diag_type_<sp/>{</highlight></codeline>
+<codeline lineno="146" refid="rocsparse-types_8h_1a6e8e038adcd3fa03168a1cb4a7da1bc5a4f6d3d25237d1b2520659c9ec7635cf1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a6e8e038adcd3fa03168a1cb4a7da1bc5a4f6d3d25237d1b2520659c9ec7635cf1" kindref="member">rocsparse_diag_type_non_unit</ref><sp/>=<sp/>0,<sp/></highlight></codeline>
+<codeline lineno="147" refid="rocsparse-types_8h_1a6e8e038adcd3fa03168a1cb4a7da1bc5ac14545fb3bf8773d5f6b8e258c9576f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a6e8e038adcd3fa03168a1cb4a7da1bc5ac14545fb3bf8773d5f6b8e258c9576f4" kindref="member">rocsparse_diag_type_unit</ref><sp/><sp/><sp/><sp/><sp/>=<sp/>1<sp/><sp/></highlight></codeline>
+<codeline lineno="148"><highlight class="normal">}<sp/><ref refid="rocsparse-types_8h_1a6e8e038adcd3fa03168a1cb4a7da1bc5" kindref="member">rocsparse_diag_type</ref>;</highlight></codeline>
 <codeline lineno="149"><highlight class="normal"></highlight></codeline>
-<codeline lineno="160" refid="rocsparse-types_8h_1ad241f6b4b0d17a745be1cc4f1bf4f15d" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="rocsparse-types_8h_1ad241f6b4b0d17a745be1cc4f1bf4f15d" kindref="member">rocsparse_fill_mode_</ref><sp/>{</highlight></codeline>
-<codeline lineno="161" refid="rocsparse-types_8h_1ad241f6b4b0d17a745be1cc4f1bf4f15da1eb644f6f2701329635e07d91919d37e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1ad241f6b4b0d17a745be1cc4f1bf4f15da1eb644f6f2701329635e07d91919d37e" kindref="member">rocsparse_fill_mode_lower</ref><sp/>=<sp/>0,<sp/></highlight></codeline>
-<codeline lineno="162" refid="rocsparse-types_8h_1ad241f6b4b0d17a745be1cc4f1bf4f15da905f490c7fc5a59e8a635938cec0d004" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1ad241f6b4b0d17a745be1cc4f1bf4f15da905f490c7fc5a59e8a635938cec0d004" kindref="member">rocsparse_fill_mode_upper</ref><sp/>=<sp/>1<sp/><sp/></highlight></codeline>
-<codeline lineno="163"><highlight class="normal">}<sp/><ref refid="rocsparse-types_8h_1af275676f23c77734dbf14aff9ef22c28" kindref="member">rocsparse_fill_mode</ref>;</highlight></codeline>
+<codeline lineno="160" refid="rocsparse-types_8h_1ae3a66441e40bb7caa1861df90aae01d1" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>rocsparse_fill_mode_<sp/>{</highlight></codeline>
+<codeline lineno="161" refid="rocsparse-types_8h_1ae3a66441e40bb7caa1861df90aae01d1a1eb644f6f2701329635e07d91919d37e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1ae3a66441e40bb7caa1861df90aae01d1a1eb644f6f2701329635e07d91919d37e" kindref="member">rocsparse_fill_mode_lower</ref><sp/>=<sp/>0,<sp/></highlight></codeline>
+<codeline lineno="162" refid="rocsparse-types_8h_1ae3a66441e40bb7caa1861df90aae01d1a905f490c7fc5a59e8a635938cec0d004" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1ae3a66441e40bb7caa1861df90aae01d1a905f490c7fc5a59e8a635938cec0d004" kindref="member">rocsparse_fill_mode_upper</ref><sp/>=<sp/>1<sp/><sp/></highlight></codeline>
+<codeline lineno="163"><highlight class="normal">}<sp/><ref refid="rocsparse-types_8h_1ae3a66441e40bb7caa1861df90aae01d1" kindref="member">rocsparse_fill_mode</ref>;</highlight></codeline>
 <codeline lineno="164"><highlight class="normal"></highlight></codeline>
-<codeline lineno="172" refid="rocsparse-types_8h_1abca90adafa9301fb9fa5c519e239aaf0" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="rocsparse-types_8h_1abca90adafa9301fb9fa5c519e239aaf0" kindref="member">rocsparse_action_</ref><sp/>{</highlight></codeline>
-<codeline lineno="173" refid="rocsparse-types_8h_1abca90adafa9301fb9fa5c519e239aaf0a8e396adaad286c3fd887ace34ac95333" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1abca90adafa9301fb9fa5c519e239aaf0a8e396adaad286c3fd887ace34ac95333" kindref="member">rocsparse_action_symbolic</ref><sp/>=<sp/>0,<sp/></highlight></codeline>
-<codeline lineno="174" refid="rocsparse-types_8h_1abca90adafa9301fb9fa5c519e239aaf0a87bdd4fa932567a61306494cc31759eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1abca90adafa9301fb9fa5c519e239aaf0a87bdd4fa932567a61306494cc31759eb" kindref="member">rocsparse_action_numeric</ref><sp/><sp/>=<sp/>1<sp/><sp/></highlight></codeline>
-<codeline lineno="175"><highlight class="normal">}<sp/><ref refid="rocsparse-types_8h_1af5ab987cf9ae0fe8a036e0df213bfd15" kindref="member">rocsparse_action</ref>;</highlight></codeline>
+<codeline lineno="172" refid="rocsparse-types_8h_1a1ec75a33f6cf43e19b2b4e254213c465" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>rocsparse_action_<sp/>{</highlight></codeline>
+<codeline lineno="173" refid="rocsparse-types_8h_1a1ec75a33f6cf43e19b2b4e254213c465a8e396adaad286c3fd887ace34ac95333" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a1ec75a33f6cf43e19b2b4e254213c465a8e396adaad286c3fd887ace34ac95333" kindref="member">rocsparse_action_symbolic</ref><sp/>=<sp/>0,<sp/></highlight></codeline>
+<codeline lineno="174" refid="rocsparse-types_8h_1a1ec75a33f6cf43e19b2b4e254213c465a87bdd4fa932567a61306494cc31759eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a1ec75a33f6cf43e19b2b4e254213c465a87bdd4fa932567a61306494cc31759eb" kindref="member">rocsparse_action_numeric</ref><sp/><sp/>=<sp/>1<sp/><sp/></highlight></codeline>
+<codeline lineno="175"><highlight class="normal">}<sp/><ref refid="rocsparse-types_8h_1a1ec75a33f6cf43e19b2b4e254213c465" kindref="member">rocsparse_action</ref>;</highlight></codeline>
 <codeline lineno="176"><highlight class="normal"></highlight></codeline>
-<codeline lineno="184" refid="rocsparse-types_8h_1a0d6cb5baf049ea59409a29074b0e9553" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="rocsparse-types_8h_1a0d6cb5baf049ea59409a29074b0e9553" kindref="member">rocsparse_hyb_partition_</ref><sp/>{</highlight></codeline>
-<codeline lineno="185" refid="rocsparse-types_8h_1a0d6cb5baf049ea59409a29074b0e9553a16c98963b39ca0f7c300531b418455b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a0d6cb5baf049ea59409a29074b0e9553a16c98963b39ca0f7c300531b418455b1" kindref="member">rocsparse_hyb_partition_auto</ref><sp/>=<sp/>0,<sp/></highlight></codeline>
-<codeline lineno="186" refid="rocsparse-types_8h_1a0d6cb5baf049ea59409a29074b0e9553a1fab46e61eb120731fcce2f3a0ddc85e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a0d6cb5baf049ea59409a29074b0e9553a1fab46e61eb120731fcce2f3a0ddc85e" kindref="member">rocsparse_hyb_partition_user</ref><sp/>=<sp/>1,<sp/></highlight></codeline>
-<codeline lineno="187" refid="rocsparse-types_8h_1a0d6cb5baf049ea59409a29074b0e9553a35eb173683e0cc9ed5a0e4bf083e17a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a0d6cb5baf049ea59409a29074b0e9553a35eb173683e0cc9ed5a0e4bf083e17a4" kindref="member">rocsparse_hyb_partition_max</ref><sp/><sp/>=<sp/>2<sp/><sp/></highlight></codeline>
-<codeline lineno="188"><highlight class="normal">}<sp/><ref refid="rocsparse-types_8h_1afe3e3b66958620671f3e9f76036b4bae" kindref="member">rocsparse_hyb_partition</ref>;</highlight></codeline>
+<codeline lineno="184" refid="rocsparse-types_8h_1a756fd5aab6f202ce45cbf151fc1a46a6" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>rocsparse_hyb_partition_<sp/>{</highlight></codeline>
+<codeline lineno="185" refid="rocsparse-types_8h_1a756fd5aab6f202ce45cbf151fc1a46a6a16c98963b39ca0f7c300531b418455b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a756fd5aab6f202ce45cbf151fc1a46a6a16c98963b39ca0f7c300531b418455b1" kindref="member">rocsparse_hyb_partition_auto</ref><sp/>=<sp/>0,<sp/></highlight></codeline>
+<codeline lineno="186" refid="rocsparse-types_8h_1a756fd5aab6f202ce45cbf151fc1a46a6a1fab46e61eb120731fcce2f3a0ddc85e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a756fd5aab6f202ce45cbf151fc1a46a6a1fab46e61eb120731fcce2f3a0ddc85e" kindref="member">rocsparse_hyb_partition_user</ref><sp/>=<sp/>1,<sp/></highlight></codeline>
+<codeline lineno="187" refid="rocsparse-types_8h_1a756fd5aab6f202ce45cbf151fc1a46a6a35eb173683e0cc9ed5a0e4bf083e17a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a756fd5aab6f202ce45cbf151fc1a46a6a35eb173683e0cc9ed5a0e4bf083e17a4" kindref="member">rocsparse_hyb_partition_max</ref><sp/><sp/>=<sp/>2<sp/><sp/></highlight></codeline>
+<codeline lineno="188"><highlight class="normal">}<sp/><ref refid="rocsparse-types_8h_1a756fd5aab6f202ce45cbf151fc1a46a6" kindref="member">rocsparse_hyb_partition</ref>;</highlight></codeline>
 <codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="199" refid="rocsparse-types_8h_1a079d5d720ec9a82d12c31b880a1d40ff" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="rocsparse-types_8h_1a079d5d720ec9a82d12c31b880a1d40ff" kindref="member">rocsparse_analysis_policy_</ref><sp/>{</highlight></codeline>
-<codeline lineno="200" refid="rocsparse-types_8h_1a079d5d720ec9a82d12c31b880a1d40ffa658466413f4005c0c103d20d5e352078" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a079d5d720ec9a82d12c31b880a1d40ffa658466413f4005c0c103d20d5e352078" kindref="member">rocsparse_analysis_policy_reuse</ref><sp/>=<sp/>0,<sp/></highlight></codeline>
-<codeline lineno="201" refid="rocsparse-types_8h_1a079d5d720ec9a82d12c31b880a1d40ffac66b70c4f519ddd03dcbe0f3a973401a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a079d5d720ec9a82d12c31b880a1d40ffac66b70c4f519ddd03dcbe0f3a973401a" kindref="member">rocsparse_analysis_policy_force</ref><sp/>=<sp/>1<sp/><sp/></highlight></codeline>
-<codeline lineno="202"><highlight class="normal">}<sp/><ref refid="rocsparse-types_8h_1afd19542f0f7fe1c83d805b85438f3a7a" kindref="member">rocsparse_analysis_policy</ref>;</highlight></codeline>
+<codeline lineno="199" refid="rocsparse-types_8h_1a43b20aa4bb19623a91b5952422fbe35c" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>rocsparse_analysis_policy_<sp/>{</highlight></codeline>
+<codeline lineno="200" refid="rocsparse-types_8h_1a43b20aa4bb19623a91b5952422fbe35ca658466413f4005c0c103d20d5e352078" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a43b20aa4bb19623a91b5952422fbe35ca658466413f4005c0c103d20d5e352078" kindref="member">rocsparse_analysis_policy_reuse</ref><sp/>=<sp/>0,<sp/></highlight></codeline>
+<codeline lineno="201" refid="rocsparse-types_8h_1a43b20aa4bb19623a91b5952422fbe35cac66b70c4f519ddd03dcbe0f3a973401a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a43b20aa4bb19623a91b5952422fbe35cac66b70c4f519ddd03dcbe0f3a973401a" kindref="member">rocsparse_analysis_policy_force</ref><sp/>=<sp/>1<sp/><sp/></highlight></codeline>
+<codeline lineno="202"><highlight class="normal">}<sp/><ref refid="rocsparse-types_8h_1a43b20aa4bb19623a91b5952422fbe35c" kindref="member">rocsparse_analysis_policy</ref>;</highlight></codeline>
 <codeline lineno="203"><highlight class="normal"></highlight></codeline>
-<codeline lineno="210" refid="rocsparse-types_8h_1a62d6e1f4e8ff7b75ab346223df84a026" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="rocsparse-types_8h_1a62d6e1f4e8ff7b75ab346223df84a026" kindref="member">rocsparse_solve_policy_</ref><sp/>{</highlight></codeline>
-<codeline lineno="211" refid="rocsparse-types_8h_1a62d6e1f4e8ff7b75ab346223df84a026a9c6bdf97e192d429ca536d5ab98ea866" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a62d6e1f4e8ff7b75ab346223df84a026a9c6bdf97e192d429ca536d5ab98ea866" kindref="member">rocsparse_solve_policy_auto</ref><sp/>=<sp/>0<sp/></highlight></codeline>
-<codeline lineno="212"><highlight class="normal">}<sp/><ref refid="rocsparse-types_8h_1abf95bc7109c800a7fed747e474b5c08b" kindref="member">rocsparse_solve_policy</ref>;</highlight></codeline>
+<codeline lineno="210" refid="rocsparse-types_8h_1a5a3e261123e81a9e8b267c6109e26957" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>rocsparse_solve_policy_<sp/>{</highlight></codeline>
+<codeline lineno="211" refid="rocsparse-types_8h_1a5a3e261123e81a9e8b267c6109e26957a9c6bdf97e192d429ca536d5ab98ea866" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a5a3e261123e81a9e8b267c6109e26957a9c6bdf97e192d429ca536d5ab98ea866" kindref="member">rocsparse_solve_policy_auto</ref><sp/>=<sp/>0<sp/></highlight></codeline>
+<codeline lineno="212"><highlight class="normal">}<sp/><ref refid="rocsparse-types_8h_1a5a3e261123e81a9e8b267c6109e26957" kindref="member">rocsparse_solve_policy</ref>;</highlight></codeline>
 <codeline lineno="213"><highlight class="normal"></highlight></codeline>
-<codeline lineno="223" refid="rocsparse-types_8h_1a0e6f512018940f5d1cf6b3032fba468a" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="rocsparse-types_8h_1a0e6f512018940f5d1cf6b3032fba468a" kindref="member">rocsparse_pointer_mode_</ref><sp/>{</highlight></codeline>
-<codeline lineno="224" refid="rocsparse-types_8h_1a0e6f512018940f5d1cf6b3032fba468aab69d8b65b07ce81f2a28a03da361c698" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a0e6f512018940f5d1cf6b3032fba468aab69d8b65b07ce81f2a28a03da361c698" kindref="member">rocsparse_pointer_mode_host</ref><sp/><sp/><sp/>=<sp/>0,<sp/></highlight></codeline>
-<codeline lineno="225" refid="rocsparse-types_8h_1a0e6f512018940f5d1cf6b3032fba468aa8e76bc462cef4e84dc4c15f53006ac5e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a0e6f512018940f5d1cf6b3032fba468aa8e76bc462cef4e84dc4c15f53006ac5e" kindref="member">rocsparse_pointer_mode_device</ref><sp/>=<sp/>1<sp/><sp/></highlight></codeline>
-<codeline lineno="226"><highlight class="normal">}<sp/><ref refid="rocsparse-types_8h_1a85acb14426ccaccdb76aab10546b3918" kindref="member">rocsparse_pointer_mode</ref>;</highlight></codeline>
+<codeline lineno="223" refid="rocsparse-types_8h_1a154fe9812f99d1f2c3db94c1ce561a15" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>rocsparse_pointer_mode_<sp/>{</highlight></codeline>
+<codeline lineno="224" refid="rocsparse-types_8h_1a154fe9812f99d1f2c3db94c1ce561a15ab69d8b65b07ce81f2a28a03da361c698" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a154fe9812f99d1f2c3db94c1ce561a15ab69d8b65b07ce81f2a28a03da361c698" kindref="member">rocsparse_pointer_mode_host</ref><sp/><sp/><sp/>=<sp/>0,<sp/></highlight></codeline>
+<codeline lineno="225" refid="rocsparse-types_8h_1a154fe9812f99d1f2c3db94c1ce561a15a8e76bc462cef4e84dc4c15f53006ac5e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a154fe9812f99d1f2c3db94c1ce561a15a8e76bc462cef4e84dc4c15f53006ac5e" kindref="member">rocsparse_pointer_mode_device</ref><sp/>=<sp/>1<sp/><sp/></highlight></codeline>
+<codeline lineno="226"><highlight class="normal">}<sp/><ref refid="rocsparse-types_8h_1a154fe9812f99d1f2c3db94c1ce561a15" kindref="member">rocsparse_pointer_mode</ref>;</highlight></codeline>
 <codeline lineno="227"><highlight class="normal"></highlight></codeline>
 <codeline lineno="234" refid="rocsparse-types_8h_1a062e1e182fefcda578bb4bd8925afb44" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="rocsparse-types_8h_1a062e1e182fefcda578bb4bd8925afb44" kindref="member">rocsparse_layer_mode</ref><sp/>{</highlight></codeline>
 <codeline lineno="235" refid="rocsparse-types_8h_1a062e1e182fefcda578bb4bd8925afb44aa507b5d5dc9c0da5c70959cbbeb9fa92" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a062e1e182fefcda578bb4bd8925afb44aa507b5d5dc9c0da5c70959cbbeb9fa92" kindref="member">rocsparse_layer_mode_none</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x0,<sp/></highlight></codeline>
@@ -790,18 +634,18 @@
 <codeline lineno="237" refid="rocsparse-types_8h_1a062e1e182fefcda578bb4bd8925afb44abf04b118d7b12949523c1a890dc99184" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a062e1e182fefcda578bb4bd8925afb44abf04b118d7b12949523c1a890dc99184" kindref="member">rocsparse_layer_mode_log_bench</ref><sp/>=<sp/>0x2<sp/><sp/></highlight></codeline>
 <codeline lineno="238"><highlight class="normal">}<sp/><ref refid="rocsparse-types_8h_1a062e1e182fefcda578bb4bd8925afb44" kindref="member">rocsparse_layer_mode</ref>;</highlight></codeline>
 <codeline lineno="239"><highlight class="normal"></highlight></codeline>
-<codeline lineno="247" refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88" kindref="member">rocsparse_status_</ref><sp/>{</highlight></codeline>
-<codeline lineno="248" refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a96462a9361cfceb6cf9354e10fdc671b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a96462a9361cfceb6cf9354e10fdc671b" kindref="member">rocsparse_status_success</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0,<sp/></highlight></codeline>
-<codeline lineno="249" refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a00db084ea5ca4334f2f9597ef77be306" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a00db084ea5ca4334f2f9597ef77be306" kindref="member">rocsparse_status_invalid_handle</ref><sp/><sp/>=<sp/>1,<sp/></highlight></codeline>
-<codeline lineno="250" refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a66f7d73b3128cc9e72a6450e87b67c84" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a66f7d73b3128cc9e72a6450e87b67c84" kindref="member">rocsparse_status_not_implemented</ref><sp/>=<sp/>2,<sp/></highlight></codeline>
-<codeline lineno="251" refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a6c8604554aec57949b76be10ceb11d14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a6c8604554aec57949b76be10ceb11d14" kindref="member">rocsparse_status_invalid_pointer</ref><sp/>=<sp/>3,<sp/></highlight></codeline>
-<codeline lineno="252" refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a4681af32d7cdd0106dddce4f24b5508b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a4681af32d7cdd0106dddce4f24b5508b" kindref="member">rocsparse_status_invalid_size</ref><sp/><sp/><sp/><sp/>=<sp/>4,<sp/></highlight></codeline>
-<codeline lineno="253" refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88adef07366416a3b0e2070b0c2b9baeba0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88adef07366416a3b0e2070b0c2b9baeba0" kindref="member">rocsparse_status_memory_error</ref><sp/><sp/><sp/><sp/>=<sp/>5,<sp/></highlight></codeline>
-<codeline lineno="254" refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a37f0081a59e0f1be2f8242b05cd3c9c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a37f0081a59e0f1be2f8242b05cd3c9c7" kindref="member">rocsparse_status_internal_error</ref><sp/><sp/>=<sp/>6,<sp/></highlight></codeline>
-<codeline lineno="255" refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88ae6f9bdcedf444837aec53b8489f83223" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88ae6f9bdcedf444837aec53b8489f83223" kindref="member">rocsparse_status_invalid_value</ref><sp/><sp/><sp/>=<sp/>7,<sp/></highlight></codeline>
-<codeline lineno="256" refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a974385cdf5e6e7bf3984a85379aed5b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a974385cdf5e6e7bf3984a85379aed5b8" kindref="member">rocsparse_status_arch_mismatch</ref><sp/><sp/><sp/>=<sp/>8,<sp/></highlight></codeline>
-<codeline lineno="257" refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a01fe264830c8ce6451ce6888bc8d3e80" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1aa78a8b9bde1e0361324b4417d4bc3a88a01fe264830c8ce6451ce6888bc8d3e80" kindref="member">rocsparse_status_zero_pivot</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>9<sp/><sp/></highlight></codeline>
-<codeline lineno="258"><highlight class="normal">}<sp/><ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref>;</highlight></codeline>
+<codeline lineno="247" refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>rocsparse_status_<sp/>{</highlight></codeline>
+<codeline lineno="248" refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a96462a9361cfceb6cf9354e10fdc671b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a96462a9361cfceb6cf9354e10fdc671b" kindref="member">rocsparse_status_success</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0,<sp/></highlight></codeline>
+<codeline lineno="249" refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a00db084ea5ca4334f2f9597ef77be306" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a00db084ea5ca4334f2f9597ef77be306" kindref="member">rocsparse_status_invalid_handle</ref><sp/><sp/>=<sp/>1,<sp/></highlight></codeline>
+<codeline lineno="250" refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a66f7d73b3128cc9e72a6450e87b67c84" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a66f7d73b3128cc9e72a6450e87b67c84" kindref="member">rocsparse_status_not_implemented</ref><sp/>=<sp/>2,<sp/></highlight></codeline>
+<codeline lineno="251" refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a6c8604554aec57949b76be10ceb11d14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a6c8604554aec57949b76be10ceb11d14" kindref="member">rocsparse_status_invalid_pointer</ref><sp/>=<sp/>3,<sp/></highlight></codeline>
+<codeline lineno="252" refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a4681af32d7cdd0106dddce4f24b5508b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a4681af32d7cdd0106dddce4f24b5508b" kindref="member">rocsparse_status_invalid_size</ref><sp/><sp/><sp/><sp/>=<sp/>4,<sp/></highlight></codeline>
+<codeline lineno="253" refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8adef07366416a3b0e2070b0c2b9baeba0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8adef07366416a3b0e2070b0c2b9baeba0" kindref="member">rocsparse_status_memory_error</ref><sp/><sp/><sp/><sp/>=<sp/>5,<sp/></highlight></codeline>
+<codeline lineno="254" refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a37f0081a59e0f1be2f8242b05cd3c9c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a37f0081a59e0f1be2f8242b05cd3c9c7" kindref="member">rocsparse_status_internal_error</ref><sp/><sp/>=<sp/>6,<sp/></highlight></codeline>
+<codeline lineno="255" refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8ae6f9bdcedf444837aec53b8489f83223" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8ae6f9bdcedf444837aec53b8489f83223" kindref="member">rocsparse_status_invalid_value</ref><sp/><sp/><sp/>=<sp/>7,<sp/></highlight></codeline>
+<codeline lineno="256" refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a974385cdf5e6e7bf3984a85379aed5b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a974385cdf5e6e7bf3984a85379aed5b8" kindref="member">rocsparse_status_arch_mismatch</ref><sp/><sp/><sp/>=<sp/>8,<sp/></highlight></codeline>
+<codeline lineno="257" refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a01fe264830c8ce6451ce6888bc8d3e80" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8a01fe264830c8ce6451ce6888bc8d3e80" kindref="member">rocsparse_status_zero_pivot</ref><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>9<sp/><sp/></highlight></codeline>
+<codeline lineno="258"><highlight class="normal">}<sp/><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref>;</highlight></codeline>
 <codeline lineno="259"><highlight class="normal"></highlight></codeline>
 <codeline lineno="260"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="261"><highlight class="normal">}</highlight></codeline>

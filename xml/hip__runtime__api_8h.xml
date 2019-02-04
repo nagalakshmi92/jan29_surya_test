@@ -56,7 +56,7 @@
         <label>hip/hcc_detail/host_defines.h</label>
       </node>
     </incdepgraph>
-    <innerclass refid="structhip_ipc_mem_handle__st" prot="public">hipIpcMemHandle_st</innerclass>
+    <innerclass refid="structhip_ipc_mem_handle__t" prot="public">hipIpcMemHandle_t</innerclass>
     <innerclass refid="structhip_func_attributes" prot="public">hipFuncAttributes</innerclass>
     <innerclass refid="structdim3" prot="public">dim3</innerclass>
       <sectiondef kind="define">
@@ -771,19 +771,6 @@
         </inbodydescription>
         <location file="ROCm_API_References/HIP/include/hip/hcc_detail/hip_runtime_api.h" line="79" column="1" bodyfile="ROCm_API_References/HIP/include/hip/hcc_detail/hip_runtime_api.h" bodystart="79" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="hip__runtime__api_8h_1a9e6d62bec626192ca25cfe831d4a9586" prot="public" static="no">
-        <type>struct <ref refid="structhip_ipc_mem_handle__st" kindref="compound">hipIpcMemHandle_st</ref></type>
-        <definition>typedef struct hipIpcMemHandle_st  hipIpcMemHandle_t</definition>
-        <argsstring></argsstring>
-        <name>hipIpcMemHandle_t</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="ROCm_API_References/HIP/include/hip/hcc_detail/hip_runtime_api.h" line="89" column="1"/>
-      </memberdef>
       <memberdef kind="typedef" id="hip__runtime__api_8h_1abd2e1ad718d6d7e625a54c24cb920793" prot="public" static="no">
         <type>struct ihipIpcEventHandle_t *</type>
         <definition>typedef struct ihipIpcEventHandle_t* hipIpcEventHandle_t</definition>
@@ -823,19 +810,6 @@
         </inbodydescription>
         <location file="ROCm_API_References/HIP/include/hip/hcc_detail/hip_runtime_api.h" line="100" column="1" bodyfile="ROCm_API_References/HIP/include/hip/hcc_detail/hip_runtime_api.h" bodystart="100" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="typedef" id="hip__runtime__api_8h_1a04ff3562d6fe7b2f01bb60851f497933" prot="public" static="no">
-        <type>struct <ref refid="structhip_func_attributes" kindref="compound">hipFuncAttributes</ref></type>
-        <definition>typedef struct hipFuncAttributes  hipFuncAttributes</definition>
-        <argsstring></argsstring>
-        <name>hipFuncAttributes</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="ROCm_API_References/HIP/include/hip/hcc_detail/hip_runtime_api.h" line="113" column="1"/>
-      </memberdef>
       <memberdef kind="typedef" id="hip__runtime__api_8h_1a3640952e23c028a87a7db564443948ea" prot="public" static="no">
         <type>struct ihipEvent_t *</type>
         <definition>typedef struct ihipEvent_t* hipEvent_t</definition>
@@ -848,60 +822,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="ROCm_API_References/HIP/include/hip/hcc_detail/hip_runtime_api.h" line="115" column="1" bodyfile="ROCm_API_References/HIP/include/hip/hcc_detail/hip_runtime_api.h" bodystart="115" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="group___global_defs_1ga0a2145bd05973b6fce0994dce37e13ce" prot="public" static="no">
-        <type>enum hipJitOption</type>
-        <definition>typedef enum hipJitOption  hipJitOption</definition>
-        <argsstring></argsstring>
-        <name>hipJitOption</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="ROCm_API_References/HIP/include/hip/hcc_detail/hip_runtime_api.h" line="215" column="1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="group___global_defs_1ga7effbca2af70714feaa3330bf1a77a72" prot="public" static="no">
-        <type>enum <ref refid="group___global_defs_1ga86e5c5692645963a9a673e1aa88ba6ca" kindref="member">hipFuncCache_t</ref></type>
-        <definition>typedef enum hipFuncCache_t  hipFuncCache_t</definition>
-        <argsstring></argsstring>
-        <name>hipFuncCache_t</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="warning"><para>On AMD devices and some Nvidia devices, these hints and controls are ignored. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="ROCm_API_References/HIP/include/hip/hcc_detail/hip_runtime_api.h" line="226" column="1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="group___global_defs_1ga6b1ca424fa26a5fb718937d662eaee7f" prot="public" static="no">
-        <type>enum <ref refid="group___global_defs_1ga2e17b71d94ac350f2ccd914fd49d104e" kindref="member">hipSharedMemConfig</ref></type>
-        <definition>typedef enum hipSharedMemConfig  hipSharedMemConfig</definition>
-        <argsstring></argsstring>
-        <name>hipSharedMemConfig</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><simplesect kind="warning"><para>On AMD devices and some Nvidia devices, these hints and controls are ignored. </para></simplesect>
-</para>        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="ROCm_API_References/HIP/include/hip/hcc_detail/hip_runtime_api.h" line="238" column="1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="group___global_defs_1gacb37281795c3567d0b10a61c056d512b" prot="public" static="no">
-        <type>struct <ref refid="structdim3" kindref="compound">dim3</ref></type>
-        <definition>typedef struct dim3  dim3</definition>
-        <argsstring></argsstring>
-        <name>dim3</name>
-        <briefdescription>
-<para>Struct for data in 3D. </para>        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="ROCm_API_References/HIP/include/hip/hcc_detail/hip_runtime_api.h" line="252" column="1"/>
       </memberdef>
       <memberdef kind="typedef" id="group___stream_1ga6d4e90ec5736f9728102be22d0559dfd" prot="public" static="no">
         <type>void(*</type>
@@ -6498,7 +6418,7 @@ Returns &quot;1&quot; in <computeroutput>canAccessPeer</computeroutput> if the s
         <argsstring>(hipIpcMemHandle_t *handle, void *devPtr)</argsstring>
         <name>hipIpcGetMemHandle</name>
         <param>
-          <type><ref refid="structhip_ipc_mem_handle__st" kindref="compound">hipIpcMemHandle_t</ref> *</type>
+          <type><ref refid="structhip_ipc_mem_handle__t" kindref="compound">hipIpcMemHandle_t</ref> *</type>
           <declname>handle</declname>
         </param>
         <param>
@@ -6539,7 +6459,7 @@ Returns &quot;1&quot; in <computeroutput>canAccessPeer</computeroutput> if the s
           <declname>devPtr</declname>
         </param>
         <param>
-          <type><ref refid="structhip_ipc_mem_handle__st" kindref="compound">hipIpcMemHandle_t</ref></type>
+          <type><ref refid="structhip_ipc_mem_handle__t" kindref="compound">hipIpcMemHandle_t</ref></type>
           <declname>handle</declname>
         </param>
         <param>
@@ -6945,9 +6865,9 @@ Returns &quot;1&quot; in <computeroutput>canAccessPeer</computeroutput> if the s
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HIP_IPC_HANDLE_SIZE<sp/>64</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87" refid="structhip_ipc_mem_handle__st" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structhip_ipc_mem_handle__st" kindref="compound">hipIpcMemHandle_st</ref><sp/>{</highlight></codeline>
+<codeline lineno="87" refid="structhip_ipc_mem_handle__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">hipIpcMemHandle_st<sp/>{</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>reserved[HIP_IPC_HANDLE_SIZE];</highlight></codeline>
-<codeline lineno="89"><highlight class="normal">}<sp/><ref refid="structhip_ipc_mem_handle__st" kindref="compound">hipIpcMemHandle_t</ref>;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">}<sp/><ref refid="structhip_ipc_mem_handle__t" kindref="compound">hipIpcMemHandle_t</ref>;</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TODO:<sp/>IPC<sp/>event<sp/>handle<sp/>currently<sp/>unsupported</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="92"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">ihipIpcEventHandle_t;</highlight></codeline>
@@ -7078,9 +6998,9 @@ Returns &quot;1&quot; in <computeroutput>canAccessPeer</computeroutput> if the s
 <codeline lineno="247" refid="structdim3_1a83e60e072f7e8bdfde6ac05053cbb370" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structdim3_1a83e60e072f7e8bdfde6ac05053cbb370" kindref="member">y</ref>;<sp/><sp/></highlight></codeline>
 <codeline lineno="248" refid="structdim3_1a866e38993ecc4e76fd47311236c16b04" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structdim3_1a866e38993ecc4e76fd47311236c16b04" kindref="member">z</ref>;<sp/><sp/></highlight></codeline>
 <codeline lineno="249"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___global_defs_1gacb37281795c3567d0b10a61c056d512b" kindref="member">dim3</ref>(uint32_t<sp/>_x<sp/>=<sp/>1,<sp/>uint32_t<sp/>_y<sp/>=<sp/>1,<sp/>uint32_t<sp/>_z<sp/>=<sp/>1)<sp/>:<sp/>x(_x),<sp/>y(_y),<sp/>z(_z){};</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structdim3" kindref="compound">dim3</ref>(uint32_t<sp/>_x<sp/>=<sp/>1,<sp/>uint32_t<sp/>_y<sp/>=<sp/>1,<sp/>uint32_t<sp/>_z<sp/>=<sp/>1)<sp/>:<sp/>x(_x),<sp/>y(_y),<sp/>z(_z){};</highlight></codeline>
 <codeline lineno="251"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="252"><highlight class="normal">}<sp/><ref refid="group___global_defs_1gacb37281795c3567d0b10a61c056d512b" kindref="member">dim3</ref>;</highlight></codeline>
+<codeline lineno="252"><highlight class="normal">}<sp/><ref refid="structdim3" kindref="compound">dim3</ref>;</highlight></codeline>
 <codeline lineno="253"><highlight class="normal"></highlight></codeline>
 <codeline lineno="254"><highlight class="normal"></highlight></codeline>
 <codeline lineno="255"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Doxygen<sp/>end<sp/>group<sp/>GlobalDefs</highlight></codeline>
@@ -7478,9 +7398,9 @@ Returns &quot;1&quot; in <computeroutput>canAccessPeer</computeroutput> if the s
 <codeline lineno="2479"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2484"><highlight class="comment">//<sp/>TODO:<sp/>implement<sp/>IPC<sp/>apis</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2485"><highlight class="normal"></highlight></codeline>
-<codeline lineno="2511"><highlight class="normal">hipError_t<sp/><ref refid="group___a_p_i_1gafd8c80f7e3b6426a630fff768409be70" kindref="member">hipIpcGetMemHandle</ref>(<ref refid="structhip_ipc_mem_handle__st" kindref="compound">hipIpcMemHandle_t</ref>*<sp/>handle,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>devPtr);</highlight></codeline>
+<codeline lineno="2511"><highlight class="normal">hipError_t<sp/><ref refid="group___a_p_i_1gafd8c80f7e3b6426a630fff768409be70" kindref="member">hipIpcGetMemHandle</ref>(<ref refid="structhip_ipc_mem_handle__t" kindref="compound">hipIpcMemHandle_t</ref>*<sp/>handle,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>devPtr);</highlight></codeline>
 <codeline lineno="2512"><highlight class="normal"></highlight></codeline>
-<codeline lineno="2549"><highlight class="normal">hipError_t<sp/><ref refid="group___a_p_i_1ga2ada334c986e10805d58167e260cb0df" kindref="member">hipIpcOpenMemHandle</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">**<sp/>devPtr,<sp/><ref refid="structhip_ipc_mem_handle__st" kindref="compound">hipIpcMemHandle_t</ref><sp/>handle,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>flags);</highlight></codeline>
+<codeline lineno="2549"><highlight class="normal">hipError_t<sp/><ref refid="group___a_p_i_1ga2ada334c986e10805d58167e260cb0df" kindref="member">hipIpcOpenMemHandle</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">**<sp/>devPtr,<sp/><ref refid="structhip_ipc_mem_handle__t" kindref="compound">hipIpcMemHandle_t</ref><sp/>handle,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>flags);</highlight></codeline>
 <codeline lineno="2550"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2569"><highlight class="normal">hipError_t<sp/><ref refid="group___a_p_i_1gac2db0688a6a471e17ca631977e199da7" kindref="member">hipIpcCloseMemHandle</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>devPtr);</highlight></codeline>
 <codeline lineno="2570"><highlight class="normal"></highlight></codeline>

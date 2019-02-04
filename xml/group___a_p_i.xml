@@ -20,7 +20,7 @@
         <argsstring>(hipIpcMemHandle_t *handle, void *devPtr)</argsstring>
         <name>hipIpcGetMemHandle</name>
         <param>
-          <type><ref refid="structhip_ipc_mem_handle__st" kindref="compound">hipIpcMemHandle_t</ref> *</type>
+          <type><ref refid="structhip_ipc_mem_handle__t" kindref="compound">hipIpcMemHandle_t</ref> *</type>
           <declname>handle</declname>
         </param>
         <param>
@@ -61,7 +61,7 @@
           <declname>devPtr</declname>
         </param>
         <param>
-          <type><ref refid="structhip_ipc_mem_handle__st" kindref="compound">hipIpcMemHandle_t</ref></type>
+          <type><ref refid="structhip_ipc_mem_handle__t" kindref="compound">hipIpcMemHandle_t</ref></type>
           <declname>handle</declname>
         </param>
         <param>

@@ -46,7 +46,7 @@
       </sectiondef>
       <sectiondef kind="func">
       <memberdef kind="function" id="rocsparse-auxiliary_8h_1a519a31b435f9718c15e7d043192395cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref></type>
+        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref></type>
         <definition>ROCSPARSE_EXPORT rocsparse_status rocsparse_create_handle</definition>
         <argsstring>(rocsparse_handle *handle)</argsstring>
         <name>rocsparse_create_handle</name>
@@ -93,7 +93,7 @@
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-auxiliary.h" line="58" column="1"/>
       </memberdef>
       <memberdef kind="function" id="rocsparse-auxiliary_8h_1a726f9e6932c1cca4dbd492eaa0bd1dd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref></type>
+        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref></type>
         <definition>ROCSPARSE_EXPORT rocsparse_status rocsparse_destroy_handle</definition>
         <argsstring>(rocsparse_handle handle)</argsstring>
         <name>rocsparse_destroy_handle</name>
@@ -140,7 +140,7 @@
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-auxiliary.h" line="75" column="1"/>
       </memberdef>
       <memberdef kind="function" id="rocsparse-auxiliary_8h_1af01e6d6670ddcd89bbf1431b63b1a25c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref></type>
+        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref></type>
         <definition>ROCSPARSE_EXPORT rocsparse_status rocsparse_set_stream</definition>
         <argsstring>(rocsparse_handle handle, hipStream_t stream)</argsstring>
         <name>rocsparse_set_stream</name>
@@ -209,7 +209,7 @@
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-auxiliary.h" line="115" column="1"/>
       </memberdef>
       <memberdef kind="function" id="rocsparse-auxiliary_8h_1a2814f7e7b8feb2ac6408183437b70826" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref></type>
+        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref></type>
         <definition>ROCSPARSE_EXPORT rocsparse_status rocsparse_get_stream</definition>
         <argsstring>(rocsparse_handle handle, hipStream_t *stream)</argsstring>
         <name>rocsparse_get_stream</name>
@@ -260,7 +260,7 @@
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-auxiliary.h" line="133" column="1"/>
       </memberdef>
       <memberdef kind="function" id="rocsparse-auxiliary_8h_1ad489e6b789bcd0cbe3ad0ef9f65551fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref></type>
+        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref></type>
         <definition>ROCSPARSE_EXPORT rocsparse_status rocsparse_set_pointer_mode</definition>
         <argsstring>(rocsparse_handle handle, rocsparse_pointer_mode pointer_mode)</argsstring>
         <name>rocsparse_set_pointer_mode</name>
@@ -269,13 +269,13 @@
           <declname>handle</declname>
         </param>
         <param>
-          <type><ref refid="rocsparse-types_8h_1a85acb14426ccaccdb76aab10546b3918" kindref="member">rocsparse_pointer_mode</ref></type>
+          <type><ref refid="rocsparse-types_8h_1a154fe9812f99d1f2c3db94c1ce561a15" kindref="member">rocsparse_pointer_mode</ref></type>
           <declname>pointer_mode</declname>
         </param>
         <briefdescription>
 <para>Specify pointer mode. </para>        </briefdescription>
         <detaileddescription>
-<para><computeroutput>rocsparse_set_pointer_mode</computeroutput> specifies the pointer mode to be used by the rocSPARSE library context and all subsequent function calls. By default, all values are passed by reference on the host. Valid pointer modes are <ref refid="rocsparse-types_8h_1a0e6f512018940f5d1cf6b3032fba468aab69d8b65b07ce81f2a28a03da361c698" kindref="member">rocsparse_pointer_mode_host</ref> or <computeroutput>rocsparse_pointer_mode_device</computeroutput>.</para><para><parameterlist kind="param"><parameteritem>
+<para><computeroutput>rocsparse_set_pointer_mode</computeroutput> specifies the pointer mode to be used by the rocSPARSE library context and all subsequent function calls. By default, all values are passed by reference on the host. Valid pointer modes are <ref refid="rocsparse-types_8h_1a154fe9812f99d1f2c3db94c1ce561a15ab69d8b65b07ce81f2a28a03da361c698" kindref="member">rocsparse_pointer_mode_host</ref> or <computeroutput>rocsparse_pointer_mode_device</computeroutput>.</para><para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="in">handle</parametername>
 </parameternamelist>
@@ -311,7 +311,7 @@
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-auxiliary.h" line="153" column="1"/>
       </memberdef>
       <memberdef kind="function" id="rocsparse-auxiliary_8h_1a50ff27b0a6d06dc0034453cc880f17de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref></type>
+        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref></type>
         <definition>ROCSPARSE_EXPORT rocsparse_status rocsparse_get_pointer_mode</definition>
         <argsstring>(rocsparse_handle handle, rocsparse_pointer_mode *pointer_mode)</argsstring>
         <name>rocsparse_get_pointer_mode</name>
@@ -320,7 +320,7 @@
           <declname>handle</declname>
         </param>
         <param>
-          <type><ref refid="rocsparse-types_8h_1a85acb14426ccaccdb76aab10546b3918" kindref="member">rocsparse_pointer_mode</ref> *</type>
+          <type><ref refid="rocsparse-types_8h_1a154fe9812f99d1f2c3db94c1ce561a15" kindref="member">rocsparse_pointer_mode</ref> *</type>
           <declname>pointer_mode</declname>
         </param>
         <briefdescription>
@@ -362,7 +362,7 @@
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-auxiliary.h" line="173" column="1"/>
       </memberdef>
       <memberdef kind="function" id="rocsparse-auxiliary_8h_1a27ba44a3ecc5fb3410dadcb918e2a169" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref></type>
+        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref></type>
         <definition>ROCSPARSE_EXPORT rocsparse_status rocsparse_get_version</definition>
         <argsstring>(rocsparse_handle handle, int *version)</argsstring>
         <name>rocsparse_get_version</name>
@@ -415,7 +415,7 @@
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-auxiliary.h" line="194" column="1"/>
       </memberdef>
       <memberdef kind="function" id="rocsparse-auxiliary_8h_1af35e4a674f191b45d36bd31d3856569b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref></type>
+        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref></type>
         <definition>ROCSPARSE_EXPORT rocsparse_status rocsparse_get_git_rev</definition>
         <argsstring>(rocsparse_handle handle, char *rev)</argsstring>
         <name>rocsparse_get_git_rev</name>
@@ -466,7 +466,7 @@
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-auxiliary.h" line="211" column="1"/>
       </memberdef>
       <memberdef kind="function" id="rocsparse-auxiliary_8h_1a434acc8990f265eab892b89e1daafc63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref></type>
+        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref></type>
         <definition>ROCSPARSE_EXPORT rocsparse_status rocsparse_create_mat_descr</definition>
         <argsstring>(rocsparse_mat_descr *descr)</argsstring>
         <name>rocsparse_create_mat_descr</name>
@@ -477,7 +477,7 @@
         <briefdescription>
 <para>Create a matrix descriptor. </para>        </briefdescription>
         <detaileddescription>
-<para><computeroutput>rocsparse_create_mat_descr</computeroutput> creates a matrix descriptor. It initializes <ref refid="rocsparse-types_8h_1a6cc840e437d4f5b3fe948c96658560dc" kindref="member">rocsparse_matrix_type</ref> to <ref refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93ca8374056a76ce56d1392e6b35f8ddde03" kindref="member">rocsparse_matrix_type_general</ref> and <ref refid="rocsparse-types_8h_1a29595b0a8c3c3fe4cb26d1221e920b6d" kindref="member">rocsparse_index_base</ref> to <ref refid="rocsparse-types_8h_1abbe2a27a405938060d5c194e893c2325a71f5a4d652495d496d1b049fbfd4074d" kindref="member">rocsparse_index_base_zero</ref>. It should be destroyed at the end using <ref refid="rocsparse-auxiliary_8h_1a7e31b050746f2a5c95c0d5ec5ae2040d" kindref="member">rocsparse_destroy_mat_descr()</ref>.</para><para><parameterlist kind="param"><parameteritem>
+<para><computeroutput>rocsparse_create_mat_descr</computeroutput> creates a matrix descriptor. It initializes <ref refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75" kindref="member">rocsparse_matrix_type</ref> to <ref refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75a8374056a76ce56d1392e6b35f8ddde03" kindref="member">rocsparse_matrix_type_general</ref> and <ref refid="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060d" kindref="member">rocsparse_index_base</ref> to <ref refid="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060da71f5a4d652495d496d1b049fbfd4074d" kindref="member">rocsparse_index_base_zero</ref>. It should be destroyed at the end using <ref refid="rocsparse-auxiliary_8h_1a7e31b050746f2a5c95c0d5ec5ae2040d" kindref="member">rocsparse_destroy_mat_descr()</ref>.</para><para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="out">descr</parametername>
 </parameternamelist>
@@ -506,7 +506,7 @@
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-auxiliary.h" line="228" column="1"/>
       </memberdef>
       <memberdef kind="function" id="rocsparse-auxiliary_8h_1abebe515b58812adaffdcaa63bf72fb99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref></type>
+        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref></type>
         <definition>ROCSPARSE_EXPORT rocsparse_status rocsparse_copy_mat_descr</definition>
         <argsstring>(rocsparse_mat_descr dest, const rocsparse_mat_descr src)</argsstring>
         <name>rocsparse_copy_mat_descr</name>
@@ -557,7 +557,7 @@
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-auxiliary.h" line="245" column="1"/>
       </memberdef>
       <memberdef kind="function" id="rocsparse-auxiliary_8h_1a7e31b050746f2a5c95c0d5ec5ae2040d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref></type>
+        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref></type>
         <definition>ROCSPARSE_EXPORT rocsparse_status rocsparse_destroy_mat_descr</definition>
         <argsstring>(rocsparse_mat_descr descr)</argsstring>
         <name>rocsparse_destroy_mat_descr</name>
@@ -597,7 +597,7 @@
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-auxiliary.h" line="261" column="1"/>
       </memberdef>
       <memberdef kind="function" id="rocsparse-auxiliary_8h_1af78ff691793a2e50752883a7fe12d0bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref></type>
+        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref></type>
         <definition>ROCSPARSE_EXPORT rocsparse_status rocsparse_set_mat_index_base</definition>
         <argsstring>(rocsparse_mat_descr descr, rocsparse_index_base base)</argsstring>
         <name>rocsparse_set_mat_index_base</name>
@@ -606,13 +606,13 @@
           <declname>descr</declname>
         </param>
         <param>
-          <type><ref refid="rocsparse-types_8h_1a29595b0a8c3c3fe4cb26d1221e920b6d" kindref="member">rocsparse_index_base</ref></type>
+          <type><ref refid="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060d" kindref="member">rocsparse_index_base</ref></type>
           <declname>base</declname>
         </param>
         <briefdescription>
 <para>Specify the index base of a matrix descriptor. </para>        </briefdescription>
         <detaileddescription>
-<para><computeroutput>rocsparse_set_mat_index_base</computeroutput> sets the index base of a matrix descriptor. Valid options are <ref refid="rocsparse-types_8h_1abbe2a27a405938060d5c194e893c2325a71f5a4d652495d496d1b049fbfd4074d" kindref="member">rocsparse_index_base_zero</ref> or <ref refid="rocsparse-types_8h_1abbe2a27a405938060d5c194e893c2325a7ebbfb972c7bb96f4960a3c80d8b0625" kindref="member">rocsparse_index_base_one</ref>.</para><para><parameterlist kind="param"><parameteritem>
+<para><computeroutput>rocsparse_set_mat_index_base</computeroutput> sets the index base of a matrix descriptor. Valid options are <ref refid="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060da71f5a4d652495d496d1b049fbfd4074d" kindref="member">rocsparse_index_base_zero</ref> or <ref refid="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060da7ebbfb972c7bb96f4960a3c80d8b0625" kindref="member">rocsparse_index_base_one</ref>.</para><para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="inout">descr</parametername>
 </parameternamelist>
@@ -624,7 +624,7 @@
 <parametername direction="in">base</parametername>
 </parameternamelist>
 <parameterdescription>
-<para><ref refid="rocsparse-types_8h_1abbe2a27a405938060d5c194e893c2325a71f5a4d652495d496d1b049fbfd4074d" kindref="member">rocsparse_index_base_zero</ref> or <ref refid="rocsparse-types_8h_1abbe2a27a405938060d5c194e893c2325a7ebbfb972c7bb96f4960a3c80d8b0625" kindref="member">rocsparse_index_base_one</ref>.</para></parameterdescription>
+<para><ref refid="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060da71f5a4d652495d496d1b049fbfd4074d" kindref="member">rocsparse_index_base_zero</ref> or <ref refid="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060da7ebbfb972c7bb96f4960a3c80d8b0625" kindref="member">rocsparse_index_base_one</ref>.</para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <parameterlist kind="retval"><parameteritem>
@@ -655,7 +655,7 @@
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-auxiliary.h" line="280" column="1"/>
       </memberdef>
       <memberdef kind="function" id="rocsparse-auxiliary_8h_1a72e7a8018a34974ea1617516b03200b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1a29595b0a8c3c3fe4cb26d1221e920b6d" kindref="member">rocsparse_index_base</ref></type>
+        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060d" kindref="member">rocsparse_index_base</ref></type>
         <definition>ROCSPARSE_EXPORT rocsparse_index_base rocsparse_get_mat_index_base</definition>
         <argsstring>(const rocsparse_mat_descr descr)</argsstring>
         <name>rocsparse_get_mat_index_base</name>
@@ -674,14 +674,14 @@
 <para>the matrix descriptor.</para></parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para><ref refid="rocsparse-types_8h_1abbe2a27a405938060d5c194e893c2325a71f5a4d652495d496d1b049fbfd4074d" kindref="member">rocsparse_index_base_zero</ref> or <ref refid="rocsparse-types_8h_1abbe2a27a405938060d5c194e893c2325a7ebbfb972c7bb96f4960a3c80d8b0625" kindref="member">rocsparse_index_base_one</ref>. </para></simplesect>
+<simplesect kind="return"><para><ref refid="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060da71f5a4d652495d496d1b049fbfd4074d" kindref="member">rocsparse_index_base_zero</ref> or <ref refid="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060da7ebbfb972c7bb96f4960a3c80d8b0625" kindref="member">rocsparse_index_base_one</ref>. </para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-auxiliary.h" line="294" column="1"/>
       </memberdef>
       <memberdef kind="function" id="rocsparse-auxiliary_8h_1af245e1e5eedf20ceb123ed1dbf96d423" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref></type>
+        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref></type>
         <definition>ROCSPARSE_EXPORT rocsparse_status rocsparse_set_mat_type</definition>
         <argsstring>(rocsparse_mat_descr descr, rocsparse_matrix_type type)</argsstring>
         <name>rocsparse_set_mat_type</name>
@@ -690,13 +690,13 @@
           <declname>descr</declname>
         </param>
         <param>
-          <type><ref refid="rocsparse-types_8h_1a6cc840e437d4f5b3fe948c96658560dc" kindref="member">rocsparse_matrix_type</ref></type>
+          <type><ref refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75" kindref="member">rocsparse_matrix_type</ref></type>
           <declname>type</declname>
         </param>
         <briefdescription>
 <para>Specify the matrix type of a matrix descriptor. </para>        </briefdescription>
         <detaileddescription>
-<para><computeroutput>rocsparse_set_mat_type</computeroutput> sets the matrix type of a matrix descriptor. Valid matrix types are <ref refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93ca8374056a76ce56d1392e6b35f8ddde03" kindref="member">rocsparse_matrix_type_general</ref>, <ref refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93ca8340a3909d43b5b6bedd8ecc928605a5" kindref="member">rocsparse_matrix_type_symmetric</ref>, <ref refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93caa30592e2cccfda6e1d66dc3a484fc7a8" kindref="member">rocsparse_matrix_type_hermitian</ref> or <ref refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93ca73d9ef5e5e18209f9f10a5885d3e15ba" kindref="member">rocsparse_matrix_type_triangular</ref>.</para><para><parameterlist kind="param"><parameteritem>
+<para><computeroutput>rocsparse_set_mat_type</computeroutput> sets the matrix type of a matrix descriptor. Valid matrix types are <ref refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75a8374056a76ce56d1392e6b35f8ddde03" kindref="member">rocsparse_matrix_type_general</ref>, <ref refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75a8340a3909d43b5b6bedd8ecc928605a5" kindref="member">rocsparse_matrix_type_symmetric</ref>, <ref refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75aa30592e2cccfda6e1d66dc3a484fc7a8" kindref="member">rocsparse_matrix_type_hermitian</ref> or <ref refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75a73d9ef5e5e18209f9f10a5885d3e15ba" kindref="member">rocsparse_matrix_type_triangular</ref>.</para><para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="inout">descr</parametername>
 </parameternamelist>
@@ -708,7 +708,7 @@
 <parametername direction="in">type</parametername>
 </parameternamelist>
 <parameterdescription>
-<para><ref refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93ca8374056a76ce56d1392e6b35f8ddde03" kindref="member">rocsparse_matrix_type_general</ref>, <ref refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93ca8340a3909d43b5b6bedd8ecc928605a5" kindref="member">rocsparse_matrix_type_symmetric</ref>, <ref refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93caa30592e2cccfda6e1d66dc3a484fc7a8" kindref="member">rocsparse_matrix_type_hermitian</ref> or <ref refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93ca73d9ef5e5e18209f9f10a5885d3e15ba" kindref="member">rocsparse_matrix_type_triangular</ref>.</para></parameterdescription>
+<para><ref refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75a8374056a76ce56d1392e6b35f8ddde03" kindref="member">rocsparse_matrix_type_general</ref>, <ref refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75a8340a3909d43b5b6bedd8ecc928605a5" kindref="member">rocsparse_matrix_type_symmetric</ref>, <ref refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75aa30592e2cccfda6e1d66dc3a484fc7a8" kindref="member">rocsparse_matrix_type_hermitian</ref> or <ref refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75a73d9ef5e5e18209f9f10a5885d3e15ba" kindref="member">rocsparse_matrix_type_triangular</ref>.</para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <parameterlist kind="retval"><parameteritem>
@@ -739,7 +739,7 @@
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-auxiliary.h" line="317" column="1"/>
       </memberdef>
       <memberdef kind="function" id="rocsparse-auxiliary_8h_1a87c1a4a2bacafdc0b5ddee3f7cbe7a42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1a6cc840e437d4f5b3fe948c96658560dc" kindref="member">rocsparse_matrix_type</ref></type>
+        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75" kindref="member">rocsparse_matrix_type</ref></type>
         <definition>ROCSPARSE_EXPORT rocsparse_matrix_type rocsparse_get_mat_type</definition>
         <argsstring>(const rocsparse_mat_descr descr)</argsstring>
         <name>rocsparse_get_mat_type</name>
@@ -758,14 +758,14 @@
 <para>the matrix descriptor.</para></parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para><ref refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93ca8374056a76ce56d1392e6b35f8ddde03" kindref="member">rocsparse_matrix_type_general</ref>, <ref refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93ca8340a3909d43b5b6bedd8ecc928605a5" kindref="member">rocsparse_matrix_type_symmetric</ref>, <ref refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93caa30592e2cccfda6e1d66dc3a484fc7a8" kindref="member">rocsparse_matrix_type_hermitian</ref> or <ref refid="rocsparse-types_8h_1a38852a627a27eb6bd7abd8731769c93ca73d9ef5e5e18209f9f10a5885d3e15ba" kindref="member">rocsparse_matrix_type_triangular</ref>. </para></simplesect>
+<simplesect kind="return"><para><ref refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75a8374056a76ce56d1392e6b35f8ddde03" kindref="member">rocsparse_matrix_type_general</ref>, <ref refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75a8340a3909d43b5b6bedd8ecc928605a5" kindref="member">rocsparse_matrix_type_symmetric</ref>, <ref refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75aa30592e2cccfda6e1d66dc3a484fc7a8" kindref="member">rocsparse_matrix_type_hermitian</ref> or <ref refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75a73d9ef5e5e18209f9f10a5885d3e15ba" kindref="member">rocsparse_matrix_type_triangular</ref>. </para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-auxiliary.h" line="333" column="1"/>
       </memberdef>
       <memberdef kind="function" id="rocsparse-auxiliary_8h_1a4c888ce95b80067ad135215299708378" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref></type>
+        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref></type>
         <definition>ROCSPARSE_EXPORT rocsparse_status rocsparse_set_mat_fill_mode</definition>
         <argsstring>(rocsparse_mat_descr descr, rocsparse_fill_mode fill_mode)</argsstring>
         <name>rocsparse_set_mat_fill_mode</name>
@@ -774,13 +774,13 @@
           <declname>descr</declname>
         </param>
         <param>
-          <type><ref refid="rocsparse-types_8h_1af275676f23c77734dbf14aff9ef22c28" kindref="member">rocsparse_fill_mode</ref></type>
+          <type><ref refid="rocsparse-types_8h_1ae3a66441e40bb7caa1861df90aae01d1" kindref="member">rocsparse_fill_mode</ref></type>
           <declname>fill_mode</declname>
         </param>
         <briefdescription>
 <para>Specify the matrix fill mode of a matrix descriptor. </para>        </briefdescription>
         <detaileddescription>
-<para><computeroutput>rocsparse_set_mat_fill_mode</computeroutput> sets the matrix fill mode of a matrix descriptor. Valid fill modes are <ref refid="rocsparse-types_8h_1ad241f6b4b0d17a745be1cc4f1bf4f15da1eb644f6f2701329635e07d91919d37e" kindref="member">rocsparse_fill_mode_lower</ref> or <ref refid="rocsparse-types_8h_1ad241f6b4b0d17a745be1cc4f1bf4f15da905f490c7fc5a59e8a635938cec0d004" kindref="member">rocsparse_fill_mode_upper</ref>.</para><para><parameterlist kind="param"><parameteritem>
+<para><computeroutput>rocsparse_set_mat_fill_mode</computeroutput> sets the matrix fill mode of a matrix descriptor. Valid fill modes are <ref refid="rocsparse-types_8h_1ae3a66441e40bb7caa1861df90aae01d1a1eb644f6f2701329635e07d91919d37e" kindref="member">rocsparse_fill_mode_lower</ref> or <ref refid="rocsparse-types_8h_1ae3a66441e40bb7caa1861df90aae01d1a905f490c7fc5a59e8a635938cec0d004" kindref="member">rocsparse_fill_mode_upper</ref>.</para><para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="inout">descr</parametername>
 </parameternamelist>
@@ -792,7 +792,7 @@
 <parametername direction="in">fill_mode</parametername>
 </parameternamelist>
 <parameterdescription>
-<para><ref refid="rocsparse-types_8h_1ad241f6b4b0d17a745be1cc4f1bf4f15da1eb644f6f2701329635e07d91919d37e" kindref="member">rocsparse_fill_mode_lower</ref> or <ref refid="rocsparse-types_8h_1ad241f6b4b0d17a745be1cc4f1bf4f15da905f490c7fc5a59e8a635938cec0d004" kindref="member">rocsparse_fill_mode_upper</ref>.</para></parameterdescription>
+<para><ref refid="rocsparse-types_8h_1ae3a66441e40bb7caa1861df90aae01d1a1eb644f6f2701329635e07d91919d37e" kindref="member">rocsparse_fill_mode_lower</ref> or <ref refid="rocsparse-types_8h_1ae3a66441e40bb7caa1861df90aae01d1a905f490c7fc5a59e8a635938cec0d004" kindref="member">rocsparse_fill_mode_upper</ref>.</para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <parameterlist kind="retval"><parameteritem>
@@ -823,7 +823,7 @@
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-auxiliary.h" line="353" column="1"/>
       </memberdef>
       <memberdef kind="function" id="rocsparse-auxiliary_8h_1ab4f68f8662c0596a9904f4534b8dcbd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1af275676f23c77734dbf14aff9ef22c28" kindref="member">rocsparse_fill_mode</ref></type>
+        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1ae3a66441e40bb7caa1861df90aae01d1" kindref="member">rocsparse_fill_mode</ref></type>
         <definition>ROCSPARSE_EXPORT rocsparse_fill_mode rocsparse_get_mat_fill_mode</definition>
         <argsstring>(const rocsparse_mat_descr descr)</argsstring>
         <name>rocsparse_get_mat_fill_mode</name>
@@ -842,14 +842,14 @@
 <para>the matrix descriptor.</para></parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para><ref refid="rocsparse-types_8h_1ad241f6b4b0d17a745be1cc4f1bf4f15da1eb644f6f2701329635e07d91919d37e" kindref="member">rocsparse_fill_mode_lower</ref> or <ref refid="rocsparse-types_8h_1ad241f6b4b0d17a745be1cc4f1bf4f15da905f490c7fc5a59e8a635938cec0d004" kindref="member">rocsparse_fill_mode_upper</ref>. </para></simplesect>
+<simplesect kind="return"><para><ref refid="rocsparse-types_8h_1ae3a66441e40bb7caa1861df90aae01d1a1eb644f6f2701329635e07d91919d37e" kindref="member">rocsparse_fill_mode_lower</ref> or <ref refid="rocsparse-types_8h_1ae3a66441e40bb7caa1861df90aae01d1a905f490c7fc5a59e8a635938cec0d004" kindref="member">rocsparse_fill_mode_upper</ref>. </para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-auxiliary.h" line="368" column="1"/>
       </memberdef>
       <memberdef kind="function" id="rocsparse-auxiliary_8h_1ab7058104a8b9f6505fa7cf2106c59fbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref></type>
+        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref></type>
         <definition>ROCSPARSE_EXPORT rocsparse_status rocsparse_set_mat_diag_type</definition>
         <argsstring>(rocsparse_mat_descr descr, rocsparse_diag_type diag_type)</argsstring>
         <name>rocsparse_set_mat_diag_type</name>
@@ -858,13 +858,13 @@
           <declname>descr</declname>
         </param>
         <param>
-          <type><ref refid="rocsparse-types_8h_1ae49afcee26c3a52d881ce899b74c695a" kindref="member">rocsparse_diag_type</ref></type>
+          <type><ref refid="rocsparse-types_8h_1a6e8e038adcd3fa03168a1cb4a7da1bc5" kindref="member">rocsparse_diag_type</ref></type>
           <declname>diag_type</declname>
         </param>
         <briefdescription>
 <para>Specify the matrix diagonal type of a matrix descriptor. </para>        </briefdescription>
         <detaileddescription>
-<para><computeroutput>rocsparse_set_mat_diag_type</computeroutput> sets the matrix diagonal type of a matrix descriptor. Valid diagonal types are <ref refid="rocsparse-types_8h_1afb42afadc8f6a36e00f03d703d662116ac14545fb3bf8773d5f6b8e258c9576f4" kindref="member">rocsparse_diag_type_unit</ref> or <ref refid="rocsparse-types_8h_1afb42afadc8f6a36e00f03d703d662116a4f6d3d25237d1b2520659c9ec7635cf1" kindref="member">rocsparse_diag_type_non_unit</ref>.</para><para><parameterlist kind="param"><parameteritem>
+<para><computeroutput>rocsparse_set_mat_diag_type</computeroutput> sets the matrix diagonal type of a matrix descriptor. Valid diagonal types are <ref refid="rocsparse-types_8h_1a6e8e038adcd3fa03168a1cb4a7da1bc5ac14545fb3bf8773d5f6b8e258c9576f4" kindref="member">rocsparse_diag_type_unit</ref> or <ref refid="rocsparse-types_8h_1a6e8e038adcd3fa03168a1cb4a7da1bc5a4f6d3d25237d1b2520659c9ec7635cf1" kindref="member">rocsparse_diag_type_non_unit</ref>.</para><para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername direction="inout">descr</parametername>
 </parameternamelist>
@@ -876,7 +876,7 @@
 <parametername direction="in">diag_type</parametername>
 </parameternamelist>
 <parameterdescription>
-<para><ref refid="rocsparse-types_8h_1afb42afadc8f6a36e00f03d703d662116ac14545fb3bf8773d5f6b8e258c9576f4" kindref="member">rocsparse_diag_type_unit</ref> or <ref refid="rocsparse-types_8h_1afb42afadc8f6a36e00f03d703d662116a4f6d3d25237d1b2520659c9ec7635cf1" kindref="member">rocsparse_diag_type_non_unit</ref>.</para></parameterdescription>
+<para><ref refid="rocsparse-types_8h_1a6e8e038adcd3fa03168a1cb4a7da1bc5ac14545fb3bf8773d5f6b8e258c9576f4" kindref="member">rocsparse_diag_type_unit</ref> or <ref refid="rocsparse-types_8h_1a6e8e038adcd3fa03168a1cb4a7da1bc5a4f6d3d25237d1b2520659c9ec7635cf1" kindref="member">rocsparse_diag_type_non_unit</ref>.</para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <parameterlist kind="retval"><parameteritem>
@@ -907,7 +907,7 @@
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-auxiliary.h" line="388" column="1"/>
       </memberdef>
       <memberdef kind="function" id="rocsparse-auxiliary_8h_1ae32708359682932eb74060f4041f626e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1ae49afcee26c3a52d881ce899b74c695a" kindref="member">rocsparse_diag_type</ref></type>
+        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1a6e8e038adcd3fa03168a1cb4a7da1bc5" kindref="member">rocsparse_diag_type</ref></type>
         <definition>ROCSPARSE_EXPORT rocsparse_diag_type rocsparse_get_mat_diag_type</definition>
         <argsstring>(const rocsparse_mat_descr descr)</argsstring>
         <name>rocsparse_get_mat_diag_type</name>
@@ -926,14 +926,14 @@
 <para>the matrix descriptor.</para></parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para><ref refid="rocsparse-types_8h_1afb42afadc8f6a36e00f03d703d662116ac14545fb3bf8773d5f6b8e258c9576f4" kindref="member">rocsparse_diag_type_unit</ref> or <ref refid="rocsparse-types_8h_1afb42afadc8f6a36e00f03d703d662116a4f6d3d25237d1b2520659c9ec7635cf1" kindref="member">rocsparse_diag_type_non_unit</ref>. </para></simplesect>
+<simplesect kind="return"><para><ref refid="rocsparse-types_8h_1a6e8e038adcd3fa03168a1cb4a7da1bc5ac14545fb3bf8773d5f6b8e258c9576f4" kindref="member">rocsparse_diag_type_unit</ref> or <ref refid="rocsparse-types_8h_1a6e8e038adcd3fa03168a1cb4a7da1bc5a4f6d3d25237d1b2520659c9ec7635cf1" kindref="member">rocsparse_diag_type_non_unit</ref>. </para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-auxiliary.h" line="404" column="1"/>
       </memberdef>
       <memberdef kind="function" id="rocsparse-auxiliary_8h_1a8a0ac14e10f94d75774ac7b7f7239861" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref></type>
+        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref></type>
         <definition>ROCSPARSE_EXPORT rocsparse_status rocsparse_create_hyb_mat</definition>
         <argsstring>(rocsparse_hyb_mat *hyb)</argsstring>
         <name>rocsparse_create_hyb_mat</name>
@@ -973,7 +973,7 @@
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-auxiliary.h" line="420" column="1"/>
       </memberdef>
       <memberdef kind="function" id="rocsparse-auxiliary_8h_1aa924d16260f9e7ecda64648e4ad5ab95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref></type>
+        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref></type>
         <definition>ROCSPARSE_EXPORT rocsparse_status rocsparse_destroy_hyb_mat</definition>
         <argsstring>(rocsparse_hyb_mat hyb)</argsstring>
         <name>rocsparse_destroy_hyb_mat</name>
@@ -1020,7 +1020,7 @@
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-auxiliary.h" line="436" column="1"/>
       </memberdef>
       <memberdef kind="function" id="rocsparse-auxiliary_8h_1a68fe39788c6d530535116b114134d88a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref></type>
+        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref></type>
         <definition>ROCSPARSE_EXPORT rocsparse_status rocsparse_create_mat_info</definition>
         <argsstring>(rocsparse_mat_info *info)</argsstring>
         <name>rocsparse_create_mat_info</name>
@@ -1060,7 +1060,7 @@
         <location file="ROCm_Libraries/rocSPARSE/library/include/rocsparse-auxiliary.h" line="453" column="1"/>
       </memberdef>
       <memberdef kind="function" id="rocsparse-auxiliary_8h_1a3817921c7536afe60994f570d4759c2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref></type>
+        <type>ROCSPARSE_EXPORT <ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref></type>
         <definition>ROCSPARSE_EXPORT rocsparse_status rocsparse_destroy_mat_info</definition>
         <argsstring>(rocsparse_mat_info info)</argsstring>
         <name>rocsparse_destroy_mat_info</name>
@@ -1149,77 +1149,77 @@
 <codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
 <codeline lineno="57"><highlight class="normal">ROCSPARSE_EXPORT</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1a519a31b435f9718c15e7d043192395cc" kindref="member">rocsparse_create_handle</ref>(<ref refid="rocsparse-types_8h_1a78c803f46b33ae1e212dac7922be823d" kindref="member">rocsparse_handle</ref>*<sp/>handle);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1a519a31b435f9718c15e7d043192395cc" kindref="member">rocsparse_create_handle</ref>(<ref refid="rocsparse-types_8h_1a78c803f46b33ae1e212dac7922be823d" kindref="member">rocsparse_handle</ref>*<sp/>handle);</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
 <codeline lineno="74"><highlight class="normal">ROCSPARSE_EXPORT</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1a726f9e6932c1cca4dbd492eaa0bd1dd4" kindref="member">rocsparse_destroy_handle</ref>(<ref refid="rocsparse-types_8h_1a78c803f46b33ae1e212dac7922be823d" kindref="member">rocsparse_handle</ref><sp/>handle);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1a726f9e6932c1cca4dbd492eaa0bd1dd4" kindref="member">rocsparse_destroy_handle</ref>(<ref refid="rocsparse-types_8h_1a78c803f46b33ae1e212dac7922be823d" kindref="member">rocsparse_handle</ref><sp/>handle);</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
 <codeline lineno="114"><highlight class="normal">ROCSPARSE_EXPORT</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"><ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1af01e6d6670ddcd89bbf1431b63b1a25c" kindref="member">rocsparse_set_stream</ref>(<ref refid="rocsparse-types_8h_1a78c803f46b33ae1e212dac7922be823d" kindref="member">rocsparse_handle</ref><sp/>handle,<sp/>hipStream_t<sp/>stream);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1af01e6d6670ddcd89bbf1431b63b1a25c" kindref="member">rocsparse_set_stream</ref>(<ref refid="rocsparse-types_8h_1a78c803f46b33ae1e212dac7922be823d" kindref="member">rocsparse_handle</ref><sp/>handle,<sp/>hipStream_t<sp/>stream);</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>
 <codeline lineno="132"><highlight class="normal">ROCSPARSE_EXPORT</highlight></codeline>
-<codeline lineno="133"><highlight class="normal"><ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1a2814f7e7b8feb2ac6408183437b70826" kindref="member">rocsparse_get_stream</ref>(<ref refid="rocsparse-types_8h_1a78c803f46b33ae1e212dac7922be823d" kindref="member">rocsparse_handle</ref><sp/>handle,<sp/>hipStream_t*<sp/>stream);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1a2814f7e7b8feb2ac6408183437b70826" kindref="member">rocsparse_get_stream</ref>(<ref refid="rocsparse-types_8h_1a78c803f46b33ae1e212dac7922be823d" kindref="member">rocsparse_handle</ref><sp/>handle,<sp/>hipStream_t*<sp/>stream);</highlight></codeline>
 <codeline lineno="134"><highlight class="normal"></highlight></codeline>
 <codeline lineno="152"><highlight class="normal">ROCSPARSE_EXPORT</highlight></codeline>
-<codeline lineno="153"><highlight class="normal"><ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1ad489e6b789bcd0cbe3ad0ef9f65551fa" kindref="member">rocsparse_set_pointer_mode</ref>(<ref refid="rocsparse-types_8h_1a78c803f46b33ae1e212dac7922be823d" kindref="member">rocsparse_handle</ref><sp/>handle,</highlight></codeline>
-<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a85acb14426ccaccdb76aab10546b3918" kindref="member">rocsparse_pointer_mode</ref><sp/>pointer_mode);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1ad489e6b789bcd0cbe3ad0ef9f65551fa" kindref="member">rocsparse_set_pointer_mode</ref>(<ref refid="rocsparse-types_8h_1a78c803f46b33ae1e212dac7922be823d" kindref="member">rocsparse_handle</ref><sp/>handle,</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a154fe9812f99d1f2c3db94c1ce561a15" kindref="member">rocsparse_pointer_mode</ref><sp/>pointer_mode);</highlight></codeline>
 <codeline lineno="155"><highlight class="normal"></highlight></codeline>
 <codeline lineno="172"><highlight class="normal">ROCSPARSE_EXPORT</highlight></codeline>
-<codeline lineno="173"><highlight class="normal"><ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1a50ff27b0a6d06dc0034453cc880f17de" kindref="member">rocsparse_get_pointer_mode</ref>(<ref refid="rocsparse-types_8h_1a78c803f46b33ae1e212dac7922be823d" kindref="member">rocsparse_handle</ref><sp/>handle,</highlight></codeline>
-<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a85acb14426ccaccdb76aab10546b3918" kindref="member">rocsparse_pointer_mode</ref>*<sp/>pointer_mode);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1a50ff27b0a6d06dc0034453cc880f17de" kindref="member">rocsparse_get_pointer_mode</ref>(<ref refid="rocsparse-types_8h_1a78c803f46b33ae1e212dac7922be823d" kindref="member">rocsparse_handle</ref><sp/>handle,</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a154fe9812f99d1f2c3db94c1ce561a15" kindref="member">rocsparse_pointer_mode</ref>*<sp/>pointer_mode);</highlight></codeline>
 <codeline lineno="175"><highlight class="normal"></highlight></codeline>
 <codeline lineno="193"><highlight class="normal">ROCSPARSE_EXPORT</highlight></codeline>
-<codeline lineno="194"><highlight class="normal"><ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1a27ba44a3ecc5fb3410dadcb918e2a169" kindref="member">rocsparse_get_version</ref>(<ref refid="rocsparse-types_8h_1a78c803f46b33ae1e212dac7922be823d" kindref="member">rocsparse_handle</ref><sp/>handle,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>version);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1a27ba44a3ecc5fb3410dadcb918e2a169" kindref="member">rocsparse_get_version</ref>(<ref refid="rocsparse-types_8h_1a78c803f46b33ae1e212dac7922be823d" kindref="member">rocsparse_handle</ref><sp/>handle,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>version);</highlight></codeline>
 <codeline lineno="195"><highlight class="normal"></highlight></codeline>
 <codeline lineno="210"><highlight class="normal">ROCSPARSE_EXPORT</highlight></codeline>
-<codeline lineno="211"><highlight class="normal"><ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1af35e4a674f191b45d36bd31d3856569b" kindref="member">rocsparse_get_git_rev</ref>(<ref refid="rocsparse-types_8h_1a78c803f46b33ae1e212dac7922be823d" kindref="member">rocsparse_handle</ref><sp/>handle,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>rev);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1af35e4a674f191b45d36bd31d3856569b" kindref="member">rocsparse_get_git_rev</ref>(<ref refid="rocsparse-types_8h_1a78c803f46b33ae1e212dac7922be823d" kindref="member">rocsparse_handle</ref><sp/>handle,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>rev);</highlight></codeline>
 <codeline lineno="212"><highlight class="normal"></highlight></codeline>
 <codeline lineno="227"><highlight class="normal">ROCSPARSE_EXPORT</highlight></codeline>
-<codeline lineno="228"><highlight class="normal"><ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1a434acc8990f265eab892b89e1daafc63" kindref="member">rocsparse_create_mat_descr</ref>(<ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref>*<sp/>descr);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1a434acc8990f265eab892b89e1daafc63" kindref="member">rocsparse_create_mat_descr</ref>(<ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref>*<sp/>descr);</highlight></codeline>
 <codeline lineno="229"><highlight class="normal"></highlight></codeline>
 <codeline lineno="244"><highlight class="normal">ROCSPARSE_EXPORT</highlight></codeline>
-<codeline lineno="245"><highlight class="normal"><ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1abebe515b58812adaffdcaa63bf72fb99" kindref="member">rocsparse_copy_mat_descr</ref>(<ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref><sp/>dest,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref><sp/>src);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1abebe515b58812adaffdcaa63bf72fb99" kindref="member">rocsparse_copy_mat_descr</ref>(<ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref><sp/>dest,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref><sp/>src);</highlight></codeline>
 <codeline lineno="246"><highlight class="normal"></highlight></codeline>
 <codeline lineno="260"><highlight class="normal">ROCSPARSE_EXPORT</highlight></codeline>
-<codeline lineno="261"><highlight class="normal"><ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1a7e31b050746f2a5c95c0d5ec5ae2040d" kindref="member">rocsparse_destroy_mat_descr</ref>(<ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref><sp/>descr);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1a7e31b050746f2a5c95c0d5ec5ae2040d" kindref="member">rocsparse_destroy_mat_descr</ref>(<ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref><sp/>descr);</highlight></codeline>
 <codeline lineno="262"><highlight class="normal"></highlight></codeline>
 <codeline lineno="279"><highlight class="normal">ROCSPARSE_EXPORT</highlight></codeline>
-<codeline lineno="280"><highlight class="normal"><ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1af78ff691793a2e50752883a7fe12d0bd" kindref="member">rocsparse_set_mat_index_base</ref>(<ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref><sp/>descr,<sp/><ref refid="rocsparse-types_8h_1a29595b0a8c3c3fe4cb26d1221e920b6d" kindref="member">rocsparse_index_base</ref><sp/>base);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1af78ff691793a2e50752883a7fe12d0bd" kindref="member">rocsparse_set_mat_index_base</ref>(<ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref><sp/>descr,<sp/><ref refid="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060d" kindref="member">rocsparse_index_base</ref><sp/>base);</highlight></codeline>
 <codeline lineno="281"><highlight class="normal"></highlight></codeline>
 <codeline lineno="293"><highlight class="normal">ROCSPARSE_EXPORT</highlight></codeline>
-<codeline lineno="294"><highlight class="normal"><ref refid="rocsparse-types_8h_1a29595b0a8c3c3fe4cb26d1221e920b6d" kindref="member">rocsparse_index_base</ref><sp/><ref refid="rocsparse-auxiliary_8h_1a72e7a8018a34974ea1617516b03200b8" kindref="member">rocsparse_get_mat_index_base</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref><sp/>descr);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><ref refid="rocsparse-types_8h_1a170a3a8edd9e1d990e1321a0367d060d" kindref="member">rocsparse_index_base</ref><sp/><ref refid="rocsparse-auxiliary_8h_1a72e7a8018a34974ea1617516b03200b8" kindref="member">rocsparse_get_mat_index_base</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref><sp/>descr);</highlight></codeline>
 <codeline lineno="295"><highlight class="normal"></highlight></codeline>
 <codeline lineno="316"><highlight class="normal">ROCSPARSE_EXPORT</highlight></codeline>
-<codeline lineno="317"><highlight class="normal"><ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1af245e1e5eedf20ceb123ed1dbf96d423" kindref="member">rocsparse_set_mat_type</ref>(<ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref><sp/>descr,<sp/><ref refid="rocsparse-types_8h_1a6cc840e437d4f5b3fe948c96658560dc" kindref="member">rocsparse_matrix_type</ref><sp/>type);</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1af245e1e5eedf20ceb123ed1dbf96d423" kindref="member">rocsparse_set_mat_type</ref>(<ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref><sp/>descr,<sp/><ref refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75" kindref="member">rocsparse_matrix_type</ref><sp/>type);</highlight></codeline>
 <codeline lineno="318"><highlight class="normal"></highlight></codeline>
 <codeline lineno="332"><highlight class="normal">ROCSPARSE_EXPORT</highlight></codeline>
-<codeline lineno="333"><highlight class="normal"><ref refid="rocsparse-types_8h_1a6cc840e437d4f5b3fe948c96658560dc" kindref="member">rocsparse_matrix_type</ref><sp/><ref refid="rocsparse-auxiliary_8h_1a87c1a4a2bacafdc0b5ddee3f7cbe7a42" kindref="member">rocsparse_get_mat_type</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref><sp/>descr);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><ref refid="rocsparse-types_8h_1aa7d5259898cb2181f3fb785246962d75" kindref="member">rocsparse_matrix_type</ref><sp/><ref refid="rocsparse-auxiliary_8h_1a87c1a4a2bacafdc0b5ddee3f7cbe7a42" kindref="member">rocsparse_get_mat_type</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref><sp/>descr);</highlight></codeline>
 <codeline lineno="334"><highlight class="normal"></highlight></codeline>
 <codeline lineno="352"><highlight class="normal">ROCSPARSE_EXPORT</highlight></codeline>
-<codeline lineno="353"><highlight class="normal"><ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1a4c888ce95b80067ad135215299708378" kindref="member">rocsparse_set_mat_fill_mode</ref>(<ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref><sp/>descr,</highlight></codeline>
-<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1af275676f23c77734dbf14aff9ef22c28" kindref="member">rocsparse_fill_mode</ref><sp/>fill_mode);</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1a4c888ce95b80067ad135215299708378" kindref="member">rocsparse_set_mat_fill_mode</ref>(<ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref><sp/>descr,</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1ae3a66441e40bb7caa1861df90aae01d1" kindref="member">rocsparse_fill_mode</ref><sp/>fill_mode);</highlight></codeline>
 <codeline lineno="355"><highlight class="normal"></highlight></codeline>
 <codeline lineno="367"><highlight class="normal">ROCSPARSE_EXPORT</highlight></codeline>
-<codeline lineno="368"><highlight class="normal"><ref refid="rocsparse-types_8h_1af275676f23c77734dbf14aff9ef22c28" kindref="member">rocsparse_fill_mode</ref><sp/><ref refid="rocsparse-auxiliary_8h_1ab4f68f8662c0596a9904f4534b8dcbd1" kindref="member">rocsparse_get_mat_fill_mode</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref><sp/>descr);</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"><ref refid="rocsparse-types_8h_1ae3a66441e40bb7caa1861df90aae01d1" kindref="member">rocsparse_fill_mode</ref><sp/><ref refid="rocsparse-auxiliary_8h_1ab4f68f8662c0596a9904f4534b8dcbd1" kindref="member">rocsparse_get_mat_fill_mode</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref><sp/>descr);</highlight></codeline>
 <codeline lineno="369"><highlight class="normal"></highlight></codeline>
 <codeline lineno="387"><highlight class="normal">ROCSPARSE_EXPORT</highlight></codeline>
-<codeline lineno="388"><highlight class="normal"><ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1ab7058104a8b9f6505fa7cf2106c59fbd" kindref="member">rocsparse_set_mat_diag_type</ref>(<ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref><sp/>descr,</highlight></codeline>
-<codeline lineno="389"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1ae49afcee26c3a52d881ce899b74c695a" kindref="member">rocsparse_diag_type</ref><sp/>diag_type);</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1ab7058104a8b9f6505fa7cf2106c59fbd" kindref="member">rocsparse_set_mat_diag_type</ref>(<ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref><sp/>descr,</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="rocsparse-types_8h_1a6e8e038adcd3fa03168a1cb4a7da1bc5" kindref="member">rocsparse_diag_type</ref><sp/>diag_type);</highlight></codeline>
 <codeline lineno="390"><highlight class="normal"></highlight></codeline>
 <codeline lineno="403"><highlight class="normal">ROCSPARSE_EXPORT</highlight></codeline>
-<codeline lineno="404"><highlight class="normal"><ref refid="rocsparse-types_8h_1ae49afcee26c3a52d881ce899b74c695a" kindref="member">rocsparse_diag_type</ref><sp/><ref refid="rocsparse-auxiliary_8h_1ae32708359682932eb74060f4041f626e" kindref="member">rocsparse_get_mat_diag_type</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref><sp/>descr);</highlight></codeline>
+<codeline lineno="404"><highlight class="normal"><ref refid="rocsparse-types_8h_1a6e8e038adcd3fa03168a1cb4a7da1bc5" kindref="member">rocsparse_diag_type</ref><sp/><ref refid="rocsparse-auxiliary_8h_1ae32708359682932eb74060f4041f626e" kindref="member">rocsparse_get_mat_diag_type</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="rocsparse-types_8h_1a358745704b4da27fd600eb7cb2299b57" kindref="member">rocsparse_mat_descr</ref><sp/>descr);</highlight></codeline>
 <codeline lineno="405"><highlight class="normal"></highlight></codeline>
 <codeline lineno="419"><highlight class="normal">ROCSPARSE_EXPORT</highlight></codeline>
-<codeline lineno="420"><highlight class="normal"><ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1a8a0ac14e10f94d75774ac7b7f7239861" kindref="member">rocsparse_create_hyb_mat</ref>(<ref refid="rocsparse-types_8h_1a919d9ad6075d1abf3cd007f13cbb4ddb" kindref="member">rocsparse_hyb_mat</ref>*<sp/>hyb);</highlight></codeline>
+<codeline lineno="420"><highlight class="normal"><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1a8a0ac14e10f94d75774ac7b7f7239861" kindref="member">rocsparse_create_hyb_mat</ref>(<ref refid="rocsparse-types_8h_1a919d9ad6075d1abf3cd007f13cbb4ddb" kindref="member">rocsparse_hyb_mat</ref>*<sp/>hyb);</highlight></codeline>
 <codeline lineno="421"><highlight class="normal"></highlight></codeline>
 <codeline lineno="435"><highlight class="normal">ROCSPARSE_EXPORT</highlight></codeline>
-<codeline lineno="436"><highlight class="normal"><ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1aa924d16260f9e7ecda64648e4ad5ab95" kindref="member">rocsparse_destroy_hyb_mat</ref>(<ref refid="rocsparse-types_8h_1a919d9ad6075d1abf3cd007f13cbb4ddb" kindref="member">rocsparse_hyb_mat</ref><sp/>hyb);</highlight></codeline>
+<codeline lineno="436"><highlight class="normal"><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1aa924d16260f9e7ecda64648e4ad5ab95" kindref="member">rocsparse_destroy_hyb_mat</ref>(<ref refid="rocsparse-types_8h_1a919d9ad6075d1abf3cd007f13cbb4ddb" kindref="member">rocsparse_hyb_mat</ref><sp/>hyb);</highlight></codeline>
 <codeline lineno="437"><highlight class="normal"></highlight></codeline>
 <codeline lineno="452"><highlight class="normal">ROCSPARSE_EXPORT</highlight></codeline>
-<codeline lineno="453"><highlight class="normal"><ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1a68fe39788c6d530535116b114134d88a" kindref="member">rocsparse_create_mat_info</ref>(<ref refid="rocsparse-types_8h_1a3347be72f6e4f3c55318c32b46dcaa92" kindref="member">rocsparse_mat_info</ref>*<sp/>info);</highlight></codeline>
+<codeline lineno="453"><highlight class="normal"><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1a68fe39788c6d530535116b114134d88a" kindref="member">rocsparse_create_mat_info</ref>(<ref refid="rocsparse-types_8h_1a3347be72f6e4f3c55318c32b46dcaa92" kindref="member">rocsparse_mat_info</ref>*<sp/>info);</highlight></codeline>
 <codeline lineno="454"><highlight class="normal"></highlight></codeline>
 <codeline lineno="468"><highlight class="normal">ROCSPARSE_EXPORT</highlight></codeline>
-<codeline lineno="469"><highlight class="normal"><ref refid="rocsparse-types_8h_1acb931ad6bec5a698715b7380df7308dd" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1a3817921c7536afe60994f570d4759c2a" kindref="member">rocsparse_destroy_mat_info</ref>(<ref refid="rocsparse-types_8h_1a3347be72f6e4f3c55318c32b46dcaa92" kindref="member">rocsparse_mat_info</ref><sp/>info);</highlight></codeline>
+<codeline lineno="469"><highlight class="normal"><ref refid="rocsparse-types_8h_1a578f8c5c1b08f358bf4605b0031006a8" kindref="member">rocsparse_status</ref><sp/><ref refid="rocsparse-auxiliary_8h_1a3817921c7536afe60994f570d4759c2a" kindref="member">rocsparse_destroy_mat_info</ref>(<ref refid="rocsparse-types_8h_1a3347be72f6e4f3c55318c32b46dcaa92" kindref="member">rocsparse_mat_info</ref><sp/>info);</highlight></codeline>
 <codeline lineno="470"><highlight class="normal"></highlight></codeline>
 <codeline lineno="471"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="472"><highlight class="normal">}</highlight></codeline>
